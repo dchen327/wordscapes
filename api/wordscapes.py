@@ -2,9 +2,11 @@ import random
 import itertools
 from collections import Counter, defaultdict, namedtuple, deque
 from copy import deepcopy
+import heapq
 from typing import Counter, List, Dict
 from icecream import ic
 import numpy as np
+
 
 WordInfo = namedtuple('WordInfo', ['word', 'r', 'c', 'horiz'])
 
@@ -39,7 +41,7 @@ def gen_crossword(puzzle_words: List[str]):
             - TODO: store size used so far (update top left, bottom right)
         - Store a crossword as a grid and the metric
     '''
-    R, C = 15, 20
+    R, C = 15, 15
     grid = [['-'] * C for _ in range(R)]
 
     while len(start_word := random.choice(puzzle_words)) < 5:
@@ -48,14 +50,18 @@ def gen_crossword(puzzle_words: List[str]):
                          len(start_word) // 2, True)
     insert_word(grid, word_info)
     used = {start_word: word_info}
-    print_grid(grid)
 
-    crosswords = deque([(grid, used)])
+    crosswords = [(0, grid, used)]
+    new_crosswords = []
+    beam_width = 20
 
-    for num_words in range(6):
+    for num_words in range(20):
+        new_crosswords = []
         print(num_words, len(crosswords))
-        for _ in range(len(crosswords)):
-            grid, used = crosswords.popleft()
+        for k in range(len(crosswords)):
+            _, grid, used = crosswords.pop()
+            if k > beam_width:
+                continue
             new_word = random.choice(puzzle_words)
             if new_word not in used:
                 for word in used:
@@ -73,10 +79,15 @@ def gen_crossword(puzzle_words: List[str]):
                                     new_used = deepcopy(used)
                                     new_used[new_word] = word_info
                                     if is_valid(new_grid, new_used):
-                                        crosswords.append((new_grid, new_used))
+                                        metric = crossword_metric(new_grid)
+                                        new_crosswords.append(
+                                            (metric, new_grid, new_used))
 
-    for grid, used in crosswords:
-        print(used.keys())
+        for new_crossword in new_crosswords:
+            heapq.heappush(crosswords, new_crossword)
+
+    for _, grid, used in heapq.nlargest(5, crosswords):
+        print(list(used.keys()))
         print_grid(grid)
 
 
@@ -146,7 +157,7 @@ def crossword_metric(grid: List[List[str]]) -> int:
             bottom_right = (R - i - 1, C - j - 1)
             break
 
-    return ((bottom_right[0] - top_left[0]) * (bottom_right[1] - top_left[1]))
+    return random.random() + ((bottom_right[0] - top_left[0]) * (bottom_right[1] - top_left[1]))
 
 
 def print_grid(grid):
@@ -157,7 +168,8 @@ def print_grid(grid):
 
 def setup():
     with open('wordscapes.txt') as f:
-        words = f.read().splitlines()
+        words = f.read().splitlines()[:10000]
+        ic(len(words))
         words_by_len = defaultdict(list)
         for word in words:
             words_by_len[len(word)].append(word)
