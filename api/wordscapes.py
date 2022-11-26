@@ -4,6 +4,7 @@ from collections import Counter, defaultdict, namedtuple, deque
 from copy import deepcopy
 from typing import Counter, List, Dict
 from icecream import ic
+import numpy as np
 
 WordInfo = namedtuple('WordInfo', ['word', 'r', 'c', 'horiz'])
 
@@ -51,7 +52,8 @@ def gen_crossword(puzzle_words: List[str]):
 
     crosswords = deque([(grid, used)])
 
-    for num_words in range(2):
+    for num_words in range(6):
+        print(num_words, len(crosswords))
         for _ in range(len(crosswords)):
             grid, used = crosswords.popleft()
             new_word = random.choice(puzzle_words)
@@ -64,21 +66,26 @@ def gen_crossword(puzzle_words: List[str]):
                                 _, r, c, horiz = used[word]
                                 # Start of word -> position of common letter -> start of new_word
                                 word_info = WordInfo(
-                                    new_word, r + (1 - horiz) * i - horiz * j, c + horiz * i - (1 - horiz) * i, not horiz)
+                                    new_word, r + (1 - horiz) * i - horiz * j, c + horiz * i - (1 - horiz) * j, not horiz)
                                 if can_insert(grid, word_info):
                                     new_grid = deepcopy(grid)
                                     insert_word(new_grid, word_info)
                                     new_used = deepcopy(used)
                                     new_used[new_word] = word_info
-                                    print_grid(new_grid)
-                                    crosswords.append((new_grid, new_used))
+                                    if is_valid(new_grid, new_used):
+                                        crosswords.append((new_grid, new_used))
 
     for grid, used in crosswords:
+        print(used.keys())
         print_grid(grid)
 
 
 def can_insert(grid: List[List[str]], word_info: WordInfo):
-    ''' Returns True if word can be inserted into grid at position (r, c) '''
+    ''' Returns True if word can be inserted into grid at position (r, c)
+        - fit in the grid
+        - don't overlap with existing words
+        - don't create any new words
+    '''
     word, r, c, horiz = word_info
     R, C = len(grid), len(grid[0])
     # Check if word fits in grid (start and end points)
@@ -87,9 +94,30 @@ def can_insert(grid: List[List[str]], word_info: WordInfo):
     if not (0 <= r + (1 - horiz) * len(word) <= R and 0 <= c + horiz * len(word) <= C):
         return False
 
-    # Check if word overlaps with existing letters
-    for i, char in enumerate(word):
-        if grid[r + (1 - horiz) * i][c + horiz * i] != '-' and grid[r + (1 - horiz) * i][c + horiz * i] != char:
+    # # Check if word overlaps with existing letters
+    # for i, char in enumerate(word):
+    #     if grid[r + (1 - horiz) * i][c + horiz * i] != '-' and grid[r + (1 - horiz) * i][c + horiz * i] != char:
+    #         return False
+
+    return True
+
+
+def is_valid(grid: List[List[str]], used: Dict[str, WordInfo]) -> bool:
+    ''' Returns True if the crossword is valid '''
+    R, C = len(grid), len(grid[0])
+    # Don't create any new words (check rows and columns)
+    np_grid = np.array(grid)
+    for i in range(R):
+        words = ''.join(np_grid[i, :]).split('-')
+        # ignore '' and single char words (we're worried about creating 2+ letter words)
+        words = [word for word in words if len(word) > 1]
+        if any(word not in used for word in words):
+            return False
+
+    for i in range(C):
+        words = ''.join(np_grid[:, i]).split('-')
+        words = [word for word in words if len(word) > 1]
+        if any(word not in used for word in words):
             return False
 
     return True
