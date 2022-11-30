@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="columns">
       <div className="column is-one-third">Hi</div>
+      <div className="column is-one-third">Hi</div>
     </div>
   );
 }
