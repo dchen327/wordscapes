@@ -1,8 +1,7 @@
 import random
 import itertools
-from collections import Counter, defaultdict, namedtuple, deque
+from collections import Counter, defaultdict, namedtuple
 from copy import deepcopy
-import heapq
 from typing import Counter, List, Dict
 from icecream import ic
 import numpy as np
@@ -24,9 +23,8 @@ def gen_puzzle_words(words_by_len: Dict, main_word: str) -> List[str]:
     main_ct = Counter(main_word)
     subwords = []
     for word_len in range(4, 9):
-        for word in words_by_len[word_len]:
-            if contains(Counter(word), main_ct):
-                subwords.append(word)
+        subwords.extend(word for word in words_by_len[word_len] if contains(
+            Counter(word), main_ct))
 
     return subwords
 
@@ -34,12 +32,11 @@ def gen_puzzle_words(words_by_len: Dict, main_word: str) -> List[str]:
 def gen_crossword(puzzle_words: List[str]):
     ''' Generates a crossword from the provided puzzle words.
         Place words into crossword, trying to maximize metric for 'goodness'
-        - Start with word in middle horizontally
-        - Add new words by metric
-            - Look at existing words, check common letters, check if can insert
-            - TODO: NamedTuple for word: (word, r, c, horiz)
-            - TODO: store size used so far (update top left, bottom right)
-        - Store a crossword as a grid and the metric
+        - Start by randomly placing the main word (longest)
+        - At each step:
+            - Pick random set of crosswords
+            - Pick a random word and try to insert 
+        - Store a crossword as a grid and the used dictionary
     '''
     R, C = 10, 15
     grid = [['-'] * C for _ in range(R)]
@@ -53,31 +50,27 @@ def gen_crossword(puzzle_words: List[str]):
     insert_word(grid, word_info)
     used = {start_word: word_info}
 
-    crosswords = [(0, grid, used)]
+    crosswords = [(grid, used)]
     new_crosswords = []
     beam_width = 20
-    max_new_per_grid = 10
 
-    word_weights = []
     del puzzle_words[-1]  # remove longest word
-    for word in puzzle_words:
-        word_weights.append(len(word) - 1)
+    word_weights = [len(word) - 1 for word in puzzle_words]
 
     words = random.choices(puzzle_words, weights=word_weights, k=50)
+    words = np.random.choice(puzzle_words, size=min(
+        len(puzzle_words), 50), replace=False, p=word_weights/np.sum(word_weights))
     for num_words in range(25):
         new_crosswords = []
         print(num_words, len(crosswords))
-        for _, grid, used in random.choices(crosswords, k=beam_width):
-            new_word = random.choice(words)
-            num_tries = 0
-            while new_word in used and num_tries < 10:
-                new_word = random.choice(words)
-                num_tries += 1
-            if num_tries == 10:
+        for grid, used in random.choices(crosswords, k=beam_width):
+            unused_words = tuple(set(words) - set(used.keys()))
+            if not unused_words:
                 continue
+            new_word = random.choice(unused_words)
 
             for word in used:
-                if not (set(word) & set(new_word)):
+                if not set(word) & set(new_word):
                     continue
                 for i in range(len(word)):
                     for j in range(len(new_word)):
@@ -93,18 +86,19 @@ def gen_crossword(puzzle_words: List[str]):
                                 new_used = deepcopy(used)
                                 new_used[new_word] = word_info
                                 if is_valid(new_grid, new_used):
-                                    metric = crossword_metric(new_grid)
                                     new_crosswords.append(
-                                        (metric, new_grid, new_used))
+                                        (new_grid, new_used))
 
         if len(new_crosswords) > 0:
             crosswords = new_crosswords
         else:
             break
 
-    for _, grid, used in random.choices(crosswords, k=5):
+    for grid, used in random.choices(crosswords, k=5):
         print(list(used.keys()))
         print_grid(grid)
+
+    return random.choice(crosswords)
 
 
 def can_insert(grid: List[List[str]], word_info: WordInfo):
@@ -116,21 +110,13 @@ def can_insert(grid: List[List[str]], word_info: WordInfo):
     word, r, c, horiz = word_info
     R, C = len(grid), len(grid[0])
     # Check if word fits in grid (start and end points)
-    if not (0 <= r < R and 0 <= c < C):
+    if not 0 <= r < R or not 0 <= c < C:
         return False
-    if not (0 <= r + (1 - horiz) * len(word) <= R and 0 <= c + horiz * len(word) <= C):
+    if not 0 <= r + (1 - horiz) * len(word) <= R or not 0 <= c + horiz * len(word) <= C:
         return False
 
     # Check if word perfectly overlaps with the existing grid
-    if all(grid[r + (1 - horiz) * i][c + horiz * i] == word[i] for i in range(len(word))):
-        return False
-
-    # # Check if word overlaps with existing letters
-    # for i, char in enumerate(word):
-    #     if grid[r + (1 - horiz) * i][c + horiz * i] != '-' and grid[r + (1 - horiz) * i][c + horiz * i] != char:
-    #         return False
-
-    return True
+    return any(grid[r + (1 - horiz) * i][c + horiz * i] != word[i] for i in range(len(word)))
 
 
 def is_valid(grid: List[List[str]], used: Dict[str, WordInfo]) -> bool:
@@ -189,7 +175,6 @@ def print_grid(grid):
 def setup():
     with open('wordscapes.txt') as f:
         words = f.read().splitlines()[:10000]
-        ic(len(words))
         words_by_len = defaultdict(list)
         for word in words:
             words_by_len[len(word)].append(word)
