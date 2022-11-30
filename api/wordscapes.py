@@ -56,17 +56,14 @@ def gen_crossword(puzzle_words: List[str]):
     crosswords = [(0, grid, used)]
     new_crosswords = []
     beam_width = 20
+    max_new_per_grid = 10
+
     word_weights = []
     del puzzle_words[-1]  # remove longest word
     for word in puzzle_words:
-        if len(word) == 8:
-            word_weights.append(12)
-        else:
-            word_weights.append(len(word))
+        word_weights.append(len(word) - 1)
 
-    print_grid(grid)
-
-    words = random.choices(puzzle_words, weights=word_weights, k=30)
+    words = random.choices(puzzle_words, weights=word_weights, k=50)
     for num_words in range(25):
         new_crosswords = []
         print(num_words, len(crosswords))
@@ -80,6 +77,8 @@ def gen_crossword(puzzle_words: List[str]):
                 continue
 
             for word in used:
+                if not (set(word) & set(new_word)):
+                    continue
                 for i in range(len(word)):
                     for j in range(len(new_word)):
                         if word[i] == new_word[j]:
