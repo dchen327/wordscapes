@@ -44,10 +44,12 @@ def gen_crossword(puzzle_words: List[str]):
     R, C = 10, 15
     grid = [['-'] * C for _ in range(R)]
 
-    while len(start_word := random.choice(puzzle_words)) < 5:
-        pass
-    word_info = WordInfo(start_word, R // 2, C // 2 -
-                         len(start_word) // 2, True)
+    start_word = puzzle_words[-1]  # longest word
+    word_info = WordInfo(start_word, random.randrange(
+        0, R), random.randrange(0, C), random.choice([True, False]))
+    while not can_insert(grid, word_info):
+        word_info = WordInfo(start_word, random.randrange(
+            0, R), random.randrange(0, C), random.choice([True, False]))
     insert_word(grid, word_info)
     used = {start_word: word_info}
 
@@ -55,6 +57,7 @@ def gen_crossword(puzzle_words: List[str]):
     new_crosswords = []
     beam_width = 20
     word_weights = []
+    del puzzle_words[-1]  # remove longest word
     for word in puzzle_words:
         if len(word) == 8:
             word_weights.append(12)
@@ -63,15 +66,18 @@ def gen_crossword(puzzle_words: List[str]):
 
     print_grid(grid)
 
-    for num_words in range(20):
+    words = random.choices(puzzle_words, weights=word_weights, k=30)
+    for num_words in range(25):
         new_crosswords = []
         print(num_words, len(crosswords))
         for _, grid, used in random.choices(crosswords, k=beam_width):
-            new_word = random.choices(
-                puzzle_words, weights=word_weights, k=1)[0]
-            while new_word in used:
-                new_word = random.choices(
-                    puzzle_words, weights=word_weights, k=1)[0]
+            new_word = random.choice(words)
+            num_tries = 0
+            while new_word in used and num_tries < 10:
+                new_word = random.choice(words)
+                num_tries += 1
+            if num_tries == 10:
+                continue
 
             for word in used:
                 for i in range(len(word)):
@@ -85,8 +91,6 @@ def gen_crossword(puzzle_words: List[str]):
                             if can_insert(grid, word_info):
                                 new_grid = deepcopy(grid)
                                 insert_word(new_grid, word_info)
-                                if new_grid == grid:
-                                    print(word_info)
                                 new_used = deepcopy(used)
                                 new_used[new_word] = word_info
                                 if is_valid(new_grid, new_used):
@@ -94,7 +98,10 @@ def gen_crossword(puzzle_words: List[str]):
                                     new_crosswords.append(
                                         (metric, new_grid, new_used))
 
-        crosswords = new_crosswords
+        if len(new_crosswords) > 0:
+            crosswords = new_crosswords
+        else:
+            break
 
     for _, grid, used in random.choices(crosswords, k=5):
         print(list(used.keys()))
@@ -105,7 +112,7 @@ def can_insert(grid: List[List[str]], word_info: WordInfo):
     ''' Returns True if word can be inserted into grid at position (r, c)
         - fit in the grid
         - don't overlap with existing words
-        - don't create any new words
+        - don't create any new words, and ensures all existing words are still there
     '''
     word, r, c, horiz = word_info
     R, C = len(grid), len(grid[0])
@@ -132,20 +139,20 @@ def is_valid(grid: List[List[str]], used: Dict[str, WordInfo]) -> bool:
     R, C = len(grid), len(grid[0])
     # Don't create any new words (check rows and columns)
     np_grid = np.array(grid)
+    used_words = set(used.keys())
+    words_in_grid = set()
     for i in range(R):
         words = ''.join(np_grid[i, :]).split('-')
         # ignore '' and single char words (we're worried about creating 2+ letter words)
         words = [word for word in words if len(word) > 1]
-        if any(word not in used for word in words):
-            return False
+        words_in_grid.update(words)
 
     for i in range(C):
         words = ''.join(np_grid[:, i]).split('-')
         words = [word for word in words if len(word) > 1]
-        if any(word not in used for word in words):
-            return False
+        words_in_grid.update(words)
 
-    return True
+    return used_words == words_in_grid
 
 
 def insert_word(grid: List[List[str]], word_info: WordInfo):
