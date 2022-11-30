@@ -38,7 +38,7 @@ def gen_crossword(puzzle_words: List[str]):
             - Pick a random word and try to insert 
         - Store a crossword as a grid and the used dictionary
     '''
-    R, C = 10, 15
+    R, C = 8, 12
     grid = [['-'] * C for _ in range(R)]
 
     start_word = puzzle_words[-1]  # longest word
@@ -55,7 +55,7 @@ def gen_crossword(puzzle_words: List[str]):
     beam_width = 20
 
     del puzzle_words[-1]  # remove longest word
-    word_weights = [len(word) - 1 for word in puzzle_words]
+    word_weights = [len(word) - 2 for word in puzzle_words]
 
     words = random.choices(puzzle_words, weights=word_weights, k=50)
     words = np.random.choice(puzzle_words, size=min(
