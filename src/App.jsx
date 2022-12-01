@@ -1,15 +1,16 @@
+import React from "react";
 import "bulma/css/bulma.min.css";
-import React, { useRef, useState } from "react";
-import Xarrow from "react-xarrows";
+import WordCircle from "./WordCircle";
+import { DndProvider } from "react-dnd-multi-backend";
+import { HTML5toTouch } from "rdndmb-html5-to-touch";
 
 export default function App() {
-  const [arrows, setArrows] = useState([]);
-  const addArrow = ({ start, end }) => {
-    setArrows([...arrows, { start, end }]);
-  };
   return (
     <>
-      
+      <p>hello</p>
+      {/* <DndProvider options={HTML5toTouch}> */}
+      <WordCircle />
+      {/* </DndProvider> */}
     </>
   );
 }
