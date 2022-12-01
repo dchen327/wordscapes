@@ -19,6 +19,9 @@ WEB:
 - letters in a circle component
   - polar, cos, sin, center in component
 
+- onMouseMove event doesn't work on mobile
+- create a single draggable from the start, track where it goes to draw current arrow?
+
 
 - maybe don't use dnd, just use onDrag and track mousePosition, draw arrow
 accordingly and track onDragOver to start new arrow?
