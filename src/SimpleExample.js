@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import Xarrow from "react-xarrows";
+import { disableBodyScroll } from "body-scroll-lock";
 
 const boxStyle = {
   border: "grey solid 2px",
@@ -9,6 +10,8 @@ const boxStyle = {
 };
 
 function SimpleExample() {
+  // disable body scroll
+  disableBodyScroll(document.body);
   return (
     <>
       <LetterCircle />
@@ -45,13 +48,13 @@ const LetterNode = ({
 
   return (
     <div
-      class="button"
+      className="button"
       ref={ref}
       style={{
         width: "50px",
         height: "50px",
-        "background-color": "rgb(205, 209, 228)",
-        "border-radius": "50%",
+        backgroundColor: "rgb(205, 209, 228)",
+        borderRadius: "50%",
       }}
       onMouseDown={(e) => {
         // console.log mouse position
@@ -62,6 +65,7 @@ const LetterNode = ({
       onMouseOver={(e) => {
         if (dragging) {
           if (ref !== arrowStartRef) {
+            console.log(arrowStartRef, ref);
             addArrow({ start: arrowStartRef, end: ref });
             setArrowStartRef(ref);
           }
@@ -93,9 +97,9 @@ const LetterCircle = () => {
   };
 
   return (
-    <div class="columns" onMouseUp={onMouseUp} onMouseMove={onMouseMove}>
-      {letters.map((letter) => (
-        <div class="column">
+    <div className="columns" onMouseUp={onMouseUp} onMouseMove={onMouseMove}>
+      {letters.map((letter, i) => (
+        <div key={`letter${i}`} className="column">
           <LetterNode
             id={`letter${letter}`}
             letter={letter}
@@ -108,12 +112,8 @@ const LetterCircle = () => {
         </div>
       ))}
       {/* {arrowStartRef && <Xarrow start={arrowStartRef} end=} */}
-      {arrows.map((arrow) => (
-        <Xarrow
-          start={arrow.start}
-          end={arrow.end}
-          key={arrow.start + "-." + arrow.start}
-        />
+      {arrows.map((arrow, i) => (
+        <Xarrow start={arrow.start} end={arrow.end} key={`arrow${i}`} />
       ))}
     </div>
   );
