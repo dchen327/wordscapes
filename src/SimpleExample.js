@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Xarrow from "react-xarrows";
 
 const boxStyle = {
@@ -11,6 +11,9 @@ const boxStyle = {
 function SimpleExample() {
   return (
     <>
+      <LetterCircle />
+      {/* <br /> */}
+      {/* <LetterNode letter={"A"} /> */}
       <div style={boxStyle}>
         <div id="elem1" style={boxStyle}>
           hey
@@ -29,5 +32,91 @@ function SimpleExample() {
     </>
   );
 }
+
+const LetterNode = ({
+  letter,
+  addArrow,
+  dragging,
+  setDragging,
+  arrowStartRef,
+  setArrowStartRef,
+}) => {
+  const ref = useRef(null);
+
+  return (
+    <div
+      class="button"
+      ref={ref}
+      style={{
+        width: "50px",
+        height: "50px",
+        "background-color": "rgb(205, 209, 228)",
+        "border-radius": "50%",
+      }}
+      onMouseDown={(e) => {
+        // console.log mouse position
+        console.log(e.clientX, e.clientY);
+        setArrowStartRef(ref);
+        setDragging(true);
+      }}
+      onMouseOver={(e) => {
+        if (dragging) {
+          if (ref !== arrowStartRef) {
+            addArrow({ start: arrowStartRef, end: ref });
+            setArrowStartRef(ref);
+          }
+        }
+      }}
+    >
+      <p style={{ margin: "auto" }}>{letter}</p>
+    </div>
+  );
+};
+
+const LetterCircle = () => {
+  const [dragging, setDragging] = useState(false);
+  const letters = ["A", "B", "C"];
+  const [arrows, setArrows] = useState([]);
+  const [arrowStartRef, setArrowStartRef] = useState(null);
+  const addArrow = ({ start, end }) => {
+    setArrows([...arrows, { start, end }]);
+  };
+
+  const onMouseUp = (e) => {
+    setDragging(false);
+    console.log("mouse up");
+  };
+
+  const onMouseMove = (e) => {
+    // if (dragging) {
+    // }
+  };
+
+  return (
+    <div class="columns" onMouseUp={onMouseUp} onMouseMove={onMouseMove}>
+      {letters.map((letter) => (
+        <div class="column">
+          <LetterNode
+            id={`letter${letter}`}
+            letter={letter}
+            addArrow={addArrow}
+            dragging={dragging}
+            setDragging={setDragging}
+            arrowStartRef={arrowStartRef}
+            setArrowStartRef={setArrowStartRef}
+          />
+        </div>
+      ))}
+      {/* {arrowStartRef && <Xarrow start={arrowStartRef} end=} */}
+      {arrows.map((arrow) => (
+        <Xarrow
+          start={arrow.start}
+          end={arrow.end}
+          key={arrow.start + "-." + arrow.start}
+        />
+      ))}
+    </div>
+  );
+};
 
 export default SimpleExample;

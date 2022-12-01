@@ -22,3 +22,8 @@ WEB:
 
 - maybe don't use dnd, just use onDrag and track mousePosition, draw arrow
 accordingly and track onDragOver to start new arrow?
+- mousedown -> track mousemove -> track mouseup (submit word)
+
+
+Game Features:
+- hint: reveals a definition of an uncomplete word
