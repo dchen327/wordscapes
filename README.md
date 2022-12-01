@@ -22,10 +22,16 @@ WEB:
 - onMouseMove event doesn't work on mobile
 - create a single draggable from the start, track where it goes to draw current arrow?
 
+- https://www.npmjs.com/package/react-swipeable?
 
 - maybe don't use dnd, just use onDrag and track mousePosition, draw arrow
 accordingly and track onDragOver to start new arrow?
 - mousedown -> track mousemove -> track mouseup (submit word)
+
+
+dnd:
+https://www.npmjs.com/package/react-dnd-multi-backend (switch desktop/mobile)
+react-dnd: drag invisible circle "connector"
 
 
 Game Features:
