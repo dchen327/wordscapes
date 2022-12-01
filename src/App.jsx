@@ -11,16 +11,16 @@ const connectPointStyle = {
   background: "black",
 };
 const connectPointOffset = {
-  left: { left: "0px", top: "50%", transform: "translate(-50%, -50%)" },
+  left: { left: 0, top: "50%", transform: "translate(-50%, -50%)" },
   right: { left: "100%", top: "50%", transform: "translate(-50%, -50%)" },
-  top: { left: "50%", top: "0px", transform: "translate(-50%, -50%)" },
+  top: { left: "50%", top: 0, transform: "translate(-50%, -50%)" },
   bottom: { left: "50%", top: "100%", transform: "translate(-50%, -50%)" },
 };
 
 const ConnectPointsWrapper = ({ boxId, handler, ref0 }) => {
   const ref1 = useRef();
 
-  const [, setPosition] = useState({});
+  const [position, setPosition] = useState({});
   const [beingDragged, setBeingDragged] = useState(false);
   return (
     <React.Fragment>
@@ -29,6 +29,7 @@ const ConnectPointsWrapper = ({ boxId, handler, ref0 }) => {
         style={{
           ...connectPointStyle,
           ...connectPointOffset[handler],
+          ...position,
         }}
         draggable
         onDragStart={(e) => {
@@ -36,26 +37,22 @@ const ConnectPointsWrapper = ({ boxId, handler, ref0 }) => {
           e.dataTransfer.setData("arrow", boxId);
         }}
         onDrag={(e) => {
-          setPosition({}); // <---- just to force re-rendering, to draw arrow with updated value
-          ref1.current.style.position = "fixed";
-          ref1.current.style.left = e.clientX + "px";
-          ref1.current.style.top = e.clientY + "px";
-          ref1.current.style.transform = "none";
-          ref1.current.style.opacity = 0;
+          setPosition({
+            position: "fixed",
+            left: e.clientX,
+            top: e.clientY,
+            transform: "none",
+            opacity: 0,
+          });
         }}
         ref={ref1}
         onDragEnd={(e) => {
-          ref1.current.style.position = "absolute";
-          ref1.current.style.left = connectPointOffset[handler].left;
-          ref1.current.style.top = connectPointOffset[handler].top;
-          ref1.current.style.transform = connectPointOffset[handler].transform;
-          ref1.current.style.opacity = 0.5;
+          setPosition({});
+          // e.dataTransfer.setData("arrow", null);
           setBeingDragged(false);
         }}
       />
-      {beingDragged ? (
-        <Xarrow start={ref0} end={ref1} path={"straight"} />
-      ) : null}
+      {beingDragged ? <Xarrow start={ref0} end={ref1} /> : null}
     </React.Fragment>
   );
 };
