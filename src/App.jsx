@@ -1,6 +1,7 @@
 import "bulma/css/bulma.min.css";
 import React, { useRef, useState } from "react";
 import Xarrow from "react-xarrows";
+import SimpleExample from "./SimpleExample";
 
 const connectPointStyle = {
   position: "absolute",
@@ -95,25 +96,28 @@ export default function App() {
     setArrows([...arrows, { start, end }]);
   };
   return (
-    <div style={{ margin: 20, border: "1px solid gray", padding: 10 }}>
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-        {/* two boxes */}
-        <Box
-          text="drag my handler to second element"
-          {...{ addArrow, handler: "right", boxId: "box2_1" }}
-        />
-        <Box
-          text="second element"
-          {...{ addArrow, handler: "left", boxId: "box2_2" }}
-        />
-        {arrows.map((ar) => (
-          <Xarrow
-            start={ar.start}
-            end={ar.end}
-            key={ar.start + "-." + ar.start}
+    <>
+      <SimpleExample />
+      <div style={{ margin: 20, border: "1px solid gray", padding: 10 }}>
+        <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+          {/* two boxes */}
+          <Box
+            text="drag my handler to second element"
+            {...{ addArrow, handler: "right", boxId: "box2_1" }}
           />
-        ))}
+          <Box
+            text="second element"
+            {...{ addArrow, handler: "left", boxId: "box2_2" }}
+          />
+          {arrows.map((ar) => (
+            <Xarrow
+              start={ar.start}
+              end={ar.end}
+              key={ar.start + "-." + ar.start}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
