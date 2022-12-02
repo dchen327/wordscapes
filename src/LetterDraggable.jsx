@@ -28,7 +28,6 @@ const LetterDraggable = ({ startNodeID }) => {
       >
         <p ref={draggableRef}>drag</p>
       </div>
-      {isDragging && <p>{drag}</p>}
       {isDragging && <Xarrow start={startNodeID} end={draggableRef} />}
     </>
   );

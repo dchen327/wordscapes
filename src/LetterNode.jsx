@@ -39,7 +39,7 @@ const LetterNode = ({
       // }}
     >
       {/* <p style={{ margin: "auto" }}>{letter}</p> */}
-      <LetterDraggable startNodeID={letterID} />
+      <LetterDraggable startNodeID={ref} />
     </div>
   );
 };

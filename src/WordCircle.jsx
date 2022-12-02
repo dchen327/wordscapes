@@ -13,7 +13,7 @@ const WordCircle = () => {
   };
 
   return (
-    <div className="columns">
+    <div className="columns m-5">
       {letters.map((letter, i) => (
         <div key={`letter${i}`} className="column">
           <LetterNode
