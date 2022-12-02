@@ -7,10 +7,9 @@ import { HTML5toTouch } from "rdndmb-html5-to-touch";
 export default function App() {
   return (
     <>
-      <p>hello</p>
-      {/* <DndProvider options={HTML5toTouch}> */}
-      <WordCircle />
-      {/* </DndProvider> */}
+      <DndProvider options={HTML5toTouch}>
+        <WordCircle />
+      </DndProvider>
     </>
   );
 }

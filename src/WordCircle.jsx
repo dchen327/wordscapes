@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
+import LetterDraggable from "./LetterDraggable";
 
 const WordCircle = () => {
   const [dragging, setDragging] = useState(false);
@@ -16,8 +17,9 @@ const WordCircle = () => {
       {letters.map((letter, i) => (
         <div key={`letter${i}`} className="column">
           <LetterNode
-            id={`letter${letter}`}
+            id={`letter${i}`}
             letter={letter}
+            letterID={`letter${i}`}
             addArrow={addArrow}
             dragging={dragging}
             setDragging={setDragging}
