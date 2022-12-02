@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
-import LetterDraggable from "./LetterDraggable";
 
 const WordCircle = () => {
   const [dragging, setDragging] = useState(false);

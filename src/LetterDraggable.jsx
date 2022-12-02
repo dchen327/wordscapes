@@ -23,7 +23,13 @@ const LetterDraggable = ({ startNodeID }) => {
         </div>
       </Draggable>
       {isDragging && (
-        <Xarrow start={startNodeID} end={draggableRef} path="straight" />
+        <Xarrow
+          start={startNodeID}
+          end={draggableRef}
+          path="straight"
+          startAnchor="middle"
+          endAnchor="middle"
+        />
       )}
     </>
   );
