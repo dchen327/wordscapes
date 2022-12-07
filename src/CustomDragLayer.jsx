@@ -20,11 +20,13 @@ function CustomDragLayer() {
   }
 
   return (
-    <div
-      ref={customDragRef}
-      style={getDragLayerStyles(initialOffset, currentOffset)}
-    >
-      <div>Your custom drag preview component logic here</div>
+    <>
+      <div
+        ref={customDragRef}
+        style={getDragLayerStyles(initialOffset, currentOffset)}
+      >
+        <div>Your custom drag preview component logic here</div>
+      </div>
       <Xarrow
         start={item.source}
         end={customDragRef}
@@ -32,7 +34,7 @@ function CustomDragLayer() {
         startAnchor="middle"
         endAnchor="middle"
       />
-    </div>
+    </>
   );
 }
 
