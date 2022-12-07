@@ -4,26 +4,45 @@ import Xarrow from "react-xarrows";
 
 function CustomDragLayer() {
   const customDragRef = useRef(null);
-  const { itemType, isDragging, item, initialOffset, currentOffset } =
-    useDragLayer((monitor) => ({
-      item: monitor.getItem(),
-      itemType: monitor.getItemType(),
-      initialOffset: monitor.getInitialSourceClientOffset(),
-      currentOffset: monitor.getSourceClientOffset(),
-      isDragging: monitor.isDragging(),
-    }));
+  const {
+    itemType,
+    isDragging,
+    item,
+    initialOffset,
+    initialSourceOffset,
+    clientOffset,
+    differenceFromInitialSource,
+    sourceClientOffset,
+  } = useDragLayer((monitor) => ({
+    item: monitor.getItem(),
+    itemType: monitor.getItemType(),
+    initialOffset: monitor.getInitialClientOffset(),
+    initialSourceOffset: monitor.getInitialSourceClientOffset(),
+    clientOffset: monitor.getClientOffset(),
+    differenceFromInitialSource: monitor.getDifferenceFromInitialOffset(),
+    sourceClientOffset: monitor.getSourceClientOffset(),
+    isDragging: monitor.isDragging(),
+  }));
 
-  // console.log(item, initialOffset, currentOffset);
+  // console.log(item?.source);
 
   if (!isDragging) {
     return null;
   }
 
+  console.log(
+    // initialOffset,
+    // initialSourceOffset,
+    clientOffset,
+    // differenceFromInitialSource,
+    sourceClientOffset
+  );
+
   return (
     <>
       <div
         ref={customDragRef}
-        style={getDragLayerStyles(initialOffset, currentOffset)}
+        style={getDragLayerStyles(initialOffset, clientOffset)}
       >
         <div style={{ width: "10px" }}>hi</div>
       </div>
@@ -44,12 +63,9 @@ function getDragLayerStyles(initialOffset, currentOffset) {
       display: "none",
     };
   }
-
-  // let xi = initialOffset.x;
-  // let yi = initialOffset.y;
   let { x, y } = currentOffset;
   // console.log(initialOffset, currentOffset);
-  const transform = `translate(${x}px, ${y - 100}px)`;
+  const transform = `translate(${x - 12}px, ${y - 225}px)`;
   return {
     transform,
     WebkitTransform: transform,

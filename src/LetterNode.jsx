@@ -22,7 +22,7 @@ const LetterNode = ({
         // canDrop: !!monitor.canDrop(),
       }),
       hover: (item, monitor) => {
-        console.log("hover", item);
+        // console.log("hover", item);
       },
     }),
     []
@@ -34,8 +34,8 @@ const LetterNode = ({
       ref={drop}
       id={letterID}
       style={{
-        width: "50px",
-        height: "50px",
+        width: "150px",
+        height: "150px",
         backgroundColor: "rgb(205, 209, 228)",
         borderRadius: "50%",
       }}

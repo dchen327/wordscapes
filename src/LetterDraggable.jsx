@@ -1,34 +1,27 @@
 import React, { useRef, useState } from "react";
 import { useDrag } from "react-dnd";
-import Draggable from "react-draggable";
-import Xarrow, { useXarrow } from "react-xarrows";
 
 const LetterDraggable = ({ startNodeID }) => {
   const draggableRef = useRef(null);
-  const updateXArrow = useXarrow();
 
-  const [{ isDragging, initialOffset }, drag] = useDrag(
+  const [{ isDragging }, drag] = useDrag(
     () => ({
       type: "invisible-dragger",
-      item: { type: "invisible-dragger", source: startNodeID },
+      item: { type: "invisible-dragger", source: draggableRef },
       collect: (monitor) => ({
         isDragging: !!monitor.isDragging(),
-        initialOffset: monitor.getSourceClientOffset(),
       }),
     }),
     []
   );
-  console.log(initialOffset);
 
   return (
     <>
-      {/* <Draggable onDrag={updateXArrow}> */}
-      {/* <Draggable onStart={() => setIsDragging(true)} onDrag={updateXArrow}></Draggable> */}
       <div
         ref={drag}
         style={{
-          width: "25px",
-          height: "25px",
+          width: "100px",
+          height: "100px",
           backgroundColor: "rgb(135, 200, 200)",
           borderRadius: "25%",
           opacity: isDragging ? 0.5 : 1,
@@ -36,15 +29,6 @@ const LetterDraggable = ({ startNodeID }) => {
       >
         <p ref={draggableRef}>drag</p>
       </div>
-      {/* {isDragging && (
-        <Xarrow
-          start={startNodeID}
-          end={draggableRef}
-          path="straight"
-          startAnchor="middle"
-          endAnchor="middle"
-        />
-      )} */}
     </>
   );
 };
