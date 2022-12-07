@@ -4,47 +4,26 @@ import Xarrow from "react-xarrows";
 
 function CustomDragLayer() {
   const customDragRef = useRef(null);
-  const {
-    itemType,
-    isDragging,
-    item,
-    initialOffset,
-    initialSourceOffset,
-    clientOffset,
-    differenceFromInitialSource,
-    sourceClientOffset,
-  } = useDragLayer((monitor) => ({
-    item: monitor.getItem(),
-    itemType: monitor.getItemType(),
-    initialOffset: monitor.getInitialClientOffset(),
-    initialSourceOffset: monitor.getInitialSourceClientOffset(),
-    clientOffset: monitor.getClientOffset(),
-    differenceFromInitialSource: monitor.getDifferenceFromInitialOffset(),
-    sourceClientOffset: monitor.getSourceClientOffset(),
-    isDragging: monitor.isDragging(),
-  }));
-
-  // console.log(item?.source);
+  const { isDragging, item, initialOffset, currentOffset } = useDragLayer(
+    (monitor) => ({
+      item: monitor.getItem(),
+      initialOffset: monitor.getInitialClientOffset(),
+      currentOffset: monitor.getClientOffset(),
+      isDragging: monitor.isDragging(),
+    })
+  );
 
   if (!isDragging) {
     return null;
   }
 
-  console.log(
-    // initialOffset,
-    // initialSourceOffset,
-    clientOffset,
-    // differenceFromInitialSource,
-    sourceClientOffset
-  );
-
   return (
-    <>
+    <div>
       <div
         ref={customDragRef}
-        style={getDragLayerStyles(initialOffset, clientOffset)}
+        style={getDragLayerStyles(initialOffset, currentOffset)}
       >
-        <div style={{ width: "10px" }}>hi</div>
+        <div style={{ width: "50px" }}>hi</div>
       </div>
       <Xarrow
         start={item.source}
@@ -53,7 +32,7 @@ function CustomDragLayer() {
         startAnchor="middle"
         endAnchor="middle"
       />
-    </>
+    </div>
   );
 }
 
@@ -64,7 +43,6 @@ function getDragLayerStyles(initialOffset, currentOffset) {
     };
   }
   let { x, y } = currentOffset;
-  // console.log(initialOffset, currentOffset);
   const transform = `translate(${x - 12}px, ${y - 225}px)`;
   return {
     transform,
