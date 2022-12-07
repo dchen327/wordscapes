@@ -37,7 +37,7 @@ function CustomDragLayer() {
 }
 
 function getDragLayerStyles(initialOffset, currentOffset) {
-  console.log(initialOffset, currentOffset);
+  // console.log(initialOffset, currentOffset);
   if (!initialOffset || !currentOffset) {
     return {
       display: "none",

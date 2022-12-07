@@ -22,7 +22,8 @@ const LetterNode = ({
         // canDrop: !!monitor.canDrop(),
       }),
       hover: (item, monitor) => {
-        // console.log("hover", item);
+        console.log("hover", item);
+        item.source = letterID;
       },
     }),
     []
@@ -44,10 +45,8 @@ const LetterNode = ({
         {/* <p style={{ margin: "auto" }}>
         {letter}
       </p> */}
-        {/* <LetterDraggable startNodeID={ref} /> */}
-        {/* <LetterDraggable startNodeID={letterID} /> */}
+        <LetterDraggable startNodeID={letterID} />
       </div>
-      <LetterDraggable startNodeID={letterID} />
     </>
   );
 };
