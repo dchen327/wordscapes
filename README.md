@@ -42,3 +42,4 @@ dnd:
 isDragging -> getSourceClientOffset -> use to calculate offset for arrow div
 CustomDragLayer needs getInitialClientOffset from useDrag 
 grab item dimensions somehow or store in variables to track offsets
+issue: on desktop

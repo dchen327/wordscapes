@@ -23,7 +23,7 @@ function CustomDragLayer() {
         ref={customDragRef}
         style={getDragLayerStyles(initialOffset, currentOffset)}
       >
-        <div style={{ width: "50px" }}>hi</div>
+        <div>hi</div>
       </div>
       <Xarrow
         start={item.source}
@@ -37,6 +37,7 @@ function CustomDragLayer() {
 }
 
 function getDragLayerStyles(initialOffset, currentOffset) {
+  console.log(initialOffset, currentOffset);
   if (!initialOffset || !currentOffset) {
     return {
       display: "none",

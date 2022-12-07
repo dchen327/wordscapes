@@ -29,23 +29,26 @@ const LetterNode = ({
   );
 
   return (
-    <div
-      className="button"
-      ref={drop}
-      id={letterID}
-      style={{
-        width: "150px",
-        height: "150px",
-        backgroundColor: "rgb(205, 209, 228)",
-        borderRadius: "50%",
-      }}
-    >
-      {/* <p style={{ margin: "auto" }}>
+    <>
+      <div
+        className="button"
+        ref={drop}
+        id={letterID}
+        style={{
+          width: "150px",
+          height: "150px",
+          backgroundColor: "rgb(205, 209, 228)",
+          borderRadius: "50%",
+        }}
+      >
+        {/* <p style={{ margin: "auto" }}>
         {letter}
       </p> */}
-      {/* <LetterDraggable startNodeID={ref} /> */}
+        {/* <LetterDraggable startNodeID={ref} /> */}
+        {/* <LetterDraggable startNodeID={letterID} /> */}
+      </div>
       <LetterDraggable startNodeID={letterID} />
-    </div>
+    </>
   );
 };
 
