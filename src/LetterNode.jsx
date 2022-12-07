@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
 const LetterNode = ({
@@ -11,35 +12,39 @@ const LetterNode = ({
   setArrowStartRef,
 }) => {
   const ref = useRef(null);
+  const [, drop] = useDrop(
+    () => ({
+      accept: "invisible-dragger",
+      // canDrop: () => game.canMoveKnight(x, y),
+      // drop: () => game.moveKnight(x, y),
+      collect: (monitor) => ({
+        isOver: !!monitor.isOver(),
+        // canDrop: !!monitor.canDrop(),
+      }),
+      hover: (item, monitor) => {
+        console.log("hover", item);
+      },
+    }),
+    []
+  );
 
   return (
     <div
       className="button"
-      ref={ref}
+      ref={drop}
+      id={letterID}
       style={{
         width: "50px",
         height: "50px",
         backgroundColor: "rgb(205, 209, 228)",
         borderRadius: "50%",
       }}
-      // onMouseDown={(e) => {
-      //   // console.log mouse position
-      //   console.log(e.clientX, e.clientY);
-      //   setArrowStartRef(ref);
-      //   setDragging(true);
-      // }}
-      // onMouseOver={(e) => {
-      //   if (dragging) {
-      //     if (ref !== arrowStartRef) {
-      //       console.log(arrowStartRef, ref);
-      //       addArrow({ start: arrowStartRef, end: ref });
-      //       setArrowStartRef(ref);
-      //     }
-      //   }
-      // }}
     >
-      {/* <p style={{ margin: "auto" }}>{letter}</p> */}
-      <LetterDraggable startNodeID={ref} />
+      {/* <p style={{ margin: "auto" }}>
+        {letter}
+      </p> */}
+      {/* <LetterDraggable startNodeID={ref} /> */}
+      <LetterDraggable startNodeID={letterID} />
     </div>
   );
 };
