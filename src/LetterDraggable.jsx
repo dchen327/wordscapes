@@ -18,7 +18,7 @@ const LetterDraggable = ({ startNodeID }) => {
         ref={drag}
         style={{
           width: "100px",
-          height: "100px",
+          height: "same-as-width",
           backgroundColor: "rgb(135, 200, 200)",
           borderRadius: "25%",
           opacity: isDragging ? 0.5 : 1,

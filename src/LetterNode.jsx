@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { cloneElement, useRef } from "react";
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
@@ -23,7 +23,11 @@ const LetterNode = ({
         // canDrop: !!monitor.canDrop(),
       }),
       hover: (item, monitor) => {
-        console.log("hover", item);
+        if (item.source !== ref) {
+          let arrow = { start: item.source, end: ref };
+          if (arrows && arrows[arrows.length - 1] !== arrow)
+            addArrow({ start: item.source, end: ref });
+        }
         item.source = ref;
       },
     }),

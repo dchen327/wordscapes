@@ -15,27 +15,52 @@ const WordCircle = () => {
   // disableBodyScroll(document.body);
 
   return (
-    <div className="columns m-5">
-      {letters.map((letter, i) => (
-        <div key={`letter${i}`} className="column">
-          <LetterNode
-            id={`letter${i}`}
-            letter={letter}
-            letterID={`letter${i}`}
-            arrows={arrows}
-            addArrow={addArrow}
-            dragging={dragging}
-            setDragging={setDragging}
-            arrowStartRef={arrowStartRef}
-            setArrowStartRef={setArrowStartRef}
-          />
-        </div>
-      ))}
-      {/* {arrowStartRef && <Xarrow start={arrowStartRef} end=} */}
+    <>
+      <div className="columns m-5">
+        {letters.map((letter, i) => (
+          <div key={`letter${i}`} className="column">
+            <LetterNode
+              id={`letter${i}`}
+              letter={letter}
+              letterID={`letter${i}`}
+              arrows={arrows}
+              addArrow={addArrow}
+              dragging={dragging}
+              setDragging={setDragging}
+              arrowStartRef={arrowStartRef}
+              setArrowStartRef={setArrowStartRef}
+            />
+          </div>
+        ))}
+      </div>
+      {/* <div className="columns m-5">
+        {letters.map((letter, i) => (
+          <div key={`letter${i + 5}`} className="column">
+            <LetterNode
+              id={`letter${i}`}
+              letter={letter}
+              // letterID={`letter${i}`}
+              arrows={arrows}
+              addArrow={addArrow}
+              dragging={dragging}
+              setDragging={setDragging}
+              arrowStartRef={arrowStartRef}
+              setArrowStartRef={setArrowStartRef}
+            />
+          </div>
+        ))}
+      </div> */}
       {arrows.map((arrow, i) => (
-        <Xarrow start={arrow.start} end={arrow.end} key={`arrow${i}`} />
+        <Xarrow
+          start={arrow.start}
+          end={arrow.end}
+          key={`arrow${i}`}
+          path="straight"
+          startAnchor="middle"
+          endAnchor="middle"
+        />
       ))}
-    </div>
+    </>
   );
 };
 
