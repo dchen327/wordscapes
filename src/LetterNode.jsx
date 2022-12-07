@@ -35,7 +35,13 @@ const LetterNode = ({
 
   return (
     <>
-      <div id={letterID} style={{ width: "150px", height: "same-as-width" }}>
+      <div
+        id={letterID}
+        style={{
+          width: "150px",
+          height: "same-as-width",
+        }}
+      >
         <div
           className="button"
           ref={drop}
@@ -51,17 +57,17 @@ const LetterNode = ({
         {letter}
       </p> */}
           <LetterDraggable startNodeID={letterID} />
+          {arrow && (
+            <Xarrow
+              start={arrow.start}
+              end={arrow.end}
+              // key={`arrow${i}`}
+              path="straight"
+              startAnchor="middle"
+              endAnchor="middle"
+            />
+          )}
         </div>
-        {arrow && (
-          <Xarrow
-            start={arrow.start}
-            end={arrow.end}
-            // key={`arrow${i}`}
-            path="straight"
-            startAnchor="middle"
-            endAnchor="middle"
-          />
-        )}
       </div>
     </>
   );

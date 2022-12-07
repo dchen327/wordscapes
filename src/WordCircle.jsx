@@ -51,7 +51,7 @@ const WordCircle = () => {
           </div>
         ))}
       </div>
-      <div className="columns m-5">
+      {/* <div className="columns m-5">
         {letters.map((letter, i) => (
           <div key={`letter${i + 6}`} className="column">
             <LetterNode
@@ -67,7 +67,7 @@ const WordCircle = () => {
             />
           </div>
         ))}
-      </div>
+      </div> */}
       {/* {arrows.map((arrow, i) => (
         <Xarrow
           start={arrow.start}

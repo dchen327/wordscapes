@@ -18,14 +18,14 @@ function CustomDragLayer() {
   }
 
   return (
-    <div>
+    <div style={{ position: "fixed", left: 0, top: 0 }}>
       <div
         ref={customDragRef}
         style={getDragLayerStyles(initialOffset, currentOffset)}
       >
         <div>hi</div>
       </div>
-      {/* {item.source && (
+      {item.source && (
         <Xarrow
           start={item.source}
           end={customDragRef}
@@ -33,13 +33,13 @@ function CustomDragLayer() {
           startAnchor="middle"
           endAnchor="middle"
         />
-      )} */}
+      )}
     </div>
   );
 }
 
 function getDragLayerStyles(initialOffset, currentOffset) {
-  console.log(initialOffset, currentOffset);
+  // console.log(initialOffset, currentOffset);
   if (!initialOffset || !currentOffset) {
     return {
       display: "none",
