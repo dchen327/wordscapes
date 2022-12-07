@@ -13,6 +13,7 @@ const WordCircle = () => {
   };
 
   // disableBodyScroll(document.body);
+  // console.log(arrows);
 
   return (
     <>
@@ -33,13 +34,13 @@ const WordCircle = () => {
           </div>
         ))}
       </div>
-      {/* <div className="columns m-5">
+      <div className="columns m-5">
         {letters.map((letter, i) => (
           <div key={`letter${i + 5}`} className="column">
             <LetterNode
-              id={`letter${i}`}
+              id={`letter${i + 5}`}
               letter={letter}
-              // letterID={`letter${i}`}
+              letterID={`letter${i + 5}`}
               arrows={arrows}
               addArrow={addArrow}
               dragging={dragging}
@@ -49,8 +50,8 @@ const WordCircle = () => {
             />
           </div>
         ))}
-      </div> */}
-      {arrows.map((arrow, i) => (
+      </div>
+      {/* {arrows.map((arrow, i) => (
         <Xarrow
           start={arrow.start}
           end={arrow.end}
@@ -59,7 +60,7 @@ const WordCircle = () => {
           startAnchor="middle"
           endAnchor="middle"
         />
-      ))}
+      ))} */}
     </>
   );
 };

@@ -25,13 +25,15 @@ function CustomDragLayer() {
       >
         <div>hi</div>
       </div>
-      <Xarrow
-        start={item.source}
-        end={customDragRef}
-        path="straight"
-        startAnchor="middle"
-        endAnchor="middle"
-      />
+      {/* {item.source && (
+        <Xarrow
+          start={item.source}
+          end={customDragRef}
+          path="straight"
+          startAnchor="middle"
+          endAnchor="middle"
+        />
+      )} */}
     </div>
   );
 }
