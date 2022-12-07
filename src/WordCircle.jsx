@@ -22,6 +22,7 @@ const WordCircle = () => {
             id={`letter${i}`}
             letter={letter}
             letterID={`letter${i}`}
+            arrows={arrows}
             addArrow={addArrow}
             dragging={dragging}
             setDragging={setDragging}

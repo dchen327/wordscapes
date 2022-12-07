@@ -5,6 +5,7 @@ import LetterDraggable from "./LetterDraggable";
 const LetterNode = ({
   letter,
   letterID,
+  arrows,
   addArrow,
   dragging,
   setDragging,
@@ -23,14 +24,14 @@ const LetterNode = ({
       }),
       hover: (item, monitor) => {
         console.log("hover", item);
-        item.source = letterID;
+        item.source = ref;
       },
     }),
     []
   );
 
   return (
-    <>
+    <div ref={ref} style={{ width: "150px", height: "same-as-width" }}>
       <div
         className="button"
         ref={drop}
@@ -47,7 +48,7 @@ const LetterNode = ({
       </p> */}
         <LetterDraggable startNodeID={letterID} />
       </div>
-    </>
+    </div>
   );
 };
 
