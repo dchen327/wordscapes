@@ -7,16 +7,18 @@ const LetterDraggable = ({ startNodeID }) => {
   const draggableRef = useRef(null);
   const updateXArrow = useXarrow();
 
-  const [{ isDragging }, drag] = useDrag(
+  const [{ isDragging, initialOffset }, drag] = useDrag(
     () => ({
       type: "invisible-dragger",
       item: { type: "invisible-dragger", source: startNodeID },
       collect: (monitor) => ({
         isDragging: !!monitor.isDragging(),
+        initialOffset: monitor.getSourceClientOffset(),
       }),
     }),
     []
   );
+  console.log(initialOffset);
 
   return (
     <>
@@ -25,7 +27,7 @@ const LetterDraggable = ({ startNodeID }) => {
       <div
         ref={drag}
         style={{
-          width: "25",
+          width: "25px",
           height: "25px",
           backgroundColor: "rgb(135, 200, 200)",
           borderRadius: "25%",

@@ -36,3 +36,7 @@ react-dnd: drag invisible circle "connector"
 
 Game Features:
 - hint: reveals a definition of an uncomplete word
+
+
+dnd:
+isDragging -> getSourceClientOffset -> use to calculate offset for arrow div

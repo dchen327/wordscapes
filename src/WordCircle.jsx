@@ -12,7 +12,7 @@ const WordCircle = () => {
     setArrows([...arrows, { start, end }]);
   };
 
-  disableBodyScroll(document.body);
+  // disableBodyScroll(document.body);
 
   return (
     <div className="columns m-5">

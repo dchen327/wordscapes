@@ -13,7 +13,7 @@ function CustomDragLayer() {
       isDragging: monitor.isDragging(),
     }));
 
-  console.log(item, initialOffset, currentOffset);
+  // console.log(item, initialOffset, currentOffset);
 
   if (!isDragging) {
     return null;
@@ -24,7 +24,9 @@ function CustomDragLayer() {
       <div
         ref={customDragRef}
         style={getDragLayerStyles(initialOffset, currentOffset)}
-      ></div>
+      >
+        <div style={{ width: "10px" }}>hi</div>
+      </div>
       <Xarrow
         start={item.source}
         end={customDragRef}
@@ -43,13 +45,16 @@ function getDragLayerStyles(initialOffset, currentOffset) {
     };
   }
 
+  // let xi = initialOffset.x;
+  // let yi = initialOffset.y;
   let { x, y } = currentOffset;
-
-  const transform = `translate(${x}px, ${y}px)`;
+  // console.log(initialOffset, currentOffset);
+  const transform = `translate(${x}px, ${y - 100}px)`;
   return {
     transform,
     WebkitTransform: transform,
-    backgroundColor: "rgb(135, 200, 200)",
+    backgroundColor: "rgb(135, 200, 100)",
+    width: "20px",
   };
 }
 
