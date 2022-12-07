@@ -24,9 +24,7 @@ function CustomDragLayer() {
       <div
         ref={customDragRef}
         style={getDragLayerStyles(initialOffset, currentOffset)}
-      >
-        <div>Your custom drag preview component logic here</div>
-      </div>
+      ></div>
       <Xarrow
         start={item.source}
         end={customDragRef}
@@ -51,6 +49,7 @@ function getDragLayerStyles(initialOffset, currentOffset) {
   return {
     transform,
     WebkitTransform: transform,
+    backgroundColor: "rgb(135, 200, 200)",
   };
 }
 

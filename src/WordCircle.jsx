@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
-import { useDragLayer } from "react-dnd";
+import { disableBodyScroll } from "body-scroll-lock";
 
 const WordCircle = () => {
   const [dragging, setDragging] = useState(false);
@@ -11,6 +11,8 @@ const WordCircle = () => {
   const addArrow = ({ start, end }) => {
     setArrows([...arrows, { start, end }]);
   };
+
+  disableBodyScroll(document.body);
 
   return (
     <div className="columns m-5">
