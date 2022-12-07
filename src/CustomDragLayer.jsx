@@ -39,14 +39,15 @@ function CustomDragLayer() {
 }
 
 function getDragLayerStyles(initialOffset, currentOffset) {
-  // console.log(initialOffset, currentOffset);
+  console.log(initialOffset, currentOffset);
   if (!initialOffset || !currentOffset) {
     return {
       display: "none",
     };
   }
   let { x, y } = currentOffset;
-  const transform = `translate(${x - 12}px, ${y - 225}px)`;
+  // const transform = `translate(${x - 12}px, ${y - 225}px)`;
+  const transform = `translate(${x}px, ${y}px)`;
   return {
     transform,
     WebkitTransform: transform,

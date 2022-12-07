@@ -36,11 +36,28 @@ const WordCircle = () => {
       </div>
       <div className="columns m-5">
         {letters.map((letter, i) => (
-          <div key={`letter${i + 5}`} className="column">
+          <div key={`letter${i + 3}`} className="column">
             <LetterNode
-              id={`letter${i + 5}`}
+              id={`letter${i + 3}`}
               letter={letter}
-              letterID={`letter${i + 5}`}
+              letterID={`letter${i + 3}`}
+              arrows={arrows}
+              addArrow={addArrow}
+              dragging={dragging}
+              setDragging={setDragging}
+              arrowStartRef={arrowStartRef}
+              setArrowStartRef={setArrowStartRef}
+            />
+          </div>
+        ))}
+      </div>
+      <div className="columns m-5">
+        {letters.map((letter, i) => (
+          <div key={`letter${i + 6}`} className="column">
+            <LetterNode
+              id={`letter${i + 6}`}
+              letter={letter}
+              letterID={`letter${i + 6}`}
               arrows={arrows}
               addArrow={addArrow}
               dragging={dragging}
