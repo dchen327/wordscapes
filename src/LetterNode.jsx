@@ -1,7 +1,7 @@
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
-const LetterNode = ({
+function LetterNode({
   letter,
   letterID,
   usedLetterIDs,
@@ -9,24 +9,43 @@ const LetterNode = ({
   arrows,
   setArrows,
   onDragEnd,
-}) => {
+}) {
   const [, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
       hover: (item) => {
         if (item.source !== letterID) {
-          let newArrow = { start: item.source, end: letterID };
-          if (arrows && newArrow !== arrows[arrows.length - 1]) {
-            setArrows([...arrows, newArrow]);
-            // set letter to true
-            setUsedLetterIDs({ ...usedLetterIDs, [newArrow.end]: true });
+          // console.log(letterID, usedLetterIDs[letterID]);
+          if (!usedLetterIDs[letterID]) {
+            let newArrow = { start: item.source, end: letterID };
+            if (arrows && newArrow !== arrows[arrows.length - 1]) {
+              setArrows([...arrows, newArrow]);
+              // set letter to true
+              setUsedLetterIDs({ ...usedLetterIDs, [newArrow.end]: true });
+            }
+            item.source = letterID;
+          } else {
+            // if letter is already used, remove the last arrow
+            if (arrows.length > 1) {
+              let arrowMin1 = arrows[arrows.length - 1];
+              let arrowMin2 = arrows[arrows.length - 2];
+              if (
+                arrowMin1.start === letterID &&
+                arrowMin1.end === item.source
+              ) {
+                let newArrows = arrows.slice(0, arrows.length - 2);
+                setArrows(newArrows);
+                // set letter to false
+                setUsedLetterIDs({
+                  ...usedLetterIDs,
+                  [item.source]: false,
+                  [letterID]: false,
+                });
+                item.source = arrowMin2.start;
+              }
+            }
           }
-        } else {
-          // // undo last arrow
-          // let newArrows = arrows.slice(0, arrows.length - 1);
-          // setArrows(newArrows);
         }
-        item.source = letterID;
       },
     }),
     [arrows, usedLetterIDs]
@@ -56,6 +75,6 @@ const LetterNode = ({
       </div>
     </>
   );
-};
+}
 
 export default LetterNode;
