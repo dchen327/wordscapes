@@ -30,6 +30,8 @@ function CustomDragLayer() {
           path="straight"
           startAnchor="middle"
           endAnchor="middle"
+          showHead={false}
+          strokeWidth={8}
         />
       )}
     </div>

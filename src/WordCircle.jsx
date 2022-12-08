@@ -103,7 +103,8 @@ const WordCircle = () => {
           path="straight"
           startAnchor="middle"
           endAnchor="middle"
-          // strokeWidth={15}
+          showHead={false}
+          strokeWidth={8}
         />
       ))}
     </>
