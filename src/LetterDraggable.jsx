@@ -1,20 +1,16 @@
 import React, { useRef } from "react";
 import { useDrag } from "react-dnd";
 
-const LetterDraggable = ({ startNodeID, arrows, setArrows }) => {
-  const draggableRef = useRef(null);
-
+const LetterDraggable = ({ startNodeID, arrows, onDragEnd }) => {
   const [{ isDragging }, drag] = useDrag(
     () => ({
       type: "invisible-dragger",
-      item: { type: "invisible-dragger", source: draggableRef },
+      item: { type: "invisible-dragger", source: startNodeID },
       collect: (monitor) => ({
         isDragging: !!monitor.isDragging(),
       }),
       end: (item, monitor) => {
-        console.log("dropped, go calculate word inputted and clear arrows");
-        console.log(arrows);
-        setArrows([]);
+        onDragEnd();
       },
     }),
     [arrows]
@@ -32,7 +28,7 @@ const LetterDraggable = ({ startNodeID, arrows, setArrows }) => {
           opacity: isDragging ? 0.5 : 1,
         }}
       >
-        <p ref={draggableRef}>drag</p>
+        <p>drag</p>
       </div>
     </>
   );

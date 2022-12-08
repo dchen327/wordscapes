@@ -7,12 +7,13 @@ const WordCircle = () => {
   const [dragging, setDragging] = useState(false);
   const letters = ["A", "B", "C"];
   const [arrows, setArrows] = useState([]);
-  const addArrow = ({ start, end }) => {
-    setArrows([...arrows, { start, end }]);
-  };
 
   // disableBodyScroll(document.body);
-  console.log(arrows);
+  const onDragEnd = () => {
+    console.log(arrows);
+    setArrows([]);
+    
+  };
 
   return (
     <>
@@ -25,6 +26,7 @@ const WordCircle = () => {
               letterID={`letter${i}`}
               arrows={arrows}
               setArrows={setArrows}
+              onDragEnd={onDragEnd}
             />
           </div>
         ))}
@@ -38,6 +40,7 @@ const WordCircle = () => {
               letterID={`letter${i + 3}`}
               arrows={arrows}
               setArrows={setArrows}
+              onDragEnd={onDragEnd}
             />
           </div>
         ))}

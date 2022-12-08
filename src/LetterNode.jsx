@@ -2,7 +2,7 @@ import React from "react";
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
-const LetterNode = ({ letter, letterID, arrows, setArrows }) => {
+const LetterNode = ({ letter, letterID, arrows, setArrows, onDragEnd }) => {
   const [, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
@@ -48,7 +48,7 @@ const LetterNode = ({ letter, letterID, arrows, setArrows }) => {
           <LetterDraggable
             startNodeID={letterID}
             arrows={arrows}
-            setArrows={setArrows}
+            onDragEnd={onDragEnd}
           />
         </div>
       </div>
