@@ -53,6 +53,4 @@ TODO:
 - can't use same letter multiple times (maybe refactor so letter_IDs are tracked as well)
 - allow for undoing last path (check last arrow, if curr arrow is flipped then remove last arrow
 - don't hardcode all the sizes
-- words in a circle
-- remove arrow from arrow (just line)
 - highlight used letters (flip text color from black to white)

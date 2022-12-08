@@ -24,7 +24,6 @@ const LetterDraggable = ({ startNodeID, letter, arrows, onDragEnd }) => {
   return (
     <>
       <div
-        className="columns is-centered is-vcentered"
         ref={drag}
         style={{
           minWidth: "100px",
@@ -34,7 +33,7 @@ const LetterDraggable = ({ startNodeID, letter, arrows, onDragEnd }) => {
           borderRadius: "50%",
         }}
       >
-        <h1 className="title is-1">{letter}</h1>
+        <h1 className="text-3xl font-bold underline">{letter}</h1>
       </div>
     </>
   );

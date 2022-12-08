@@ -25,38 +25,40 @@ const WordCircle = () => {
   };
 
   const getCircleLayout = (letters) => {
-    let radius = 100;
+    let radius = 150;
+    let circleSideLen = 2 * radius + 40;
     return (
       <div
         style={{
           // light grey background
           backgroundColor: "rgba(205, 209, 230, 0.3)",
-          minWidth: radius * 2 + 75,
-          width: radius * 2 + 75,
-          height: "same-as-width",
-          minHeight: radius * 2 + 75,
+          minWidth: circleSideLen,
+          width: circleSideLen,
+          height: circleSideLen,
+          minHeight: circleSideLen,
           borderRadius: "50%",
         }}
       >
         {letters.map((letter, i) => {
           let angle = (2 * Math.PI) / letters.length;
           // iniital value centered vertically on positive y-axis
-          let x = radius * Math.cos(angle * i - Math.PI / 2) + radius;
-          let y = radius * Math.sin(angle * i - Math.PI / 2) + radius;
+          let x = 0.75 * radius * Math.cos(angle * i - Math.PI / 2) + radius;
+          let y = 0.75 * radius * Math.sin(angle * i - Math.PI / 2) + radius;
           return (
             <div
               key={`letter${i}`}
-              // className="column"
               style={{ left: `${x}px`, top: `${y}px`, position: "absolute" }}
             >
-              <LetterNode
-                id={`letter${i}_${letter}`}
-                letter={letter}
-                letterID={`letter${i}_${letter}`}
-                arrows={arrows}
-                setArrows={setArrows}
-                onDragEnd={onDragEnd}
-              />
+              <div className="is-centered is-vcentered">
+                <LetterNode
+                  id={`letter${i}_${letter}`}
+                  letter={letter}
+                  letterID={`letter${i}_${letter}`}
+                  arrows={arrows}
+                  setArrows={setArrows}
+                  onDragEnd={onDragEnd}
+                />
+              </div>
             </div>
           );
         })}
