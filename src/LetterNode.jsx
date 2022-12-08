@@ -1,4 +1,3 @@
-import React from "react";
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
@@ -25,32 +24,22 @@ const LetterNode = ({ letter, letterID, arrows, setArrows, onDragEnd }) => {
   return (
     <>
       <div
+        className="button"
+        ref={drop}
         id={letterID}
         style={{
-          width: "150px",
-          height: "same-as-width",
+          width: "100px",
+          height: "100px",
+          backgroundColor: "rgb(205, 209, 228)",
+          borderRadius: "50%",
         }}
       >
-        <div
-          className="button"
-          ref={drop}
-          id={letterID}
-          style={{
-            width: "150px",
-            height: "150px",
-            backgroundColor: "rgb(205, 209, 228)",
-            borderRadius: "50%",
-          }}
-        >
-          {/* <p style={{ margin: "auto" }}>
-        {letter}
-      </p> */}
-          <LetterDraggable
-            startNodeID={letterID}
-            arrows={arrows}
-            onDragEnd={onDragEnd}
-          />
-        </div>
+        <LetterDraggable
+          startNodeID={letterID}
+          letter={letter}
+          arrows={arrows}
+          onDragEnd={onDragEnd}
+        />
       </div>
     </>
   );

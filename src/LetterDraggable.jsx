@@ -1,8 +1,7 @@
-import React, { useRef } from "react";
 import { useDrag } from "react-dnd";
 
-const LetterDraggable = ({ startNodeID, arrows, onDragEnd }) => {
-  const [{ isDragging }, drag] = useDrag(
+const LetterDraggable = ({ startNodeID, letter, arrows, onDragEnd }) => {
+  const [, drag] = useDrag(
     () => ({
       type: "invisible-dragger",
       item: { type: "invisible-dragger", source: startNodeID },
@@ -19,16 +18,17 @@ const LetterDraggable = ({ startNodeID, arrows, onDragEnd }) => {
   return (
     <>
       <div
+        className="columns is-centered is-vcentered"
         ref={drag}
         style={{
-          width: "100px",
+          minWidth: "100px",
+          minHeight: "100px",
           height: "same-as-width",
           backgroundColor: "rgb(135, 200, 200)",
-          borderRadius: "25%",
-          opacity: isDragging ? 0.5 : 1,
+          borderRadius: "50%",
         }}
       >
-        <p>drag</p>
+        <p>{letter}</p>
       </div>
     </>
   );

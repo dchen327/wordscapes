@@ -45,3 +45,5 @@ grab item dimensions somehow or store in variables to track offsets
 issue: on desktop
 only use ID's for arrows, refs for dnd?
 the div for active cursor position is added under all the other divs -> offset
+
+store letter in LetterNode, add to lettersArray in WordCircle when hover
