@@ -9,7 +9,7 @@ const WordCircle = () => {
   const [arrows, setArrows] = useState([]);
   // const [lettersArray, setLettersArray] = useState([]);
 
-  // disableBodyScroll(document.body);
+  disableBodyScroll(document.body);
   const onDragEnd = () => {
     if (arrows.length > 0) {
       let lettersArray = [];

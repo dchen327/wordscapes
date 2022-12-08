@@ -28,7 +28,7 @@ const LetterDraggable = ({ startNodeID, letter, arrows, onDragEnd }) => {
           borderRadius: "50%",
         }}
       >
-        <p>{letter}</p>
+        <h1 className="title">{letter}</h1>
       </div>
     </>
   );
