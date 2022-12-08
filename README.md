@@ -53,4 +53,3 @@ TODO:
 - can't use same letter multiple times (maybe refactor so letter_IDs are tracked as well)
 - allow for undoing last path (check last arrow, if curr arrow is flipped then remove last arrow
 - don't hardcode all the sizes
-- don't cover letter text with xarrow

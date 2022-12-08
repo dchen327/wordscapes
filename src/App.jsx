@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       <DndProvider options={HTML5toTouch}>
-        <WordCircle />
         <CustomDragLayer />
+        <WordCircle />
       </DndProvider>
     </>
   );

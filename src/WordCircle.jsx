@@ -79,35 +79,6 @@ const WordCircle = () => {
 
   return (
     <>
-      {getCircleLayout(letters)}
-      {/* <div className="columns m-5">
-        {letters.map((letter, i) => (
-          <div key={`letter${i}`} className="column">
-            <LetterNode
-              id={`letter${i}_${letter}`}
-              letter={letter}
-              letterID={`letter${i}_${letter}`}
-              arrows={arrows}
-              setArrows={setArrows}
-              onDragEnd={onDragEnd}
-            />
-          </div>
-        ))}
-      </div>
-      <div className="columns m-5">
-        {["D", "E", "F"].map((letter, i) => (
-          <div key={`letter${i + 3}`} className="column">
-            <LetterNode
-              id={`letter${i + 3}_${letter}`}
-              letter={letter}
-              letterID={`letter${i + 3}_${letter}`}
-              arrows={arrows}
-              setArrows={setArrows}
-              onDragEnd={onDragEnd}
-            />
-          </div>
-        ))}
-      </div> */}
       {arrows.map((arrow, i) => (
         <Xarrow
           start={arrow.start}
@@ -121,6 +92,7 @@ const WordCircle = () => {
           color="#67B7D1"
         />
       ))}
+      {getCircleLayout(letters)}
     </>
   );
 };
