@@ -1,19 +1,23 @@
 import React, { useRef } from "react";
 import { useDrag } from "react-dnd";
 
-const LetterDraggable = ({ startNodeID }) => {
+const LetterDraggable = ({ startNodeID, arrows }) => {
   const draggableRef = useRef(null);
 
-  const [{ isDragging }, drag] = useDrag(() => ({
-    type: "invisible-dragger",
-    item: { type: "invisible-dragger", source: draggableRef },
-    collect: (monitor) => ({
-      isDragging: !!monitor.isDragging(),
+  const [{ isDragging }, drag] = useDrag(
+    () => ({
+      type: "invisible-dragger",
+      item: { type: "invisible-dragger", source: draggableRef },
+      collect: (monitor) => ({
+        isDragging: !!monitor.isDragging(),
+      }),
+      end: (item, monitor) => {
+        console.log("dropped, go calculate word inputted and clear arrows");
+        console.log(arrows);
+      },
     }),
-    end: (item, monitor) => {
-      console.log("dropped, go calculate word inputted and clear arrows");
-    },
-  }));
+    [arrows]
+  );
 
   return (
     <>

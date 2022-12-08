@@ -1,17 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
-import Xarrow from "react-xarrows";
 
-const LetterNode = ({
-  letter,
-  letterID,
-  arrows,
-  addArrow,
-  dragging,
-  setDragging,
-}) => {
-  const [arrow, setArrow] = useState(null);
+const LetterNode = ({ letter, letterID, arrows, addArrow }) => {
   const [, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
@@ -21,14 +12,14 @@ const LetterNode = ({
       hover: (item) => {
         if (item.source !== letterID) {
           let newArrow = { start: item.source, end: letterID };
-          if (newArrow !== arrow) {
-            setArrow({ start: item.source, end: letterID });
+          if (arrows && newArrow !== arrows[arrows.length - 1]) {
+            addArrow(newArrow);
           }
         }
         item.source = letterID;
       },
     }),
-    []
+    [arrows]
   );
 
   return (
@@ -54,17 +45,7 @@ const LetterNode = ({
           {/* <p style={{ margin: "auto" }}>
         {letter}
       </p> */}
-          <LetterDraggable startNodeID={letterID} />
-          {arrow && (
-            <Xarrow
-              start={arrow.start}
-              end={arrow.end}
-              // key={`arrow${i}`}
-              path="straight"
-              startAnchor="middle"
-              endAnchor="middle"
-            />
-          )}
+          <LetterDraggable startNodeID={letterID} arrows={arrows} />
         </div>
       </div>
     </>
