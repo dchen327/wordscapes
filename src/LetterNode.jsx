@@ -24,13 +24,13 @@ const LetterNode = ({ letter, letterID, arrows, setArrows, onDragEnd }) => {
   return (
     <>
       <div
-        className="button"
+        className="columns is-centered is-vcentered"
         ref={drop}
         id={letterID}
         style={{
           width: "100px",
           height: "100px",
-          backgroundColor: "rgb(205, 209, 228)",
+          // backgroundColor: "rgb(205, 209, 228)",
           borderRadius: "50%",
         }}
       >
