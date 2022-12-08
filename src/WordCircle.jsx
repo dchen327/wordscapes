@@ -4,8 +4,7 @@ import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
 
 const WordCircle = () => {
-  const [dragging, setDragging] = useState(false);
-  const letters = Array.from("COMPUTER");
+  const letters = Array.from("LAPTOPS");
   const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
   const [arrows, setArrows] = useState([]);
   // const [lettersArray, setLettersArray] = useState([]);
@@ -31,7 +30,7 @@ const WordCircle = () => {
   };
 
   const getCircleLayout = (letters) => {
-    let radius = 150;
+    let radius = 120;
     let letterWidth = 20;
     let circleWidth = 2 * (radius + letterWidth);
     return (

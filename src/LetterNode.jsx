@@ -22,6 +22,9 @@ const LetterNode = ({
             setUsedLetterIDs({ ...usedLetterIDs, [newArrow.end]: true });
           }
         } else {
+          // // undo last arrow
+          // let newArrows = arrows.slice(0, arrows.length - 1);
+          // setArrows(newArrows);
         }
         item.source = letterID;
       },
