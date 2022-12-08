@@ -7,7 +7,6 @@ const WordCircle = () => {
   const [dragging, setDragging] = useState(false);
   const letters = ["A", "B", "C"];
   const [arrows, setArrows] = useState([]);
-  const [arrowStartRef, setArrowStartRef] = useState(null);
   const addArrow = ({ start, end }) => {
     setArrows([...arrows, { start, end }]);
   };
@@ -28,8 +27,6 @@ const WordCircle = () => {
               addArrow={addArrow}
               dragging={dragging}
               setDragging={setDragging}
-              arrowStartRef={arrowStartRef}
-              setArrowStartRef={setArrowStartRef}
             />
           </div>
         ))}
@@ -45,8 +42,6 @@ const WordCircle = () => {
               addArrow={addArrow}
               dragging={dragging}
               setDragging={setDragging}
-              arrowStartRef={arrowStartRef}
-              setArrowStartRef={setArrowStartRef}
             />
           </div>
         ))}

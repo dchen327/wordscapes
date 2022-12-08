@@ -10,6 +10,9 @@ const LetterDraggable = ({ startNodeID }) => {
     collect: (monitor) => ({
       isDragging: !!monitor.isDragging(),
     }),
+    end: (item, monitor) => {
+      console.log("dropped, go calculate word inputted and clear arrows");
+    },
   }));
 
   return (

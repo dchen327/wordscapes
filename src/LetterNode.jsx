@@ -10,8 +10,6 @@ const LetterNode = ({
   addArrow,
   dragging,
   setDragging,
-  arrowStartRef,
-  setArrowStartRef,
 }) => {
   const [arrow, setArrow] = useState(null);
   const [, drop] = useDrop(
@@ -20,7 +18,7 @@ const LetterNode = ({
       collect: (monitor) => ({
         isOver: !!monitor.isOver(),
       }),
-      hover: (item, monitor) => {
+      hover: (item) => {
         if (item.source !== letterID) {
           let newArrow = { start: item.source, end: letterID };
           if (newArrow !== arrow) {

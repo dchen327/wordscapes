@@ -22,9 +22,7 @@ function CustomDragLayer() {
       <div
         ref={customDragRef}
         style={getDragLayerStyles(initialOffset, currentOffset)}
-      >
-        <div>hi</div>
-      </div>
+      />
       {item.source && (
         <Xarrow
           start={item.source}
