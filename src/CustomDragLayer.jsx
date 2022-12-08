@@ -32,6 +32,7 @@ function CustomDragLayer() {
           endAnchor="middle"
           showHead={false}
           strokeWidth={8}
+          color="#67B7D1"
         />
       )}
     </div>
@@ -51,8 +52,6 @@ function getDragLayerStyles(initialOffset, currentOffset) {
   return {
     transform,
     WebkitTransform: transform,
-    backgroundColor: "rgb(135, 200, 100)",
-    width: "20px",
   };
 }
 

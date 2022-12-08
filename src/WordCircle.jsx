@@ -5,9 +5,14 @@ import { disableBodyScroll } from "body-scroll-lock";
 
 const WordCircle = () => {
   const [dragging, setDragging] = useState(false);
-  const letters = Array.from("NABISCO");
+  const letters = Array.from("COMPUTER");
+  const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
   const [arrows, setArrows] = useState([]);
   // const [lettersArray, setLettersArray] = useState([]);
+  // map to map usedLetters to booleans (setState)
+  const [usedLetterIDs, setUsedLetterIDs] = useState(
+    letterIDs.map((letterID) => false)
+  );
 
   disableBodyScroll(document.body);
 
@@ -21,39 +26,46 @@ const WordCircle = () => {
       let word = lettersArray.join("");
       console.log(word);
       setArrows([]);
+      setUsedLetterIDs(letterIDs.map((letterID) => false));
     }
   };
 
   const getCircleLayout = (letters) => {
     let radius = 150;
-    let circleSideLen = 2 * radius + 40;
+    let letterWidth = 20;
+    let circleWidth = 2 * (radius + letterWidth);
     return (
       <div
         style={{
-          // light grey background
           backgroundColor: "rgba(205, 209, 230, 0.3)",
-          minWidth: circleSideLen,
-          width: circleSideLen,
-          height: circleSideLen,
-          minHeight: circleSideLen,
+          width: circleWidth,
+          height: circleWidth,
           borderRadius: "50%",
         }}
       >
         {letters.map((letter, i) => {
           let angle = (2 * Math.PI) / letters.length;
           // iniital value centered vertically on positive y-axis
-          let x = 0.75 * radius * Math.cos(angle * i - Math.PI / 2) + radius;
-          let y = 0.75 * radius * Math.sin(angle * i - Math.PI / 2) + radius;
+          let x =
+            0.8 * radius * Math.cos(angle * i - Math.PI / 2) +
+            radius -
+            letterWidth;
+          let y =
+            0.8 * radius * Math.sin(angle * i - Math.PI / 2) +
+            radius -
+            letterWidth;
           return (
             <div
               key={`letter${i}`}
               style={{ left: `${x}px`, top: `${y}px`, position: "absolute" }}
             >
-              <div className="is-centered is-vcentered">
+              <div className="flex items-center justify-center">
                 <LetterNode
                   id={`letter${i}_${letter}`}
                   letter={letter}
                   letterID={`letter${i}_${letter}`}
+                  usedLetterIDs={usedLetterIDs}
+                  setUsedLetterIDs={setUsedLetterIDs}
                   arrows={arrows}
                   setArrows={setArrows}
                   onDragEnd={onDragEnd}
@@ -107,6 +119,7 @@ const WordCircle = () => {
           endAnchor="middle"
           showHead={false}
           strokeWidth={8}
+          color="#67B7D1"
         />
       ))}
     </>

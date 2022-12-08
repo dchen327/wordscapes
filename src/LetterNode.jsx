@@ -1,8 +1,17 @@
+import { useState } from "react";
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
-const LetterNode = ({ letter, letterID, arrows, setArrows, onDragEnd }) => {
-  const [, drop] = useDrop(
+const LetterNode = ({
+  letter,
+  letterID,
+  usedLetterIDs,
+  setUsedLetterIDs,
+  arrows,
+  setArrows,
+  onDragEnd,
+}) => {
+  const [{ isOver }, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
       collect: (monitor) => ({
@@ -13,24 +22,30 @@ const LetterNode = ({ letter, letterID, arrows, setArrows, onDragEnd }) => {
           let newArrow = { start: item.source, end: letterID };
           if (arrows && newArrow !== arrows[arrows.length - 1]) {
             setArrows([...arrows, newArrow]);
+            // set letter to true
+            setUsedLetterIDs({ ...usedLetterIDs, [newArrow.end]: true });
           }
+        } else {
         }
         item.source = letterID;
       },
     }),
-    [arrows]
+    [arrows, usedLetterIDs]
   );
 
   return (
     <>
       <div
+        className={`flex items-center justify-center ${
+          usedLetterIDs[letterID] ? "text-slate-50" : "text-gray-900"
+        }`}
         ref={drop}
         id={letterID}
         style={{
           width: "80px",
           height: "80px",
-          backgroundColor: "rgb(205, 209, 228)",
           borderRadius: "50%",
+          backgroundColor: usedLetterIDs[letterID] ? "#67B7D1" : "transparent",
         }}
       >
         <LetterDraggable
