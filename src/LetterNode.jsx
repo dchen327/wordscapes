@@ -2,7 +2,7 @@ import React from "react";
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
-const LetterNode = ({ letter, letterID, arrows, addArrow }) => {
+const LetterNode = ({ letter, letterID, arrows, setArrows }) => {
   const [, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
@@ -13,7 +13,7 @@ const LetterNode = ({ letter, letterID, arrows, addArrow }) => {
         if (item.source !== letterID) {
           let newArrow = { start: item.source, end: letterID };
           if (arrows && newArrow !== arrows[arrows.length - 1]) {
-            addArrow(newArrow);
+            setArrows([...arrows, newArrow]);
           }
         }
         item.source = letterID;
@@ -45,7 +45,11 @@ const LetterNode = ({ letter, letterID, arrows, addArrow }) => {
           {/* <p style={{ margin: "auto" }}>
         {letter}
       </p> */}
-          <LetterDraggable startNodeID={letterID} arrows={arrows} />
+          <LetterDraggable
+            startNodeID={letterID}
+            arrows={arrows}
+            setArrows={setArrows}
+          />
         </div>
       </div>
     </>

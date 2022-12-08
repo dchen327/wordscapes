@@ -24,7 +24,7 @@ const WordCircle = () => {
               letter={letter}
               letterID={`letter${i}`}
               arrows={arrows}
-              addArrow={addArrow}
+              setArrows={setArrows}
             />
           </div>
         ))}
@@ -37,25 +37,11 @@ const WordCircle = () => {
               letter={letter}
               letterID={`letter${i + 3}`}
               arrows={arrows}
-              addArrow={addArrow}
+              setArrows={setArrows}
             />
           </div>
         ))}
       </div>
-      {/* <div className="columns m-5">
-        {letters.map((letter, i) => (
-          <div key={`letter${i + 6}`} className="column">
-            <LetterNode
-              id={`letter${i + 6}`}
-              letter={letter}
-              letterID={`letter${i + 6}`}
-              arrows={arrows}
-              addArrow={addArrow}
-              
-            />
-          </div>
-        ))}
-      </div> */}
       {arrows.map((arrow, i) => (
         <Xarrow
           start={arrow.start}

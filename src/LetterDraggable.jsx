@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useDrag } from "react-dnd";
 
-const LetterDraggable = ({ startNodeID, arrows }) => {
+const LetterDraggable = ({ startNodeID, arrows, setArrows }) => {
   const draggableRef = useRef(null);
 
   const [{ isDragging }, drag] = useDrag(
@@ -14,6 +14,7 @@ const LetterDraggable = ({ startNodeID, arrows }) => {
       end: (item, monitor) => {
         console.log("dropped, go calculate word inputted and clear arrows");
         console.log(arrows);
+        setArrows([]);
       },
     }),
     [arrows]
