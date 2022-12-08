@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useDrop } from "react-dnd";
 import LetterDraggable from "./LetterDraggable";
 
@@ -11,12 +10,9 @@ const LetterNode = ({
   setArrows,
   onDragEnd,
 }) => {
-  const [{ isOver }, drop] = useDrop(
+  const [, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
-      collect: (monitor) => ({
-        isOver: !!monitor.isOver(),
-      }),
       hover: (item) => {
         if (item.source !== letterID) {
           let newArrow = { start: item.source, end: letterID };
