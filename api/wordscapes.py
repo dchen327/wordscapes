@@ -173,7 +173,7 @@ def print_grid(grid):
 
 
 def setup():
-    with open('wordscapes.txt') as f:
+    with open('wordscapes_txt.txt') as f:
         words = f.read().splitlines()[:10000]
         words_by_len = defaultdict(list)
         for word in words:

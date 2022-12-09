@@ -50,9 +50,7 @@ store letter in LetterNode, add to lettersArray in WordCircle when hover
 
 TODO:
 - deploy and test on mobile
-- can't use same letter multiple times (maybe refactor so letter_IDs are tracked as well)
-- allow for undoing last path (check last arrow, if curr arrow is flipped then remove last arrow
 - don't hardcode all the sizes
 
-
-- combine draggable layer into just LetterNode
+web:
+deploy python on vercel?
