@@ -7,7 +7,7 @@ const WordCircle = () => {
   const letters = Array.from("LAPTOPS");
   const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
   const [arrows, setArrows] = useState([]);
-  // const [lettersArray, setLettersArray] = useState([]);
+  const [inputtedWord, setInputtedWord] = useState("");
   // map to map usedLetters to booleans (setState)
   const [usedLetterIDs, setUsedLetterIDs] = useState(
     letterIDs.map((letterID) => false)
@@ -24,6 +24,7 @@ const WordCircle = () => {
       lettersArray.push(arrows[arrows.length - 1].end.split("_")[1]);
       let word = lettersArray.join("");
       console.log(word);
+      setInputtedWord(word);
       setArrows([]);
       setUsedLetterIDs(letterIDs.map((letterID) => false));
     }
@@ -93,6 +94,7 @@ const WordCircle = () => {
         />
       ))}
       {getCircleLayout(letters)}
+      <h1>{inputtedWord}</h1>
     </>
   );
 };
