@@ -81,6 +81,11 @@ function LetterNode({
     dragPreview(getEmptyImage(), { captureDraggingState: true });
   });
 
+  useEffect(() => {
+    if (isDragging) document.body.style.cursor = "grab !important";
+    else document.body.style.cursor = "normal";
+  }, [isDragging]);
+
   return (
     <>
       <div
@@ -90,8 +95,8 @@ function LetterNode({
         ref={drop}
         id={letterID}
         style={{
-          width: "80px",
-          height: "80px",
+          width: "60px",
+          height: "60px",
           borderRadius: "50%",
           backgroundColor: usedLetterIDs[letterID] ? "#67B7D1" : "transparent",
         }}
@@ -102,8 +107,8 @@ function LetterNode({
           }`}
           ref={drag}
           style={{
-            minWidth: "80px",
-            minHeight: "80px",
+            minWidth: "60px",
+            minHeight: "60px",
             height: "same-as-width",
             backgroundColor: isDragging ? "#67B7D1" : "transparent",
             borderRadius: "50%",
