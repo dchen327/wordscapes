@@ -12,6 +12,8 @@ const WordCircle = () => {
   const [usedLetterIDs, setUsedLetterIDs] = useState(
     letterIDs.map((letterID) => false)
   );
+  const circleRadius = 135;
+  const letterWidth = 68;
 
   disableBodyScroll(document.body);
 
@@ -31,9 +33,7 @@ const WordCircle = () => {
   };
 
   const GetCircleLayout = (letters) => {
-    let radius = 135;
-    let letterWidth = 17;
-    let circleWidth = 2 * (radius + letterWidth);
+    let circleWidth = 2 * (circleRadius + letterWidth / 4);
     return (
       <div
         className="relative rounded-full"
@@ -47,13 +47,13 @@ const WordCircle = () => {
           let angle = (2 * Math.PI) / letters.length;
           // initial value centered vertically on positive y-axis
           let x =
-            0.8 * radius * Math.cos(angle * i - Math.PI / 2) +
-            radius -
-            letterWidth;
+            0.8 * circleRadius * Math.cos(angle * i - Math.PI / 2) +
+            circleRadius -
+            letterWidth / 4;
           let y =
-            0.8 * radius * Math.sin(angle * i - Math.PI / 2) +
-            radius -
-            letterWidth;
+            0.8 * circleRadius * Math.sin(angle * i - Math.PI / 2) +
+            circleRadius -
+            letterWidth / 4;
           return (
             <div
               key={`letter${i}`}
@@ -64,6 +64,7 @@ const WordCircle = () => {
                   id={`letter${i}_${letter}`}
                   letter={letter}
                   letterID={`letter${i}_${letter}`}
+                  letterWidth={letterWidth}
                   usedLetterIDs={usedLetterIDs}
                   setUsedLetterIDs={setUsedLetterIDs}
                   arrows={arrows}

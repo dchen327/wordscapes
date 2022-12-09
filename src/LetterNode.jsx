@@ -5,6 +5,7 @@ import { getEmptyImage } from "react-dnd-html5-backend";
 function LetterNode({
   letter,
   letterID,
+  letterWidth,
   usedLetterIDs,
   setUsedLetterIDs,
   arrows,
@@ -89,15 +90,14 @@ function LetterNode({
   return (
     <>
       <div
-        className={`flex items-center justify-center ${
+        className={`rounded-full ${
           usedLetterIDs[letterID] ? "text-slate-50" : "text-gray-900"
         }`}
         ref={drop}
         id={letterID}
         style={{
-          width: "68px",
-          height: "68px",
-          borderRadius: "50%",
+          width: `${letterWidth}px`,
+          height: `${letterWidth}px`,
           backgroundColor: usedLetterIDs[letterID] ? "#67B7D1" : "transparent",
         }}
       >
@@ -107,8 +107,8 @@ function LetterNode({
           }`}
           ref={drag}
           style={{
-            minWidth: "68px",
-            minHeight: "68px",
+            minWidth: `${letterWidth}px`,
+            minHeight: `${letterWidth}px`,
             height: "same-as-width",
             backgroundColor: isDragging ? "#67B7D1" : "transparent",
             borderRadius: "50%",
