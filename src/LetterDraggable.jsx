@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { useDrag } from "react-dnd";
 import { getEmptyImage } from "react-dnd-html5-backend";
 
-const LetterDraggable = ({ startNodeID, letter, arrows, onDragEnd }) => {
+const LetterDraggable = ({ letterID, letter, arrows, onDragEnd }) => {
   const [{ isDragging }, drag, dragPreview] = useDrag(
     () => ({
       type: "invisible-dragger",
-      item: { type: "invisible-dragger", source: startNodeID },
+      item: { type: "invisible-dragger", source: letterID },
       collect: (monitor) => ({
         isDragging: !!monitor.isDragging(),
       }),
@@ -24,7 +24,6 @@ const LetterDraggable = ({ startNodeID, letter, arrows, onDragEnd }) => {
   return (
     <>
       <div
-        // className={"flex items-center justify-center"}
         className={`flex items-center justify-center ${
           isDragging ? "text-slate-50" : "inherit"
         }`}

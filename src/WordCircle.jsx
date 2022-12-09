@@ -44,7 +44,7 @@ const WordCircle = () => {
       >
         {letters.map((letter, i) => {
           let angle = (2 * Math.PI) / letters.length;
-          // iniital value centered vertically on positive y-axis
+          // initial value centered vertically on positive y-axis
           let x =
             0.8 * radius * Math.cos(angle * i - Math.PI / 2) +
             radius -

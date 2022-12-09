@@ -1,5 +1,6 @@
-import { useDrop } from "react-dnd";
-import LetterDraggable from "./LetterDraggable";
+import { useEffect } from "react";
+import { useDrag, useDrop } from "react-dnd";
+import { getEmptyImage } from "react-dnd-html5-backend";
 
 function LetterNode({
   letter,
@@ -14,9 +15,10 @@ function LetterNode({
     () => ({
       accept: "invisible-dragger",
       hover: (item) => {
+        // don't do anything when hover immediately triggered
         if (item.source !== letterID) {
-          // console.log(letterID, usedLetterIDs[letterID]);
-          if (!usedLetterIDs[letterID]) {
+          // isDragging is used to determine starting letterNode
+          if (!usedLetterIDs[letterID] && !isDragging) {
             let newArrow = { start: item.source, end: letterID };
             if (arrows && newArrow !== arrows[arrows.length - 1]) {
               setArrows([...arrows, newArrow]);
@@ -25,6 +27,16 @@ function LetterNode({
             }
             item.source = letterID;
           } else {
+            // undoing first drag
+            if (arrows.length === 1) {
+              setArrows([]);
+              setUsedLetterIDs({
+                ...usedLetterIDs,
+                [item.source]: false,
+                [letterID]: false,
+              });
+              item.source = letterID;
+            }
             // if letter is already used, remove the last arrow
             if (arrows.length > 1) {
               let arrowMin1 = arrows[arrows.length - 1];
@@ -51,6 +63,24 @@ function LetterNode({
     [arrows, usedLetterIDs]
   );
 
+  const [{ isDragging }, drag, dragPreview] = useDrag(
+    () => ({
+      type: "invisible-dragger",
+      item: { type: "invisible-dragger", source: letterID },
+      collect: (monitor) => ({
+        isDragging: !!monitor.isDragging(),
+      }),
+      end: (item, monitor) => {
+        onDragEnd();
+      },
+    }),
+    [arrows]
+  );
+
+  useEffect(() => {
+    dragPreview(getEmptyImage(), { captureDraggingState: true });
+  });
+
   return (
     <>
       <div
@@ -66,12 +96,21 @@ function LetterNode({
           backgroundColor: usedLetterIDs[letterID] ? "#67B7D1" : "transparent",
         }}
       >
-        <LetterDraggable
-          startNodeID={letterID}
-          letter={letter}
-          arrows={arrows}
-          onDragEnd={onDragEnd}
-        />
+        <div
+          className={`flex items-center justify-center ${
+            isDragging ? "text-slate-50" : "inherit"
+          }`}
+          ref={drag}
+          style={{
+            minWidth: "80px",
+            minHeight: "80px",
+            height: "same-as-width",
+            backgroundColor: isDragging ? "#67B7D1" : "transparent",
+            borderRadius: "50%",
+          }}
+        >
+          <h1 className="text-4xl font-semibold">{letter}</h1>
+        </div>
       </div>
     </>
   );
