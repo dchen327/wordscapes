@@ -30,17 +30,17 @@ const WordCircle = () => {
     }
   };
 
-  const getCircleLayout = (letters) => {
+  const GetCircleLayout = (letters) => {
     let radius = 135;
     let letterWidth = 17;
     let circleWidth = 2 * (radius + letterWidth);
     return (
       <div
+        className="relative rounded-full"
         style={{
           backgroundColor: "rgba(205, 209, 230, 0.3)",
           width: circleWidth,
           height: circleWidth,
-          borderRadius: "50%",
         }}
       >
         {letters.map((letter, i) => {
@@ -93,7 +93,9 @@ const WordCircle = () => {
           color="#67B7D1"
         />
       ))}
-      {getCircleLayout(letters)}
+      <div className="flex items-center justify-center">
+        {GetCircleLayout(letters)}
+      </div>
       <h1>{inputtedWord}</h1>
     </>
   );
