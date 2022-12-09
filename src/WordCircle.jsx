@@ -31,7 +31,7 @@ const WordCircle = () => {
   };
 
   const getCircleLayout = (letters) => {
-    let radius = 120;
+    let radius = 135;
     let letterWidth = 17;
     let circleWidth = 2 * (radius + letterWidth);
     return (
