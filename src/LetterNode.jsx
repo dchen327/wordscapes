@@ -95,8 +95,8 @@ function LetterNode({
         ref={drop}
         id={letterID}
         style={{
-          width: "60px",
-          height: "60px",
+          width: "68px",
+          height: "68px",
           borderRadius: "50%",
           backgroundColor: usedLetterIDs[letterID] ? "#67B7D1" : "transparent",
         }}
@@ -107,14 +107,14 @@ function LetterNode({
           }`}
           ref={drag}
           style={{
-            minWidth: "60px",
-            minHeight: "60px",
+            minWidth: "68px",
+            minHeight: "68px",
             height: "same-as-width",
             backgroundColor: isDragging ? "#67B7D1" : "transparent",
             borderRadius: "50%",
           }}
         >
-          <h1 className="text-4xl font-semibold">{letter}</h1>
+          <h1 className="font-sans text-5xl font-semibold">{letter}</h1>
         </div>
       </div>
     </>
