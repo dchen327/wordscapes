@@ -4,7 +4,7 @@ import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
 
 const WordCircle = () => {
-  const letters = Array.from("LAPTOPS");
+  const letters = Array.from("ICEBERG");
   const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
   const [arrows, setArrows] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
