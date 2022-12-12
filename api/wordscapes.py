@@ -103,10 +103,10 @@ def gen_crossword(puzzle_words: List[str]):
             for word in used:
                 word_info = used[word]
                 f.write(
-                    f'{word} {word_info.r} {word_info.c} {word_info.horiz}\n')
+                    f'{word.upper()} {word_info.r} {word_info.c} {word_info.horiz}\n')
             # write grid to file
             f.write(f'{R} {C}\n')
-            print_grid(grid, file=f)
+            print_grid(grid, file=f, caps=True)
 
     return random.choice(crosswords)
 
@@ -176,9 +176,12 @@ def crossword_metric(grid: List[List[str]]) -> int:
     return random.random() + ((bottom_right[0] - top_left[0]) * (bottom_right[1] - top_left[1]))
 
 
-def print_grid(grid, file=None):
+def print_grid(grid, file=None, caps=False):
     for row in grid:
-        print(' '.join(row), file=file)
+        if caps:
+            print(' '.join(row).upper(), file=file)
+        else:
+            print(' '.join(row), file=file)
     print()
 
 

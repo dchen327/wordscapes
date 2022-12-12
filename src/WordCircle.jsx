@@ -3,8 +3,14 @@ import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
 
-const WordCircle = () => {
-  const letters = Array.from("ICEBERG");
+const WordCircle = ({
+  words,
+  letters,
+  grid,
+  setGrid,
+  wordsFound,
+  setWordsFound,
+}) => {
   const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
   const [arrows, setArrows] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -18,6 +24,7 @@ const WordCircle = () => {
   disableBodyScroll(document.body);
 
   const onDragEnd = () => {
+    console.log(words);
     if (arrows.length > 0) {
       let lettersArray = [];
       arrows.forEach((element) => {
@@ -25,10 +32,31 @@ const WordCircle = () => {
       });
       lettersArray.push(arrows[arrows.length - 1].end.split("_")[1]);
       let word = lettersArray.join("");
-      console.log(word);
       setInputtedWord(word);
       setArrows([]);
       setUsedLetterIDs(letterIDs.map((letterID) => false));
+
+      // update grid if word is present
+      if (Object.keys(words).includes(word)) {
+        let [r, c, horiz] = words[word];
+        if (horiz) console.log(typeof horiz, horiz);
+        let wordArray = word.split("");
+        if (horiz) {
+          wordArray.forEach((letter, i) => {
+            grid[r][c + i] = letter;
+          });
+        } else {
+          wordArray.forEach((letter, i) => {
+            grid[r + i][c] = letter;
+          });
+        }
+        // print out grid
+        // grid.forEach((row) => {
+        //   console.log(row.join(""));
+        // });
+        setWordsFound(wordsFound + 1);
+        setGrid(grid);
+      }
     }
   };
 

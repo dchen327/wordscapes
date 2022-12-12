@@ -1,5 +1,13 @@
-const Crossword = ({ grid }) => {
+import { useEffect, useState } from "react";
+
+const Crossword = (props) => {
+  const [grid, setGrid] = useState([]);
   const numCols = grid[0]?.length;
+
+  // rerender when grid changes
+  useEffect(() => {
+    setGrid(props.grid);
+  }, [props.grid]);
 
   return (
     <>
@@ -7,6 +15,7 @@ const Crossword = ({ grid }) => {
         <table className="table-fixed border-separate border">
           <tbody>
             {grid &&
+              numCols &&
               grid.map((row, i) => (
                 <tr key={i}>
                   {row.map((col, j) => (
@@ -25,11 +34,11 @@ const Crossword = ({ grid }) => {
                       <p
                         className="flex items-center justify-center font-mono font-bold text-center aspect-square"
                         style={{
-                          height: `calc(80vw / ${numCols})`,
-                          fontSize: `calc(65vw / ${numCols})`,
+                          height: `calc(70vw / ${numCols})`,
+                          fontSize: `calc(60vw / ${numCols})`,
                         }}
                       >
-                        {col.toUpperCase()}
+                        {col !== "_" ? col : ""}
                       </p>
                     </td>
                   ))}
