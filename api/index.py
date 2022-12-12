@@ -25,7 +25,7 @@ class handler(BaseHTTPRequestHandler):
             print(words)
             r, c = map(int, f.readline().split())
             crossword = [f.readline().split() for _ in range(r)]
-        return {'words': words, 'crossword': crossword}
+        return {'words': words, 'grid': crossword}
 
 
 if __name__ == '__main__':
