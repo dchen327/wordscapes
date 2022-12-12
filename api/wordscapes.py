@@ -94,9 +94,19 @@ def gen_crossword(puzzle_words: List[str]):
         else:
             break
 
-    for grid, used in random.choices(crosswords, k=5):
+    for grid, used in random.choices(crosswords, k=1):
         print(list(used.keys()))
+        print(used)
         print_grid(grid)
+        with open('puzzle.txt', 'w') as f:
+            f.write(str(len(used)) + '\n')
+            for word in used:
+                word_info = used[word]
+                f.write(
+                    f'{word} {word_info.r} {word_info.c} {word_info.horiz}\n')
+            # write grid to file
+            f.write(f'{R} {C}\n')
+            print_grid(grid, file=f)
 
     return random.choice(crosswords)
 
@@ -166,9 +176,9 @@ def crossword_metric(grid: List[List[str]]) -> int:
     return random.random() + ((bottom_right[0] - top_left[0]) * (bottom_right[1] - top_left[1]))
 
 
-def print_grid(grid):
+def print_grid(grid, file=None):
     for row in grid:
-        print(' '.join(row))
+        print(' '.join(row), file=file)
     print()
 
 

@@ -1,9 +1,24 @@
-['improves', 'msie', 'more', 'rome', 'pose', 'over', 'prime', 'peso', 'semi', 'rope', 'sperm', 'movie', 'rose', 'ripe']
-r i p e - - - - r o p e
-o - - - - - - - - - r -
-s p e r m - - m o v i e
-e - - - s - - - - - m -
-- - r - i m p r o v e s
-- m o r e - o - v - - e
-- - m - - - s - e - - m
-- p e s o - e - r - - i
+14
+trustees 7 2 True
+users 3 9 False
+reset 3 2 False
+sure 3 8 True
+sees 5 8 True
+street 3 0 True
+trusts 0 0 False
+sets 0 8 False
+tees 1 6 True
+tree 0 4 False
+suse 5 0 True
+trust 0 0 True
+tests 3 5 False
+reuse 2 11 False
+8 12
+t r u s t - - - s - - -
+r - - - r - t e e s - -
+u - - - e - - - t - - r
+s t r e e t - - s u r e
+t - e - - e - - - s - u
+s u s e - s - - s e e s
+- - e - - t - - - r - e
+- - t r u s t e e s - -

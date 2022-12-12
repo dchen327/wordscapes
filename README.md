@@ -10,3 +10,5 @@ Game Features:
 
 TODO:
 - don't hardcode all the sizes
+- render board
+- reveal letters when found
