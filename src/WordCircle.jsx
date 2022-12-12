@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
@@ -36,7 +36,7 @@ const WordCircle = () => {
     let circleWidth = 2 * (circleRadius + letterWidth / 4);
     return (
       <div
-        className="relative rounded-full"
+        className="relative rounded-full "
         style={{
           backgroundColor: "rgba(205, 209, 230, 0.3)",
           width: circleWidth,

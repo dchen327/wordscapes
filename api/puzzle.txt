@@ -1,22 +1,24 @@
 12
-operates 0 0 True
-sport 0 7 False
-stereo 4 6 True
-paste 0 1 False
-strap 2 1 True
-sort 3 11 False
-peer 4 0 True
-pete 1 7 True
-trees 3 9 False
-part 4 0 False
-trap 7 0 True
-rosa 7 7 True
-8 12
-o p e r a t e s - - - -
-- a - - - - - p e t e -
-- s t r a p - o - - - -
-- t - - - - - r - t - s
-p e e r - - s t e r e o
-a - - - - - - - - e - r
-r - - - - - - - - e - t
-t r a p - - - r o s a -
+coaching 2 6 False
+chicago 4 2 True
+chang 8 3 True
+coca 2 2 False
+inch 6 3 False
+icon 7 0 True
+chin 2 6 True
+china 5 0 False
+chan 6 5 True
+gain 2 4 False
+hong 0 9 False
+coach 0 5 True
+10 10
+- - - - - c o a c h
+- - - - - - - - - o
+- - c - g - c h i n
+- - o - a - o - - g
+- - c h i c a g o -
+c - a - n - c - - -
+h - - i - c h a n -
+i c o n - - i - - -
+n - - c h a n g - -
+a - - h - - g - - -

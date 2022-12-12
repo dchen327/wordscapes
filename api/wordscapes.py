@@ -38,7 +38,7 @@ def gen_crossword(puzzle_words: List[str]):
             - Pick a random word and try to insert 
         - Store a crossword as a grid and the used dictionary
     '''
-    R, C = 8, 12
+    R, C = 10, 10
     grid = [['-'] * C for _ in range(R)]
 
     start_word = puzzle_words[-1]  # longest word

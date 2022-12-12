@@ -1,21 +1,8 @@
-import { useState } from "react";
-
-const Crossword = () => {
-  const [grid, setGrid] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
-
-  const fetchCrossword = async () => {
-    const response = await fetch("/api/index.py");
-    const data = await response.json();
-    let words = data.words;
-    setGrid(data.grid);
-    let r = data.grid.length;
-    let c = data.grid[0].length;
-  };
+const Crossword = ({ grid }) => {
+  const numCols = grid[0]?.length;
 
   return (
     <>
-      <button onClick={fetchCrossword}>Fetch Crossword</button>
       <div className="mx-2 flex items-center justify-center">
         <table className="table-fixed border-separate border">
           <tbody>
@@ -28,8 +15,6 @@ const Crossword = () => {
                         col === "-" ? "invisible" : "border rounded"
                       } `}
                       style={{
-                        width: "50px",
-                        height: "50px",
                         backgroundColor:
                           col === "-"
                             ? "transparent"
@@ -37,7 +22,13 @@ const Crossword = () => {
                       }}
                       key={`${i}${j}`}
                     >
-                      <p className="font-mono font-bold text-center text-4xl">
+                      <p
+                        className="flex items-center justify-center font-mono font-bold text-center aspect-square"
+                        style={{
+                          height: `calc(80vw / ${numCols})`,
+                          fontSize: `calc(65vw / ${numCols})`,
+                        }}
+                      >
                         {col.toUpperCase()}
                       </p>
                     </td>

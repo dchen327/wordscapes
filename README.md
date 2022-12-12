@@ -12,3 +12,4 @@ TODO:
 - don't hardcode all the sizes
 - render board
 - reveal letters when found
+- get word from api call into word circlep
