@@ -22,7 +22,6 @@ class handler(BaseHTTPRequestHandler):
             for _ in range(num_words):
                 word, r, c, is_horiz = f.readline().split()
                 words[word] = (int(r), int(c), bool(is_horiz))
-            print(words)
             r, c = map(int, f.readline().split())
             crossword = [f.readline().split() for _ in range(r)]
         return {'words': words, 'grid': crossword}
