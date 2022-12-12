@@ -21,7 +21,7 @@ class handler(BaseHTTPRequestHandler):
             words = {}  # word -> (r, c, is_horiz)
             for _ in range(num_words):
                 word, r, c, is_horiz = f.readline().split()
-                words[word] = (int(r), int(c), is_horiz == True)
+                words[word] = (int(r), int(c), is_horiz == 'True')
             r, c = map(int, f.readline().split())
             crossword = [f.readline().split() for _ in range(r)]
             # replace all non-hyphens with underscore

@@ -39,7 +39,6 @@ const WordCircle = ({
       // update grid if word is present
       if (Object.keys(words).includes(word)) {
         let [r, c, horiz] = words[word];
-        if (horiz) console.log(typeof horiz, horiz);
         let wordArray = word.split("");
         if (horiz) {
           wordArray.forEach((letter, i) => {
