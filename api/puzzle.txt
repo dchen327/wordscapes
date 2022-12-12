@@ -1,24 +1,22 @@
-14
-trustees 7 2 True
-users 3 9 False
-reset 3 2 False
-sure 3 8 True
-sees 5 8 True
-street 3 0 True
-trusts 0 0 False
-sets 0 8 False
-tees 1 6 True
-tree 0 4 False
-suse 5 0 True
-trust 0 0 True
-tests 3 5 False
-reuse 2 11 False
+12
+operates 0 0 True
+sport 0 7 False
+stereo 4 6 True
+paste 0 1 False
+strap 2 1 True
+sort 3 11 False
+peer 4 0 True
+pete 1 7 True
+trees 3 9 False
+part 4 0 False
+trap 7 0 True
+rosa 7 7 True
 8 12
-t r u s t - - - s - - -
-r - - - r - t e e s - -
-u - - - e - - - t - - r
-s t r e e t - - s u r e
-t - e - - e - - - s - u
-s u s e - s - - s e e s
-- - e - - t - - - r - e
-- - t r u s t e e s - -
+o p e r a t e s - - - -
+- a - - - - - p e t e -
+- s t r a p - o - - - -
+- t - - - - - r - t - s
+p e e r - - s t e r e o
+a - - - - - - - - e - r
+r - - - - - - - - e - t
+t r a p - - - r o s a -

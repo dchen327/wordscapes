@@ -14,26 +14,34 @@ const Crossword = () => {
   };
 
   return (
-    <div>
+    <>
       <button onClick={fetchCrossword}>Fetch Crossword</button>
-      <table className="table-fixed">
-        <tbody>
-          {grid &&
-            grid.map((row, i) => (
-              <tr key={i}>
-                {row.map((col, j) => (
-                  <td
-                    className={`${col === "-" ? "invisible" : ""}`}
-                    key={`${i}${j}`}
-                  >
-                    <p>{col}</p>
-                  </td>
-                ))}
-              </tr>
-            ))}
-        </tbody>
-      </table>
-    </div>
+      <div className="mx-2 flex items-center justify-center">
+        <table className="table-fixed border">
+          <tbody>
+            {grid &&
+              grid.map((row, i) => (
+                <tr key={i}>
+                  {row.map((col, j) => (
+                    <td
+                      className={`${col === "-" ? "invisible" : ""}`}
+                      style={{
+                        width: "50px",
+                        height: "50px",
+                      }}
+                      key={`${i}${j}`}
+                    >
+                      <p className="font-mono font-bold text-center text-4xl">
+                        {col.toUpperCase()}
+                      </p>
+                    </td>
+                  ))}
+                </tr>
+              ))}
+          </tbody>
+        </table>
+      </div>
+    </>
   );
 };
 
