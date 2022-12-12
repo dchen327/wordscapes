@@ -3,6 +3,8 @@ import json
 
 
 class handler(BaseHTTPRequestHandler):
+    ''' Parses stored crossword from file and returns a JSON '''
+
     def do_GET(self):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
@@ -12,6 +14,7 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write(json.dumps(crossword_info).encode())
         return
 
+    @staticmethod
     def parse_file():
         with open('api/puzzle.txt') as f:
             num_words = int(f.readline())
