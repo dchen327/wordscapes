@@ -11,12 +11,20 @@ const Crossword = (props) => {
 
   const getCellBGColor = (col) => {
     if (col === "-") {
-      return "transparent";
+      return "bg-transparent";
     } else if (col === "_") {
-      return "rgba(205, 209, 230, 0.3)";
+      return "bg-[rgb(205,209,230)]/30";
     } else {
-      return "rgb(0,191,255, 0.3)";
+      return "bg-[rgb(0,191,255)]/80";
     }
+  };
+
+  const getTDClassNames = (col) => {
+    return [
+      "text-slate-50",
+      getCellBGColor(col),
+      col === "-" ? "invisible" : "border rounded",
+    ].join(" ");
   };
 
   return (
@@ -29,15 +37,7 @@ const Crossword = (props) => {
               grid.map((row, i) => (
                 <tr key={i}>
                   {row.map((col, j) => (
-                    <td
-                      className={`${
-                        col === "-" ? "invisible" : "border rounded"
-                      } `}
-                      style={{
-                        backgroundColor: getCellBGColor(col),
-                      }}
-                      key={`${i}${j}`}
-                    >
+                    <td className={getTDClassNames(col)} key={`${i}${j}`}>
                       <p
                         className="flex items-center justify-center font-mono font-bold text-center aspect-square"
                         style={{

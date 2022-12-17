@@ -11,6 +11,7 @@ function LetterNode({
   arrows,
   setArrows,
   onDragEnd,
+  themeColor,
 }) {
   const [, drop] = useDrop(
     () => ({
@@ -71,7 +72,7 @@ function LetterNode({
       collect: (monitor) => ({
         isDragging: !!monitor.isDragging(),
       }),
-      end: (item, monitor) => {
+      end: () => {
         onDragEnd();
       },
     }),
@@ -98,7 +99,9 @@ function LetterNode({
         style={{
           width: `${letterWidth}px`,
           height: `${letterWidth}px`,
-          backgroundColor: usedLetterIDs[letterID] ? "#67B7D1" : "transparent",
+          backgroundColor: usedLetterIDs[letterID]
+            ? `${themeColor}`
+            : "transparent",
         }}
       >
         <div
@@ -108,7 +111,7 @@ function LetterNode({
           ref={drag}
           style={{
             height: `${letterWidth}px`,
-            backgroundColor: isDragging ? "#67B7D1" : "transparent",
+            backgroundColor: isDragging ? `${themeColor}` : "transparent",
           }}
         >
           <h1

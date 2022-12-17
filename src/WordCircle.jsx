@@ -10,6 +10,8 @@ const WordCircle = ({
   setGrid,
   wordsFound,
   setWordsFound,
+  themeColor,
+  setThemeColor,
 }) => {
   const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
   const [arrows, setArrows] = useState([]);
@@ -100,6 +102,7 @@ const WordCircle = ({
                 arrows={arrows}
                 setArrows={setArrows}
                 onDragEnd={onDragEnd}
+                themeColor={themeColor}
               />
             </div>
           );
@@ -120,11 +123,13 @@ const WordCircle = ({
           endAnchor="middle"
           showHead={false}
           strokeWidth={8}
-          color="#67B7D1"
+          color={themeColor}
         />
       ))}
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-indigo-500">
+        <h1
+          className={`text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-[${themeColor}]/80`}
+        >
           HELLO
         </h1>
         {GetCircleLayout(letters)}

@@ -8,6 +8,7 @@ export const Game = () => {
   const [words, setWords] = useState(null);
   const [letters, setLetters] = useState("");
   const [wordsFound, setWordsFound] = useState(0);
+  const [themeColor, setThemeColor] = useState("");
 
   const fetchCrossword = async () => {
     const response = await fetch("/api/index.py");
@@ -18,6 +19,7 @@ export const Game = () => {
     let startWord = Object.keys(data.words)[0].split("");
     shuffleArray(startWord);
     setLetters(startWord);
+    setThemeColor("#00BFFF");
   };
 
   function shuffleArray(array) {
@@ -30,8 +32,14 @@ export const Game = () => {
   return (
     <>
       <button onClick={fetchCrossword}>Fetch Crossword</button>
-      <CustomDragLayer />
-      {grid && <Crossword grid={grid} wordsFound={wordsFound} />}
+      <CustomDragLayer themeColor={themeColor} />
+      {grid && (
+        <Crossword
+          grid={grid}
+          wordsFound={wordsFound}
+          themeColor={themeColor}
+        />
+      )}
       {words && letters && (
         <WordCircle
           words={words}
@@ -40,6 +48,8 @@ export const Game = () => {
           setGrid={setGrid}
           wordsFound={wordsFound}
           setWordsFound={setWordsFound}
+          themeColor={themeColor}
+          setThemeColor={setThemeColor}
         />
       )}
     </>
