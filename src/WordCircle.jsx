@@ -134,12 +134,14 @@ const WordCircle = ({
           color={themeColor}
         />
       ))}
-      <div className="flex flex-col items-center justify-center">
-        <h1
-          className={`text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-[${themeColor}]/80`}
-        >
-          {inputtedWord}
-        </h1>
+      <div className="flex flex-col items-center justify-center ">
+        <div className="min-h-[2.1rem]">
+          <h1
+            className={`text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-[${themeColor}]/80`}
+          >
+            {inputtedWord}
+          </h1>
+        </div>
         {GetCircleLayout(letters)}
       </div>
     </>
