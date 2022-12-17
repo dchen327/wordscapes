@@ -12,6 +12,7 @@ function LetterNode({
   setArrows,
   onDragEnd,
   themeColor,
+  findWordFromArrows,
 }) {
   const [, drop] = useDrop(
     () => ({
@@ -26,6 +27,7 @@ function LetterNode({
               setArrows([...arrows, newArrow]);
               // set letter to true
               setUsedLetterIDs({ ...usedLetterIDs, [newArrow.end]: true });
+              findWordFromArrows([...arrows, newArrow]);
             }
             item.source = letterID;
           } else {
@@ -55,6 +57,7 @@ function LetterNode({
                   [item.source]: false,
                   [letterID]: false,
                 });
+                findWordFromArrows(newArrows);
                 item.source = arrowMin2.start;
               }
             }

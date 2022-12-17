@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { useDragLayer } from "react-dnd";
 import Xarrow from "react-xarrows";
 
-function CustomDragLayer(themeColor) {
+function CustomDragLayer({ themeColor }) {
   const customDragRef = useRef(null);
   const { isDragging, item, initialOffset, currentOffset } = useDragLayer(
     (monitor) => ({

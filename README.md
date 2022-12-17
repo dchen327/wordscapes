@@ -12,4 +12,5 @@ TODO:
 - don't hardcode all the sizes
 - get word from api call into word circle
 - need to render word as it's being drawn
-- color variable
+  - show the gap even when inputtedWord is none
+  - setArrows not being called before findWordFromArrows

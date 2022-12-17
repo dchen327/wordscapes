@@ -25,14 +25,21 @@ const WordCircle = ({
 
   disableBodyScroll(document.body);
 
+  const findWordFromArrows = (arrows) => {
+    // grab the inputted word from the list of arrows stored
+    let lettersArray = [];
+    arrows.forEach((element) => {
+      lettersArray.push(element.start.split("_")[1]);
+    });
+    lettersArray.push(arrows[arrows.length - 1].end.split("_")[1]);
+    const word = lettersArray.join("");
+    setInputtedWord(word);
+    return word;
+  };
+
   const onDragEnd = () => {
     if (arrows.length > 0) {
-      let lettersArray = [];
-      arrows.forEach((element) => {
-        lettersArray.push(element.start.split("_")[1]);
-      });
-      lettersArray.push(arrows[arrows.length - 1].end.split("_")[1]);
-      let word = lettersArray.join("");
+      const word = findWordFromArrows(arrows);
       setInputtedWord(word);
       setArrows([]);
       setUsedLetterIDs(letterIDs.map((letterID) => false));
@@ -103,6 +110,7 @@ const WordCircle = ({
                 setArrows={setArrows}
                 onDragEnd={onDragEnd}
                 themeColor={themeColor}
+                findWordFromArrows={findWordFromArrows}
               />
             </div>
           );
@@ -130,7 +138,7 @@ const WordCircle = ({
         <h1
           className={`text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-[${themeColor}]/80`}
         >
-          HELLO
+          {inputtedWord}
         </h1>
         {GetCircleLayout(letters)}
       </div>
