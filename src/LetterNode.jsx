@@ -102,14 +102,13 @@ function LetterNode({
         }}
       >
         <div
-          className={`flex justify-center items-center ${
+          className={`flex justify-center items-center rounded-full ${
             isDragging ? "text-slate-50" : "inherit"
           }`}
           ref={drag}
           style={{
             height: `${letterWidth}px`,
             backgroundColor: isDragging ? "#67B7D1" : "transparent",
-            borderRadius: "50%",
           }}
         >
           <h1

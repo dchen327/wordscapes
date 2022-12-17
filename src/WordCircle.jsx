@@ -123,10 +123,12 @@ const WordCircle = ({
           color="#67B7D1"
         />
       ))}
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-indigo-500">
+          HELLO
+        </h1>
         {GetCircleLayout(letters)}
       </div>
-      <h1>{inputtedWord}</h1>
     </>
   );
 };

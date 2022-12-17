@@ -10,6 +10,5 @@ Game Features:
 
 TODO:
 - don't hardcode all the sizes
-- render board
-- reveal letters when found
-- get word from api call into word circlep
+- get word from api call into word circle
+- need to render word as it's being drawn
