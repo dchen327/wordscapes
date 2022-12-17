@@ -57,13 +57,14 @@ const WordCircle = ({
             grid[r + i][c] = letter;
           });
         }
-        // print out grid
-        // grid.forEach((row) => {
-        //   console.log(row.join(""));
-        // });
         setWordsFound(wordsFound + 1);
         setGrid(grid);
       }
+
+      // clear the inputted word after some time
+      setTimeout(() => {
+        setInputtedWord("");
+      }, 750);
     }
   };
 
@@ -135,7 +136,7 @@ const WordCircle = ({
         />
       ))}
       <div className="flex flex-col items-center justify-center ">
-        <div className="min-h-[2.1rem]">
+        <div className="min-h-[2.5rem]">
           <h1
             className={`text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-[${themeColor}]/80`}
           >
