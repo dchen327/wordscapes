@@ -35,7 +35,7 @@ export const Game = () => {
       <CustomDragLayer themeColor={themeColor} />
       {grid && (
         <Crossword
-          grid={grid}
+          propGrid={grid}
           wordsFound={wordsFound}
           themeColor={themeColor}
         />

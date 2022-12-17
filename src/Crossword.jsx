@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 
-const Crossword = (props) => {
+const Crossword = ({ propGrid, themeColor }) => {
   const [grid, setGrid] = useState([]);
   const numCols = grid[0]?.length;
 
   // rerender when grid changes
   useEffect(() => {
-    setGrid(props.grid);
-  }, [props.grid]);
+    setGrid(propGrid);
+  }, [propGrid]);
 
   const getCellBGColor = (col) => {
     if (col === "-") {
@@ -15,7 +15,7 @@ const Crossword = (props) => {
     } else if (col === "_") {
       return "bg-[rgb(205,209,230)]/30";
     } else {
-      return "bg-[rgb(0,191,255)]/80";
+      return `bg-[${themeColor}]/80`;
     }
   };
 
