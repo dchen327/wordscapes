@@ -102,19 +102,22 @@ function LetterNode({
         }}
       >
         <div
-          className={`flex items-center justify-center ${
+          className={`flex justify-center items-center ${
             isDragging ? "text-slate-50" : "inherit"
           }`}
           ref={drag}
           style={{
-            minWidth: `${letterWidth}px`,
-            minHeight: `${letterWidth}px`,
-            height: "same-as-width",
+            height: `${letterWidth}px`,
             backgroundColor: isDragging ? "#67B7D1" : "transparent",
             borderRadius: "50%",
           }}
         >
-          <h1 className="font-sans text-5xl font-semibold">{letter}</h1>
+          <h1
+            className="font-sans font-semibold"
+            style={{ fontSize: `${letterWidth / 1.2}px` }}
+          >
+            {letter}
+          </h1>
         </div>
       </div>
     </>

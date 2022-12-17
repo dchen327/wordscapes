@@ -9,6 +9,16 @@ const Crossword = (props) => {
     setGrid(props.grid);
   }, [props.grid]);
 
+  const getCellBGColor = (col) => {
+    if (col === "-") {
+      return "transparent";
+    } else if (col === "_") {
+      return "rgba(205, 209, 230, 0.3)";
+    } else {
+      return "rgb(0,191,255, 0.3)";
+    }
+  };
+
   return (
     <>
       <div className="mx-2 flex items-center justify-center">
@@ -24,17 +34,14 @@ const Crossword = (props) => {
                         col === "-" ? "invisible" : "border rounded"
                       } `}
                       style={{
-                        backgroundColor:
-                          col === "-"
-                            ? "transparent"
-                            : "rgba(205, 209, 230, 0.3)",
+                        backgroundColor: getCellBGColor(col),
                       }}
                       key={`${i}${j}`}
                     >
                       <p
                         className="flex items-center justify-center font-mono font-bold text-center aspect-square"
                         style={{
-                          height: `calc(70vw / ${numCols})`,
+                          height: `calc(75vw / ${numCols})`,
                           fontSize: `calc(60vw / ${numCols})`,
                         }}
                       >

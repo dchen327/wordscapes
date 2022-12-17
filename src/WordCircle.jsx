@@ -18,13 +18,12 @@ const WordCircle = ({
   const [usedLetterIDs, setUsedLetterIDs] = useState(
     letterIDs.map((letterID) => false)
   );
-  const circleRadius = 135;
-  const letterWidth = 68;
+  const circleRadius = 100;
+  const letterWidth = circleRadius / 2;
 
   disableBodyScroll(document.body);
 
   const onDragEnd = () => {
-    console.log(words);
     if (arrows.length > 0) {
       let lettersArray = [];
       arrows.forEach((element) => {
@@ -83,22 +82,25 @@ const WordCircle = ({
             letterWidth / 4;
           return (
             <div
+              className="flex justify-center items-center"
               key={`letter${i}`}
-              style={{ left: `${x}px`, top: `${y}px`, position: "absolute" }}
+              style={{
+                left: `${x}px`,
+                top: `${y}px`,
+                position: "absolute",
+              }}
             >
-              <div className="flex items-center justify-center">
-                <LetterNode
-                  id={`letter${i}_${letter}`}
-                  letter={letter}
-                  letterID={`letter${i}_${letter}`}
-                  letterWidth={letterWidth}
-                  usedLetterIDs={usedLetterIDs}
-                  setUsedLetterIDs={setUsedLetterIDs}
-                  arrows={arrows}
-                  setArrows={setArrows}
-                  onDragEnd={onDragEnd}
-                />
-              </div>
+              <LetterNode
+                id={`letter${i}_${letter}`}
+                letter={letter}
+                letterID={`letter${i}_${letter}`}
+                letterWidth={letterWidth}
+                usedLetterIDs={usedLetterIDs}
+                setUsedLetterIDs={setUsedLetterIDs}
+                arrows={arrows}
+                setArrows={setArrows}
+                onDragEnd={onDragEnd}
+              />
             </div>
           );
         })}

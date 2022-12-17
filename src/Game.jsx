@@ -17,7 +17,6 @@ export const Game = () => {
     setWords(data.words);
     let startWord = Object.keys(data.words)[0].split("");
     shuffleArray(startWord);
-    console.log(startWord);
     setLetters(startWord);
   };
 
