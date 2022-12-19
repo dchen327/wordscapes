@@ -64,7 +64,7 @@ const WordCircle = ({
       // clear the inputted word after some time
       setTimeout(() => {
         setInputtedWord("");
-      }, 750);
+      }, 3000);
     }
   };
 
