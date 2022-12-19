@@ -15,7 +15,6 @@ const Crossword = ({ propGrid, themeColor }) => {
     } else if (col === "_") {
       return "bg-[rgb(205,209,230)]/30";
     } else {
-      console.log(`bg-[${themeColor}]/80`);
       return `bg-[${themeColor}]/80`;
     }
   };
@@ -31,7 +30,7 @@ const Crossword = ({ propGrid, themeColor }) => {
   return (
     <>
       <div className="mx-2 flex items-center justify-center">
-        <table className="table-fixed border-separate border">
+        <table className="table-fixed border-separate">
           <tbody>
             {grid &&
               numCols &&
