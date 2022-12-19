@@ -20,7 +20,7 @@ const WordCircle = ({
   const [usedLetterIDs, setUsedLetterIDs] = useState(
     letterIDs.map((letterID) => false)
   );
-  const circleRadius = Math.min(135, window.innerWidth / 3);
+  const circleRadius = 100;
   const letterWidth = circleRadius / 2;
 
   disableBodyScroll(document.body);

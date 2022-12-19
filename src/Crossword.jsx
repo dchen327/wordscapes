@@ -29,7 +29,7 @@ const Crossword = ({ propGrid, themeColor }) => {
 
   return (
     <>
-      <div className="mx-2 flex items-center justify-center">
+      <div className="grow mx-2">
         <table className="table-fixed border-separate">
           <tbody>
             {grid &&

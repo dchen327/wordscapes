@@ -30,7 +30,7 @@ export const Game = () => {
   }
 
   return (
-    <>
+    <div className="flex flex-col items-center justify-center">
       <button onClick={fetchCrossword}>Fetch Crossword</button>
       <CustomDragLayer themeColor={themeColor} />
       {grid && (
@@ -52,6 +52,6 @@ export const Game = () => {
           setThemeColor={setThemeColor}
         />
       )}
-    </>
+    </div>
   );
 };
