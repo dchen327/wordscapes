@@ -15,6 +15,7 @@ const Crossword = ({ propGrid, themeColor }) => {
     } else if (col === "_") {
       return "bg-[rgb(205,209,230)]/30";
     } else {
+      console.log(`bg-[${themeColor}]/80`);
       return `bg-[${themeColor}]/80`;
     }
   };
