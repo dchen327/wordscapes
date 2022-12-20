@@ -17,6 +17,8 @@ function CustomDragLayer({ themeColor }) {
     return null;
   }
 
+  console.log(item.source);
+
   return (
     <div className="fixed left-0 top-0">
       <div
@@ -32,7 +34,7 @@ function CustomDragLayer({ themeColor }) {
           endAnchor="middle"
           showHead={false}
           strokeWidth={8}
-          color={themeColor}
+          color={"red"}
         />
       )}
     </div>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
@@ -58,38 +58,41 @@ const WordCircle = ({
     }
   };
 
-  const enterWord = (word) => {
-    // enter word into crossword, return true if word was not already there
-    if (Object.keys(words).includes(word)) {
-      let [r, c, horiz] = words[word];
-      let wordArray = word.split("");
-      let changeMade;
-      if (horiz) {
-        wordArray.forEach((letter, i) => {
-          if (grid[r][c + i] === "_") {
-            changeMade = true;
-          }
-          grid[r][c + i] = letter;
-        });
-      } else {
-        wordArray.forEach((letter, i) => {
-          if (grid[r + i][c] === "_") {
-            changeMade = true;
-          }
-          grid[r + i][c] = letter;
-        });
-      }
+  const enterWord = useCallback(
+    (word) => {
+      // enter word into crossword, return true if word was not already there
+      if (Object.keys(words).includes(word)) {
+        let [r, c, horiz] = words[word];
+        let wordArray = word.split("");
+        let changeMade;
+        if (horiz) {
+          wordArray.forEach((letter, i) => {
+            if (grid[r][c + i] === "_") {
+              changeMade = true;
+            }
+            grid[r][c + i] = letter;
+          });
+        } else {
+          wordArray.forEach((letter, i) => {
+            if (grid[r + i][c] === "_") {
+              changeMade = true;
+            }
+            grid[r + i][c] = letter;
+          });
+        }
 
-      if (changeMade) {
-        setWordsFound(wordsFound + 1);
-        setGrid(grid);
-        delete words[word];
-        setInputtedWord(word);
-        return true;
+        if (changeMade) {
+          setWordsFound(wordsFound + 1);
+          setGrid(grid);
+          delete words[word];
+          setInputtedWord(word);
+          return true;
+        }
+        return false;
       }
-      return false;
-    }
-  };
+    },
+    [words, grid, setGrid, wordsFound, setWordsFound]
+  );
 
   const levelComplete = (grid) => {
     // ensure grid === completeGrid
@@ -172,6 +175,16 @@ const WordCircle = ({
       </div>
     );
   };
+
+  // level debugging, auto enter all words except last
+  useEffect(() => {
+    // loop through all but 1 word in words and enterWord
+    let wordsArray = Object.keys(words);
+    for (let i = 0; i < wordsArray.length - 1; i++) {
+      enterWord(wordsArray[i]);
+    }
+    console.log(wordsArray[wordsArray.length - 1]);
+  }, [words, enterWord]);
 
   return (
     <>
