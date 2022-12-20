@@ -13,30 +13,12 @@ const WordCircle = ({
   themeColor,
   setThemeColor,
 }) => {
-  const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
-  const [arrows, setArrows] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
-  // map to map usedLetters to booleans (setState)
-  const [usedLetterIDs, setUsedLetterIDs] = useState(
-    Object.fromEntries(letterIDs.map((letterID) => [letterID, false]))
-  );
   const circleRadius = Math.min(135, window.innerWidth / 3);
   const letterWidth = circleRadius / 2;
 
   disableBodyScroll(document.body);
-
-  const findWordFromArrows = (arrows) => {
-    // grab the inputted word from the list of arrows stored
-    let lettersArray = [];
-    arrows.forEach((element) => {
-      lettersArray.push(element.start.split("_")[1]);
-    });
-    lettersArray.push(arrows[arrows.length - 1].end.split("_")[1]);
-    const word = lettersArray.join("");
-    setInputtedWord(word);
-    return word;
-  };
 
   const letterIDsToWord = (selectedLetterIDs) => {
     let lettersArray = [];
@@ -49,7 +31,7 @@ const WordCircle = ({
   };
 
   const onDragEnd = () => {
-    let clearTime = 1000; // time to wait before clearing
+    let clearTime = 500; // time to wait before clearing
     if (selectedLetterIDs.length > 0) {
       const word = letterIDsToWord(selectedLetterIDs);
       setSelectedLetterIDs([]);
