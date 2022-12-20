@@ -40,15 +40,17 @@ const Crossword = ({ propGrid, themeColor }) => {
                       key={`${i}${j}`}
                       style={{ backgroundColor: getCellBGColor(col) }}
                     >
-                      <p
-                        className="flex items-center justify-center font-mono font-bold text-center aspect-square"
-                        style={{
-                          height: `calc(75vw / ${numCols})`,
-                          fontSize: `calc(60vw / ${numCols})`,
-                        }}
-                      >
-                        {col !== "_" ? col : ""}
-                      </p>
+                      {col !== "-" && (
+                        <p
+                          className="flex items-center justify-center font-mono font-bold text-center aspect-square"
+                          style={{
+                            height: `calc(75vw / ${numCols})`,
+                            fontSize: `calc(60vw / ${numCols})`,
+                          }}
+                        >
+                          {col === "_" ? "" : col}
+                        </p>
+                      )}
                     </td>
                   ))}
                 </tr>
