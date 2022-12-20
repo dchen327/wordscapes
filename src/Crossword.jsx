@@ -34,7 +34,6 @@ const Crossword = ({ propGrid, themeColor }) => {
   const getTDClassNames = (col) => {
     return [
       "text-slate-50",
-      // getCellBGColor(col),
       col === "-" ? "invisible" : "border rounded",
     ].join(" ");
   };
