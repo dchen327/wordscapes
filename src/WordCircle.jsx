@@ -68,7 +68,7 @@ const WordCircle = ({
     let circleWidth = 2 * (circleRadius + letterWidth / 4);
     return (
       <div
-        className="relative rounded-full my-10"
+        className="relative rounded-full mb-10"
         style={{
           backgroundColor: "rgba(205, 209, 230, 0.3)",
           width: circleWidth,
