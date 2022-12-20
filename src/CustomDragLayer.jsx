@@ -18,7 +18,7 @@ function CustomDragLayer({ themeColor }) {
   }
 
   return (
-    <div style={{ position: "fixed", left: 0, top: 0 }}>
+    <div className="fixed left-0 top-0">
       <div
         ref={customDragRef}
         style={getDragLayerStyles(initialOffset, currentOffset)}

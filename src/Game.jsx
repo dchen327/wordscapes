@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Crossword from "./Crossword";
-import CustomDragLayer from "./CustomDragLayer";
 import WordCircle from "./WordCircle";
 
 export const Game = () => {
@@ -36,7 +35,6 @@ export const Game = () => {
       }}
     >
       <button onClick={fetchCrossword}>Fetch Crossword</button>
-      <CustomDragLayer themeColor={themeColor} />
       {grid && (
         <Crossword
           propGrid={grid}

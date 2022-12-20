@@ -13,7 +13,7 @@ const Crossword = ({ propGrid, themeColor }) => {
     if (col === "-") {
       return "transparent";
     } else if (col === "_") {
-      return "rgb(205,209,230,0.3)";
+      return "rgb(205,209,230,0.8)";
     } else {
       return themeColor;
     }
@@ -28,7 +28,7 @@ const Crossword = ({ propGrid, themeColor }) => {
   return (
     <>
       <div className="grow mx-2">
-        <table className="table-fixed border-separate">
+        <table className="table-fixed border-separate border-spacing-[0.2rem]">
           <tbody>
             {grid &&
               numCols &&

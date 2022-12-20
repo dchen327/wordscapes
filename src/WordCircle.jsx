@@ -2,6 +2,7 @@ import { useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
+import CustomDragLayer from "./CustomDragLayer";
 
 const WordCircle = ({
   words,
@@ -15,8 +16,7 @@ const WordCircle = ({
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
-  console.log((window.innerWidth - 150) / 2);
-  const circleRadius = Math.min(135, (window.innerWidth - 200) / 2);
+  const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 
   disableBodyScroll(document.body);
@@ -68,13 +68,33 @@ const WordCircle = ({
     let circleWidth = 2 * (circleRadius + letterWidth / 4);
     return (
       <div
-        className="relative rounded-full mb-10"
+        className="relative rounded-full mb-10 z-0"
         style={{
-          backgroundColor: "rgba(205, 209, 230, 0.3)",
+          backgroundColor: "rgba(205, 209, 230, 0.9)",
           width: circleWidth,
           height: circleWidth,
         }}
       >
+        {/* Draw arrows from selectedLetterIDs, use index i as start and i+1 as end */}
+        {selectedLetterIDs.map((letterID, i) => {
+          return (
+            i < selectedLetterIDs.length - 1 && (
+              <Xarrow
+                start={letterID}
+                end={selectedLetterIDs[i + 1]}
+                key={`arrow${i}`}
+                path="straight"
+                startAnchor="middle"
+                endAnchor="middle"
+                showHead={false}
+                strokeWidth={8}
+                color={themeColor}
+              />
+            )
+          );
+        })}
+        {/* All arrows must be before letters to appear under the letters */}
+        <CustomDragLayer themeColor={themeColor} />
         {letters.map((letter, i) => {
           let angle = (2 * Math.PI) / letters.length;
           // initial value centered vertically on positive y-axis
@@ -116,24 +136,6 @@ const WordCircle = ({
 
   return (
     <>
-      {/* Draw arrows from selectedLetterIDs, use index i as start and i+1 as end */}
-      {selectedLetterIDs.map((letterID, i) => {
-        return (
-          i < selectedLetterIDs.length - 1 && (
-            <Xarrow
-              start={letterID}
-              end={selectedLetterIDs[i + 1]}
-              key={`arrow${i}`}
-              path="straight"
-              startAnchor="middle"
-              endAnchor="middle"
-              showHead={false}
-              strokeWidth={8}
-              color={themeColor}
-            />
-          )
-        );
-      })}
       <div className="flex flex-col items-center justify-center ">
         <div className="min-h-[2.5rem]">
           <h1
