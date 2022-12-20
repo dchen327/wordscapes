@@ -38,6 +38,7 @@ const WordCircle = ({
   };
 
   const onDragEnd = () => {
+    let clearTime = 1000; // time to wait before clearing
     if (arrows.length > 0) {
       const word = findWordFromArrows(arrows);
       setInputtedWord(word);
@@ -59,12 +60,14 @@ const WordCircle = ({
         }
         setWordsFound(wordsFound + 1);
         setGrid(grid);
+        delete words[word];
+        clearTime = 3000; // longer for correct words
       }
 
       // clear the inputted word after some time
       setTimeout(() => {
         setInputtedWord("");
-      }, 3000);
+      }, clearTime);
     }
   };
 
@@ -138,7 +141,10 @@ const WordCircle = ({
       <div className="flex flex-col items-center justify-center ">
         <div className="min-h-[2.5rem]">
           <h1
-            className={`text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold bg-[${themeColor}]/80`}
+            className={
+              "text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold"
+            }
+            style={{ backgroundColor: themeColor }}
           >
             {inputtedWord}
           </h1>

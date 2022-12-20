@@ -21,7 +21,6 @@ const Crossword = ({ propGrid, themeColor }) => {
   // };
 
   const getCellBGColor = (col) => {
-    console.log(col);
     if (col === "-") {
       return "transparent";
     } else if (col === "_") {
@@ -32,10 +31,9 @@ const Crossword = ({ propGrid, themeColor }) => {
   };
 
   const getTDClassNames = (col) => {
-    return [
-      "text-slate-50",
-      col === "-" ? "invisible" : "border rounded",
-    ].join(" ");
+    return ["text-slate-50", col === "-" ? "invisible" : "border rounded"].join(
+      " "
+    );
   };
 
   return (
