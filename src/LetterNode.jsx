@@ -14,14 +14,36 @@ function LetterNode({
   themeColor,
   findWordFromArrows,
 }) {
+  const beginDrag = () => {
+    setUsedLetterIDs({ ...usedLetterIDs, [letterID]: true });
+    console.log("start");
+    return { type: "invisible-dragger", source: letterID };
+  };
+
+  const [collected, drag, dragPreview] = useDrag(
+    () => ({
+      type: "invisible-dragger",
+      // set to false when drag starts using item as function
+      item: beginDrag,
+      // item: { type: "invisible-dragger", source: letterID },
+      collect: (monitor) => ({
+        dragging: !!monitor.isDragging(),
+      }),
+      end: () => {
+        onDragEnd();
+      },
+    }),
+    [arrows]
+  );
+
   const [, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
       hover: (item) => {
         // don't do anything when hover immediately triggered
         if (item.source !== letterID) {
-          // isDragging is used to determine starting letterNode
-          if (!usedLetterIDs[letterID] && !isDragging) {
+          // dragging is used to determine starting letterNode
+          if (!usedLetterIDs[letterID]) {
             let newArrow = { start: item.source, end: letterID };
             if (arrows && newArrow !== arrows[arrows.length - 1]) {
               setArrows([...arrows, newArrow]);
@@ -68,28 +90,14 @@ function LetterNode({
     [arrows, usedLetterIDs]
   );
 
-  const [{ isDragging }, drag, dragPreview] = useDrag(
-    () => ({
-      type: "invisible-dragger",
-      item: { type: "invisible-dragger", source: letterID },
-      collect: (monitor) => ({
-        isDragging: !!monitor.isDragging(),
-      }),
-      end: () => {
-        onDragEnd();
-      },
-    }),
-    [arrows]
-  );
-
   useEffect(() => {
     dragPreview(getEmptyImage(), { captureDraggingState: true });
   });
 
   useEffect(() => {
-    if (isDragging) document.body.style.cursor = "grab !important";
+    if (collected.dragging) document.body.style.cursor = "grab !important";
     else document.body.style.cursor = "normal";
-  }, [isDragging]);
+  }, [collected.dragging]);
 
   return (
     <>
@@ -108,13 +116,16 @@ function LetterNode({
         }}
       >
         <div
-          className={`flex justify-center items-center rounded-full ${
-            isDragging ? "text-slate-50" : "inherit"
-          }`}
+          // className={`flex justify-center items-center rounded-full ${
+          //   collected.dragging ? "text-slate-50" : "inherit"
+          // }`}
+          className={"flex justify-center items-center rounded-full"}
           ref={drag}
           style={{
             height: `${letterWidth}px`,
-            backgroundColor: isDragging ? `${themeColor}` : "transparent",
+            // backgroundColor: collected.dragging
+            //   ? `${themeColor}`
+            //   : "transparent",
           }}
         >
           <h1

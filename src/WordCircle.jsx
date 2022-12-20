@@ -18,7 +18,7 @@ const WordCircle = ({
   const [inputtedWord, setInputtedWord] = useState("");
   // map to map usedLetters to booleans (setState)
   const [usedLetterIDs, setUsedLetterIDs] = useState(
-    letterIDs.map((letterID) => false)
+    Object.fromEntries(letterIDs.map((letterID) => [letterID, false]))
   );
   const circleRadius = Math.min(135, window.innerWidth / 3);
   const letterWidth = circleRadius / 2;
@@ -39,11 +39,13 @@ const WordCircle = ({
 
   const onDragEnd = () => {
     let clearTime = 1000; // time to wait before clearing
+    setUsedLetterIDs(
+      Object.fromEntries(letterIDs.map((letterID) => [letterID, false]))
+    );
     if (arrows.length > 0) {
       const word = findWordFromArrows(arrows);
       setInputtedWord(word);
       setArrows([]);
-      setUsedLetterIDs(letterIDs.map((letterID) => false));
 
       // update grid if word is present
       if (Object.keys(words).includes(word)) {
