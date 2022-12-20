@@ -9,17 +9,6 @@ const Crossword = ({ propGrid, themeColor }) => {
     setGrid(propGrid);
   }, [propGrid]);
 
-  // const getCellBGColor = (col) => {
-  //   if (col === "-") {
-  //     return "bg-transparent";
-  //   } else if (col === "_") {
-  //     return "bg-[rgb(205,209,230)]/30";
-  //   } else {
-  //     const filledColor = `bg-[${themeColor}]/80`;
-  //     return filledColor;
-  //   }
-  // };
-
   const getCellBGColor = (col) => {
     if (col === "-") {
       return "transparent";

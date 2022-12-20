@@ -86,7 +86,7 @@ function LetterNode({
           width: `${letterWidth}px`,
           height: `${letterWidth}px`,
           backgroundColor: selectedLetterIDs.includes(letterID)
-            ? `${themeColor}`
+            ? themeColor
             : "transparent",
         }}
       >

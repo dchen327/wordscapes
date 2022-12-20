@@ -15,7 +15,8 @@ const WordCircle = ({
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
-  const circleRadius = Math.min(135, window.innerWidth / 3);
+  console.log((window.innerWidth - 150) / 2);
+  const circleRadius = Math.min(135, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 
   disableBodyScroll(document.body);
@@ -67,7 +68,7 @@ const WordCircle = ({
     let circleWidth = 2 * (circleRadius + letterWidth / 4);
     return (
       <div
-        className="relative rounded-full "
+        className="relative rounded-full my-10"
         style={{
           backgroundColor: "rgba(205, 209, 230, 0.3)",
           width: circleWidth,

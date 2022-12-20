@@ -13,13 +13,12 @@ export const Game = () => {
   const fetchCrossword = async () => {
     const response = await fetch("/api/index.py");
     const data = await response.json();
-    // let words = data.words;
     setGrid(data.grid);
     setWords(data.words);
     let startWord = Object.keys(data.words)[0].split("");
     shuffleArray(startWord);
     setLetters(startWord);
-    setThemeColor("#00BFFF");
+    setThemeColor("#34D399");
   };
 
   function shuffleArray(array) {
@@ -30,7 +29,12 @@ export const Game = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div
+      className="flex flex-col items-center justify-center h-screen bg-cover"
+      style={{
+        backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
+      }}
+    >
       <button onClick={fetchCrossword}>Fetch Crossword</button>
       <CustomDragLayer themeColor={themeColor} />
       {grid && (
