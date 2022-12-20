@@ -10,7 +10,14 @@ export const Game = () => {
   const [themeColor, setThemeColor] = useState("");
 
   const fetchCrossword = async () => {
-    const response = await fetch("/api/index.py");
+    // const response = await fetch("/api/index.py");
+    const response = await fetch("/api/index.py", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ levelNum: 2 }),
+    });
     const data = await response.json();
     setGrid(data.grid);
     setWords(data.words);

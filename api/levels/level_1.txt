@@ -1,0 +1,25 @@
+13
+ANNOUNCE 0 7 False
+ONCE 5 6 True
+OCEAN 7 5 True
+NANO 0 6 True
+CANNON 2 2 True
+CONE 6 5 False
+CANOE 9 1 True
+ACNE 1 2 False
+NONE 2 9 False
+CANON 5 3 False
+ANNE 0 4 False
+NEON 7 0 True
+NOUN 4 0 False
+10 10
+- - - - A - N A N O
+- - A - N - - N - -
+- - C A N N O N - N
+- - N - E - - O - O
+N - E - - - - U - N
+O - - C - - O N C E
+U - - A - C - C - -
+N E O N - O C E A N
+- - - O - N - - - -
+- C A N O E - - - -
