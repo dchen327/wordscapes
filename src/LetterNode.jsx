@@ -13,17 +13,17 @@ function LetterNode({
   setSelectedLetterIDs,
 }) {
   const beginDrag = () => {
-    setSelectedLetterIDs([...selectedLetterIDs, letterID]);
-    letterIDsToWord([...selectedLetterIDs, letterID]);
+    // when drag starts, add letterID to selectedLetterIDs
+    setSelectedLetterIDs([letterID]);
+    letterIDsToWord([letterID]);
+    // return item for useDrag hook
     return { type: "invisible-dragger", source: letterID };
   };
 
   const [collected, drag, dragPreview] = useDrag(
     () => ({
       type: "invisible-dragger",
-      // set to false when drag starts using item as function
       item: beginDrag,
-      // item: { type: "invisible-dragger", source: letterID },
       collect: (monitor) => ({
         dragging: !!monitor.isDragging(),
       }),
@@ -37,65 +37,26 @@ function LetterNode({
   const [, drop] = useDrop(
     () => ({
       accept: "invisible-dragger",
-      // hover: (item) => {
-      //   // don't do anything when hover immediately triggered
-      //   if (item.source !== letterID) {
-      //     // dragging is used to determine starting letterNode
-      //     if (!usedLetterIDs[letterID]) {
-      //       let newArrow = { start: item.source, end: letterID };
-      //       if (arrows && newArrow !== arrows[arrows.length - 1]) {
-      //         setArrows([...arrows, newArrow]);
-      //         // set letter to true
-      //         setUsedLetterIDs({ ...usedLetterIDs, [newArrow.end]: true });
-      //         findWordFromArrows([...arrows, newArrow]);
-      //       }
-      //       item.source = letterID;
-      //     } else {
-      //       // undoing first drag
-      //       if (arrows.length === 1) {
-      //         setArrows([]);
-      //         setUsedLetterIDs({
-      //           ...usedLetterIDs,
-      //           [item.source]: false,
-      //           [letterID]: false,
-      //         });
-      //         item.source = letterID;
-      //       }
-      //       // if letter is already used, remove the last arrow
-      //       if (arrows.length > 1) {
-      //         let arrowMin1 = arrows[arrows.length - 1];
-      //         let arrowMin2 = arrows[arrows.length - 2];
-      //         if (
-      //           arrowMin1.start === letterID &&
-      //           arrowMin1.end === item.source
-      //         ) {
-      //           let newArrows = arrows.slice(0, arrows.length - 2);
-      //           setArrows(newArrows);
-      //           // set letter to false
-      //           setUsedLetterIDs({
-      //             ...usedLetterIDs,
-      //             [item.source]: false,
-      //             [letterID]: false,
-      //           });
-      //           findWordFromArrows(newArrows);
-      //           item.source = arrowMin2.start;
-      //         }
-      //       }
-      //     }
-      //   }
-      // },
       hover: (item) => {
         // don't do anything when hover immediately triggered
         if (item.source !== letterID) {
           if (!selectedLetterIDs.includes(letterID)) {
             const newSelectedLetterIDs = [...selectedLetterIDs, letterID];
             setSelectedLetterIDs(newSelectedLetterIDs);
-            // console.log(newSelectedLetterIDs);
             letterIDsToWord(newSelectedLetterIDs);
           }
           item.source = letterID;
-        } else {
-          // undoing first drag
+        } else if (
+          selectedLetterIDs.length > 1 &&
+          selectedLetterIDs[selectedLetterIDs.length - 2] === letterID
+        ) {
+          // undoing first drag (pop from end of list)
+          const newSelectedLetterIDs = selectedLetterIDs.slice(
+            0,
+            selectedLetterIDs.length - 1
+          );
+          setSelectedLetterIDs(newSelectedLetterIDs);
+          letterIDsToWord(newSelectedLetterIDs);
         }
       },
     }),

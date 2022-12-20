@@ -49,11 +49,9 @@ const WordCircle = ({
   };
 
   const onDragEnd = () => {
-    console.log("end", selectedLetterIDs, inputtedWord);
     let clearTime = 1000; // time to wait before clearing
     if (selectedLetterIDs.length > 0) {
       const word = letterIDsToWord(selectedLetterIDs);
-      console.log(word);
       setSelectedLetterIDs([]);
       setInputtedWord(word);
 
