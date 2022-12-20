@@ -14,6 +14,7 @@ const WordCircle = ({
   setThemeColor,
 }) => {
   const letterIDs = letters.map((letter, i) => `letter${i}_${letter}`);
+  const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [arrows, setArrows] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
   // map to map usedLetters to booleans (setState)
@@ -37,15 +38,24 @@ const WordCircle = ({
     return word;
   };
 
+  const letterIDsToWord = (selectedLetterIDs) => {
+    let lettersArray = [];
+    selectedLetterIDs.forEach((letterID) => {
+      lettersArray.push(letterID.split("_")[1]);
+    });
+    const word = lettersArray.join("");
+    setInputtedWord(word);
+    return word;
+  };
+
   const onDragEnd = () => {
+    console.log("end", selectedLetterIDs, inputtedWord);
     let clearTime = 1000; // time to wait before clearing
-    setUsedLetterIDs(
-      Object.fromEntries(letterIDs.map((letterID) => [letterID, false]))
-    );
-    if (arrows.length > 0) {
-      const word = findWordFromArrows(arrows);
+    if (selectedLetterIDs.length > 0) {
+      const word = letterIDsToWord(selectedLetterIDs);
+      console.log(word);
+      setSelectedLetterIDs([]);
       setInputtedWord(word);
-      setArrows([]);
 
       // update grid if word is present
       if (Object.keys(words).includes(word)) {
@@ -110,13 +120,11 @@ const WordCircle = ({
                 letter={letter}
                 letterID={`letter${i}_${letter}`}
                 letterWidth={letterWidth}
-                usedLetterIDs={usedLetterIDs}
-                setUsedLetterIDs={setUsedLetterIDs}
-                arrows={arrows}
-                setArrows={setArrows}
                 onDragEnd={onDragEnd}
                 themeColor={themeColor}
-                findWordFromArrows={findWordFromArrows}
+                letterIDsToWord={letterIDsToWord}
+                selectedLetterIDs={selectedLetterIDs}
+                setSelectedLetterIDs={setSelectedLetterIDs}
               />
             </div>
           );
@@ -127,19 +135,24 @@ const WordCircle = ({
 
   return (
     <>
-      {arrows.map((arrow, i) => (
-        <Xarrow
-          start={arrow.start}
-          end={arrow.end}
-          key={`arrow${i}`}
-          path="straight"
-          startAnchor="middle"
-          endAnchor="middle"
-          showHead={false}
-          strokeWidth={8}
-          color={themeColor}
-        />
-      ))}
+      {/* Draw arrows from selectedLetterIDs, use index i as start and i+1 as end */}
+      {selectedLetterIDs.map((letterID, i) => {
+        return (
+          i < selectedLetterIDs.length - 1 && (
+            <Xarrow
+              start={letterID}
+              end={selectedLetterIDs[i + 1]}
+              key={`arrow${i}`}
+              path="straight"
+              startAnchor="middle"
+              endAnchor="middle"
+              showHead={false}
+              strokeWidth={8}
+              color={themeColor}
+            />
+          )
+        );
+      })}
       <div className="flex flex-col items-center justify-center ">
         <div className="min-h-[2.5rem]">
           <h1
