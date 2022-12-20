@@ -38,25 +38,25 @@ function LetterNode({
     () => ({
       accept: "invisible-dragger",
       hover: (item) => {
-        // don't do anything when hover immediately triggered
         if (item.source !== letterID) {
           if (!selectedLetterIDs.includes(letterID)) {
             const newSelectedLetterIDs = [...selectedLetterIDs, letterID];
             setSelectedLetterIDs(newSelectedLetterIDs);
             letterIDsToWord(newSelectedLetterIDs);
+            item.source = letterID;
+          } else if (
+            selectedLetterIDs.length > 1 &&
+            selectedLetterIDs[selectedLetterIDs.length - 2] === letterID
+          ) {
+            // undoing first drag (pop from end of list), set arrow source
+            item.source = selectedLetterIDs[selectedLetterIDs.length - 2];
+            const newSelectedLetterIDs = selectedLetterIDs.slice(
+              0,
+              selectedLetterIDs.length - 1
+            );
+            setSelectedLetterIDs(newSelectedLetterIDs);
+            letterIDsToWord(newSelectedLetterIDs);
           }
-          item.source = letterID;
-        } else if (
-          selectedLetterIDs.length > 1 &&
-          selectedLetterIDs[selectedLetterIDs.length - 2] === letterID
-        ) {
-          // undoing first drag (pop from end of list)
-          const newSelectedLetterIDs = selectedLetterIDs.slice(
-            0,
-            selectedLetterIDs.length - 1
-          );
-          setSelectedLetterIDs(newSelectedLetterIDs);
-          letterIDsToWord(newSelectedLetterIDs);
         }
       },
     }),
