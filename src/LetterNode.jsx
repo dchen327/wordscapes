@@ -31,7 +31,7 @@ function LetterNode({
         onDragEnd();
       },
     }),
-    [selectedLetterIDs]
+    [selectedLetterIDs, letterID]
   );
 
   const [, drop] = useDrop(

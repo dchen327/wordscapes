@@ -17,8 +17,6 @@ function CustomDragLayer({ themeColor }) {
     return null;
   }
 
-  console.log(item.source);
-
   return (
     <div className="fixed left-0 top-0">
       <div
@@ -34,7 +32,7 @@ function CustomDragLayer({ themeColor }) {
           endAnchor="middle"
           showHead={false}
           strokeWidth={8}
-          color={"red"}
+          color={themeColor}
         />
       )}
     </div>
@@ -42,14 +40,12 @@ function CustomDragLayer({ themeColor }) {
 }
 
 function getDragLayerStyles(initialOffset, currentOffset) {
-  // console.log(initialOffset, currentOffset);
   if (!initialOffset || !currentOffset) {
     return {
       display: "none",
     };
   }
   let { x, y } = currentOffset;
-  // const transform = `translate(${x - 12}px, ${y - 225}px)`;
   const transform = `translate(${x}px, ${y}px)`;
   return {
     transform,

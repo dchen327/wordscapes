@@ -118,23 +118,24 @@ const WordCircle = ({
         }}
       >
         {/* Draw arrows from selectedLetterIDs, use index i as start and i+1 as end */}
-        {selectedLetterIDs.map((letterID, i) => {
-          return (
-            i < selectedLetterIDs.length - 1 && (
-              <Xarrow
-                start={letterID}
-                end={selectedLetterIDs[i + 1]}
-                key={`arrow${i}`}
-                path="straight"
-                startAnchor="middle"
-                endAnchor="middle"
-                showHead={false}
-                strokeWidth={8}
-                color={themeColor}
-              />
-            )
-          );
-        })}
+        {selectedLetterIDs.length > 1 &&
+          selectedLetterIDs.map((letterID, i) => {
+            return (
+              i < selectedLetterIDs.length - 1 && (
+                <Xarrow
+                  start={letterID}
+                  end={selectedLetterIDs[i + 1]}
+                  key={`arrow${i}`}
+                  path="straight"
+                  startAnchor="middle"
+                  endAnchor="middle"
+                  showHead={false}
+                  strokeWidth={8}
+                  color={themeColor}
+                />
+              )
+            );
+          })}
         {/* All arrows must be before letters to appear under the letters */}
         <CustomDragLayer themeColor={themeColor} />
         {letters.map((letter, i) => {
