@@ -19,7 +19,7 @@ export const Game = () => {
     let startWord = Object.keys(data.words)[0].split("");
     shuffleArray(startWord);
     setLetters(startWord);
-    setThemeColor("bg-sky-500");
+    setThemeColor("#00BFFF");
   };
 
   function shuffleArray(array) {
