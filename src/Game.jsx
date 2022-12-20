@@ -8,15 +8,15 @@ export const Game = () => {
   const [letters, setLetters] = useState("");
   const [wordsFound, setWordsFound] = useState(0);
   const [themeColor, setThemeColor] = useState("");
+  const [levelNum, setLevelNum] = useState(2);
 
   const fetchCrossword = async () => {
-    // const response = await fetch("/api/index.py");
     const response = await fetch("/api/index.py", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ levelNum: 2 }),
+      body: JSON.stringify({ levelNum }),
     });
     const data = await response.json();
     setGrid(data.grid);

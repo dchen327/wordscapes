@@ -1,4 +1,4 @@
-'14
+14
 PROVIDED 0 2 True
 VIDEO 0 5 False
 PROVED 4 3 True
@@ -24,4 +24,3 @@ I - O - D R O V E -
 P R I D E - V - D -
 E - P - - - E - - -
 - - - - - P R O V E
-'
