@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Crossword from "./Crossword";
 import WordCircle from "./WordCircle";
 
@@ -8,24 +8,31 @@ export const Game = () => {
   const [letters, setLetters] = useState("");
   const [wordsFound, setWordsFound] = useState(0);
   const [themeColor, setThemeColor] = useState("");
-  const [levelNum, setLevelNum] = useState(2);
-
-  const fetchCrossword = async () => {
-    const response = await fetch("/api/index.py", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ levelNum }),
-    });
-    const data = await response.json();
-    setGrid(data.grid);
-    setWords(data.words);
-    let startWord = Object.keys(data.words)[0].split("");
-    shuffleArray(startWord);
-    setLetters(startWord);
-    setThemeColor("#34D399");
+  const [levelNum, setLevelNum] = useState(1);
+  const getNextLevel = () => {
+    setLevelNum(levelNum + 1);
   };
+
+  useEffect(() => {
+    const fetchCrossword = async () => {
+      const response = await fetch("/api/index.py", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ levelNum }),
+      });
+      const data = await response.json();
+      setGrid(data.grid);
+      setWords(data.words);
+      let startWord = Object.keys(data.words)[0].split("");
+      shuffleArray(startWord);
+      setLetters(startWord);
+      setThemeColor("#34D399");
+    };
+
+    fetchCrossword();
+  }, [levelNum]);
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -41,7 +48,6 @@ export const Game = () => {
         backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
       }}
     >
-      <button onClick={fetchCrossword}>Fetch Crossword</button>
       {grid && (
         <Crossword
           propGrid={grid}
@@ -59,6 +65,7 @@ export const Game = () => {
           setWordsFound={setWordsFound}
           themeColor={themeColor}
           setThemeColor={setThemeColor}
+          getNextLevel={getNextLevel}
         />
       )}
     </div>

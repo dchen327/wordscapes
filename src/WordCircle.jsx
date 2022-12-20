@@ -13,6 +13,7 @@ const WordCircle = ({
   setWordsFound,
   themeColor,
   setThemeColor,
+  getNextLevel,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -61,6 +62,8 @@ const WordCircle = ({
       setTimeout(() => {
         setInputtedWord("");
       }, clearTime);
+
+      getNextLevel();
     }
   };
 

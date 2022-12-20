@@ -5,14 +5,6 @@ import json
 class handler(BaseHTTPRequestHandler):
     ''' Parses stored crossword from file and returns a JSON '''
 
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header('Content-type', 'text/plain')
-        self.end_headers()
-
-        crossword_info = handler.parse_file(1)
-        self.wfile.write(json.dumps(crossword_info).encode())
-
     def do_POST(self):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
