@@ -7,6 +7,7 @@ import CustomDragLayer from "./CustomDragLayer";
 const WordCircle = ({
   words,
   letters,
+  completeGrid,
   grid,
   setGrid,
   wordsFound,
@@ -40,31 +41,66 @@ const WordCircle = ({
       setInputtedWord(word);
 
       // update grid if word is present
-      if (Object.keys(words).includes(word)) {
-        let [r, c, horiz] = words[word];
-        let wordArray = word.split("");
-        if (horiz) {
-          wordArray.forEach((letter, i) => {
-            grid[r][c + i] = letter;
-          });
-        } else {
-          wordArray.forEach((letter, i) => {
-            grid[r + i][c] = letter;
-          });
-        }
-        setWordsFound(wordsFound + 1);
-        setGrid(grid);
-        delete words[word];
+      if (enterWord(word)) {
         clearTime = 3000; // longer for correct words
       }
 
-      // clear the inputted word after some time
-      setTimeout(() => {
-        setInputtedWord("");
-      }, clearTime);
-
-      getNextLevel();
+      // check if level is complete
+      if (levelComplete(grid)) {
+        // setThemeColor("#34D399");
+        getNextLevel();
+      } else {
+        // clear the inputted word after some time
+        setTimeout(() => {
+          setInputtedWord("");
+        }, clearTime);
+      }
     }
+  };
+
+  const enterWord = (word) => {
+    // enter word into crossword, return true if word was not already there
+    if (Object.keys(words).includes(word)) {
+      let [r, c, horiz] = words[word];
+      let wordArray = word.split("");
+      let changeMade;
+      if (horiz) {
+        wordArray.forEach((letter, i) => {
+          if (grid[r][c + i] === "_") {
+            changeMade = true;
+          }
+          grid[r][c + i] = letter;
+        });
+      } else {
+        wordArray.forEach((letter, i) => {
+          if (grid[r + i][c] === "_") {
+            changeMade = true;
+          }
+          grid[r + i][c] = letter;
+        });
+      }
+
+      if (changeMade) {
+        setWordsFound(wordsFound + 1);
+        setGrid(grid);
+        delete words[word];
+        setInputtedWord(word);
+        return true;
+      }
+      return false;
+    }
+  };
+
+  const levelComplete = (grid) => {
+    // ensure grid === completeGrid
+    for (let r = 0; r < grid.length; r++) {
+      for (let c = 0; c < grid[0].length; c++) {
+        if (grid[r][c] !== completeGrid[r][c]) {
+          return false;
+        }
+      }
+    }
+    return true;
   };
 
   const GetCircleLayout = (letters) => {
@@ -143,7 +179,7 @@ const WordCircle = ({
         <div className="min-h-[2.5rem]">
           <h1
             className={
-              "text-2xl text-slate-50 my-1 px-2 rounded-2xl font-semibold"
+              "text-2xl text-slate-50 my-2 px-2 rounded-2xl font-semibold"
             }
             style={{ backgroundColor: themeColor }}
           >

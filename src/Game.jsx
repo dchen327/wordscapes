@@ -4,6 +4,7 @@ import WordCircle from "./WordCircle";
 
 export const Game = () => {
   const [grid, setGrid] = useState([]);
+  const [completeGrid, setCompleteGrid] = useState([]);
   const [words, setWords] = useState(null);
   const [letters, setLetters] = useState("");
   const [wordsFound, setWordsFound] = useState(0);
@@ -13,6 +14,7 @@ export const Game = () => {
     setLevelNum(levelNum + 1);
   };
 
+  // fetch new crossword each time levelNum changes
   useEffect(() => {
     const fetchCrossword = async () => {
       const response = await fetch("/api/index.py", {
@@ -23,12 +25,20 @@ export const Game = () => {
         body: JSON.stringify({ levelNum }),
       });
       const data = await response.json();
-      setGrid(data.grid);
+      setCompleteGrid(data.grid);
+      // replace all non-hyphens (crossword letters) with underscores in grid
+      let grid = data.grid.map((row) => {
+        return row.map((letter) => {
+          return letter === "-" ? letter : "_";
+        });
+      });
+      setGrid(grid);
       setWords(data.words);
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);
       setLetters(startWord);
       setThemeColor("#34D399");
+      // TODO: pick new theme color here as well
     };
 
     fetchCrossword();
@@ -59,6 +69,7 @@ export const Game = () => {
         <WordCircle
           words={words}
           letters={letters}
+          completeGrid={completeGrid}
           grid={grid}
           setGrid={setGrid}
           wordsFound={wordsFound}
