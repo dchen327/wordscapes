@@ -19,7 +19,6 @@ const WordCircle = ({
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
-  console.log(circleRadius);
   const letterWidth = circleRadius / 2;
 
   disableBodyScroll(document.body);
@@ -179,14 +178,14 @@ const WordCircle = ({
   };
 
   // level debugging, auto enter all words except last
-  // useEffect(() => {
-  //   // loop through all but 1 word in words and enterWord
-  //   let wordsArray = Object.keys(words);
-  //   for (let i = 0; i < wordsArray.length - 1; i++) {
-  //     enterWord(wordsArray[i]);
-  //   }
-  //   console.log(wordsArray[wordsArray.length - 1]);
-  // }, [words, enterWord]);
+  useEffect(() => {
+    // loop through all but 1 word in words and enterWord
+    let wordsArray = Object.keys(words);
+    for (let i = 0; i < wordsArray.length - 1; i++) {
+      enterWord(wordsArray[i]);
+    }
+    console.log(wordsArray[wordsArray.length - 1]);
+  }, [words, enterWord]);
 
   return (
     <>
