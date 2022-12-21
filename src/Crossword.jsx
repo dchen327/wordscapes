@@ -57,7 +57,6 @@ const Crossword = ({ propGrid, themeColor }) => {
               ))}
           </tbody>
         </table>
-        {/* Render 2d grid as a responsive table with square cells */}
       </div>
     </>
   );
