@@ -22,9 +22,11 @@ const Crossword = ({ propGrid, themeColor }) => {
   };
 
   const getTDClassNames = (col) => {
-    return ["text-slate-50", col === "-" ? "invisible" : "border rounded"].join(
-      " "
-    );
+    return [
+      "text-slate-50",
+      "aspect-square",
+      col === "-" ? "invisible" : "border rounded",
+    ].join(" ");
   };
 
   console.log(width, height);
@@ -35,14 +37,15 @@ const Crossword = ({ propGrid, themeColor }) => {
     >
       {grid && numCols && (
         // display grid as 10x10 grid
-        <div className="grid grid-cols-10 gap-[2px] w-full" ref={crosswordRef}>
+        <div className="grid grid-cols-10 gap-0.5 w-full" ref={crosswordRef}>
           {grid.flat().map((col, i) => (
             <div
               className={getTDClassNames(col)}
               key={i}
               style={{
                 backgroundColor: getCellBGColor(col),
-                fontSize: (0.5 * height) / numCols,
+                height: (0.9 * height) / numCols,
+                fontSize: (0.6 * height) / numCols,
               }}
             >
               {col !== "-" && (
@@ -59,33 +62,32 @@ const Crossword = ({ propGrid, themeColor }) => {
           {grid &&
             numCols &&
             grid.map((row, i) => (
-              <tr key={i}>
+              <tr
+                key={i}
+                style={{
+                  backgroundColor: "blue",
+                  height: (0.5 * height) / numCols,
+                }}
+              >
                 {row.map((col, j) => (
                   <td
                     className={getTDClassNames(col)}
                     key={`${i}${j}`}
                     style={{
                       backgroundColor: getCellBGColor(col),
-                      maxHeight: (0.5 * height) / numCols,
+                      width: "10%",
                     }}
                   >
                     {col !== "-" && (
                       <p
                         className="flex items-center justify-center font-mono font-bold text-center aspect-square"
-                        style={
-                          {
-                            // height: `calc(75vw / ${numCols})`,
-                            // maxHeight: (0.7 * height) / numCols,
-                            // fontSize: (0.3 * height) / numCols,
-                          }
-                        }
+                        style={{
+                          // height: `calc(75vw / ${numCols})`,
+                          // maxHeight: (0.7 * height) / numCols,
+                          fontSize: (0.3 * height) / numCols,
+                        }}
                       >
                         {col === "_" ? "" : col}
-                      </p>
-                    )}
-                    {col !== "-" && (
-                      <p className="flex items-center justify-center font-mono font-bold text-center aspect-square">
-                        {col === "_" ? "H" : col}
                       </p>
                     )}
                   </td>
