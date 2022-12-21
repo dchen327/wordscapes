@@ -29,7 +29,6 @@ const Crossword = ({ propGrid, themeColor }) => {
     ].join(" ");
   };
 
-  console.log(width, height);
   return (
     <div
       className="flex grow p-2 mt-3 aspect-square"
