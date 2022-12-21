@@ -32,8 +32,8 @@ const Crossword = ({ propGrid, themeColor }) => {
   console.log(width, height);
   return (
     <div
-      className="flex grow p-2 mt-5 aspect-square"
-      style={{ maxWidth: "100vw", maxHeight: "100vw" }}
+      className="flex grow p-2 mt-3 aspect-square"
+      style={{ maxWidth: "95vw", maxHeight: "95vw" }}
     >
       {grid && numCols && (
         // display grid as 10x10 grid
@@ -57,45 +57,6 @@ const Crossword = ({ propGrid, themeColor }) => {
           ))}
         </div>
       )}
-      {/* <table className="table-fixed w-full border-separate border-spacing-[0.2rem]">
-        <tbody>
-          {grid &&
-            numCols &&
-            grid.map((row, i) => (
-              <tr
-                key={i}
-                style={{
-                  backgroundColor: "blue",
-                  height: (0.5 * height) / numCols,
-                }}
-              >
-                {row.map((col, j) => (
-                  <td
-                    className={getTDClassNames(col)}
-                    key={`${i}${j}`}
-                    style={{
-                      backgroundColor: getCellBGColor(col),
-                      width: "10%",
-                    }}
-                  >
-                    {col !== "-" && (
-                      <p
-                        className="flex items-center justify-center font-mono font-bold text-center aspect-square"
-                        style={{
-                          // height: `calc(75vw / ${numCols})`,
-                          // maxHeight: (0.7 * height) / numCols,
-                          fontSize: (0.3 * height) / numCols,
-                        }}
-                      >
-                        {col === "_" ? "" : col}
-                      </p>
-                    )}
-                  </td>
-                ))}
-              </tr>
-            ))}
-        </tbody>
-      </table> */}
     </div>
   );
 };
