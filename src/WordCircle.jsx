@@ -110,7 +110,7 @@ const WordCircle = ({
     let circleWidth = 2 * (circleRadius + letterWidth / 4);
     return (
       <div
-        className="relative rounded-full mb-10 z-0"
+        className="relative rounded-full mb-8 z-0"
         style={{
           backgroundColor: "rgba(205, 209, 230, 0.9)",
           width: circleWidth,
@@ -178,22 +178,22 @@ const WordCircle = ({
   };
 
   // level debugging, auto enter all words except last
-  useEffect(() => {
-    // loop through all but 1 word in words and enterWord
-    let wordsArray = Object.keys(words);
-    for (let i = 0; i < wordsArray.length - 1; i++) {
-      enterWord(wordsArray[i]);
-    }
-    console.log(wordsArray[wordsArray.length - 1]);
-  }, [words, enterWord]);
+  // useEffect(() => {
+  //   // loop through all but 1 word in words and enterWord
+  //   let wordsArray = Object.keys(words);
+  //   for (let i = 0; i < wordsArray.length - 1; i++) {
+  //     enterWord(wordsArray[i]);
+  //   }
+  //   console.log(wordsArray[wordsArray.length - 1]);
+  // }, [words, enterWord]);
 
   return (
     <>
       <div className="flex flex-col items-center justify-center ">
-        <div className="min-h-[2.5rem]">
+        <div className="min-h-[2.75rem]">
           <h1
             className={
-              "text-2xl text-slate-50 my-2 px-2 rounded-2xl font-semibold"
+              "text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold"
             }
             style={{ backgroundColor: themeColor }}
           >

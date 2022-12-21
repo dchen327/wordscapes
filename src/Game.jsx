@@ -58,6 +58,7 @@ export const Game = () => {
         backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
       }}
     >
+      <meta name="apple-mobile-web-app-capable" content="yes" />
       {grid && (
         <Crossword
           propGrid={grid}

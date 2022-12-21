@@ -28,7 +28,7 @@ const Crossword = ({ propGrid, themeColor }) => {
   return (
     <>
       <div className="grow mx-2">
-        <table className="table-fixed border-separate border-spacing-[0.2rem]">
+        <table className="mt-3 table-fixed border-separate border-spacing-[0.2rem]">
           <tbody>
             {grid &&
               numCols &&
@@ -57,6 +57,7 @@ const Crossword = ({ propGrid, themeColor }) => {
               ))}
           </tbody>
         </table>
+        {/* Render 2d grid as a responsive table with square cells */}
       </div>
     </>
   );
