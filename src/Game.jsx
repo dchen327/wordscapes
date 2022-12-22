@@ -78,49 +78,51 @@ export const Game = () => {
   }, [levelNum]);
 
   return (
-    <div
-      className="flex flex-col justify-evenly items-center justify-center h-screen bg-cover"
-      style={{
-        backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
-      }}
-    >
+    <>
       <Toaster />
-      {grid && (
-        <Crossword
-          {...{
-            grid,
-            setGrid,
-            completeGrid,
-            levelComplete,
-            getNextLevel,
-            wordsFound,
-            themeColor,
-            defineMode,
-            setDefineMode,
-          }}
-        />
-      )}
-      {words && letters && themeColor && (
-        <WordCircle
-          {...{
-            words,
-            letters,
-            setLetters,
-            completeGrid,
-            grid,
-            setGrid,
-            wordsFound,
-            setWordsFound,
-            themeColor,
-            setThemeColor,
-            levelNum,
-            levelComplete,
-            getNextLevel,
-            shuffleArray,
-            setDefineMode,
-          }}
-        />
-      )}
-    </div>
+      <div
+        className="flex flex-col justify-evenly items-center justify-center h-screen bg-cover"
+        style={{
+          backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
+        }}
+      >
+        {grid && (
+          <Crossword
+            {...{
+              grid,
+              setGrid,
+              completeGrid,
+              levelComplete,
+              getNextLevel,
+              wordsFound,
+              themeColor,
+              defineMode,
+              setDefineMode,
+            }}
+          />
+        )}
+        {words && letters && themeColor && (
+          <WordCircle
+            {...{
+              words,
+              letters,
+              setLetters,
+              completeGrid,
+              grid,
+              setGrid,
+              wordsFound,
+              setWordsFound,
+              themeColor,
+              setThemeColor,
+              levelNum,
+              levelComplete,
+              getNextLevel,
+              shuffleArray,
+              setDefineMode,
+            }}
+          />
+        )}
+      </div>
+    </>
   );
 };
