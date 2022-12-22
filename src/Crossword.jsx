@@ -21,6 +21,10 @@ const Crossword = ({
     if (col === "-") {
       return "transparent";
     } else if (col === "_") {
+      if (!defineMode) {
+        // sniping mode, light yellow transparent highlight
+        return "rgb(255,255,200,0.8)";
+      }
       return "rgb(205,209,230,0.8)";
     } else {
       return themeColor;
