@@ -11,6 +11,9 @@ export const Game = () => {
   const [wordsFound, setWordsFound] = useState(0);
   const [themeColor, setThemeColor] = useState("");
   const [levelNum, setLevelNum] = useState(1);
+  // defineMode true: tap letter -> define, false: tap letter -> reveal
+  const [defineMode, setDefineMode] = useState(true);
+
   const getNextLevel = () => {
     toast.success(`Level ${levelNum} Complete!`, {
       duration: 3000,
@@ -68,9 +71,15 @@ export const Game = () => {
       <Toaster />
       {grid && (
         <Crossword
-          propGrid={grid}
-          wordsFound={wordsFound}
-          themeColor={themeColor}
+          {...{
+            grid,
+            setGrid,
+            completeGrid,
+            wordsFound,
+            themeColor,
+            defineMode,
+            setDefineMode,
+          }}
         />
       )}
       {words && letters && themeColor && (
@@ -89,6 +98,7 @@ export const Game = () => {
             levelNum,
             getNextLevel,
             shuffleArray,
+            setDefineMode,
           }}
         />
       )}

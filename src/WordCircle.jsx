@@ -26,6 +26,7 @@ const WordCircle = ({
   levelNum,
   getNextLevel,
   shuffleArray,
+  setDefineMode,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -249,7 +250,10 @@ const WordCircle = ({
         >
           <FontAwesomeIcon icon={faShuffle} size="lg" />
         </button>
-        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+        <button
+          className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
+          onClick={() => setDefineMode(false)}
+        >
           <FontAwesomeIcon icon={faCrosshairs} size="lg" />
         </button>
         <button
