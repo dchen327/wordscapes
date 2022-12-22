@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
+import { disableBodyScroll } from "body-scroll-lock";
 import Crossword from "./Crossword";
 import WordCircle from "./WordCircle";
 
@@ -13,6 +14,11 @@ export const Game = () => {
   const [levelNum, setLevelNum] = useState(1);
   // defineMode true: tap letter -> define, false: tap letter -> reveal
   const [defineMode, setDefineMode] = useState(true);
+
+  // disable body scrolling
+  useEffect(() => {
+    disableBodyScroll(document.body);
+  }, []);
 
   const levelComplete = (grid) => {
     // ensure grid === completeGrid

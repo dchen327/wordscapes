@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import CustomDragLayer from "./CustomDragLayer";
