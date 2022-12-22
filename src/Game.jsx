@@ -6,12 +6,25 @@ export const Game = () => {
   const [grid, setGrid] = useState([]);
   const [completeGrid, setCompleteGrid] = useState([]);
   const [words, setWords] = useState(null);
-  const [letters, setLetters] = useState("");
+  const [letters, setLetters] = useState([]);
   const [wordsFound, setWordsFound] = useState(0);
   const [themeColor, setThemeColor] = useState("");
   const [levelNum, setLevelNum] = useState(1);
   const getNextLevel = () => {
     setLevelNum(levelNum + 1);
+  };
+
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  };
+
+  const shuffleLetters = () => {
+    let newLetters = [...letters];
+    shuffleArray(newLetters);
+    setLetters(newLetters);
   };
 
   // fetch new crossword each time levelNum changes
@@ -44,13 +57,6 @@ export const Game = () => {
     fetchCrossword();
   }, [levelNum]);
 
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-  }
-
   return (
     <div
       className="flex flex-col justify-around items-center justify-center h-screen bg-cover"
@@ -79,6 +85,7 @@ export const Game = () => {
           themeColor={themeColor}
           setThemeColor={setThemeColor}
           getNextLevel={getNextLevel}
+          shuffleLetters={shuffleLetters}
         />
       )}
     </div>

@@ -22,6 +22,7 @@ const WordCircle = ({
   themeColor,
   setThemeColor,
   getNextLevel,
+  shuffleLetters,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -197,7 +198,10 @@ const WordCircle = ({
   return (
     <div className="flex justify-evenly w-full">
       <div className="flex flex-col justify-start my-10">
-        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+        <button
+          className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
+          onClick={shuffleLetters}
+        >
           <FontAwesomeIcon icon={faShuffle} size="lg" />
         </button>
         <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
