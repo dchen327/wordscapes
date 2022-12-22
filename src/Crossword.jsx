@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { toast } from "react-hot-toast";
-import { useElementSize } from "usehooks-ts";
 
 const Crossword = ({
   grid,
@@ -13,19 +12,9 @@ const Crossword = ({
   setDefineMode,
 }) => {
   const numCols = grid[0]?.length;
-  const [crosswordRef, dimensions] = useElementSize();
-  const [triggerRerender, setTriggerRerender] = useState(false);
 
   // rerender when grid or defineMode changes
-  // TODO: add defineMode
-  useEffect(() => {
-    if (dimensions.width === 363) {
-      console.log(dimensions.width);
-      setTriggerRerender(true);
-    }
-  }, [grid, defineMode, triggerRerender]);
-
-  console.log(dimensions);
+  useEffect(() => {}, [grid, defineMode]);
 
   const getCellBGColor = (col) => {
     if (col === "-") {
@@ -68,25 +57,18 @@ const Crossword = ({
 
   return (
     <div
-      className="flex grow p-2 mt-5 aspect-square bg-red-200"
+      className="flex grow p-2 mt-5 aspect-square"
       style={{ maxWidth: "95vw", maxHeight: "95vw" }}
-      ref={crosswordRef}
     >
-      <button
-        className="w-[50px] aspect-square bg-blue-200"
-        onClick={() => setTriggerRerender(true)}
-      />
-      {/* {grid && numCols && (
+      {grid && numCols && (
         // display grid as 10x10 grid
-        <div className="grid grid-cols-10 gap-0.5 w-full" ref={crosswordRef}>
+        <div className="grid grid-cols-10 gap-0.5 w-full">
           {grid.flat().map((col, i) => (
             <div
               className={getCellClassNames(col)}
               key={i}
               style={{
                 backgroundColor: getCellBGColor(col),
-                height: (0.9 * dimensions.height) / numCols,
-                fontSize: (0.6 * dimensions.height) / numCols,
               }}
               onClick={() => letterTapped(i)}
             >
@@ -98,7 +80,7 @@ const Crossword = ({
             </div>
           ))}
         </div>
-      )} */}
+      )}
     </div>
   );
 };
