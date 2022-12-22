@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
-import { disableBodyScroll } from "body-scroll-lock";
 import CustomDragLayer from "./CustomDragLayer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -34,8 +33,6 @@ const WordCircle = ({
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
-
-  disableBodyScroll(document.body);
 
   const letterIDsToWord = (selectedLetterIDs) => {
     let lettersArray = [];
