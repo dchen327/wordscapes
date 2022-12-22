@@ -28,6 +28,7 @@ const WordCircle = ({
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
+  const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 
@@ -44,7 +45,7 @@ const WordCircle = ({
   };
 
   const onDragEnd = () => {
-    let clearTime = 500; // time to wait before clearing
+    let clearTime; // time to wait before clearing
     if (selectedLetterIDs.length > 0) {
       const word = letterIDsToWord(selectedLetterIDs);
       setSelectedLetterIDs([]);
@@ -53,17 +54,22 @@ const WordCircle = ({
       // update grid if word is present
       if (enterWord(word)) {
         clearTime = 3000; // longer for correct words
+        setInputtedWordBGColor("#34D399");
+      } else {
+        clearTime = 1000; // shorter for incorrect words
+        setInputtedWordBGColor("#F87171");
       }
 
       // check if level is complete
       if (levelComplete(grid)) {
-        // setThemeColor("#34D399");
         setInputtedWord("");
+        setInputtedWordBGColor(themeColor);
         getNextLevel();
       } else {
         // clear the inputted word after some time
         setTimeout(() => {
           setInputtedWord("");
+          setInputtedWordBGColor(themeColor);
         }, clearTime);
       }
     }
@@ -252,7 +258,7 @@ const WordCircle = ({
             className={
               "text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold"
             }
-            style={{ backgroundColor: themeColor }}
+            style={{ backgroundColor: inputtedWordBGColor }}
           >
             {inputtedWord}
           </h1>

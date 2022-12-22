@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { toast, Toaster } from "react-hot-toast";
 import Crossword from "./Crossword";
 import WordCircle from "./WordCircle";
 
@@ -11,7 +12,11 @@ export const Game = () => {
   const [themeColor, setThemeColor] = useState("");
   const [levelNum, setLevelNum] = useState(1);
   const getNextLevel = () => {
+    toast.success(`Level ${levelNum} Complete!`, {
+      duration: 3000,
+    });
     setLevelNum(levelNum + 1);
+    // TODO: set theme color to something new
   };
 
   const shuffleArray = (array) => {
@@ -44,7 +49,7 @@ export const Game = () => {
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);
       setLetters(startWord);
-      setThemeColor("#34D399");
+      setThemeColor("#CF9FFF");
       // TODO: pick new theme color here as well
     };
 
@@ -60,6 +65,7 @@ export const Game = () => {
     >
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="mobile-web-app-capable" content="yes" />
+      <Toaster />
       {grid && (
         <Crossword
           propGrid={grid}
@@ -67,7 +73,7 @@ export const Game = () => {
           themeColor={themeColor}
         />
       )}
-      {words && letters && (
+      {words && letters && themeColor && (
         <WordCircle
           {...{
             words,
