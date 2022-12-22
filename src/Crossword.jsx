@@ -58,9 +58,10 @@ const Crossword = ({
     }
   };
 
+  console.log(dimensions);
   return (
     <div
-      className="flex grow p-2 mt-3 aspect-square"
+      className="flex grow p-2 mt-5 aspect-square"
       style={{ maxWidth: "95vw", maxHeight: "95vw" }}
     >
       {grid && numCols && (

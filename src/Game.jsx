@@ -79,7 +79,7 @@ export const Game = () => {
 
   return (
     <div
-      className="flex flex-col justify-around items-center justify-center h-screen bg-cover"
+      className="flex flex-col justify-evenly items-center justify-center h-screen bg-cover"
       style={{
         backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
       }}
