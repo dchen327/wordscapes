@@ -69,18 +69,21 @@ export const Game = () => {
       )}
       {words && letters && (
         <WordCircle
-          words={words}
-          letters={letters}
-          setLetters={setLetters}
-          completeGrid={completeGrid}
-          grid={grid}
-          setGrid={setGrid}
-          wordsFound={wordsFound}
-          setWordsFound={setWordsFound}
-          themeColor={themeColor}
-          setThemeColor={setThemeColor}
-          getNextLevel={getNextLevel}
-          shuffleArray={shuffleArray}
+          {...{
+            words,
+            letters,
+            setLetters,
+            completeGrid,
+            grid,
+            setGrid,
+            wordsFound,
+            setWordsFound,
+            themeColor,
+            setThemeColor,
+            levelNum,
+            getNextLevel,
+            shuffleArray,
+          }}
         />
       )}
     </div>

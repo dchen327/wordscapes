@@ -22,6 +22,7 @@ const WordCircle = ({
   setWordsFound,
   themeColor,
   setThemeColor,
+  levelNum,
   getNextLevel,
   shuffleArray,
 }) => {
@@ -204,14 +205,16 @@ const WordCircle = ({
             >
               <LetterNode
                 id={`letter${i}_${letter}`}
-                letter={letter}
                 letterID={`letter${i}_${letter}`}
-                letterWidth={letterWidth}
-                onDragEnd={onDragEnd}
-                themeColor={themeColor}
-                letterIDsToWord={letterIDsToWord}
-                selectedLetterIDs={selectedLetterIDs}
-                setSelectedLetterIDs={setSelectedLetterIDs}
+                {...{
+                  letter,
+                  letterWidth,
+                  onDragEnd,
+                  themeColor,
+                  letterIDsToWord,
+                  selectedLetterIDs,
+                  setSelectedLetterIDs,
+                }}
               />
             </div>
           );
@@ -271,6 +274,9 @@ const WordCircle = ({
             onClick={() => revealLetters(5)}
           />
         </button>
+        <div className="mt-auto w-[50px] py-1 text-center text-slate-50 bg-slate-700 p-1 bg-opacity-75 rounded">
+          Level {levelNum}
+        </div>
       </div>
     </div>
   );
