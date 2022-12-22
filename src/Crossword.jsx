@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { toast } from "react-hot-toast";
 import { useElementSize } from "usehooks-ts";
 
@@ -6,6 +6,8 @@ const Crossword = ({
   grid,
   setGrid,
   completeGrid,
+  levelComplete,
+  getNextLevel,
   themeColor,
   defineMode,
   setDefineMode,
@@ -44,13 +46,15 @@ const Crossword = ({
     let r = Math.floor(idx / numCols);
     let c = idx % numCols;
     if (defineMode && grid[r][c] !== "_") {
-      console.log(grid[r][c]);
       toast.error("Definitions not implemented yet");
     } else if (!defineMode && grid[r][c] === "_") {
       const newGrid = [...grid];
       newGrid[r][c] = completeGrid[r][c];
       setGrid(newGrid);
       setDefineMode(true);
+      if (levelComplete(newGrid)) {
+        getNextLevel();
+      }
     }
   };
 

@@ -24,6 +24,7 @@ const WordCircle = ({
   themeColor,
   setThemeColor,
   levelNum,
+  levelComplete,
   getNextLevel,
   shuffleArray,
   setDefineMode,
@@ -112,18 +113,6 @@ const WordCircle = ({
     },
     [words, grid, setGrid, wordsFound, setWordsFound]
   );
-
-  const levelComplete = (grid) => {
-    // ensure grid === completeGrid
-    for (let r = 0; r < grid.length; r++) {
-      for (let c = 0; c < grid[0].length; c++) {
-        if (grid[r][c] !== completeGrid[r][c]) {
-          return false;
-        }
-      }
-    }
-    return true;
-  };
 
   const shuffleLetters = () => {
     let newLetters = [...letters];

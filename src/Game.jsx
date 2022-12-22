@@ -14,6 +14,18 @@ export const Game = () => {
   // defineMode true: tap letter -> define, false: tap letter -> reveal
   const [defineMode, setDefineMode] = useState(true);
 
+  const levelComplete = (grid) => {
+    // ensure grid === completeGrid
+    for (let r = 0; r < grid.length; r++) {
+      for (let c = 0; c < grid[0].length; c++) {
+        if (grid[r][c] !== completeGrid[r][c]) {
+          return false;
+        }
+      }
+    }
+    return true;
+  };
+
   const getNextLevel = () => {
     toast.success(`Level ${levelNum} Complete!`, {
       duration: 3000,
@@ -75,6 +87,8 @@ export const Game = () => {
             grid,
             setGrid,
             completeGrid,
+            levelComplete,
+            getNextLevel,
             wordsFound,
             themeColor,
             defineMode,
@@ -96,6 +110,7 @@ export const Game = () => {
             themeColor,
             setThemeColor,
             levelNum,
+            levelComplete,
             getNextLevel,
             shuffleArray,
             setDefineMode,
