@@ -44,6 +44,7 @@ const WordCircle = ({
     });
     const word = lettersArray.join("");
     setInputtedWord(word);
+    setInputtedWordBGColor(themeColor);
     return word;
   };
 
