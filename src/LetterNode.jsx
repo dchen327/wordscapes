@@ -20,7 +20,7 @@ function LetterNode({
     return { type: "invisible-dragger", source: letterID };
   };
 
-  const [collected, drag, dragPreview] = useDrag(
+  const [, drag, dragPreview] = useDrag(
     () => ({
       type: "invisible-dragger",
       item: beginDrag,
@@ -67,10 +67,10 @@ function LetterNode({
     dragPreview(getEmptyImage(), { captureDraggingState: true });
   });
 
-  useEffect(() => {
-    if (collected.dragging) document.body.style.cursor = "grab !important";
-    else document.body.style.cursor = "normal";
-  }, [collected.dragging]);
+  // useEffect(() => {
+  //   if (collected.dragging) document.body.style.cursor = "none !important";
+  //   else document.body.style.cursor = "none !important";
+  // }, [collected.dragging]);
 
   return (
     <>
