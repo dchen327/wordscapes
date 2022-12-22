@@ -4,7 +4,7 @@ import { useElementSize } from "usehooks-ts";
 const Crossword = ({ propGrid, themeColor }) => {
   const [grid, setGrid] = useState([]);
   const numCols = grid[0]?.length;
-  const [crosswordRef, { width, height }] = useElementSize();
+  const [crosswordRef, dimensions] = useElementSize();
 
   // rerender when grid changes
   useEffect(() => {
@@ -43,8 +43,8 @@ const Crossword = ({ propGrid, themeColor }) => {
               key={i}
               style={{
                 backgroundColor: getCellBGColor(col),
-                height: (0.9 * height) / numCols,
-                fontSize: (0.6 * height) / numCols,
+                height: (0.9 * dimensions.height) / numCols,
+                fontSize: (0.6 * dimensions.height) / numCols,
               }}
             >
               {col !== "-" && (
