@@ -3,6 +3,8 @@ import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
 import CustomDragLayer from "./CustomDragLayer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShuffle } from "@fortawesome/free-solid-svg-icons";
 
 const WordCircle = ({
   words,
@@ -188,7 +190,13 @@ const WordCircle = ({
   // }, [words, enterWord]);
 
   return (
-    <>
+    <div className="flex justify-evenly w-full">
+      <div className="flex flex-col">
+        {/* transparent button with light border */}
+        <button className="mt-20 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+          <FontAwesomeIcon icon={faShuffle} />
+        </button>
+      </div>
       <div className="flex flex-col items-center justify-center ">
         <div className="min-h-[2.75rem]">
           <h1
@@ -202,7 +210,13 @@ const WordCircle = ({
         </div>
         {GetCircleLayout(letters)}
       </div>
-    </>
+      <div className="flex flex-col">
+        {/* transparent button with light border */}
+        <button className="mt-20 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-75 border rounded-full">
+          Hint
+        </button>
+      </div>
+    </div>
   );
 };
 
