@@ -1,5 +1,6 @@
 import random
 import itertools
+import os
 from collections import Counter, defaultdict, namedtuple
 from copy import deepcopy
 from typing import Counter, List, Dict
@@ -29,7 +30,7 @@ def gen_puzzle_words(words_by_len: Dict, main_word: str) -> List[str]:
     return subwords
 
 
-def gen_crossword(puzzle_words: List[str]):
+def gen_crossword(puzzle_words: List[str], output_file: str):
     ''' Generates a crossword from the provided puzzle words.
         Place words into crossword, trying to maximize metric for 'goodness'
         - Start by randomly placing the main word (longest)
@@ -37,6 +38,8 @@ def gen_crossword(puzzle_words: List[str]):
             - Pick random set of crosswords
             - Pick a random word and try to insert 
         - Store a crossword as a grid and the used dictionary
+        - Returns None if no crossword can be generated with at least 6 words,
+            otherwise returns a generated crossword
     '''
     R, C = 10, 10
     grid = [['-'] * C for _ in range(R)]
@@ -62,7 +65,7 @@ def gen_crossword(puzzle_words: List[str]):
         len(puzzle_words), 50), replace=False, p=word_weights/np.sum(word_weights))
     for num_words in range(25):
         new_crosswords = []
-        print(num_words, len(crosswords))
+        # print(num_words, len(crosswords))
         for grid, used in random.choices(crosswords, k=beam_width):
             unused_words = tuple(set(words) - set(used.keys()))
             if not unused_words:
@@ -89,16 +92,17 @@ def gen_crossword(puzzle_words: List[str]):
                                     new_crosswords.append(
                                         (new_grid, new_used))
 
-        if len(new_crosswords) > 0:
+        if new_crosswords:
             crosswords = new_crosswords
         else:
             break
 
+    if len(words) < 6:  # crossword too small
+        return None
+
     for grid, used in random.choices(crosswords, k=1):
-        print(list(used.keys()))
-        print(used)
-        print_grid(grid)
-        with open('puzzle.txt', 'w') as f:
+        # print_grid(grid)
+        with open(output_file, 'w') as f:
             f.write(str(len(used)) + '\n')
             for word in used:
                 word_info = used[word]
@@ -182,7 +186,7 @@ def print_grid(grid, file=None, caps=False):
             print(' '.join(row).upper(), file=file)
         else:
             print(' '.join(row), file=file)
-    print()
+    # print()
 
 
 def setup():
@@ -192,9 +196,17 @@ def setup():
         for word in words:
             words_by_len[len(word)].append(word)
 
-        main_word = random.choice(words_by_len[8])
-        puzzle_words = gen_puzzle_words(words_by_len, main_word)
-        gen_crossword(puzzle_words)
+        num_crosswords = 10
+        main_words = random.choices(
+            words_by_len[8] + words_by_len[7], k=num_crosswords)
+        # make puzzles directory if it doesn't exist
+        if not os.path.exists('puzzles'):
+            os.makedirs('puzzles')
+        for i, main_word in enumerate(main_words):
+            puzzle_words = gen_puzzle_words(words_by_len, main_word)
+            gen_crossword(
+                puzzle_words, output_file=f'levels/level_{i+1}.txt')
+            print(f'Crossword #{i+1}: {main_word}')
 
 
 if __name__ == '__main__':

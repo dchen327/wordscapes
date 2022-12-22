@@ -25,9 +25,6 @@ class handler(BaseHTTPRequestHandler):
                 words[word] = (int(r), int(c), is_horiz == 'True')
             r, c = map(int, f.readline().split())
             crossword = [f.readline().split() for _ in range(r)]
-            # # replace all non-hyphens with underscore
-            # crossword = [[c if c == '-' else '_' for c in row]
-            #              for row in crossword]
         return {'words': words, 'grid': crossword}
 
 

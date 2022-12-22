@@ -1,27 +1,25 @@
-15
-OPERATED 6 2 True
-ROPE 6 5 False
-PART 6 3 False
-RAPE 8 3 True
-PETE 3 4 False
-PROT 9 0 True
-RATE 3 8 False
-DEAR 4 6 True
-DROP 6 0 False
-DEPT 6 9 False
-TREE 4 1 True
-POET 1 1 False
-ROAD 1 6 False
-PORT 1 1 True
-REED 1 6 True
+13
+FLAMING 2 3 True
+MANG 2 6 False
+LAIN 4 3 True
+MANI 0 8 False
+ANIL 4 4 False
+GAIN 5 6 True
+MAIL 6 2 True
+AMIN 5 7 False
+GLAM 0 5 True
+FANG 8 5 True
+MALI 6 2 False
+ALIGN 9 0 True
+FILA 6 0 False
 10 10
-- - - - - - - - - -
-- P O R T - R E E D
-- O - - - - O - - -
-- E - - P - A - R -
-- T R E E - D E A R
-- - - - T - - - T -
-D - O P E R A T E D
-R - - A - O - - - E
-O - - R A P E - - P
-P R O T - E - - - T
+- - - - - G L A M -
+- - - - - - - - A -
+- - - F L A M I N G
+- - - - - - A - I -
+- - - L A I N - - -
+- - - - N - G A I N
+F - M A I L - M - -
+I - A - L - - I - -
+L - L - - F A N G -
+A L I G N - - - - -

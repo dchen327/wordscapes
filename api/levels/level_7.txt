@@ -1,0 +1,27 @@
+15
+PLATTER 1 2 False
+RAPE 7 2 True
+LATER 2 2 True
+PEAR 6 5 False
+PART 6 5 True
+RATTLE 4 0 True
+REAL 4 0 False
+PEAT 3 8 False
+TART 0 6 False
+TAPE 3 6 True
+TALE 2 4 False
+ALERT 8 5 True
+PARE 0 9 False
+TEAR 9 2 True
+LATTE 0 3 True
+10 10
+- - - L A T T E - P
+- - P - - - A - - A
+- - L A T E R - - R
+- - A - A - T A P E
+R A T T L E - - E -
+E - T - E - - - A -
+A - E - - P A R T -
+L - R A P E - - - -
+- - - - - A L E R T
+- - T E A R - - - -

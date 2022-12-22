@@ -1,0 +1,27 @@
+15
+CYSTEINE 0 2 False
+SEINE 4 1 True
+EYES 7 0 True
+SEEN 6 0 False
+TYNE 1 5 False
+NICE 0 0 True
+TENSE 1 5 True
+NIECE 1 7 False
+SECT 5 6 True
+SINE 5 6 False
+NITE 7 6 True
+NICEST 9 0 True
+TEENS 5 9 False
+YETI 0 9 False
+NEST 0 0 False
+10 10
+N I C E - - - - - Y
+E - Y - - T E N S E
+S - S - - Y - I - T
+T - T - - N - E - I
+- S E I N E - C - -
+- - I - - - S E C T
+S - N - - - I - - E
+E Y E S - - N I T E
+E - - - - - E - - N
+N I C E S T - - - S

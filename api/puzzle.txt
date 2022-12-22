@@ -1,27 +1,26 @@
-'14
-PROVIDED 0 2 True
-VIDEO 0 5 False
-PROVED 4 3 True
-RIDE 4 4 False
-DROVE 6 4 True
-PRIDE 7 0 True
-OVER 6 6 False
-DRIVE 0 7 False
-VOIP 5 2 False
-DIED 4 8 False
-DROP 0 9 False
-DRIED 2 1 True
-RIPE 5 0 False
-PROVE 9 5 True
+14
+ABREAST 6 2 True
+BASE 4 7 False
+TARA 3 2 False
+BATS 3 0 True
+ABATE 2 5 False
+AREAS 2 5 True
+ARES 0 3 False
+RASTA 0 9 False
+TEAR 0 6 True
+TSAR 0 1 True
+BARE 6 3 False
+BATE 3 0 False
+ERAS 9 3 True
+BEAR 8 0 True
 10 10
-- - P R O V I D E D
-- - - - - I - R - R
-- D R I E D - I - O
-- - - - - E - V - P
-- - - P R O V E D -
-R - V - I - - - I -
-I - O - D R O V E -
-P R I D E - V - D -
-E - P - - - E - - -
-- - - - - P R O V E
-'
+- T S A R - T E A R
+- - - R - - - - - A
+- - - E - A R E A S
+B A T S - B - - - T
+A - A - - A - B - A
+T - R - - T - A - -
+E - A B R E A S T -
+- - - A - - - E - -
+B E A R - - - - - -
+- - - E R A S - - -

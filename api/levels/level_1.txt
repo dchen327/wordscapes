@@ -1,25 +1,25 @@
 13
-ANNOUNCE 0 7 False
-ONCE 5 6 True
-OCEAN 7 5 True
-NANO 0 6 True
-CANNON 2 2 True
-CONE 6 5 False
-CANOE 9 1 True
-ACNE 1 2 False
-NONE 2 9 False
-CANON 5 3 False
-ANNE 0 4 False
-NEON 7 0 True
-NOUN 4 0 False
+HOSTESS 7 1 True
+HOSE 6 2 False
+THOSE 3 5 False
+HOSTS 3 2 True
+SHOES 5 3 True
+ESTS 9 2 True
+TOSS 0 6 False
+TOES 1 5 True
+SHOTS 1 3 False
+HOES 1 0 True
+HOST 1 0 False
+SHES 1 8 False
+SESS 5 7 False
 10 10
-- - - - A - N A N O
-- - A - N - - N - -
-- - C A N N O N - N
-- - N - E - - O - O
-N - E - - - - U - N
-O - - C - - O N C E
-U - - A - C - C - -
-N E O N - O C E A N
-- - - O - N - - - -
-- C A N O E - - - -
+- - - - - - T - - -
+H O E S - T O E S -
+O - - H - - S - H -
+S - H O S T S - E -
+T - - T - H - - S -
+- - - S H O E S - -
+- - H - - S - E - -
+- H O S T E S S - -
+- - S - - - - S - -
+- - E S T S - - - -

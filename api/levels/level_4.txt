@@ -1,0 +1,25 @@
+13
+RUFFLED 2 2 False
+DUFFLE 8 2 True
+RUDE 3 1 True
+LURE 0 4 False
+FUEL 5 6 False
+FLED 5 6 True
+RULE 2 4 True
+RUFF 5 0 True
+FURL 0 1 True
+DUFF 6 4 False
+DUEL 0 7 False
+FEUD 4 8 False
+RULED 5 0 False
+10 10
+- F U R L - - D - -
+- - - - U - - U - -
+- - R - R U L E - -
+- R U D E - - L - -
+- - F - - - - - F -
+R U F F - - F L E D
+U - L - D - U - U -
+L - E - U - E - D -
+E - D U F F L E - -
+D - - - F - - - - -

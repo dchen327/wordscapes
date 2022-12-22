@@ -1,0 +1,27 @@
+15
+BROCADE 2 1 False
+CADE 6 0 True
+BREAD 2 1 True
+DECOR 5 3 False
+ADOBE 1 5 False
+BRACE 4 5 True
+CORE 4 8 False
+AERO 8 0 True
+CARED 7 5 True
+CARB 6 6 False
+BORD 9 6 True
+ABODE 0 9 False
+CODA 0 6 True
+ACER 0 3 False
+CRAB 0 1 True
+10 10
+- C R A B - C O D A
+- - - C - A - - - B
+- B R E A D - - - O
+- R - R - O - - - D
+- O - - - B R A C E
+- C - D - E - - O -
+C A D E - - C - R -
+- D - C - C A R E D
+A E R O - - R - - -
+- - - R - - B O R D
