@@ -21,12 +21,6 @@ export const Game = () => {
     }
   };
 
-  const shuffleLetters = () => {
-    let newLetters = [...letters];
-    shuffleArray(newLetters);
-    setLetters(newLetters);
-  };
-
   // fetch new crossword each time levelNum changes
   useEffect(() => {
     const fetchCrossword = async () => {
@@ -77,6 +71,7 @@ export const Game = () => {
         <WordCircle
           words={words}
           letters={letters}
+          setLetters={setLetters}
           completeGrid={completeGrid}
           grid={grid}
           setGrid={setGrid}
@@ -85,7 +80,7 @@ export const Game = () => {
           themeColor={themeColor}
           setThemeColor={setThemeColor}
           getNextLevel={getNextLevel}
-          shuffleLetters={shuffleLetters}
+          shuffleArray={shuffleArray}
         />
       )}
     </div>

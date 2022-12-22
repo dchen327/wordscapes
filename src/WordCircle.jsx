@@ -14,6 +14,7 @@ import {
 const WordCircle = ({
   words,
   letters,
+  setLetters,
   completeGrid,
   grid,
   setGrid,
@@ -22,7 +23,7 @@ const WordCircle = ({
   themeColor,
   setThemeColor,
   getNextLevel,
-  shuffleLetters,
+  shuffleArray,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -112,6 +113,39 @@ const WordCircle = ({
       }
     }
     return true;
+  };
+
+  const shuffleLetters = () => {
+    let newLetters = [...letters];
+    shuffleArray(newLetters);
+    setLetters(newLetters);
+  };
+
+  const revealLetters = (numLetters = 1) => {
+    // reveal numLetters letters
+    // loop through 2d grid, find _ and pick random ones to reveal with complete grid
+    const allEmptyCoords = []; // coords of covered letters
+    for (let r = 0; r < grid.length; r++) {
+      for (let c = 0; c < grid[0].length; c++) {
+        if (grid[r][c] === "_") {
+          allEmptyCoords.push([r, c]);
+        }
+      }
+    }
+    shuffleArray(allEmptyCoords);
+
+    // reveal random letters
+    const newGrid = [...grid];
+    for (let i = 0; i < numLetters && i < allEmptyCoords.length; i++) {
+      let [r, c] = allEmptyCoords[i];
+      newGrid[r][c] = completeGrid[r][c];
+    }
+    // if grid is complete, move to next level
+    if (levelComplete(newGrid)) {
+      getNextLevel();
+    } else {
+      setGrid(newGrid);
+    }
   };
 
   const GetCircleLayout = (letters) => {
@@ -223,10 +257,18 @@ const WordCircle = ({
       </div>
       <div className="flex flex-col justify-start my-10">
         <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
-          <FontAwesomeIcon icon={faLightbulb} size="lg" />
+          <FontAwesomeIcon
+            icon={faLightbulb}
+            size="lg"
+            onClick={() => revealLetters()}
+          />
         </button>
         <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
-          <FontAwesomeIcon icon={faBurst} size="lg" />
+          <FontAwesomeIcon
+            icon={faBurst}
+            size="lg"
+            onClick={() => revealLetters(5)}
+          />
         </button>
       </div>
     </div>
