@@ -76,6 +76,7 @@ export const Game = () => {
       className="flex flex-col justify-around items-center justify-center h-screen bg-cover"
       style={{
         backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
+        height: "-webkit-fill-available",
       }}
     >
       <Toaster />
