@@ -4,7 +4,12 @@ import Xarrow from "react-xarrows";
 import { disableBodyScroll } from "body-scroll-lock";
 import CustomDragLayer from "./CustomDragLayer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShuffle } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBurst,
+  faCrosshairs,
+  faLightbulb,
+  faShuffle,
+} from "@fortawesome/free-solid-svg-icons";
 
 const WordCircle = ({
   words,
@@ -191,10 +196,12 @@ const WordCircle = ({
 
   return (
     <div className="flex justify-evenly w-full">
-      <div className="flex flex-col">
-        {/* transparent button with light border */}
-        <button className="mt-20 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
-          <FontAwesomeIcon icon={faShuffle} />
+      <div className="flex flex-col justify-start my-10">
+        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+          <FontAwesomeIcon icon={faShuffle} size="lg" />
+        </button>
+        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+          <FontAwesomeIcon icon={faCrosshairs} size="lg" />
         </button>
       </div>
       <div className="flex flex-col items-center justify-center ">
@@ -210,10 +217,12 @@ const WordCircle = ({
         </div>
         {GetCircleLayout(letters)}
       </div>
-      <div className="flex flex-col">
-        {/* transparent button with light border */}
-        <button className="mt-20 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-75 border rounded-full">
-          Hint
+      <div className="flex flex-col justify-start my-10">
+        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+          <FontAwesomeIcon icon={faLightbulb} size="lg" />
+        </button>
+        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+          <FontAwesomeIcon icon={faBurst} size="lg" />
         </button>
       </div>
     </div>
