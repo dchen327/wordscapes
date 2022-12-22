@@ -57,6 +57,7 @@ const WordCircle = ({
       // check if level is complete
       if (levelComplete(grid)) {
         // setThemeColor("#34D399");
+        setInputtedWord("");
         getNextLevel();
       } else {
         // clear the inputted word after some time
