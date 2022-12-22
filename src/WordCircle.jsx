@@ -149,7 +149,7 @@ const WordCircle = ({
     let circleWidth = 2 * (circleRadius + letterWidth / 4);
     return (
       <div
-        className="relative rounded-full mb-20 z-0"
+        className="relative rounded-full z-0"
         style={{
           backgroundColor: "rgba(205, 209, 230, 0.9)",
           width: circleWidth,
@@ -229,8 +229,8 @@ const WordCircle = ({
   // }, [words, enterWord]);
 
   return (
-    <div className="flex justify-evenly w-full">
-      <div className="flex flex-col justify-start my-10">
+    <div className="flex mb-20 w-full justify-evenly">
+      <div className="flex flex-col justify-start mt-10">
         <button
           className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
           onClick={shuffleLetters}
@@ -250,6 +250,7 @@ const WordCircle = ({
           <FontAwesomeIcon icon={faForward} size="lg" />
         </button>
       </div>
+
       <div className="flex flex-col items-center justify-center ">
         <div className="min-h-[2.75rem]">
           <h1
@@ -263,7 +264,8 @@ const WordCircle = ({
         </div>
         {GetCircleLayout(letters)}
       </div>
-      <div className="flex flex-col justify-start my-10">
+
+      <div className="flex flex-col justify-start mt-10">
         <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
           <FontAwesomeIcon
             icon={faLightbulb}
