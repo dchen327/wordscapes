@@ -1,0 +1,25 @@
+13
+JAVELIN 8 2 True
+VEIL 6 7 False
+EVIL 6 6 True
+LEAN 6 3 False
+ANIL 6 0 True
+NEAL 3 9 False
+LAIN 3 6 True
+VEAL 0 6 False
+VIAL 0 6 True
+LIVE 1 3 True
+NAIL 5 0 False
+ALIVE 0 3 False
+VEIN 4 2 True
+10 10
+- - - A - - V I A L
+- - - L I V E - - -
+- - - I - - A - - -
+- - - V - - L A I N
+- - V E I N - - - E
+N - - - - - - - - A
+A N I L - - E V I L
+I - - E - - - E - -
+L - J A V E L I N -
+- - - N - - - L - -

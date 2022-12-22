@@ -1,0 +1,26 @@
+14
+REPAINT 0 8 False
+INERT 6 4 True
+RENT 6 7 False
+RAIN 4 4 False
+PART 0 6 True
+RANT 8 5 True
+RAPE 2 6 True
+PARE 0 6 False
+PERI 4 2 True
+PINE 1 3 False
+TRIP 1 0 True
+TRAP 0 1 False
+PAIN 7 1 True
+TAPE 6 2 False
+10 10
+- T - - - - P A R T
+T R I P - - A - E -
+- A - I - - R A P E
+- P - N - - E - A -
+- - P E R I - - I -
+- - - - A - - - N -
+- - T - I N E R T -
+- P A I N - - E - -
+- - P - - R A N T -
+- - E - - - - T - -

@@ -1,0 +1,24 @@
+12
+COOLING 5 3 True
+LOCO 2 4 False
+ICON 3 2 True
+LOCI 5 6 False
+COLON 5 3 False
+LOGO 6 0 True
+LION 9 0 True
+COOL 7 6 True
+LOGIC 0 2 False
+LOON 0 2 True
+CLOG 2 9 False
+COIL 3 0 False
+10 10
+- - L O O N - - - -
+- - O - - - - - - -
+- - G - L - - - - C
+C - I C O N - - - L
+O - C - C - - - - O
+I - - C O O L I N G
+L O G O - - O - - -
+- - - L - - C O O L
+- - - O - - I - - -
+L I O N - - - - - -

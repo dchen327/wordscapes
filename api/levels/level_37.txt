@@ -1,0 +1,26 @@
+14
+THEATRES 7 2 True
+THREAT 2 6 False
+SHEAR 5 8 False
+EASTER 4 1 True
+TESTER 0 1 False
+TEST 6 4 False
+SHEET 9 0 True
+EARS 9 6 True
+EASE 5 6 True
+TETRA 2 4 True
+HEAT 1 0 True
+TEAS 0 8 False
+HASTE 0 5 True
+HERS 6 0 False
+10 10
+- T - - - H A S T E
+H E A T - - - - E -
+- S - - T E T R A -
+- T - - - - H - S -
+- E A S T E R - - -
+- R - - - - E A S E
+H - - - T - A - H -
+E - T H E A T R E S
+R - - - S - - - A -
+S H E E T - E A R S

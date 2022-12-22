@@ -1,0 +1,26 @@
+14
+APPROVAL 2 0 False
+LAVA 9 0 True
+PARA 6 3 False
+PAPAL 6 3 True
+ARPA 2 0 True
+POPLAR 4 0 True
+VALOR 5 6 False
+POLAR 0 5 False
+LARVA 2 5 True
+OVAL 8 6 True
+ORAL 0 9 False
+PAPA 2 2 False
+OPAL 5 9 False
+PROP 0 2 True
+10 10
+- - P R O P - - - O
+- - - - - O - - - R
+A R P A - L A R V A
+P - A - - A - - - L
+P O P L A R - - - -
+R - A - - - V - - O
+O - - P A P A L - P
+V - - A - - L - - A
+A - - R - - O V A L
+L A V A - - R - - -

@@ -1,25 +1,26 @@
-13
-HOSTESS 7 1 True
-HOSE 6 2 False
-THOSE 3 5 False
-HOSTS 3 2 True
-SHOES 5 3 True
-ESTS 9 2 True
-TOSS 0 6 False
-TOES 1 5 True
-SHOTS 1 3 False
-HOES 1 0 True
-HOST 1 0 False
-SHES 1 8 False
-SESS 5 7 False
+14
+CROOKED 3 0 True
+COED 0 6 False
+CORD 0 6 True
+DECO 0 2 False
+ROOK 3 1 False
+ODOR 3 3 False
+DORK 0 4 False
+REDO 1 1 True
+RODEO 6 3 True
+DOOR 5 7 False
+RODE 0 8 False
+DOCK 6 5 False
+ROCK 9 2 True
+CORK 8 5 True
 10 10
-- - - - - - T - - -
-H O E S - T O E S -
-O - - H - - S - H -
-S - H O S T S - E -
-T - - T - H - - S -
-- - - S H O E S - -
-- - H - - S - E - -
-- H O S T E S S - -
-- - S - - - - S - -
-- - E S T S - - - -
+- - D - D - C O R D
+- R E D O - O - O -
+- - C - R - E - D -
+C R O O K E D - E -
+- O - D - - - - - -
+- O - O - - - D - -
+- K - R O D E O - -
+- - - - - O - O - -
+- - - - - C O R K -
+- - R O C K - - - -

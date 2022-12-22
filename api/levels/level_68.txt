@@ -1,0 +1,25 @@
+13
+REACTION 2 5 False
+CONTRA 4 0 True
+CAIRN 9 1 True
+OCEAN 3 0 False
+ARTI 6 3 False
+CATER 5 5 True
+TINA 2 2 False
+NOIR 7 0 True
+TORIC 5 7 False
+ROTA 2 5 True
+CATE 0 7 False
+ORNATE 4 9 False
+REACT 0 4 True
+10 10
+- - - - R E A C T -
+- - - - - - - A - -
+- - T - - R O T A -
+O - I - - E - E - -
+C O N T R A - - - O
+E - A - - C A T E R
+A - - A - T - O - N
+N O I R - I - R - A
+- - - T - O - I - T
+- C A I R N - C - E

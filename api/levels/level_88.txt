@@ -1,0 +1,26 @@
+14
+ELECTRON 1 8 False
+COTE 5 6 True
+ONCE 1 5 True
+LEER 3 6 True
+CORE 5 6 False
+ELECTRO 6 0 True
+RENO 5 0 False
+RENT 3 4 False
+LEONE 8 5 True
+TORE 4 1 True
+ENCORE 1 2 False
+TREE 1 0 True
+CENT 6 3 False
+NOTE 9 1 True
+10 10
+- - - - - - - - - -
+T R E E - O N C E -
+- - N - - - - - L -
+- - C - R - L E E R
+- T O R E - - - C -
+R - R - N - C O T E
+E L E C T R O - R -
+N - - E - - R - O -
+O - - N - L E O N E
+- N O T E - - - - -

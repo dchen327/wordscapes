@@ -1,0 +1,22 @@
+10
+ACTUATE 2 8 False
+TATA 6 5 True
+ETAT 3 5 False
+ACUTE 3 1 True
+CATE 8 5 True
+CUTE 3 2 False
+TATE 5 0 True
+TACT 4 5 True
+ACTA 0 1 False
+TATU 5 0 False
+10 10
+- A - - - - - - - -
+- C - - - - - - - -
+- T - - - - - - A -
+- A C U T E - - C -
+- - U - - T A C T -
+T A T E - A - - U -
+A - E - - T A T A -
+T - - - - - - - T -
+U - - - - C A T E -
+- - - - - - - - - -

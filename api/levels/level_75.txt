@@ -1,0 +1,24 @@
+12
+BOLSTER 2 1 False
+BEST 2 1 True
+STROBE 6 0 True
+TORE 3 5 False
+SORT 5 3 False
+ROLE 5 5 True
+LORE 2 8 False
+LOBES 5 7 False
+REST 0 3 False
+BELT 2 6 True
+LESBO 9 5 True
+ROBLES 0 3 True
+10 10
+- - - R O B L E S -
+- - - E - - - - - -
+- B E S T - B E L T
+- O - T - T - - O -
+- L - - - O - - R -
+- S - S - R O L E -
+S T R O B E - O - -
+- E - R - - - B - -
+- R - T - - - E - -
+- - - - - L E S B O

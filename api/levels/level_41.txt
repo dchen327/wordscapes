@@ -1,0 +1,28 @@
+16
+EDITIONS 5 1 True
+DOIT 5 2 False
+TOES 5 4 False
+DOES 4 6 False
+DESI 2 3 False
+NOISE 7 0 True
+IODINE 0 1 False
+INSIDE 0 1 True
+SIDE 3 0 True
+DINE 2 3 True
+NOES 2 8 False
+SINE 7 6 True
+DENT 6 9 False
+INSET 9 5 True
+DINO 0 5 False
+ONES 6 0 False
+10 10
+- I N S I D E - - -
+- O - - - I - - - -
+- D - D I N E - N -
+S I D E - O - - O -
+- N - S - - D - E -
+- E D I T I O N S -
+O - O - O - E - - D
+N O I S E - S I N E
+E - T - S - - - - N
+S - - - - I N S E T

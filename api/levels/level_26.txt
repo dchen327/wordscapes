@@ -1,0 +1,25 @@
+13
+BACKLOG 5 3 True
+BLACK 1 6 False
+BLOG 5 3 False
+COLA 5 5 False
+LOCK 2 6 True
+LACK 5 7 False
+BOCK 0 8 False
+BOLA 3 3 True
+GLOB 0 3 False
+LOCA 7 5 True
+CLOG 0 0 True
+COAL 6 0 True
+BACK 4 0 False
+10 10
+C L O G - - - - B -
+- - - L - - B - O -
+- - - O - - L O C K
+- - - B O L A - K -
+B - - - - - C - - -
+A - - B A C K L O G
+C O A L - O - A - -
+K - - O - L O C A -
+- - - G - A - K - -
+- - - - - - - - - -

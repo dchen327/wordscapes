@@ -1,27 +1,29 @@
-15
-CYSTEINE 0 2 False
-SEINE 4 1 True
-EYES 7 0 True
-SEEN 6 0 False
-TYNE 1 5 False
-NICE 0 0 True
-TENSE 1 5 True
-NIECE 1 7 False
-SECT 5 6 True
-SINE 5 6 False
-NITE 7 6 True
-NICEST 9 0 True
-TEENS 5 9 False
-YETI 0 9 False
-NEST 0 0 False
+17
+LAKESIDE 2 7 False
+SLED 2 6 True
+SEALED 5 3 True
+EASEL 3 3 False
+DALES 3 0 True
+ASIDE 0 0 False
+LAID 4 5 False
+LEED 9 6 True
+SEAL 7 0 True
+EELS 0 4 False
+SAILED 1 0 True
+DELI 6 1 False
+AIDES 0 9 False
+SILK 9 0 True
+DIAL 0 2 False
+LIED 6 9 False
+SIDA 0 6 True
 10 10
-N I C E - - - - - Y
-E - Y - - T E N S E
-S - S - - Y - I - T
-T - T - - N - E - I
-- S E I N E - C - -
-- - I - - - S E C T
-S - N - - - I - - E
-E Y E S - - N I T E
-E - - - - - E - - N
-N I C E S T - - - S
+A - D - E - S I D A
+S A I L E D - - - I
+I - A - L - S L E D
+D A L E S - - A - E
+E - - A - L - K - S
+- - - S E A L E D -
+- D - E - I - S - L
+S E A L - D - I - I
+- L - - - - - D - E
+S I L K - - L E E D

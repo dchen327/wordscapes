@@ -1,0 +1,24 @@
+12
+ORDERING 1 9 False
+DONE 4 6 True
+IRON 7 6 True
+NERD 1 6 False
+DINER 2 3 True
+RIND 1 4 False
+GRIN 6 7 False
+REIGN 9 3 True
+ROGER 5 3 False
+GROIN 6 1 True
+RING 3 1 False
+RIDE 8 0 True
+10 10
+- - - - - - - - - -
+- - - - R - N - - O
+- - - D I N E R - R
+- R - - N - R - - D
+- I - - D - D O N E
+- N - R - - - - - R
+- G R O I N - G - I
+- - - G - - I R O N
+R I D E - - - I - G
+- - - R E I G N - -

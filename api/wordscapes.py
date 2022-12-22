@@ -196,17 +196,21 @@ def setup():
         for word in words:
             words_by_len[len(word)].append(word)
 
-        num_crosswords = 10
+        num_crosswords = 100  # will try to generate this many, might be fewer
         main_words = random.choices(
             words_by_len[8] + words_by_len[7], k=num_crosswords)
         # make puzzles directory if it doesn't exist
         if not os.path.exists('puzzles'):
             os.makedirs('puzzles')
-        for i, main_word in enumerate(main_words):
+
+        level_num = 1
+        for main_word in main_words:
             puzzle_words = gen_puzzle_words(words_by_len, main_word)
-            gen_crossword(
-                puzzle_words, output_file=f'levels/level_{i+1}.txt')
-            print(f'Crossword #{i+1}: {main_word}')
+            output_file = f'levels/level_{level_num}.txt'
+            if gen_crossword(
+                    puzzle_words, output_file) is not None:
+                print(f'Crossword #{level_num}: {main_word}')
+                level_num += 1
 
 
 if __name__ == '__main__':

@@ -1,0 +1,26 @@
+14
+CRAVINGS 0 0 True
+SIGN 0 7 False
+INGS 3 6 True
+CRIS 0 0 False
+GRIN 3 8 False
+RAINS 6 5 True
+SARI 4 5 False
+SING 6 9 False
+VARS 4 2 True
+AIRS 4 3 False
+RAGS 7 0 True
+SNAG 9 6 True
+RAIN 6 1 False
+CANS 0 9 False
+10 10
+C R A V I N G S - C
+R - - - - - - I - A
+I - - - - - - G - N
+S - - - - - I N G S
+- - V A R S - - R -
+- - - I - A - - I -
+- R - R - R A I N S
+R A G S - I - - - I
+- I - - - - - - - N
+- N - - - - S N A G

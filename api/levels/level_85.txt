@@ -1,0 +1,25 @@
+13
+HAMLETS 2 0 True
+HAMLET 2 0 False
+METS 2 2 False
+STEAL 0 4 False
+HASTE 0 2 True
+STEAM 2 6 False
+MATS 5 5 True
+LAST 3 8 False
+TESLA 7 0 True
+HALE 6 4 False
+METAL 4 0 True
+LEASH 8 4 True
+SHAME 9 0 True
+10 10
+- - H A S T E - - -
+- - - - T - - - - -
+H A M L E T S - - -
+A - E - A - T - L -
+M E T A L - E - A -
+L - S - - M A T S -
+E - - - H - M - T -
+T E S L A - - - - -
+- - - - L E A S H -
+S H A M E - - - - -

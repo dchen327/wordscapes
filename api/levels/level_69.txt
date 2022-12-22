@@ -1,0 +1,27 @@
+15
+DADDIES 3 9 False
+DIED 3 6 True
+SIDE 0 8 False
+ADDED 2 6 False
+AIDED 6 2 True
+IDEA 2 3 True
+DADS 9 6 True
+AIDE 1 3 False
+IDEAS 5 4 False
+DESI 0 6 True
+SADE 4 0 True
+IDES 9 1 True
+DEAD 4 2 False
+SIDED 4 0 False
+SIDA 1 0 True
+10 10
+- - - - - - D E S I
+S I D A - - - - I -
+- - - I D E A - D -
+- - - D - - D I E D
+S A D E - - D - - A
+I - E - I - E - - D
+D - A I D E D - - D
+E - D - E - - - - I
+D - - - A - - - - E
+- I D E S - D A D S

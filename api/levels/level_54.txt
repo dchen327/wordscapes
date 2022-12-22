@@ -1,0 +1,25 @@
+13
+BANDAGES 2 4 False
+BANG 2 4 True
+AGED 6 4 True
+BADGE 8 0 True
+BEADS 5 6 False
+SEAN 9 6 True
+SANG 0 6 False
+BASED 5 0 True
+BANS 2 2 False
+SEND 0 6 True
+DEAN 0 9 False
+BEAN 6 9 False
+SAGA 3 1 True
+10 10
+- - - - - - S E N D
+- - - - - - A - - E
+- - B - B A N G - A
+- S A G A - G - - N
+- - N - N - - - - -
+B A S E D - B - - -
+- - - - A G E D - B
+- - - - G - A - - E
+B A D G E - D - - A
+- - - - S - S E A N

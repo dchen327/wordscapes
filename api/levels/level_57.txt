@@ -1,0 +1,27 @@
+15
+CLOCKING 0 1 True
+CLOG 0 4 False
+COIL 2 3 True
+LINO 2 6 False
+KILO 5 3 True
+CLOCK 0 1 False
+KILN 5 3 False
+LINK 5 5 False
+IKON 8 0 True
+NICK 4 6 True
+NICOL 7 5 True
+LOCK 1 9 False
+COIN 6 8 False
+KING 9 6 True
+COLIN 5 0 False
+10 10
+- C L O C K I N G -
+- L - - L - - - - L
+- O - C O I L - - O
+- C - - G - I - - C
+- K - - - - N I C K
+C - - K I L O - - -
+O - - I - I - - C -
+L - - L - N I C O L
+I K O N - K - - I -
+N - - - - - K I N G

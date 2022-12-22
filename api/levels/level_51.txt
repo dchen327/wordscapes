@@ -1,0 +1,25 @@
+13
+LIFETIME 1 8 False
+FILM 1 6 True
+ELITE 4 4 True
+FLEET 8 5 True
+FILET 1 4 False
+FEEL 3 1 True
+LIFT 5 1 True
+MITE 3 6 False
+LIFE 5 1 False
+EMIT 6 6 True
+TIME 0 2 False
+FILE 5 3 False
+FELT 7 1 True
+10 10
+- - T - - - - - - -
+- - I - F - F I L M
+- - M - I - - - I -
+- F E E L - M - F -
+- - - - E L I T E -
+- L I F T - T - T -
+- I - I - - E M I T
+- F E L T - - - M -
+- E - E - F L E E T
+- - - - - - - - - -

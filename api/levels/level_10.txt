@@ -1,27 +1,25 @@
-15
-BROCADE 2 1 False
-CADE 6 0 True
-BREAD 2 1 True
-DECOR 5 3 False
-ADOBE 1 5 False
-BRACE 4 5 True
-CORE 4 8 False
-AERO 8 0 True
-CARED 7 5 True
-CARB 6 6 False
-BORD 9 6 True
-ABODE 0 9 False
-CODA 0 6 True
-ACER 0 3 False
-CRAB 0 1 True
+13
+DOMINANT 2 0 True
+AMINO 1 2 False
+DINO 0 6 False
+DAMN 0 6 True
+ANNO 0 4 False
+NATION 0 9 False
+TINA 4 0 True
+TAIN 5 6 True
+MAIN 4 7 False
+MOAN 7 4 True
+DONA 6 5 False
+ANTI 9 5 True
+TOAD 4 0 False
 10 10
-- C R A B - C O D A
-- - - C - A - - - B
-- B R E A D - - - O
-- R - R - O - - - D
-- O - - - B R A C E
-- C - D - E - - O -
-C A D E - - C - R -
-- D - C - C A R E D
-A E R O - - R - - -
-- - - R - - B O R D
+- - - - A - D A M N
+- - A - N - I - - A
+D O M I N A N T - T
+- - I - O - O - - I
+T I N A - - - M - O
+O - O - - - T A I N
+A - - - - D - I - -
+D - - - M O A N - -
+- - - - - N - - - -
+- - - - - A N T I -

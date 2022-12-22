@@ -1,0 +1,28 @@
+16
+WALLETS 0 4 False
+TEAS 5 4 True
+WALLET 4 6 False
+SWEAT 0 3 True
+LETS 9 4 True
+TWAS 0 7 False
+TALL 2 6 True
+STELLA 3 0 True
+ALES 1 2 False
+TELLS 6 0 True
+LAWS 7 6 True
+LEAS 6 2 False
+STALE 5 0 False
+EAST 5 9 False
+LATS 0 0 False
+TELL 0 9 False
+10 10
+L - - S W E A T - T
+A - A - A - - W - E
+T - L - L - T A L L
+S T E L L A - S - L
+- - S - E - W - - -
+S - - - T E A S - E
+T E L L S - L - - A
+A - E - - - L A W S
+L - A - - - E - - T
+E - S - L E T S - -

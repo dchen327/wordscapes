@@ -1,0 +1,25 @@
+13
+ENTROPY 6 0 True
+TERN 6 2 False
+TYPE 3 0 False
+PORN 8 0 True
+PEONY 2 6 False
+TORE 3 0 True
+TONER 4 5 True
+PYRO 6 5 False
+OPEN 1 3 False
+TORN 1 2 True
+RENO 4 9 False
+PORT 2 6 True
+ROTE 9 4 True
+10 10
+- - - - - - - - - -
+- - T O R N - - - -
+- - - P - - P O R T
+T O R E - - E - - -
+Y - - N - T O N E R
+P - - - - - N - - E
+E N T R O P Y - - N
+- - E - - Y - - - O
+P O R N - R - - - -
+- - N - R O T E - -

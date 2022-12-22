@@ -1,0 +1,24 @@
+12
+FREEHAND 6 0 True
+HEADER 1 1 False
+DEAF 4 5 False
+FEAR 6 0 False
+FEED 3 7 False
+NEAR 2 0 True
+ADHERE 4 4 True
+REEF 3 9 False
+REED 9 0 True
+ERED 6 3 False
+HARD 0 3 False
+HARE 0 3 True
+10 10
+- - - H A R E - - -
+- H - A - - - - - -
+N E A R - - - - - -
+- A - D - - - F - R
+- D - - A D H E R E
+- E - - - E - E - E
+F R E E H A N D - F
+E - - R - F - - - -
+A - - E - - - - - -
+R E E D - - - - - -

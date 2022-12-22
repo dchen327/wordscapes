@@ -1,27 +1,21 @@
-15
-SMOOTHED 7 0 True
-MODE 6 2 False
-SHED 5 6 False
-SHOT 5 6 True
-DOES 9 0 True
-SOHO 2 8 False
-MOST 4 4 False
-DOTS 4 0 False
-MOTHS 2 4 True
-TOMS 4 2 True
-MOOT 1 2 False
-SOME 1 0 True
-METH 0 6 False
-TOES 5 9 False
-HOMES 0 4 True
+9
+PENNANT 2 1 False
+PATE 2 1 True
+ETNA 2 4 False
+PANT 6 0 True
+TAPE 3 4 True
+PEAT 3 6 False
+ANTE 5 6 True
+PANE 0 7 False
+NEAT 4 9 False
 10 10
-- - - - H O M E S -
-S O M E - - E - - -
-- - O - M O T H S -
-- - O - - - H - O -
-D - T O M S - - H -
-O - - - O - S H O T
-T - M - S - H - - O
-S M O O T H E D - E
-- - D - - - D - - S
-D O E S - - - - - -
+- - - - - - - P - -
+- - - - - - - A - -
+- P A T E - - N - -
+- E - - T A P E - -
+- N - - N - E - - N
+- N - - A - A N T E
+P A N T - - T - - A
+- N - - - - - - - T
+- T - - - - - - - -
+- - - - - - - - - -

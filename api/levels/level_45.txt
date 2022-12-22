@@ -1,0 +1,24 @@
+12
+BRAKING 2 2 False
+GRIN 8 2 True
+GARB 3 0 True
+AKIN 6 0 True
+GRAIN 4 5 False
+BRAG 5 4 True
+RANG 5 0 False
+BRING 1 7 False
+GRAB 2 6 True
+BRIG 0 0 False
+BAKING 0 0 True
+BRINK 2 9 False
+10 10
+B A K I N G - - - -
+R - - - - - - B - -
+I - B - - - G R A B
+G A R B - - - I - R
+- - A - - G - N - I
+R - K - B R A G - N
+A K I N - A - - - K
+N - N - - I - - - -
+G - G R I N - - - -
+- - - - - - - - - -

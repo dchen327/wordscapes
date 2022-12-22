@@ -1,0 +1,28 @@
+16
+SCOOTER 3 0 False
+SCOT 3 0 True
+ROOTS 9 0 True
+TORO 6 2 False
+CERTS 0 3 False
+SOOT 4 3 True
+CORE 1 0 True
+RECS 6 4 False
+COST 8 4 True
+CERT 1 6 False
+COTE 1 6 True
+ROSCOE 6 4 True
+REST 5 9 False
+ROTE 2 3 True
+COTS 6 7 False
+ROTO 3 6 True
+10 10
+- - - C - - - - - -
+C O R E - - C O T E
+- - - R O T E - - -
+S C O T - - R O T O
+C - - S O O T - - -
+O - - - - - - - - R
+O - T - R O S C O E
+T - O - E - - O - S
+E - R - C O S T - T
+R O O T S - - S - -

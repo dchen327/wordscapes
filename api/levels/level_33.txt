@@ -1,0 +1,26 @@
+14
+VERTIGO 6 0 True
+OGRE 6 6 False
+VIGOR 2 2 False
+TIRE 6 3 False
+OVERT 2 1 True
+RITE 0 5 False
+GIVE 4 0 False
+TORI 8 1 True
+ERGO 9 6 True
+GIVER 0 1 True
+GORE 7 6 True
+GROVE 3 9 False
+OVER 4 6 True
+TROVE 1 7 False
+10 10
+- G I V E R - - - -
+- - - - - I - T - -
+- O V E R T - R - -
+- - I - - E - O - G
+G - G - - - O V E R
+I - O - - - - E - O
+V E R T I G O - - V
+E - - I - - G O R E
+- T O R I - R - - -
+- - - E - - E R G O

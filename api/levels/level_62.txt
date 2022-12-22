@@ -1,0 +1,24 @@
+12
+EPHEMERA 2 5 False
+HAREM 2 2 True
+PEAR 0 3 False
+PEER 8 2 True
+HEMP 4 5 True
+PARE 5 2 True
+HAMPER 0 0 True
+HARM 0 0 False
+MERE 6 5 True
+HEAP 1 8 False
+MARE 4 7 False
+AHEM 9 5 True
+10 10
+H A M P E R - - - -
+A - - E - - - - H -
+R - H A R E M - E -
+M - - R - P - - A -
+- - - - - H E M P -
+- - P A R E - A - -
+- - - - - M E R E -
+- - - - - E - E - -
+- - P E E R - - - -
+- - - - - A H E M -

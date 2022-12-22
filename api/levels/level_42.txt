@@ -1,0 +1,28 @@
+16
+BEAUTIES 9 0 True
+TUBE 6 6 False
+BATS 6 4 True
+BITES 2 7 False
+ABUSE 5 1 False
+TUBES 2 5 True
+EASE 5 0 True
+TEAS 2 2 False
+STAB 4 6 True
+BATE 2 0 False
+BEAST 4 9 False
+BETS 2 0 True
+BUTE 0 5 False
+BEST 6 4 False
+SUITE 7 0 True
+BITE 0 5 True
+10 10
+- - - - - B I T E -
+- - - - - U - - - -
+B E T S - T U B E S
+A - E - - E - I - -
+T - A - - - S T A B
+E A S E - - - E - E
+- B - - B A T S - A
+S U I T E - U - - S
+- S - - S - B - - T
+B E A U T I E S - -

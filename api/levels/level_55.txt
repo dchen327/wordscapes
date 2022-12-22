@@ -1,0 +1,26 @@
+14
+GENETIC 4 0 True
+TEEN 3 3 False
+GENIE 0 1 False
+TING 6 1 True
+NICE 2 6 False
+GENT 1 0 True
+GENE 6 4 False
+CINE 2 4 True
+TENGE 9 0 True
+ENTICE 7 4 True
+NITE 6 7 False
+TICE 6 1 False
+NIECE 3 9 False
+CENT 9 6 True
+10 10
+- G - - - - - - - -
+G E N T - - - - - -
+- N - - C I N E - -
+- I - T - - I - - N
+G E N E T I C - - I
+- - - E - - E - - E
+- T I N G - - N - C
+- I - - E N T I C E
+- C - - N - - T - -
+T E N G E - C E N T

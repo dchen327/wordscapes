@@ -1,27 +1,27 @@
 15
-PLATTER 1 2 False
-RAPE 7 2 True
-LATER 2 2 True
-PEAR 6 5 False
-PART 6 5 True
-RATTLE 4 0 True
-REAL 4 0 False
-PEAT 3 8 False
-TART 0 6 False
-TAPE 3 6 True
-TALE 2 4 False
-ALERT 8 5 True
-PARE 0 9 False
-TEAR 9 2 True
-LATTE 0 3 True
+GOODWILL 0 3 False
+WILL 5 2 True
+DILL 7 0 True
+GILL 6 1 False
+WILD 3 5 False
+GLOW 0 3 True
+DOLL 6 5 True
+WOOD 3 0 True
+LILO 6 7 False
+LIDO 1 0 True
+IDOL 4 5 True
+WOOL 1 8 False
+GOLD 9 6 True
+LOGO 9 1 True
+GOOD 2 6 True
 10 10
-- - - L A T T E - P
-- - P - - - A - - A
-- - L A T E R - - R
-- - A - A - T A P E
-R A T T L E - - E -
-E - T - E - - - A -
-A - E - - P A R T -
-L - R A P E - - - -
-- - - - - A L E R T
-- - T E A R - - - -
+- - - G L O W - - -
+L I D O - - - - W -
+- - - O - - G O O D
+W O O D - W - - O -
+- - - W - I D O L -
+- - W I L L - - - -
+- G - L - D O L L -
+D I L L - - - I - -
+- L - - - - - L - -
+- L O G O - G O L D

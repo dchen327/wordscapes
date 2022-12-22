@@ -1,0 +1,25 @@
+13
+CONSIST 2 5 False
+SONIC 2 1 True
+SCOT 8 2 True
+IONS 6 5 True
+TOSS 6 2 False
+TONIC 0 3 False
+COIN 3 7 False
+COTS 6 0 True
+SITS 6 8 False
+ICONS 5 0 False
+ICON 4 2 True
+COST 9 6 True
+INTO 0 1 True
+10 10
+- I N T O - - - - -
+- - - O - - - - - -
+- S O N I C - - - -
+- - - I - O - C - -
+- - I C O N - O - -
+I - - - - S - I - -
+C O T S - I O N S -
+O - O - - S - - I -
+N - S C O T - - T -
+S - S - - - C O S T

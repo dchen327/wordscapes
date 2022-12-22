@@ -1,0 +1,25 @@
+13
+ILLUSION 5 0 True
+IONS 5 5 False
+NILS 4 0 False
+NOUS 7 5 True
+UNIS 8 2 True
+OILS 3 2 False
+SOIL 3 1 True
+SILL 0 4 False
+LION 2 7 False
+ILLS 2 6 True
+SOUL 2 9 False
+LOUIS 0 0 True
+ONUS 0 1 False
+10 10
+L O U I S - - - - -
+- N - - I - - - - -
+- U - - L - I L L S
+- S O I L - - I - O
+N - I - - - - O - U
+I L L U S I O N - L
+L - S - - O - - - -
+S - - - - N O U S -
+- - U N I S - - - -
+- - - - - - - - - -

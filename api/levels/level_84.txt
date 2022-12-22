@@ -1,0 +1,26 @@
+14
+ANTIGEN 0 0 True
+GAIN 0 4 False
+TING 3 2 True
+TANG 3 2 False
+GIANT 3 5 False
+INNATE 6 4 True
+TIAN 6 8 False
+EATING 9 4 True
+ETNA 3 7 False
+NANG 5 0 True
+NEAT 5 0 False
+NINE 3 9 False
+ANTE 0 0 False
+TINA 8 0 True
+10 10
+A N T I G E N - - -
+N - - - A - - - - -
+T - - - I - - - - -
+E - T I N G - E - N
+- - A - - I - T - I
+N A N G - A - N - N
+E - G - I N N A T E
+A - - - - T - - I -
+T I N A - - - - A -
+- - - - E A T I N G

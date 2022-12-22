@@ -1,25 +1,23 @@
-13
-RUFFLED 2 2 False
-DUFFLE 8 2 True
-RUDE 3 1 True
-LURE 0 4 False
-FUEL 5 6 False
-FLED 5 6 True
-RULE 2 4 True
-RUFF 5 0 True
-FURL 0 1 True
-DUFF 6 4 False
-DUEL 0 7 False
-FEUD 4 8 False
-RULED 5 0 False
+11
+ORIGINS 3 1 False
+ORIGIN 3 1 True
+RINGS 2 5 False
+GROIN 5 5 True
+SONG 9 1 True
+RING 7 0 True
+INGO 4 9 False
+RISING 0 3 False
+SING 5 0 True
+IONS 4 7 False
+GRINS 0 2 True
 10 10
-- F U R L - - D - -
-- - - - U - - U - -
-- - R - R U L E - -
-- R U D E - - L - -
-- - F - - - - - F -
-R U F F - - F L E D
-U - L - D - U - U -
-L - E - U - E - D -
-E - D U F F L E - -
-D - - - F - - - - -
+- - G R I N S - - -
+- - - I - - - - - -
+- - - S - R - - - -
+- O R I G I N - - -
+- R - N - N - I - I
+S I N G - G R O I N
+- G - - - S - N - G
+R I N G - - - S - O
+- N - - - - - - - -
+- S O N G - - - - -

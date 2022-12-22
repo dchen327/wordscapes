@@ -1,0 +1,23 @@
+11
+COMMUTE 2 0 False
+MUTE 5 0 True
+COTE 2 0 True
+MEMO 4 3 False
+COME 7 2 True
+COMTE 3 5 False
+COMET 3 5 True
+TOME 6 5 True
+COMM 1 7 False
+CUTE 1 9 False
+MOTU 6 7 False
+10 10
+- - - - - - - - - -
+- - - - - - - C - C
+C O T E - - - O - U
+O - - - - C O M E T
+M - - M - O - M - E
+M U T E - M - - - -
+U - - M - T O M E -
+T - C O M E - O - -
+E - - - - - - T - -
+- - - - - - - U - -

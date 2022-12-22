@@ -1,0 +1,25 @@
+13
+DIALECT 9 3 True
+ACID 6 3 False
+CITADEL 3 6 False
+DELI 4 3 True
+CLAD 3 6 True
+TALE 5 6 True
+DETAIL 0 8 False
+CITED 0 4 True
+IDEAL 6 0 True
+TEAL 3 4 False
+DALE 7 6 True
+LEAD 3 1 False
+ICED 6 0 False
+10 10
+- - - - C I T E D -
+- - - - - - - - E -
+- - - - - - - - T -
+- L - - T - C L A D
+- E - D E L I - I -
+- A - - A - T A L E
+I D E A L - A - - -
+C - - C - - D A L E
+E - - I - - E - - -
+D - - D I A L E C T

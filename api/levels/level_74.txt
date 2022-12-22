@@ -1,0 +1,27 @@
+15
+FRIGATE 0 4 False
+TIGER 1 0 True
+GRATE 4 2 True
+FEAR 6 3 True
+REIF 6 6 False
+RAGE 1 6 False
+FRAT 6 3 False
+FRET 9 0 True
+TIER 7 0 True
+ARTI 2 6 True
+RIFT 0 1 False
+AFTER 9 5 True
+RATE 0 8 False
+FIAT 4 0 False
+FAIR 6 9 False
+10 10
+- R - - F - - - R -
+T I G E R - R - A -
+- F - - I - A R T I
+- T - - G - G - E -
+F - G R A T E - - -
+I - - - T - - - - -
+A - - F E A R - - F
+T I E R - - E - - A
+- - - A - - I - - I
+F R E T - A F T E R

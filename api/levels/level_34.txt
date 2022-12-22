@@ -1,0 +1,29 @@
+17
+COVERAGE 0 2 True
+GORE 0 8 False
+GROVE 3 4 True
+CORE 0 2 False
+GAVE 3 4 False
+CARE 6 1 True
+RACE 6 3 False
+CRAVE 8 3 True
+GARE 9 0 True
+VERA 2 0 True
+VEER 3 7 False
+CREE 6 6 True
+VERGE 5 9 False
+ORCA 4 1 False
+EVER 0 5 False
+COVE 6 6 False
+RAVE 0 0 False
+10 10
+R - C O V E R A G E
+A - O - - V - - O -
+V E R A - E - - R -
+E - E - G R O V E -
+- O - - A - - E - -
+- R - - V - - E - V
+- C A R E - C R E E
+- A - A - - O - - R
+- - - C R A V E - G
+G A R E - - E - - E

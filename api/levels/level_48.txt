@@ -1,0 +1,25 @@
+13
+WRONGFUL 0 7 False
+FUNG 4 4 True
+ROLF 1 4 False
+FURL 1 2 True
+FLOR 1 2 False
+FOWL 3 1 True
+GOWN 2 6 True
+FLOUR 6 4 True
+LUNG 6 5 False
+RUNG 0 9 False
+GLOW 9 5 True
+FLOWN 8 1 True
+GULF 5 1 False
+10 10
+- - - - - - - W - R
+- - F U R L - R - U
+- - L - O - G O W N
+- F O W L - - N - G
+- - R - F U N G - -
+- G - - - - - F - -
+- U - - F L O U R -
+- L - - - U - L - -
+- F L O W N - - - -
+- - - - - G L O W -

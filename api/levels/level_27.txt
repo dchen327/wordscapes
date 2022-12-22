@@ -1,0 +1,28 @@
+16
+PREPAID 2 0 False
+RIDE 3 0 True
+DIRE 8 0 True
+PARE 0 3 False
+AIRED 5 3 False
+PADRE 5 2 True
+RAPID 7 3 True
+RIPE 2 6 False
+READ 2 6 True
+IDEA 6 7 False
+PREP 4 6 True
+PARD 9 6 True
+REAP 1 1 True
+RAPE 5 5 False
+RAPED 1 8 False
+ARID 6 9 False
+10 10
+- - - P - - - - - -
+- R E A P - - - R -
+P - - R - - R E A D
+R I D E - - I - P -
+E - - - - - P R E P
+P - P A D R E - D -
+A - - I - A - I - A
+I - - R A P I D - R
+D I R E - E - E - I
+- - - D - - P A R D

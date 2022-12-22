@@ -1,0 +1,26 @@
+14
+ENSURED 1 2 True
+DENSE 1 8 False
+SEED 1 4 False
+URNS 0 6 False
+DEER 0 2 False
+SUED 5 6 True
+NURSE 3 0 True
+NEED 3 0 False
+SUEDE 5 6 False
+REES 7 5 True
+DEUS 6 0 True
+REEDS 9 5 True
+SEER 6 3 False
+RUNE 8 0 True
+10 10
+- - D - - - U - - -
+- - E N S U R E D -
+- - E - E - N - E -
+N U R S E - S - N -
+E - - - D - - - S -
+E - - - - - S U E D
+D E U S - - U - - -
+- - - E - R E E S -
+R U N E - - D - - -
+- - - R - R E E D S

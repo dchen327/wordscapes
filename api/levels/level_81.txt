@@ -1,0 +1,27 @@
+15
+CUSTOMS 0 9 False
+OUTS 6 6 True
+SCOUTS 2 4 True
+MUSS 0 4 False
+SMUT 0 7 False
+COSTS 3 0 True
+SUMS 5 7 False
+TOSS 0 2 False
+MOTU 1 1 True
+SCOT 2 0 False
+MOSS 0 4 True
+TOMS 5 0 True
+SUMO 5 3 False
+SCUM 7 0 True
+COST 8 5 True
+10 10
+- - T - M O S S - C
+- M O T U - - M - U
+S - S - S C O U T S
+C O S T S - - T - T
+O - - - - - - - - O
+T O M S - - - S - M
+- - - U - - O U T S
+S C U M - - - M - -
+- - - O - C O S T -
+- - - - - - - - - -

@@ -1,0 +1,26 @@
+14
+LAVATORY 2 9 False
+AORTA 5 5 True
+ROYAL 5 7 False
+TALA 2 5 False
+ROTA 3 2 True
+RATA 3 2 False
+ARTY 5 0 True
+TORA 8 4 True
+TARO 0 3 False
+ALTO 6 4 False
+RAYA 1 0 True
+TARA 0 3 True
+ALTAR 5 0 False
+ORAL 0 0 False
+10 10
+O - - T A R A - - -
+R A Y A - - - - - -
+A - - R - T - - - L
+L - R O T A - - - A
+- - A - - L - - - V
+A R T Y - A O R T A
+L - A - A - - O - T
+T - - - L - - Y - O
+A - - - T O R A - R
+R - - - O - - L - Y

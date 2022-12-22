@@ -1,0 +1,26 @@
+14
+WRESTLE 2 2 True
+TELE 1 8 False
+ELSE 0 5 False
+WELT 2 2 False
+LEES 0 3 True
+TRES 5 2 True
+STEW 4 6 True
+LEER 4 4 False
+WERE 4 9 False
+STEER 7 0 True
+RETE 7 6 True
+REES 6 7 False
+LEST 9 5 True
+REST 5 0 False
+10 10
+- - - L E E S - - -
+- - - - - L - - T -
+- - W R E S T L E -
+- - E - - E - - L -
+- - L - L - S T E W
+R - T R E S - - - E
+E - - - E - - R - R
+S T E E R - R E T E
+T - - - - - - E - -
+- - - - - L E S T -

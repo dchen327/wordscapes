@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBurst,
   faCrosshairs,
+  faForward,
   faLightbulb,
   faShuffle,
 } from "@fortawesome/free-solid-svg-icons";
@@ -250,6 +251,12 @@ const WordCircle = ({
         </button>
         <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
           <FontAwesomeIcon icon={faCrosshairs} size="lg" />
+        </button>
+        <button
+          className="mt-auto w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
+          onClick={getNextLevel}
+        >
+          <FontAwesomeIcon icon={faForward} size="lg" />
         </button>
       </div>
       <div className="flex flex-col items-center justify-center ">

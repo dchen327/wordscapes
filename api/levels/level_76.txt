@@ -1,0 +1,26 @@
+14
+ONTOLOGY 2 3 False
+TOYO 4 3 True
+LOOT 2 2 True
+GYNO 9 2 True
+TOON 3 6 False
+LOGO 5 0 True
+TONG 3 6 True
+TOOL 2 0 False
+ONTO 0 7 False
+LONG 0 6 True
+ONLY 6 5 True
+LOON 6 7 False
+TONY 8 6 True
+LOGON 7 0 True
+10 10
+- - - - - - L O N G
+- - - - - - - N - -
+T - L O O T - T - -
+O - - N - - T O N G
+O - - T O Y O - - -
+L O G O - - O - - -
+- - - L - O N L Y -
+L O G O N - - O - -
+- - - G - - T O N Y
+- - G Y N O - N - -

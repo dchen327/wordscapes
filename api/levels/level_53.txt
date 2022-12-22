@@ -1,0 +1,28 @@
+16
+ALUMNAE 0 1 False
+MANE 3 1 True
+MEAN 0 3 False
+NAAM 0 0 True
+MANA 5 0 True
+ALMA 5 3 False
+LAMA 6 3 True
+MEAL 6 5 False
+LUNA 3 6 False
+LUMEN 9 5 True
+LEAN 3 6 True
+LANE 0 7 False
+AMEN 6 9 False
+NEMA 8 0 True
+MENU 1 9 False
+MALA 0 5 True
+10 10
+N A A M - M A L A -
+- L - E - - - A - M
+- U - A - - - N - E
+- M A N E - L E A N
+- N - - - - U - - U
+M A N A - - N - - -
+- E - L A M A - - A
+- - - M - E - - - M
+N E M A - A - - - E
+- - - - - L U M E N

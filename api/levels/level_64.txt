@@ -1,0 +1,23 @@
+11
+CLEANSER 2 3 False
+RESALE 4 2 True
+CANES 6 1 True
+CLEANS 1 5 False
+EARLS 4 7 False
+ARCS 9 2 True
+ELSE 7 6 True
+CLEAR 1 5 True
+SCAR 5 1 False
+LACE 0 8 False
+SEAN 6 9 False
+10 10
+- - - - - - - - L -
+- - - - - C L E A R
+- - - C - L - - C -
+- - - L - E - - E -
+- - R E S A L E - -
+- S - A - N - A - -
+- C A N E S - R - S
+- A - S - - E L S E
+- R - E - - - S - A
+- - A R C S - - - N

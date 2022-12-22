@@ -1,0 +1,27 @@
+15
+SOCIETY 2 3 True
+COTE 2 5 False
+CITE 5 2 True
+COTS 5 2 False
+COST 0 3 False
+TOYS 4 5 True
+YETI 4 7 False
+TOES 5 4 False
+SITE 7 6 True
+SCOT 3 0 True
+CITES 0 8 False
+TICE 1 1 False
+CITY 0 3 True
+SECT 6 9 False
+CYST 9 6 True
+10 10
+- - - C I T Y - C -
+- T - O - - - - I -
+- I - S O C I E T Y
+S C O T - O - - E -
+- E - - - T O Y S -
+- - C I T E - E - -
+- - O - O - - T - S
+- - T - E - S I T E
+- - S - S - - - - C
+- - - - - - C Y S T

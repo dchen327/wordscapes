@@ -1,0 +1,24 @@
+12
+COOKERY 0 1 True
+COOKER 0 1 False
+ROOK 5 1 True
+ROCKY 4 3 False
+COOK 7 0 True
+YORK 8 3 True
+CORK 6 5 False
+ROCK 2 0 True
+CROOK 6 5 True
+YOKE 0 7 False
+CORY 5 8 False
+COKE 3 4 True
+10 10
+- C O O K E R Y - -
+- O - - - - - O - -
+R O C K - - - K - -
+- K - - C O K E - -
+- E - R - - - - - -
+- R O O K - - - C -
+- - - C - C R O O K
+C O O K - O - - R -
+- - - Y O R K - Y -
+- - - - - K - - - -

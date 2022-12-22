@@ -1,0 +1,26 @@
+14
+NOMINAL 8 0 True
+LOAM 6 5 False
+MANO 6 0 False
+LINO 6 5 True
+MAIN 6 0 True
+NONI 3 6 False
+NAIL 6 3 False
+ANNO 3 4 True
+LINN 0 5 False
+LOAN 0 5 True
+LOMA 3 1 False
+MALI 1 2 True
+LOIN 4 0 True
+MONA 5 8 False
+10 10
+- - - - - L O A N -
+- - M A L I - - - -
+- - - - - N - - - -
+- L - - A N N O - -
+L O I N - - O - - -
+- M - - - - N - M -
+M A I N - L I N O -
+A - - A - O - - N -
+N O M I N A L - A -
+O - - L - M - - - -

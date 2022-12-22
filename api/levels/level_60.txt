@@ -1,0 +1,25 @@
+13
+APPLIES 0 4 False
+PIES 6 1 True
+LISP 4 3 True
+SLIP 2 1 True
+ISLE 6 2 False
+SALE 0 2 False
+APPLE 0 4 True
+LIES 9 0 True
+APPS 2 6 False
+SEAL 5 6 True
+LAPSE 5 9 False
+LIPS 8 6 True
+PALE 3 6 True
+10 10
+- - S - A P P L E -
+- - A - P - - - - -
+- S L I P - A - - -
+- - E - L - P A L E
+- - - L I S P - - -
+- - - - E - S E A L
+- P I E S - - - - A
+- - S - - - - - - P
+- - L - - - L I P S
+L I E S - - - - - E

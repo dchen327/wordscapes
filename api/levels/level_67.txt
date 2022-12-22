@@ -1,0 +1,21 @@
+9
+KAMIKAZE 8 1 True
+MAKI 6 1 False
+KAMI 6 3 False
+MIKE 6 1 True
+MAIZE 2 4 False
+KAMA 3 1 True
+MAKE 1 1 False
+AMAZE 5 7 False
+MAZE 5 6 True
+10 10
+- - - - - - - - - -
+- M - - - - - - - -
+- A - - M - - - - -
+- K A M A - - - - -
+- E - - I - - - - -
+- - - - Z - M A Z E
+- M I K E - - M - -
+- A - A - - - A - -
+- K A M I K A Z E -
+- I - I - - - E - -
