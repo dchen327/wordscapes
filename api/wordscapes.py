@@ -186,8 +186,8 @@ def print_grid(grid, file=None, caps=False):
 
 
 def setup():
-    with open('wordscapes_txt.txt') as f:
-        words = f.read().splitlines()[:10000]
+    with open('clean_words.txt') as f:
+        words = f.read().splitlines()
         words_by_len = defaultdict(list)
         for word in words:
             words_by_len[len(word)].append(word)
