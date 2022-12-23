@@ -3,6 +3,7 @@ import { toast, Toaster } from "react-hot-toast";
 import { disableBodyScroll } from "body-scroll-lock";
 import Crossword from "./Crossword";
 import WordCircle from "./WordCircle";
+import Modal from "react-modal";
 
 export const Game = () => {
   const [grid, setGrid] = useState([]);
@@ -18,6 +19,7 @@ export const Game = () => {
     const levelNum = localStorage.getItem("levelNum");
     return levelNum ? parseInt(levelNum) : 1;
   });
+  const [showLevelSelect, setShowLevelSelect] = useState(true);
 
   // disable body scrolling
   useEffect(() => {
@@ -51,6 +53,10 @@ export const Game = () => {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
+  };
+
+  const selectLevel = (newLevelNum) => {
+    if (newLevelNum > 0) setLevelNum(newLevelNum);
   };
 
   // fetch new crossword each time levelNum changes
@@ -92,6 +98,15 @@ export const Game = () => {
           backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
         }}
       >
+        {/* level select modal */}
+        <Modal
+          isOpen={showLevelSelect}
+          ariaHideApp={false}
+          onRequestClose={() => setShowLevelSelect(false)}
+          shouldCloseOnOverlayClick={true}
+        >
+          <div>hi</div>
+        </Modal>
         {grid && (
           <Crossword
             {...{
@@ -126,6 +141,7 @@ export const Game = () => {
               getNextLevel,
               shuffleArray,
               setDefineMode,
+              setShowLevelSelect,
             }}
           />
         )}
