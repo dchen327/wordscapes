@@ -11,9 +11,13 @@ export const Game = () => {
   const [letters, setLetters] = useState([]);
   const [wordsFound, setWordsFound] = useState(0);
   const [themeColor, setThemeColor] = useState("");
-  const [levelNum, setLevelNum] = useState(1);
   // defineMode true: tap letter -> define, false: tap letter -> reveal
   const [defineMode, setDefineMode] = useState(true);
+  const [levelNum, setLevelNum] = useState(() => {
+    // get levelNum from local storage
+    const levelNum = localStorage.getItem("levelNum");
+    return levelNum ? parseInt(levelNum) : 1;
+  });
 
   // disable body scrolling
   useEffect(() => {
@@ -33,10 +37,13 @@ export const Game = () => {
   };
 
   const getNextLevel = () => {
+    // clear previous toasts
+    toast.dismiss();
     toast.success(`Level ${levelNum} Complete!`, {
       duration: 3000,
     });
     setLevelNum(levelNum + 1);
+    localStorage.setItem("levelNum", levelNum + 1);
     // TODO: set theme color to something new
   };
 
