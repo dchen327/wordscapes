@@ -34,6 +34,7 @@ const Crossword = ({
     return [
       "text-slate-50",
       "aspect-square",
+      "overflow-hidden",
       col === "-" ? "invisible" : "border rounded",
     ].join(" ");
   };
@@ -73,7 +74,7 @@ const Crossword = ({
               onClick={() => letterTapped(i)}
             >
               {col !== "-" && (
-                <p className="flex items-center justify-center font-mono font-bold text-center aspect-square">
+                <p className="flex items-center justify-center font-mono font-bold overflow-hidden select-none h-full">
                   {col === "_" ? "" : col}
                 </p>
               )}
