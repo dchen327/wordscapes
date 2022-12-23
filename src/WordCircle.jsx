@@ -3,6 +3,8 @@ import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import CustomDragLayer from "./CustomDragLayer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Tappable from "react-tappable/lib/Tappable";
+
 import {
   faBurst,
   faCrosshairs,
@@ -231,24 +233,24 @@ const WordCircle = ({
   return (
     <div className="flex mb-20 w-full justify-evenly">
       <div className="flex flex-col justify-start mt-10">
-        <button
-          className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none"
-          onClick={shuffleLetters}
+        <Tappable
+          className="flex items-center justify-center my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none"
+          onTap={shuffleLetters}
         >
           <FontAwesomeIcon icon={faShuffle} size="lg" />
-        </button>
-        <button
-          className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none"
+        </Tappable>
+        <Tappable
+          className="flex items-center justify-center my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none"
           onClick={() => setDefineMode(false)}
         >
           <FontAwesomeIcon icon={faCrosshairs} size="lg" />
-        </button>
-        <button
-          className="mt-auto w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none"
+        </Tappable>
+        <Tappable
+          className="flex items-center justify-center mt-auto w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none"
           onClick={getNextLevel}
         >
           <FontAwesomeIcon icon={faForward} size="lg" />
-        </button>
+        </Tappable>
       </div>
 
       <div className="flex flex-col items-center justify-center ">
@@ -266,21 +268,21 @@ const WordCircle = ({
       </div>
 
       <div className="flex flex-col justify-start mt-10">
-        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none">
+        <Tappable className="flex items-center justify-center my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none">
           <FontAwesomeIcon
             icon={faLightbulb}
             size="lg"
             onClick={() => revealLetters()}
           />
-        </button>
-        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none">
+        </Tappable>
+        <Tappable className="flex items-center justify-center my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none">
           <FontAwesomeIcon
             icon={faBurst}
             size="lg"
             onClick={() => revealLetters(5)}
           />
-        </button>
-        <div className="mt-auto w-[50px] py-1 text-center text-slate-50 bg-slate-700 p-1 bg-opacity-75 rounded select-none">
+        </Tappable>
+        <div className="flex items-center justify-center mt-auto w-[50px] py-1 text-center text-slate-50 bg-slate-700 p-1 bg-opacity-75 rounded select-none">
           Level {levelNum}
         </div>
       </div>
