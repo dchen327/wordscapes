@@ -37,8 +37,7 @@ export const Game = () => {
   };
 
   const getNextLevel = () => {
-    // clear previous toasts
-    toast.dismiss();
+    toast.dismiss(); // clear previous toasts
     toast.success(`Level ${levelNum} Complete!`, {
       duration: 3000,
     });
