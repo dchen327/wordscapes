@@ -1,5 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 import json
+import os
 
 
 class handler(BaseHTTPRequestHandler):
@@ -17,7 +18,11 @@ class handler(BaseHTTPRequestHandler):
 
     @staticmethod
     def parse_file(level_num):
-        with open(f'api/levels/level_{level_num}.txt') as f:
+        # open file if it exists
+        level_file = f'api/levels/level_{level_num}.txt'
+        if not os.path.exists(level_file):  # level doesn't exist, reset to start
+            level_file = 'api/levels/level_1.txt'
+        with open(level_file) as f:
             num_words = int(f.readline())
             words = {}  # word -> (r, c, is_horiz)
             for _ in range(num_words):

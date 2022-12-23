@@ -121,6 +121,7 @@ export const Game = () => {
               themeColor,
               setThemeColor,
               levelNum,
+              setLevelNum,
               levelComplete,
               getNextLevel,
               shuffleArray,

@@ -24,6 +24,7 @@ const WordCircle = ({
   themeColor,
   setThemeColor,
   levelNum,
+  setLevelNum,
   levelComplete,
   getNextLevel,
   shuffleArray,
@@ -143,6 +144,14 @@ const WordCircle = ({
       getNextLevel();
     } else {
       setGrid(newGrid);
+    }
+  };
+
+  const selectLevel = () => {
+    // select level
+    let level = prompt("Enter level number");
+    if (level > 0) {
+      setLevelNum(parseInt(level));
     }
   };
 
@@ -281,9 +290,12 @@ const WordCircle = ({
             onClick={() => revealLetters(5)}
           />
         </button>
-        <div className="mt-auto w-[50px] py-1 text-center text-slate-50 bg-slate-700 p-1 bg-opacity-75 rounded">
+        <button
+          className="mt-auto w-[50px] py-1 text-center text-slate-50 bg-slate-700 p-1 bg-opacity-75 rounded"
+          onClick={selectLevel}
+        >
           Level {levelNum}
-        </div>
+        </button>
       </div>
     </div>
   );
