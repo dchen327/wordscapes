@@ -106,7 +106,7 @@ function LetterNode({
           <h1
             style={{
               fontSize: `${letterWidth / 1.2}px`,
-              fontFamily: "Lato, sans-serif",
+              fontFamily: "LatoBold, sans-serif",
             }}
           >
             {letter}

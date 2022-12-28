@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "LatoBold";
+    src: local("LatoBold"), url("./fonts/Lato-Bold.ttf") format("truetype");
+}
