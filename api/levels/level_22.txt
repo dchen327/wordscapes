@@ -1,0 +1,60 @@
+15
+UNIFORM 5 2 True
+MOURN 3 2 False
+FOR 5 5 False
+MUNI 7 0 True
+URN 7 1 False
+INFORM 2 0 False
+MUIR 2 7 False
+INFO 9 0 True
+MUON 3 2 True
+RUIN 7 5 True
+IRON 0 5 False
+FORM 1 3 True
+MINOR 5 8 False
+NOIR 9 5 True
+UNI 3 7 True
+10 10
+- - - - - I - - - -
+- - - F O R M - - -
+I - - - - O - M - -
+N - M U O N - U N I
+F - O - - - - I - -
+O - U N I F O R M -
+R - R - - O - - I -
+M U N I - R U I N -
+- R - - - - - - O -
+I N F O - N O I R -
+32
+NORM
+ROM
+RIN
+RUM
+MUN
+MIRO
+ION
+NUR
+ORF
+OUR
+UFO
+NOR
+RUN
+MOI
+FON
+FIR
+MOU
+FUN
+MIR
+FORUM
+RIF
+RIM
+FRO
+FROM
+MOR
+FIRM
+FIN
+NOM
+FOUR
+FUR
+MON
+MORN

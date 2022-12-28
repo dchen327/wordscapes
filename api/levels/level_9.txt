@@ -1,40 +1,60 @@
-11
-ADJUNCT 2 2 False
-AUNT 2 2 True
-CAN 0 4 False
-CAJUN 7 2 True
-JUNTA 4 2 True
-CUNT 0 4 True
-TUNA 6 5 False
-TUN 6 0 True
-DUCT 3 0 False
-CANT 9 4 True
-CUT 8 0 True
+15
+ORBITER 0 0 False
+BRIE 2 0 True
+RETRO 6 0 True
+TRIO 3 4 False
+ROBE 6 3 False
+ORT 0 0 True
+TRIBE 0 2 False
+REI 4 4 True
+RIOT 3 6 False
+OBE 9 1 True
+TIER 6 6 True
+ROTE 6 9 False
+BIER 8 3 True
+TORE 3 8 False
+RITE 3 6 True
 10 10
-- - - - C U N T - -
-- - - - A - - - - -
-- - A U N T - - - -
-D - D - - - - - - -
-U - J U N T A - - -
-C - U - - - - - - -
-T U N - - T - - - -
-- - C A J U N - - -
-C U T - - N - - - -
-- - - - C A N T - -
-16
-CAT
-CAD
-NUT
-JUN
-TAJ
-AND
-DUN
-TAD
-DAN
-TAU
-ANT
-TAN
-ACT
-UTA
-NAT
-DNA
+O R T - - - - - - -
+R - R - - - - - - -
+B R I E - - - - - -
+I - B - T - R I T E
+T - E - R E I - O -
+E - - - I - O - R -
+R E T R O - T I E R
+- - - O - - - - - O
+- - - B I E R - - T
+- O B E - - - - - E
+32
+RIT
+TOE
+ROE
+BRIT
+ORB
+REB
+IRE
+BORE
+ORBIT
+OBIT
+BOT
+ORE
+OBI
+BOR
+RIB
+ROB
+BRO
+BITE
+BIO
+ROT
+TIE
+RET
+TRIER
+BOI
+TORI
+BIT
+BRIO
+BET
+REO
+TIRE
+TOR
+ERR

@@ -1,0 +1,94 @@
+12
+REMOTELY 9 2 True
+MERLE 5 3 False
+TYRE 6 7 False
+MERELY 4 9 False
+LYME 7 6 True
+MEET 5 3 True
+MERE 2 5 False
+EMERY 7 0 True
+REMOTE 3 0 True
+ELM 1 2 False
+MORT 1 0 False
+MOREL 2 5 True
+10 10
+- - - - - - - - - -
+M - E - - - - - - -
+O - L - - M O R E L
+R E M O T E - - - -
+T - - - - R - - - M
+- - - M E E T - - E
+- - - E - - - T - R
+E M E R Y - L Y M E
+- - - L - - - R - L
+- - R E M O T E L Y
+69
+TYE
+TEE
+MEL
+TREY
+MYRTLE
+RETE
+TORY
+TOE
+ROE
+LET
+EMO
+ROTE
+MEE
+MOT
+METRE
+EEL
+TOME
+TOM
+ROT
+RET
+TERM
+MORE
+MOR
+TOY
+ROLE
+EYRE
+LEER
+MOLE
+TORE
+MERLOT
+REO
+ORT
+METER
+TELE
+MOL
+TOR
+LOR
+REM
+ROM
+ELT
+TREE
+REE
+TROY
+OLE
+YER
+LEE
+MELT
+RELY
+ERM
+LORE
+MOE
+METRO
+YET
+ORE
+MET
+RYE
+TRY
+LEY
+ERE
+YOM
+EYE
+MOTEL
+METEOR
+LOY
+MOTLEY
+LOT
+TEL
+REEL
+MEER

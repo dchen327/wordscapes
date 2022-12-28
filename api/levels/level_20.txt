@@ -1,0 +1,101 @@
+15
+EXPORTS 0 1 True
+TROP 0 6 False
+REPOST 3 4 True
+ROTE 3 4 False
+STORE 2 9 False
+TORE 6 6 True
+PROSE 6 0 True
+POT 0 3 False
+SEPT 6 3 False
+EROS 0 1 False
+REPO 6 1 False
+TOES 9 3 True
+OPE 7 5 False
+REPS 6 8 False
+POST 2 0 True
+10 10
+- E X P O R T S - -
+- R - O - - R - - -
+P O S T - - O - - S
+- S - - R E P O S T
+- - - - O - - - - O
+- - - - T - - - - R
+P R O S E - T O R E
+- E - E - O - - E -
+- P - P - P - - P -
+- O - T O E S - S -
+73
+POX
+PRE
+PRESTO
+POETS
+PETS
+TOP
+TOE
+ROE
+RES
+SER
+STOP
+ROPES
+PESO
+OPT
+POSTER
+STEP
+SPOT
+PEST
+ORES
+PER
+POS
+PES
+EXPOS
+REP
+OSE
+ROT
+PORTS
+PORES
+RET
+EXPORT
+PORE
+REO
+ORT
+TOR
+PRO
+ROSE
+TEX
+SORE
+TRES
+TOPS
+SOX
+OPTS
+OPS
+POTS
+STREP
+ROPE
+TORS
+EXPO
+TES
+PET
+PERT
+POSER
+EST
+PORT
+POSE
+ORE
+ERS
+POET
+PST
+OES
+SET
+SORT
+SOP
+REX
+PROS
+EXO
+SOT
+SEX
+SPORT
+ORS
+PESTO
+REST
+SPORE

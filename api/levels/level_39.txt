@@ -1,0 +1,58 @@
+13
+EPITAPH 2 2 True
+HATE 2 8 False
+PAPE 5 5 True
+PEAT 0 6 False
+PIPE 5 5 False
+PHAT 0 6 True
+PATH 7 5 True
+PITA 5 7 False
+AIT 1 4 False
+APE 8 3 True
+HEAT 6 3 False
+TAPE 7 0 True
+HEAP 5 1 False
+10 10
+- - - - - - P H A T
+- - - - A - E - - -
+- - E P I T A P H -
+- - - - T - T - A -
+- - - - - - - - T -
+- H - - - P A P E -
+- E - H - I - I - -
+T A P E - P A T H -
+- P - A P E - A - -
+- - - T - - - - - -
+32
+TAP
+HAP
+PEP
+TIP
+PIP
+PHI
+THE
+EAT
+TAE
+HEP
+HAT
+ITA
+APP
+PET
+PAP
+PIE
+TAI
+PAH
+HET
+PATE
+HIP
+TIE
+PIT
+HIT
+PEA
+PAT
+ATE
+ETA
+TEA
+PIA
+APT
+ETH

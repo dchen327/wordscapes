@@ -1,0 +1,71 @@
+12
+CRUCIBLE 0 7 False
+CUBICLE 6 2 True
+CUBIC 4 4 True
+BLUE 6 4 False
+ERIC 3 2 False
+LICE 9 1 True
+CIRCLE 0 4 True
+RIEL 3 0 True
+LURE 1 0 False
+CURL 2 6 True
+LUCE 1 0 True
+BEL 7 1 False
+10 10
+- - - - C I R C L E
+L U C E - - - R - -
+U - - - - - C U R L
+R I E L - - - C - -
+E - R - C U B I C -
+- - I - - - - B - -
+- - C U B I C L E -
+- B - - L - - E - -
+- E - - U - - - - -
+- L I C E - - - - -
+46
+CLUB
+CURE
+LIRE
+LEI
+CUB
+CURIE
+CLERIC
+REC
+RELIC
+CUBE
+LIE
+BLUR
+RUB
+REB
+CIRC
+BRIE
+LEU
+BUR
+CLUE
+BILE
+BURL
+CIEL
+IRE
+LIB
+RICE
+RIB
+LIEU
+CRIB
+CRUEL
+URB
+CRUE
+CURB
+RUE
+ECU
+CUE
+CRU
+CUR
+BIER
+LIBER
+ULCER
+RULE
+LUBE
+REI
+ICE
+CEL
+URE

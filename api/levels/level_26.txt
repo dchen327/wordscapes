@@ -1,0 +1,69 @@
+14
+CONVEYED 9 0 True
+CONEY 5 5 False
+OVEN 7 2 True
+CODEN 5 5 True
+NEEDY 5 9 False
+COVE 2 8 False
+DECO 4 2 False
+DEVON 3 5 True
+EYED 5 0 True
+VEE 4 0 False
+NEED 0 5 False
+EVEN 0 2 True
+NEVE 2 2 True
+NED 7 7 False
+10 10
+- - E V E N - - - -
+- - - - - E - - - -
+- - N E V E - - C -
+- - - - - D E V O N
+V - D - - - - - V -
+E Y E D - C O D E N
+E - C - - O - - - E
+- - O V E N - N - E
+- - - - - E - E - D
+C O N V E Y E D - Y
+42
+DYE
+NOD
+NEE
+DON
+END
+EVO
+CONE
+ONCE
+CEE
+DEV
+ENVOY
+ONE
+DOC
+CON
+ECO
+ODE
+CONVEY
+COD
+DONE
+DEY
+DEN
+YEN
+NYE
+COND
+YON
+NODE
+COED
+ENCODE
+ENVY
+DECOY
+ENE
+COY
+EYE
+DEE
+DOE
+EEN
+CODE
+EON
+DENY
+COVEY
+EVE
+DOVE

@@ -1,0 +1,34 @@
+14
+STYLISTS 2 0 True
+LISTS 0 0 False
+STYLIST 0 2 False
+STYLI 2 5 False
+SITS 6 0 True
+LIST 0 0 True
+SILT 6 3 False
+SLITS 5 4 True
+SLY 6 0 False
+TILT 9 3 True
+SISSY 5 8 False
+SLIT 2 7 False
+LIT 3 7 True
+TITS 1 9 False
+10 10
+L I S T - - - - - -
+I - T - - - - - - T
+S T Y L I S T S - I
+T - L - - T - L I T
+S - I - - Y - I - S
+- - S - S L I T S -
+S I T S - I - - I -
+L - - I - - - - S -
+Y - - L - - - - S -
+- - - T I L T - Y -
+7
+SIS
+SIT
+TIL
+ITS
+LIS
+TIT
+TIS

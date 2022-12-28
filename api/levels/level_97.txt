@@ -1,0 +1,60 @@
+12
+SYMPHONY 2 1 True
+NYMPHO 1 8 False
+SON 6 7 True
+NYMPH 1 2 False
+SHOP 6 7 False
+POMS 1 6 False
+MOS 8 6 True
+HYPO 5 2 True
+PONY 5 4 False
+HYMN 7 1 True
+OHMS 6 1 False
+HOPS 0 4 False
+10 10
+- - - - H - - - - -
+- - N - O - P - N -
+- S Y M P H O N Y -
+- - M - S - M - M -
+- - P - - - S - P -
+- - H Y P O - - H -
+- O - - O - - S O N
+- H Y M N - - H - -
+- M - - Y - M O S -
+- S - - - - - P - -
+35
+SHY
+HOM
+HYMNS
+NOS
+HOS
+OHS
+SPY
+MOPS
+OPS
+MOP
+NYMPHS
+SOY
+POM
+PHONY
+OMS
+MONS
+POS
+HOP
+HYP
+HONS
+YON
+YOM
+HON
+SYN
+SOM
+HOY
+SOP
+OHM
+NOM
+MON
+POSH
+SHO
+NYS
+ONS
+PHO

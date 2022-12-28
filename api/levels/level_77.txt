@@ -1,0 +1,94 @@
+12
+FORGETS 2 2 False
+SORT 8 2 True
+FROST 4 5 False
+FOREST 2 2 True
+FORE 0 4 False
+ERGO 6 2 True
+FORGE 4 5 True
+STORE 7 5 True
+GERT 6 9 False
+FORTE 0 9 False
+GORE 4 0 True
+SOFT 6 7 False
+10 10
+- - - - F - - - - F
+- - - - O - - - - O
+- - F O R E S T - R
+- - O - E - - - - T
+G O R E - F O R G E
+- - G - - R - - - -
+- - E R G O - S - G
+- - T - - S T O R E
+- - S O R T - F - R
+- - - - - - - T - T
+69
+TOES
+OFT
+REFS
+REGS
+FORT
+TOE
+FOSTER
+FORGET
+ROE
+RES
+SER
+FOG
+FES
+EROS
+ROTE
+ORES
+FOE
+FRET
+OSE
+ROT
+ORGS
+RET
+FROGS
+SEG
+OGRE
+EFT
+SOFTER
+GET
+GER
+ERG
+TORE
+REO
+ORT
+TOR
+ROSE
+EGO
+FEST
+SORE
+FER
+TRES
+REG
+GETS
+ORF
+GOERS
+FOR
+TORS
+EGOS
+TES
+SOG
+EST
+ORE
+ERS
+OES
+GEO
+REF
+SET
+FORTS
+FRO
+GEOS
+ORG
+GOR
+GOES
+FOES
+FROG
+GOT
+SOT
+FET
+ORS
+REST

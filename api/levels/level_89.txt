@@ -1,0 +1,49 @@
+13
+GOODWILL 8 1 True
+DILL 5 8 False
+WOOL 6 3 False
+GLOW 6 0 True
+WILL 3 1 False
+WILD 3 1 True
+LIDO 5 6 True
+DOLL 0 3 False
+LID 7 6 False
+IDOL 2 6 False
+LOGO 2 9 False
+GOOD 1 1 True
+WIG 2 5 True
+10 10
+- - - D - - - - - -
+- G O O D - - - - -
+- - - L - W I G - L
+- W I L D - D - - O
+- I - - - - O - - G
+- L - - - - L I D O
+G L O W - - - - I -
+- - - O - - L - L -
+- G O O D W I L L -
+- - - L - - D - - -
+23
+DOO
+WOO
+OIL
+GILL
+WOOD
+LOD
+GOD
+LILO
+OWL
+DIG
+DOG
+GOLD
+LOO
+DOW
+LOG
+GID
+GIO
+LOW
+OLD
+GOO
+ILL
+LOL
+DOL

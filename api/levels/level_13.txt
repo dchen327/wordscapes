@@ -1,0 +1,42 @@
+12
+KISSING 7 1 True
+KINGS 4 7 False
+SIGS 6 5 False
+SINK 4 4 True
+SIGNS 9 1 True
+SKIN 1 6 False
+SINS 1 4 False
+SINGS 1 0 True
+SKIS 1 6 True
+INKS 1 1 False
+INS 5 7 True
+KIN 0 8 False
+10 10
+- - - - - - - - K -
+S I N G S - S K I S
+- N - - I - K - N -
+- K - - N - I - - -
+- S - - S I N K - -
+- - - - - - - I N S
+- - - - - S - N - -
+- K I S S I N G - -
+- - - - - G - S - -
+- S I G N S - - - -
+17
+GIN
+SIN
+NIS
+SIS
+SING
+ING
+INGS
+SIG
+SKIING
+SIGN
+SINKS
+SKINS
+SKI
+INK
+KING
+GIS
+KISS

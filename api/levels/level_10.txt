@@ -1,49 +1,76 @@
-13
-JOBLESS 0 1 False
-LESBOS 3 1 True
-LESS 1 3 False
-SOLES 6 1 True
-LESBO 1 6 False
-SOLE 6 5 False
-LOBE 6 3 False
-LOBES 8 5 True
-JOE 9 1 True
-OBS 6 9 False
-LOSE 1 6 True
-BOSS 4 6 True
-JOBS 6 7 False
+14
+TORMENT 0 3 False
+MONTE 0 0 True
+TORN 6 3 True
+NOTE 6 6 False
+METRO 3 3 True
+TOME 8 6 True
+RENO 0 7 False
+MOTT 0 0 False
+TERN 1 6 True
+MORN 5 0 True
+MORE 5 9 False
+ORT 5 1 False
+OTTER 2 5 False
+TORE 9 3 True
 10 10
-- J - - - - - - - -
-- O - L - - L O S E
-- B - E - - E - - -
-- L E S B O S - - -
-- E - S - - B O S S
-- S - - - - O - - -
-- S O L E S - J - O
-- - - O - O - O - B
-- - - B - L O B E S
-- J O E - E - S - -
-23
-ELS
-OLE
-SOS
-SEL
-LOB
-OES
-JOB
-BES
-JESS
-ESS
-LOSS
-LES
-BEL
-JOSS
-LOSES
-LOS
-OBE
-OSE
-JOES
-BLESS
-BOS
-SOL
-SOB
+M O N T E - - R - -
+O - - O - - T E R N
+T - - R - O - N - -
+T - - M E T R O - -
+- - - E - T - - - -
+M O R N - E - - - M
+- R - T O R N - - O
+- T - - - - O - - R
+- - - - - - T O M E
+- - - T O R E - - -
+49
+NORM
+TRON
+REM
+ROM
+TET
+TONE
+TENT
+TOE
+ROE
+TON
+EMO
+ONE
+TOTE
+ERM
+NOR
+TROT
+MOE
+ROTE
+ORE
+MET
+MORT
+TENOR
+MOT
+TORT
+TONER
+MENT
+NOT
+TOM
+ROT
+ERN
+OMEN
+TOT
+RET
+TERM
+MOR
+NET
+RENT
+ROTTEN
+NOM
+MENTOR
+TOTEM
+MON
+EON
+REO
+REN
+NOME
+TOR
+MEN
+TEN

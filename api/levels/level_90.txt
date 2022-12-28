@@ -1,0 +1,69 @@
+12
+THANKFUL 2 0 True
+HAN 0 3 False
+LAKH 0 0 True
+FUNK 1 6 False
+HULK 4 3 True
+HALF 4 3 False
+FAULT 7 3 True
+HUNK 6 5 False
+KUTA 5 7 False
+TAK 9 3 True
+TUNA 5 0 True
+FUN 4 1 False
+10 10
+L A K H - - - - - -
+- - - A - - F - - -
+T H A N K F U L - -
+- - - - - - N - - -
+- F - H U L K - - -
+T U N A - - - K - -
+- N - L - H - U - -
+- - - F A U L T - -
+- - - - - N - A - -
+- - - T A K - - - -
+44
+FAT
+ALF
+KANT
+TAU
+NAH
+KUNA
+HULA
+FLAT
+LAH
+TUN
+HAT
+TAN
+UTA
+HALT
+TANK
+KAN
+HUNT
+LUN
+HUT
+KHAN
+FAN
+THAN
+FLAK
+AUF
+AFT
+TALK
+FLU
+HAUL
+HAUT
+FLANK
+LAT
+KAT
+AUNT
+HANK
+LUNA
+ANT
+ALT
+HAUNT
+NTH
+NUT
+NAT
+THANK
+ALU
+HUN

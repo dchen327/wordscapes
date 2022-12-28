@@ -1,0 +1,105 @@
+12
+INFAMOUS 1 6 False
+AMINO 6 2 True
+SOFA 4 3 True
+AMIS 6 2 False
+ANUS 2 5 True
+MASON 8 4 True
+MISO 0 8 False
+FANS 6 8 False
+FINS 1 3 False
+MOAN 3 0 True
+MUON 3 0 False
+MANO 0 1 False
+10 10
+- M - - - - - - M -
+- A - F - - I - I -
+- N - I - A N U S -
+M O A N - - F - O -
+U - - S O F A - - -
+O - - - - - M - - -
+N - A M I N O - F -
+- - M - - - U - A -
+- - I - M A S O N -
+- - S - - - - - S -
+80
+UNS
+IFS
+NOS
+UNIS
+AIS
+SIMA
+MIS
+MINUS
+MUN
+SUM
+NAS
+OUS
+AIM
+MAIN
+FON
+OMS
+FAMOUS
+ONUS
+MONS
+FUN
+NIS
+SUN
+SUMO
+UNI
+SIM
+MOS
+NAM
+MOANS
+FIN
+NOM
+FUSION
+ONS
+MANS
+NUS
+AMIN
+SUI
+SIN
+MAN
+MAS
+MOA
+IOS
+ION
+SAM
+MUS
+FOAM
+UFOS
+FAS
+ISM
+UFO
+ANS
+MINA
+MOI
+SOU
+OMA
+MANI
+AIN
+FAN
+SON
+MOU
+INFO
+SAU
+AUF
+NOUS
+SAI
+AIMS
+ANI
+INS
+MUNI
+ISO
+SAN
+SMA
+INFOS
+MONA
+SOMA
+SOM
+MAINS
+AMI
+MINAS
+MON
+IONS

@@ -1,0 +1,38 @@
+10
+ABILITY 5 1 True
+ABLY 2 7 False
+AIL 5 1 False
+BAIL 2 6 True
+LAT 4 7 True
+BAIT 3 3 False
+LIT 2 9 False
+ALIBI 3 0 True
+TAIL 0 1 False
+TIBIA 0 1 True
+10 10
+- T I B I A - - - -
+- A - - - - - - - -
+- I - - - - B A I L
+A L I B I - - B - I
+- - - A - - - L A T
+- A B I L I T Y - -
+- I - T - - - - - -
+- L - - - - - - - -
+- - - - - - - - - -
+- - - - - - - - - -
+15
+LAB
+ITA
+BAL
+TAY
+ALT
+LIB
+BAT
+TIL
+BAY
+ALB
+BIT
+TAI
+LAY
+TAB
+AIT

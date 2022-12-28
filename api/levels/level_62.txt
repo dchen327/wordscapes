@@ -1,0 +1,65 @@
+14
+ANXIETY 2 1 False
+ANTI 2 1 True
+YIN 5 0 True
+TINA 1 4 False
+TAXI 4 3 True
+TIAN 3 6 False
+TYNE 3 6 True
+ANTE 5 6 True
+EXIT 5 9 False
+NAY 1 7 False
+NEAT 8 6 True
+AYE 8 0 True
+TAIN 1 4 True
+NITE 0 9 False
+10 10
+- - - - - - - - - N
+- - - - T A I N - I
+- A N T I - - A - T
+- N - - N - T Y N E
+- X - T A X I - - -
+Y I N - - - A N T E
+- E - - - - N - - X
+- T - - - - - - - I
+A Y E - - - N E A T
+- - - - - - - - - -
+38
+ANY
+TEX
+TYE
+NAE
+TIN
+EAT
+TAE
+TAN
+ITA
+YEA
+YET
+AIN
+ETNA
+TAI
+NEXT
+EAN
+AIT
+YEN
+NYE
+NIE
+ANI
+TAX
+ANE
+TIE
+NET
+TAY
+YETI
+ANT
+TINY
+ATE
+NIT
+NAT
+TEA
+AXE
+NIX
+TIX
+ETA
+TEN

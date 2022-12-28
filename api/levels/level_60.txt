@@ -1,0 +1,86 @@
+12
+WITCHES 7 3 True
+SITH 6 4 False
+SITE 4 8 False
+HEIST 4 5 True
+TICE 1 6 False
+CIS 7 6 False
+SIC 9 6 True
+SHIT 1 3 True
+WITH 9 1 True
+THIS 0 4 False
+CITES 3 0 True
+TICS 1 0 False
+10 10
+- - - - T - - - - -
+T - - S H I T - - -
+I - - - I - I - - -
+C I T E S - C - - -
+S - - - - H E I S T
+- - - - - - - - I -
+- - - - S - - - T -
+- - - W I T C H E S
+- - - - T - I - - -
+- W I T H - S I C -
+61
+CHIT
+TECH
+HES
+CHEST
+TIS
+WITCH
+HIS
+EHS
+SIT
+ICH
+ISH
+ITCH
+STEW
+WHITES
+ETHIC
+ETHICS
+SICH
+SWITCH
+SECT
+SEI
+CHEW
+ICES
+ITS
+CHEWS
+ETH
+HIC
+WHIT
+CIT
+TIES
+THE
+TEC
+SHE
+TWICE
+CITE
+TES
+EST
+WIT
+TECHS
+TEW
+WITS
+SET
+HET
+WEST
+SHEW
+HIST
+TIE
+WET
+HIT
+TIC
+WICH
+CHI
+CHE
+WHITE
+SEW
+WISE
+ICE
+SEC
+ETCH
+WISH
+WIS
+HITS

@@ -1,0 +1,96 @@
+14
+HOSPICE 3 1 False
+POSE 4 0 True
+SPICE 0 3 False
+COPE 3 3 True
+COPIES 8 1 True
+SCOPE 0 3 True
+PICS 5 6 False
+CHOP 1 0 True
+EPICS 5 5 True
+COPS 6 3 False
+HIPS 2 9 False
+EPOCH 6 0 True
+CHIPS 5 8 False
+SPIE 2 5 False
+10 10
+- - - S C O P E - -
+C H O P - - - - - -
+- - - I - S - - - H
+- H - C O P E - - I
+P O S E - I - - - P
+- S - - - E P I C S
+E P O C H - I - H -
+- I - O - - C - I -
+- C O P I E S - P -
+- E - S - - - - S -
+69
+HOI
+HEP
+CEP
+PESO
+COS
+OCH
+ECO
+HES
+PIES
+HOSE
+HIS
+EHS
+POS
+ICH
+PES
+ISH
+SHIP
+SIC
+OSE
+COSH
+SICH
+SHOP
+PIS
+SEI
+POI
+ICES
+COP
+SPEC
+POSH
+HOPE
+PSI
+HIC
+HOS
+OHS
+PHI
+IOS
+OPS
+SHE
+HOES
+SCOP
+HOE
+PIE
+SHOE
+HOC
+HOP
+OES
+CHIP
+SOC
+HIP
+ECOS
+ISO
+PIC
+ECHO
+CHI
+SOP
+CHE
+HOPES
+CIS
+EPIC
+PEC
+OPE
+HOPS
+ICE
+SHO
+SEC
+SIP
+CHOPS
+CHOSE
+PHO

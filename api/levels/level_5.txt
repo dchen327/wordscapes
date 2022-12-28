@@ -1,74 +1,100 @@
-15
-GRABBED 3 8 False
-REG 3 6 True
-BEAR 0 6 False
-GARB 0 3 True
-AGED 0 4 False
-ERA 1 6 True
-BARE 2 1 True
-DRAB 7 5 True
-RAGE 1 2 False
-BERG 5 6 False
-BED 4 1 True
-BRAG 5 6 True
-DRAG 4 3 False
-BEAD 6 1 True
-BADE 6 1 False
+12
+KEYSTONE 8 0 True
+STONEY 3 2 False
+TONS 4 2 True
+TOKEN 0 4 False
+TONY 0 4 True
+TEENS 5 6 False
+NETS 0 6 False
+ONS 3 0 True
+KEYS 6 5 True
+SEEN 3 6 True
+TONK 1 9 False
+TONE 6 0 True
 10 10
-- - - G A R B - - -
-- - R - G - E R A -
-- B A R E - A - - -
-- - G - D - R E G -
-- B E D - - - - R -
-- - - R - - B R A G
-- B E A D - E - B -
-- A - G - D R A B -
-- D - - - - G - E -
-- E - - - - - - D -
-46
-DAB
-RAD
-BAG
-REB
-DAE
-ARE
-BEG
-READ
-GAD
-BAR
-GRAB
-EBB
-ERG
-BRA
-BABE
-GAB
-ARD
-BARD
-BADGER
-EAR
-ARB
-GRAD
-BEARD
-DEAR
-GED
-DAG
-GRADE
-RED
-BARBED
-BADGE
-GAR
-BARB
-DEB
-BRAD
-AGE
-RAG
-BRED
-BAD
-GARE
-DARE
-ABB
-DEG
-GER
-BARGE
-BREAD
-GEAR
+- - - - T O N Y - -
+- - - - O - E - - T
+- - - - K - T - - O
+O N S - E - S E E N
+- - T O N S - - - K
+- - O - - - T - - -
+T O N E - K E Y S -
+- - E - - - E - - -
+K E Y S T O N E - -
+- - - - - - S - - -
+75
+TYE
+TEE
+TOES
+NOS
+TOKENS
+NOTE
+TSK
+TEEN
+STONE
+TOE
+KEN
+EYES
+ONSET
+KEY
+TONES
+NEST
+KENT
+YOKE
+ESE
+YEN
+KEYNOTE
+KNEES
+YON
+OSE
+SEE
+NOES
+SEN
+SYN
+TOY
+EON
+NYS
+SEEK
+SENT
+KNOT
+TOYS
+NEE
+KENO
+TEES
+TYNE
+NOTES
+KET
+TON
+ONE
+SKY
+SOY
+TES
+YET
+TENSE
+TEN
+EST
+SON
+KON
+KNEE
+KEEN
+NYE
+OES
+KNOTS
+SET
+NOT
+ENE
+KOS
+EYE
+NET
+YES
+ONES
+STONY
+STOKE
+ENS
+EEN
+NOSE
+TENS
+SOT
+SETON
+TEENY
+EEK

@@ -1,0 +1,52 @@
+14
+CAVEMAN 3 3 False
+MANE 7 3 True
+CAME 3 3 True
+AMEN 9 0 True
+CAVE 6 0 True
+MEAN 2 6 False
+NAAM 5 6 True
+NEMA 0 4 False
+ACNE 1 1 True
+VANE 4 8 False
+MAE 2 6 True
+CAM 0 1 False
+MACE 4 0 False
+MANA 4 0 True
+10 10
+- C - - N - - - - -
+- A C N E - - - - -
+- M - - M - M A E -
+- - - C A M E - - -
+M A N A - - A - V -
+A - - V - - N A A M
+C A V E - - - - N -
+E - - M A N E - E -
+- - - A - - - - - -
+A M E N - - - - - -
+25
+MAVEN
+CANE
+MAN
+AMA
+NAE
+MAA
+AVA
+VAN
+ANCE
+VAC
+EAN
+AVE
+NAVE
+ACE
+MAC
+CAA
+AME
+NAM
+ACME
+ANE
+NAV
+ANA
+NAME
+CAN
+MEN

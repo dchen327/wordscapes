@@ -1,80 +1,92 @@
 12
-SUFFERED 0 4 False
-FEES 3 4 True
-RUFF 5 4 True
-RUDE 6 1 True
-REES 0 1 True
-FUSED 5 2 False
-FURS 5 7 False
-USER 8 6 True
-REFS 0 7 False
-REED 1 6 True
-FREE 8 0 True
-SEER 5 9 False
+CRAWFISH 1 2 True
+HAIRS 1 9 False
+FIR 1 6 False
+CHIA 1 2 False
+ACH 2 0 True
+SCAR 4 0 True
+CHARS 0 0 False
+RICH 4 3 False
+CHAIR 7 2 True
+WISH 6 5 False
+SHRI 9 4 True
+ARCS 5 6 True
 10 10
-- R E E S - - R - -
-- - - - U - R E E D
-- - - - F - - F - -
-- - - - F E E S - -
-- - - - E - - - - -
-- - F - R U F F - S
-- R U D E - - U - E
-- - S - D - - R - E
-F R E E - - U S E R
-- - D - - - - - - -
-55
-FER
-FEUD
-SEE
-RUE
-REE
-SUD
-ERS
-RES
-ERED
-DUE
-DEE
-USE
-DEUS
-REFUSE
-SURE
-DEER
-FES
-DEF
-SER
-RUSE
-SUEDE
-FUSE
-FUD
-EDS
-FREES
-REFUSED
-REEFS
-FED
-REUSE
-FEEDS
-DUES
-SED
-SEED
-REEF
-FREED
-REUSED
-EFF
-REF
-USED
-FUR
-RED
-FEED
-SURF
-SUED
-ERE
-FEDS
-SUFFER
-REDS
-DEFER
-DUFF
-ESE
-REEDS
-URE
-SUE
-FEE
+C - - - - - - - - -
+H - C R A W F I S H
+A C H - - - I - - A
+R - I - - - R - - I
+S C A R - - - - - R
+- - - I - - A R C S
+- - - C - W - - - -
+- - C H A I R - - -
+- - - - - S - - - -
+- - - - S H R I - -
+67
+WASH
+SRI
+IFS
+AIS
+ARS
+CASH
+WAR
+AIRS
+HAS
+RAW
+SAW
+WARS
+HIS
+WAH
+ICH
+ISH
+AHS
+RAH
+SIC
+SCARF
+SHARIF
+CAR
+SICH
+FAIR
+FAR
+SIR
+ARC
+RIA
+WHA
+SAR
+FAIRS
+RAI
+CHAIRS
+CAF
+HIC
+WAS
+CHA
+RAS
+RASH
+CRIS
+CRASH
+CHAS
+ARF
+AIR
+ASH
+FAS
+FRA
+SHAW
+FISH
+SAI
+ARIS
+HAW
+RIF
+SHA
+HAIR
+SAC
+WAI
+WHARF
+ARCH
+CHAR
+CHI
+WICH
+SARI
+CIS
+CHAI
+CARS
+WIS

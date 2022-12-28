@@ -1,0 +1,27 @@
+7
+KINGPIN 1 8 False
+PING 4 5 True
+PINK 4 5 False
+INN 6 3 True
+NIP 2 7 True
+PIG 5 3 False
+KING 7 0 True
+10 10
+- - - - - - - - - -
+- - - - - - - - K -
+- - - - - - - N I P
+- - - - - - - - N -
+- - - - - P I N G -
+- - - P - I - - P -
+- - - I N N - - I -
+K I N G - K - - N -
+- - - - - - - - - -
+- - - - - - - - - -
+7
+GIN
+ING
+KIP
+KIN
+GIP
+INK
+PIN

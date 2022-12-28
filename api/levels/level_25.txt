@@ -1,0 +1,44 @@
+12
+PLUMMER 2 3 False
+RULE 8 3 True
+LUMP 3 3 True
+REP 2 1 True
+MEL 6 3 True
+PERM 0 5 False
+PREM 1 1 False
+LURE 7 0 True
+PLUME 0 5 True
+MULE 0 8 False
+PURE 6 1 False
+PUR 3 6 False
+10 10
+- - - - - P L U M E
+- P - - - E - - U -
+- R E P - R - - L -
+- E - L U M P - E -
+- M - U - - U - - -
+- - - M - - R - - -
+- P - M E L - - - -
+L U R E - - - - - -
+- R - R U L E - - -
+- E - - - - - - - -
+19
+PRE
+MEM
+REM
+MUM
+ELM
+RUM
+EMU
+LEP
+UMM
+ERM
+PUL
+LEU
+MEU
+PLUM
+PER
+RUE
+LUM
+PEL
+URE

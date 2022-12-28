@@ -1,0 +1,70 @@
+15
+ENACTED 1 6 False
+ACTED 7 2 True
+EATEN 5 4 False
+DATE 1 3 True
+DEAN 5 2 False
+ACE 6 0 True
+ACNE 3 6 True
+ANTE 6 0 False
+CANT 0 4 False
+CADET 3 0 True
+ANCE 9 3 True
+TEEN 5 6 True
+CATE 0 9 False
+ENACT 5 8 False
+NEAT 1 1 False
+10 10
+- - - - C - - - - C
+- N - D A T E - - A
+- E - - N - N - - T
+C A D E T - A C N E
+- T - - - - C - - -
+- - D - E - T E E N
+A C E - A - E - N -
+N - A C T E D - A -
+T - N - E - - - C -
+E - - A N C E - T -
+42
+CANE
+TEE
+NEE
+NAE
+DAE
+END
+CEE
+EAT
+TAE
+TAN
+TEC
+DNA
+CADE
+TEN
+TAD
+CAD
+ETNA
+EAN
+DEN
+NEED
+AND
+DAN
+CAT
+ANE
+ENE
+TEND
+NET
+DANCE
+DEE
+ANT
+ACT
+EEN
+ATE
+NED
+NAT
+DECENT
+TEA
+TED
+DENT
+CAN
+ETA
+CENT

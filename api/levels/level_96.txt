@@ -1,0 +1,77 @@
+13
+COLLARS 3 3 True
+COLA 0 7 False
+COAL 1 6 True
+COLS 3 3 False
+COLL 5 0 True
+CAROL 5 0 False
+ARCO 0 4 False
+COLLAR 0 0 True
+SCROLL 3 9 False
+OARS 8 0 True
+ORAL 7 6 True
+ARCS 6 7 False
+CALS 9 4 True
+10 10
+C O L L A R - C - -
+- - - - R - C O A L
+- - - - C - - L - -
+- - - C O L L A R S
+- - - O - - - - - C
+C O L L - - - - - R
+A - - S - - - A - O
+R - - - - - O R A L
+O A R S - - - C - L
+L - - - C A L S - -
+51
+LOR
+CAL
+LAS
+ORA
+LOCA
+LOCAL
+CARL
+RAS
+SCAR
+ROLLS
+ARS
+OAR
+ALSO
+COR
+LACS
+LOCALS
+SOLAR
+ROLL
+ORC
+SAL
+CALLS
+COS
+ALL
+LAC
+SOAR
+OCA
+COL
+ALS
+ROC
+OSCAR
+COSA
+CALL
+LOS
+SAC
+SOC
+ORCS
+COALS
+CAROLS
+LAR
+ORCA
+CAR
+LARS
+SOLA
+ARC
+CORALS
+CORAL
+ORS
+LOL
+SAR
+CARS
+SOL

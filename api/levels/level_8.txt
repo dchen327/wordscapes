@@ -1,109 +1,79 @@
-16
-PATHETIC 7 1 True
-ETAT 5 2 False
-HEAT 4 6 False
-TECH 5 1 True
-CIT 7 8 False
-PITCH 1 4 False
-TAIT 3 1 True
-HIP 7 4 False
-ETCH 5 6 True
-PATE 9 6 True
-CHAT 0 1 False
-EACH 2 9 False
-TICE 2 6 True
-EPIC 0 7 False
-HEAP 1 1 True
-THETA 0 5 True
+12
+NAPOLEON 2 2 False
+PANEL 4 2 True
+ALONE 0 5 False
+LANE 1 5 True
+PEA 3 0 True
+OPEN 7 0 True
+LEAN 4 6 False
+LOAN 6 0 False
+NOEL 9 2 True
+PALE 6 5 True
+PENAL 0 8 False
+NANO 2 2 True
 10 10
-- C - - - T H E T A
-- H E A P - - P - -
-- A - - I - T I C E
-- T A I T - - C - A
-- - - - C - H - - C
-- T E C H - E T C H
-- - T - - - A - - -
-- P A T H E T I C -
-- - T - I - - - I -
-- - - - P - P A T E
-80
-ITCH
-PET
-ATE
-PACT
-THE
-ETHIC
-TIE
-PHI
-CHEAP
-CHEAT
-ATT
-TATE
-PIA
-TEA
-ICE
-CHIP
-HAT
-PITA
-CHI
-PIC
-CHE
-THAT
-ETH
-CHIT
-PEACH
-HATE
-CHAI
-CAT
-TET
-TACIT
-ICH
-ACHE
-CHIA
-PATCH
-APT
-TAI
-ACH
-PETIT
-TIP
-TACT
-HIC
-HEP
-PAT
-CAP
-PATH
-TAT
-CITE
-ATTIC
-PEA
-CAPE
-ACT
-PAH
-PHAT
-PACE
-AIT
-HIT
-TIT
-PAC
-HAP
-TIC
-PEC
+- - - - - A - - P -
+- - - - - L A N E -
+- - N A N O - - N -
+P E A - - N - - A -
+- - P A N E L - L -
+- - O - - - E - - -
+L - L - - P A L E -
+O P E N - - N - - -
+A - O - - - - - - -
+N - N O E L - - - -
+54
+POLO
+PANE
+LEP
+ALOE
+LAP
+LENO
+POO
+NEAL
+PLANE
+LOO
+LEAP
+OPA
+NONE
+PLAN
+ANN
 APE
-TAE
-TAP
-EAT
-PIE
-ITA
-HEPATIC
-HET
-ACE
-CHA
-CHAP
-CEP
-ETA
-PEAT
-TAPE
-CATE
-TEACH
-PIT
-TEC
+LOON
+PAN
+ALE
+OOP
+EON
+LOOP
+APO
+PLEA
+ANNO
+PEL
+NEP
+POA
+NAE
+OLE
+LEA
+PAL
+LOP
+OPAL
+ONE
+ANON
+ONO
+POL
+NAP
+POOL
+EAN
+NOPE
+NON
+PEN
+ANE
+POLE
+NOON
+PAOLO
+ELAN
+AEON
+ALP
+OPE
+LONE
+NEON

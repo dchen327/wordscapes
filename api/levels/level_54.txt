@@ -1,0 +1,45 @@
+15
+PROLONG 3 3 True
+NOR 2 5 False
+PORNO 2 7 False
+POOL 6 6 True
+LOOP 0 3 False
+PROLOG 0 0 True
+LOGO 6 9 False
+LONG 0 9 False
+PONG 0 0 False
+PORN 6 6 False
+LOGON 9 2 True
+PRONG 5 4 False
+POLO 7 1 True
+POO 5 2 False
+LOP 5 0 True
+10 10
+P R O L O G - - - L
+O - - O - - - - - O
+N - - O - N - P - N
+G - - P R O L O N G
+- - - - - R - R - -
+L O P - P - - N - -
+- - O - R - P O O L
+- P O L O - O - - O
+- - - - N - R - - G
+- - L O G O N - - O
+17
+POOR
+LOR
+LOG
+OOP
+ROO
+PROG
+GON
+ONO
+POL
+GOO
+LOON
+NOG
+ORG
+POGO
+LOO
+GOR
+PRO

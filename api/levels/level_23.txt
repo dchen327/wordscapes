@@ -1,0 +1,55 @@
+15
+NOTHING 2 7 False
+INTO 4 5 True
+THIN 6 5 True
+TONG 6 5 False
+TONING 2 3 True
+GOT 0 3 False
+THONG 9 1 True
+HINT 6 1 False
+GHI 6 0 True
+GOTH 0 3 True
+THO 7 3 False
+NONI 3 2 False
+NIGH 8 5 True
+HONG 3 0 False
+INGO 1 0 True
+10 10
+- - - G O T H - - -
+I N G O - - - - - -
+- - - T O N I N G -
+H - N - - - - O - -
+O - O - - I N T O -
+N - N - - - - H - -
+G H I - - T H I N -
+- I - T - O - N - -
+- N - H - N I G H -
+- T H O N G - - - -
+27
+GIN
+INN
+HOT
+ION
+TIN
+HOI
+TON
+HOG
+THON
+GON
+NOG
+NIGHT
+THING
+HIN
+ING
+NON
+NINTH
+NOT
+GIO
+HIT
+HON
+TIG
+NTH
+NIT
+TING
+GIT
+NOTING

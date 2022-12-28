@@ -1,0 +1,50 @@
+13
+SUMMERS 7 3 True
+ERM 5 5 False
+MUSS 5 3 False
+SUMMER 5 1 True
+MUMS 2 1 False
+MUSES 5 9 False
+SUMS 3 0 True
+SUES 0 3 False
+MESS 6 7 False
+USES 9 6 True
+USER 2 6 False
+RUSE 2 5 True
+SURE 0 3 True
+10 10
+- - - S U R E - - -
+- - - U - - - - - -
+- M - E - R U S E -
+S U M S - - S - - -
+- M - - - - E - - -
+- S U M M E R - - M
+- - - U - R - M - U
+- - - S U M M E R S
+- - - S - - - S - E
+- - - - - - U S E S
+24
+SERUM
+MEM
+REM
+MUSE
+USERS
+MUM
+EMU
+RUM
+RES
+MUS
+SUM
+SER
+UMM
+USE
+MEU
+EMS
+ERS
+MEMS
+ESS
+MES
+SUS
+SUE
+RUE
+URE

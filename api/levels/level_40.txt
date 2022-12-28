@@ -1,0 +1,43 @@
+11
+REIGNING 0 9 False
+RINGING 3 3 True
+NIGGER 3 5 False
+RING 0 6 False
+REIGN 3 3 False
+GRIN 1 4 True
+INNER 3 7 False
+NINE 4 0 True
+REIN 7 0 True
+GINGER 3 1 False
+REG 7 7 True
+10 10
+- - - - - - R - - R
+- - - - G R I N - E
+- - - - - - N - - I
+- G - R I N G I N G
+N I N E - I - N - N
+- N - I - G - N - I
+- G - G - G - E - N
+R E I N - E - R E G
+- R - - - R - - - -
+- - - - - - - - - -
+19
+GIN
+INN
+GEN
+RIN
+NEG
+NIGER
+ENG
+GIG
+IGG
+IRE
+RIG
+ING
+EGG
+ERN
+GER
+ERG
+REI
+REN
+NIE

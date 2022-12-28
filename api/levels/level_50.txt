@@ -1,0 +1,57 @@
+13
+TURNKEY 1 5 False
+KENT 5 5 True
+TYNE 6 2 True
+TURK 6 2 False
+KERN 8 0 True
+RUNE 3 7 False
+TERN 1 5 True
+TUNER 3 1 True
+TUNE 1 3 False
+RENT 1 0 True
+ENTRY 1 1 False
+RUT 3 7 True
+NUKE 6 0 False
+10 10
+- - - - - - - - - -
+R E N T - T E R N -
+- N - U - U - - - -
+- T U N E R - R U T
+- R - E - N - U - -
+- Y - - - K E N T -
+N - T Y N E - E - -
+U - U - - Y - - - -
+K E R N - - - - - -
+E - K - - - - - - -
+31
+TYE
+RYU
+TREY
+YER
+NUR
+KEN
+KET
+TUN
+TURKEY
+TURN
+TRUE
+RUN
+KEY
+YET
+RYE
+TRY
+YEN
+NYE
+UTE
+ERN
+RUE
+RET
+NET
+TREK
+TYRE
+TRUNK
+NUT
+URN
+REN
+URE
+TEN

@@ -1,0 +1,88 @@
+13
+ORBITING 0 1 True
+TIRING 0 5 False
+RING 5 2 True
+BING 4 3 False
+INTRO 3 5 True
+TRIO 3 7 False
+INGO 7 1 True
+OBIT 0 1 False
+RIOT 6 1 False
+TORI 2 9 False
+TORN 9 1 True
+ION 2 1 True
+BON 0 3 False
+10 10
+- O R B I T I N G -
+- B - O - I - - - -
+- I O N - R - - - T
+- T - - - I N T R O
+- - - B - N - R - R
+- - R I N G - I - I
+- R - N - - - O - -
+- I N G O - - - - -
+- O - - - - - - - -
+- T O R N - - - - -
+62
+GIN
+BIN
+TRON
+BOG
+NOIR
+TIN
+BOING
+NOR
+INTO
+ORBIT
+NOG
+BOT
+OBI
+BOR
+BRO
+GIRO
+RIG
+ING
+GRIT
+GROIN
+ROT
+GIO
+BOI
+ROBIN
+BRIG
+BIOTIN
+BORING
+NIT
+TING
+GIT
+ORT
+TOR
+GRIN
+TRIG
+RIN
+RIT
+NITRO
+BRIT
+ORIGIN
+NIB
+TON
+ORB
+GON
+RIB
+ROB
+BITING
+BRING
+BIO
+NOT
+ORG
+GOR
+IRON
+BONG
+BIG
+TIG
+NOB
+BINGO
+GOT
+BRIO
+TONG
+BORN
+BIT

@@ -1,0 +1,38 @@
+10
+CAYENNE 1 2 True
+EAN 1 5 False
+CYAN 1 2 False
+EEN 0 8 False
+ANCE 3 4 True
+ACNE 3 4 False
+NANCY 5 4 True
+NANCE 6 0 True
+CAY 5 7 False
+CANE 6 3 False
+10 10
+- - - - - - - - E -
+- - C A Y E N N E -
+- - Y - - A - - N -
+- - A - A N C E - -
+- - N - C - - - - -
+- - - - N A N C Y -
+N A N C E - - A - -
+- - - A - - - Y - -
+- - - N - - - - - -
+- - - E - - - - - -
+15
+ANY
+YEN
+YEA
+NEE
+NYE
+NAE
+ACE
+AYE
+ANN
+NAY
+ANE
+ENE
+CAN
+CEE
+EYE

@@ -1,0 +1,116 @@
+13
+STABBING 2 2 True
+SANT 2 2 False
+BAIT 2 5 False
+ITA 0 4 False
+BINS 4 4 True
+GNATS 2 9 False
+GAIT 0 2 True
+STANG 4 7 False
+NATS 5 0 True
+TAGS 6 6 True
+SIGN 5 3 False
+TINS 8 1 True
+TAIN 2 0 False
+10 10
+- - G A I T - - - -
+- - - - T - - - - -
+T - S T A B B I N G
+A - A - - A - - - N
+I - N - B I N S - A
+N A T S - T - T - T
+- - - I - - T A G S
+- - - G - - - N - -
+- T I N S - - G - -
+- - - - - - - - - -
+90
+GIN
+SANG
+BIN
+AIS
+BANS
+TABS
+BAITS
+TIN
+NAS
+TAN
+STAIN
+SIG
+BITS
+SAINT
+SATIN
+BIAS
+BIBS
+TINA
+GIANTS
+STAB
+TAI
+ANGST
+TIS
+AIT
+NIS
+SING
+ING
+SIT
+ABB
+GAB
+SAT
+STAG
+BAG
+BAGS
+GIANT
+BANG
+ABS
+NIT
+NAT
+TING
+ITS
+GIT
+GATS
+GIS
+GAT
+BIS
+SIN
+TIAN
+BASIN
+ATS
+TAG
+BASING
+GAS
+NIB
+GAINS
+GNAT
+ANTI
+ANS
+NAG
+ANTS
+AIN
+BAS
+TAB
+SIB
+SAI
+SAB
+BAN
+TAS
+BAT
+ANI
+SNAG
+BATS
+INS
+NAB
+SAN
+BIB
+BING
+BIG
+GAIN
+TIG
+INGS
+BANGS
+ANT
+SAG
+GAN
+GIST
+STING
+AGS
+BIT
+TANG

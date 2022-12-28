@@ -1,0 +1,43 @@
+10
+TAKEOFF 1 1 False
+FAKE 6 1 True
+FEAT 4 0 True
+TEAK 5 4 False
+OFT 2 3 False
+KEA 8 4 True
+FATE 3 3 True
+OAT 7 6 False
+FETA 1 5 False
+TAKE 9 6 True
+10 10
+- - - - - - - - - -
+- T - - - F - - - -
+- A - O - E - - - -
+- K - F A T E - - -
+F E A T - A - - - -
+- O - - T - - - - -
+- F A K E - - - - -
+- F - - A - O - - -
+- - - - K E A - - -
+- - - - - - T A K E
+20
+FAT
+TOE
+EAT
+KET
+TAE
+TAO
+OFF
+FOE
+AFT
+OAK
+AFF
+KOA
+KAT
+EFT
+EFF
+ATE
+TEA
+FET
+TAK
+ETA

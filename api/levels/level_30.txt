@@ -1,0 +1,90 @@
+13
+DENTIST 0 0 False
+IDENT 4 0 True
+EDITS 1 4 False
+TINS 6 0 True
+SEND 6 3 False
+DENIS 2 4 True
+TENDS 0 6 False
+DIETS 9 3 True
+TENTS 5 7 False
+IDES 6 1 False
+SINE 7 5 True
+DIES 0 0 True
+STINT 0 5 True
+10 10
+D I E S - S T I N T
+E - - - E - E - - -
+N - - - D E N I S -
+T - - - I - D - - -
+I D E N T - S - - -
+S - - - S - - T - -
+T I N S - - - E - -
+- D - E - S I N E -
+- E - N - - - T - -
+- S - D I E T S - -
+64
+DINE
+EDIT
+TINTED
+END
+TENT
+TIN
+TIT
+IDE
+TIDES
+INSET
+NEST
+DIS
+TIS
+DEN
+NIS
+SED
+SIT
+NIE
+SITE
+DEI
+NITE
+EDS
+SEN
+TEND
+STENT
+SEI
+DIN
+NED
+TEST
+NIT
+IDS
+ITS
+TED
+ENDS
+SITED
+SENT
+SIN
+DIET
+TET
+DIE
+SIDE
+SIND
+TITS
+TIES
+STEIN
+DESI
+TES
+EST
+SET
+TIED
+INS
+NID
+TIE
+DENTS
+NET
+TIDE
+DIT
+ENS
+TENS
+NETS
+TINT
+DENT
+TID
+TEN

@@ -1,0 +1,68 @@
+15
+HONORED 3 1 False
+HERON 3 1 True
+DOOR 9 1 True
+NOR 5 1 True
+DONOR 1 5 False
+REDO 5 5 True
+NODE 0 2 False
+RODEO 5 3 False
+DRONE 5 7 False
+ODEON 1 4 True
+RENO 9 6 True
+HERO 6 9 False
+HONE 0 7 False
+RODE 7 1 True
+EON 3 7 True
+10 10
+- - N - - - - H - -
+- - O - O D E O N -
+- - D - - O - N - -
+- H E R O N - E O N
+- O - - - O - - - -
+- N O R - R E D O -
+- O - O - - - R - H
+- R O D E - - O - E
+- E - E - - - N - R
+- D O O R - R E N O
+40
+NOD
+DOH
+RHONE
+DOO
+RHO
+ROD
+DON
+END
+NERD
+ROE
+HORNED
+ONE
+HOOD
+ODE
+ONO
+HOE
+DONE
+ORE
+ORD
+HOON
+DEN
+HER
+HEN
+RED
+ERN
+HERD
+HORDE
+HON
+HONED
+ROO
+ODOR
+HONOR
+DOE
+NED
+DOR
+REO
+HOO
+REN
+HORN
+OOH

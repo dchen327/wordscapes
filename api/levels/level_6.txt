@@ -1,62 +1,122 @@
-13
-MUNDANE 8 2 True
-NAME 5 8 False
-DAMN 5 5 True
-MEAD 3 6 False
-NAMED 3 4 True
-MANE 0 7 False
-MADE 1 6 True
-MENU 5 3 False
-DAM 5 1 True
-AMEND 0 4 False
-DUNE 2 1 True
-DUM 1 2 False
-DUN 5 1 False
+14
+STARVED 0 7 False
+SAVER 3 3 True
+ARTS 0 3 False
+VARS 1 1 True
+AVER 3 4 False
+TEARS 6 1 True
+ARSE 6 3 False
+DARTS 3 1 False
+RAVES 9 0 True
+TSAR 0 6 True
+DEAR 5 6 True
+REVS 5 9 False
+RAD 4 0 True
+SEV 6 5 False
 10 10
-- - - - A - - M - -
-- - D - M - M A D E
-- D U N E - - N - -
-- - M - N A M E D -
-- - - - D - E - - -
-- D A M - D A M N -
-- U - E - - D - A -
-- N - N - - - - M -
-- - M U N D A N E -
-- - - - - - - - - -
-36
-AME
-MAUD
-MED
+- - - A - - T S A R
+- V A R S - - T - -
+- - - T - - - A - -
+- D - S A V E R - -
+R A D - V - - V - -
+- R - - E - D E A R
+- T E A R S - D - E
+- S - R - E - - - V
+- - - S - V - - - S
+R A V E S - - - - -
+95
+RAT
 DAE
-MUD
-MUN
-DAN
-EAU
-DAME
-MAD
-DUE
-MAE
-MEN
-ANN
-MEND
-DEAN
-DEN
-MEAN
-MAN
-EAN
-NED
-MEU
-NEMA
-DNA
-NAE
-UNNAMED
-EMU
-NUN
-NUDE
-AMEN
-DUMA
-MANNED
-NAM
-ANE
-AND
-END
+REDS
+ARS
+VETS
+STARE
+SAVE
+READ
+ADVERT
+VAS
+DEVA
+SAV
+RES
+DEV
+SER
+EAT
+TAE
+ERA
+DATE
+TRAD
+SAE
+TAD
+VAST
+VERA
+RAV
+STAR
+SED
+VERS
+SAD
+DART
+SAVED
+SAT
+EDS
+RED
+RATED
+STARED
+EAR
+ASTER
+RET
+TEAS
+SEA
+ATE
+VAR
+VEST
+SERA
+ADS
+TED
+ARD
+SAR
+DARE
+ERAS
+RATE
+EATS
+SEAT
+REV
+EAS
+SEAR
+VERT
+DATES
+DAS
+RAS
+TRES
+ATS
+ADVERTS
+STEAD
+STARVE
+EARS
+TRADES
+VASE
+AVERT
+TAR
+ART
+ARES
+TES
+RATS
+EST
+RAVE
+SADE
+ERS
+AVE
+TAS
+DARES
+SET
+ARE
+TREAD
+RATES
+TRADE
+VET
+READS
+VAT
+TEAR
+TEA
+EAST
+REST
+ETA
