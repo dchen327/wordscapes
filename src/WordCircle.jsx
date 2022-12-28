@@ -29,7 +29,7 @@ const WordCircle = ({
   getNextLevel,
   shuffleArray,
   setDefineMode,
-  setShowLevelSelect,
+  levelSelectClicked,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -285,7 +285,7 @@ const WordCircle = ({
         </button>
         <button
           className="mt-auto w-[50px] py-1 text-center text-slate-50 bg-slate-700 p-1 bg-opacity-75 rounded"
-          onClick={() => setShowLevelSelect(true)}
+          onClick={() => levelSelectClicked()}
         >
           Level {levelNum}
         </button>

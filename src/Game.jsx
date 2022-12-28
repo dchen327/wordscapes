@@ -58,6 +58,11 @@ export const Game = () => {
     }
   };
 
+  const levelSelectClicked = () => {
+    setLevelNumInput(levelNum);
+    setShowLevelSelect(true);
+  };
+
   const selectLevel = () => {
     const newLevelNum = parseInt(levelNumInput);
     if (newLevelNum > 0) {
@@ -70,7 +75,6 @@ export const Game = () => {
 
   const closeLevelSelect = () => {
     setShowLevelSelect(false);
-    setLevelNumInput(levelNum);
   };
 
   // fetch new crossword each time levelNum changes
@@ -177,12 +181,11 @@ export const Game = () => {
               themeColor,
               setThemeColor,
               levelNum,
-              setLevelNum,
               levelComplete,
               getNextLevel,
               shuffleArray,
               setDefineMode,
-              setShowLevelSelect,
+              levelSelectClicked,
             }}
           />
         )}
