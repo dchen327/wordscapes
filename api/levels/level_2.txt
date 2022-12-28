@@ -1,25 +1,87 @@
-13
-MINIMAL 3 4 False
-MANI 6 1 True
-MAIN 6 1 False
-NAIL 5 4 True
-MAIL 2 7 False
-LAIN 3 6 True
-LIMA 9 4 True
-MINIMA 1 2 False
-MINI 4 1 True
-MINA 1 9 False
-MALI 7 4 True
-ANIL 2 0 True
-IMAM 0 0 False
+15
+ATHEIST 3 2 False
+TAI 7 0 True
+THAT 3 0 True
+HEAT 0 0 False
+HEATS 5 2 True
+SEAT 2 5 False
+HITS 0 0 True
+STAT 5 6 False
+EAST 3 5 True
+SITH 5 0 False
+TEAS 0 7 False
+ETAT 8 5 True
+HATE 0 5 True
+TES 6 6 True
+TIES 3 8 False
 10 10
-I - - - - - - - - -
-M - M - - - - - - M
-A N I L - - - M - I
-M - N - M - L A I N
-- M I N I - - I - A
-- - M - N A I L - -
-- M A N I - - - - -
-- A - - M A L I - -
-- I - - A - - - - -
-- N - - L I M A - -
+H I T S - H A T E -
+E - - - - - - E - -
+A - - - - S - A - -
+T H A T - E A S T -
+- - T - - A - - I -
+S - H E A T S - E -
+I - E - - - T E S -
+T A I - - - A - - -
+H - S - - E T A T -
+- - T - - - - - - -
+59
+HATS
+TASTE
+ATE
+THE
+TIE
+HIS
+HASTE
+SIT
+HAST
+TAIT
+ATT
+TATE
+ASH
+SITE
+ATS
+TEA
+SHE
+TAS
+HAT
+TIS
+HES
+ETH
+SEI
+SAE
+TET
+SHIT
+SAT
+HATES
+SAITH
+SHA
+THETA
+STATE
+HAS
+EATS
+TAT
+SAI
+AHS
+HEIST
+ITS
+AIT
+HIT
+TIT
+EAS
+SEA
+TITS
+TAE
+EAT
+ITA
+EST
+SHEA
+HET
+ISH
+EHS
+ETA
+THIS
+HIST
+TEST
+SET
+AIS

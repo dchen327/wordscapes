@@ -1,26 +1,58 @@
-14
-CROOKED 3 0 True
-COED 0 6 False
-CORD 0 6 True
-DECO 0 2 False
-ROOK 3 1 False
-ODOR 3 3 False
-DORK 0 4 False
-REDO 1 1 True
-RODEO 6 3 True
-DOOR 5 7 False
-RODE 0 8 False
-DOCK 6 5 False
-ROCK 9 2 True
-CORK 8 5 True
+12
+HACKNEY 3 3 True
+CAKE 0 8 False
+HANK 2 4 False
+YEAH 3 9 False
+EACH 6 6 True
+HACK 5 1 True
+KHAN 4 1 False
+KANE 3 6 False
+ACH 6 7 False
+HAY 8 7 True
+CYAN 1 6 True
+NACH 7 1 True
 10 10
-- - D - D - C O R D
-- R E D O - O - O -
-- - C - R - E - D -
-C R O O K E D - E -
-- O - D - - - - - -
-- O - O - - - D - -
-- K - R O D E O - -
-- - - - - O - O - -
-- - - - - C O R K -
-- - R O C K - - - -
+- - - - - - - - C -
+- - - - - - C Y A N
+- - - - H - - - K -
+- - - H A C K N E Y
+- K - - N - A - - E
+- H A C K - N - - A
+- A - - - - E A C H
+- N A C H - - C - -
+- - - - - - - H A Y
+- - - - - - - - - -
+33
+NECK
+KAY
+AYE
+KAN
+ANY
+YAK
+YAH
+YEA
+CAN
+KEN
+NYE
+HECK
+NAH
+CAY
+YEN
+KEA
+CANE
+YANK
+HEY
+ACE
+CHE
+EAN
+NAE
+HEN
+CHA
+ACNE
+YEH
+HAN
+KEY
+NAY
+ACHE
+ANCE
+ANE

@@ -1,21 +1,62 @@
-9
-PENNANT 2 1 False
-PATE 2 1 True
-ETNA 2 4 False
-PANT 6 0 True
-TAPE 3 4 True
-PEAT 3 6 False
-ANTE 5 6 True
-PANE 0 7 False
-NEAT 4 9 False
+13
+MUNDANE 8 2 True
+NAME 5 8 False
+DAMN 5 5 True
+MEAD 3 6 False
+NAMED 3 4 True
+MANE 0 7 False
+MADE 1 6 True
+MENU 5 3 False
+DAM 5 1 True
+AMEND 0 4 False
+DUNE 2 1 True
+DUM 1 2 False
+DUN 5 1 False
 10 10
-- - - - - - - P - -
-- - - - - - - A - -
-- P A T E - - N - -
-- E - - T A P E - -
-- N - - N - E - - N
-- N - - A - A N T E
-P A N T - - T - - A
-- N - - - - - - - T
-- T - - - - - - - -
+- - - - A - - M - -
+- - D - M - M A D E
+- D U N E - - N - -
+- - M - N A M E D -
+- - - - D - E - - -
+- D A M - D A M N -
+- U - E - - D - A -
+- N - N - - - - M -
+- - M U N D A N E -
 - - - - - - - - - -
+36
+AME
+MAUD
+MED
+DAE
+MUD
+MUN
+DAN
+EAU
+DAME
+MAD
+DUE
+MAE
+MEN
+ANN
+MEND
+DEAN
+DEN
+MEAN
+MAN
+EAN
+NED
+MEU
+NEMA
+DNA
+NAE
+UNNAMED
+EMU
+NUN
+NUDE
+AMEN
+DUMA
+MANNED
+NAM
+ANE
+AND
+END

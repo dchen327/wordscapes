@@ -1,23 +1,136 @@
-11
-ORIGINS 3 1 False
-ORIGIN 3 1 True
-RINGS 2 5 False
-GROIN 5 5 True
-SONG 9 1 True
-RING 7 0 True
-INGO 4 9 False
-RISING 0 3 False
-SING 5 0 True
-IONS 4 7 False
-GRINS 0 2 True
+12
+SEALING 1 7 False
+INGLES 4 4 True
+LAGS 1 9 False
+ANGLES 3 5 False
+SALINE 6 3 True
+ANGELS 1 2 True
+SEAL 6 3 False
+GAIN 0 2 False
+LENS 3 0 True
+LEANS 8 1 True
+GELS 1 0 False
+SALE 6 1 False
 10 10
-- - G R I N S - - -
-- - - I - - - - - -
-- - - S - R - - - -
-- O R I G I N - - -
-- R - N - N - I - I
-S I N G - G R O I N
-- G - - - S - N - G
-R I N G - - - S - O
-- N - - - - - - - -
-- S O N G - - - - -
+- - G - - - - - - -
+G - A N G E L S - L
+E - I - - - - E - A
+L E N S - A - A - G
+S - - - I N G L E S
+- - - - - G - I - -
+- S - S A L I N E -
+- A - E - E - G - -
+- L E A N S - - - -
+- E - L - - - - - -
+111
+LINES
+LAG
+LEA
+LEAN
+SIGN
+SLAIN
+ANGLE
+SEG
+ALES
+SIGNAL
+ENS
+GIN
+GILA
+GALS
+SING
+LANG
+ANGEL
+SANE
+GAS
+NAILS
+INGS
+SINGLE
+ANI
+ANIL
+GIS
+LES
+LIN
+SAG
+LEGS
+LIES
+AISLE
+LANE
+GLENS
+AGILE
+ISLE
+LEASING
+ALIEN
+INS
+AIN
+EAN
+AGE
+ELAN
+AGS
+SEI
+LIANG
+NAE
+LIE
+SIG
+SAE
+GAINS
+NIE
+LIS
+LEI
+SEAN
+ALS
+SLING
+SLANG
+ING
+ALIGN
+LINE
+SAN
+ELS
+NEAL
+AIL
+LEG
+SEL
+SAGE
+ANS
+NAIL
+SAI
+NIL
+GALE
+SINE
+NILS
+SAL
+LIGNE
+GAN
+EAS
+AEGIS
+GEL
+LEAS
+SAIL
+LAIN
+SEA
+NIS
+SANG
+ENG
+LING
+NAG
+SNAG
+AGES
+SNAIL
+SLAG
+NAS
+LANES
+LAS
+NEG
+EASING
+SIN
+GAL
+ALE
+GEN
+LIEN
+SILAGE
+ANE
+LIGASE
+SEN
+LIENS
+AIS
+ALIENS
+GLEN

@@ -1,25 +1,127 @@
 13
-EMITTED 5 2 True
-ITEM 3 7 False
-MITT 3 6 True
-TIMED 4 4 False
-EIDE 2 2 False
-EDIT 3 0 True
-TIDE 0 0 False
-DEEM 0 6 False
-EMIT 0 8 False
-TIME 0 0 True
-MITE 7 1 True
-DIET 0 6 True
-DIME 8 4 True
+ANECDOTE 0 0 True
+ENACT 0 7 False
+CONE 0 3 False
+NOTA 4 5 True
+DONE 2 5 False
+DEAN 2 5 True
+ANTE 4 8 False
+ANCE 5 2 True
+ACTED 5 2 False
+DENOTE 9 2 True
+CONTE 7 4 True
+CADE 3 0 True
+COAT 3 0 False
 10 10
-T I M E - - D I E T
-I - - - - - E - M -
-D - E - - - E - I -
-E D I T - - M I T T
-- - D - T - - T - -
-- - E M I T T E D -
-- - - - M - - M - -
-- M I T E - - - - -
-- - - - D I M E - -
-- - - - - - - - - -
+A N E C D O T E - -
+- - - O - - - N - -
+- - - N - D E A N -
+C A D E - O - C - -
+O - - - - N O T A -
+A - A N C E - - N -
+T - C - - - - - T -
+- - T - C O N T E -
+- - E - - - - - - -
+- - D E N O T E - -
+101
+AEON
+TON
+DAE
+DOE
+CEE
+ATE
+NOTED
+CODE
+ANT
+NAT
+ENACTED
+DOC
+DEE
+COND
+ETNA
+TACO
+TOD
+OAT
+TED
+NEAT
+TEA
+DEN
+CODEN
+TOAD
+COTE
+ANODE
+DENT
+OCA
+EAN
+NED
+ODE
+NAE
+CAT
+CAD
+ACNE
+ONE
+ENCODE
+COD
+TOC
+OCTANE
+TEEN
+COATED
+TAO
+DATE
+CANOE
+TOE
+ONCE
+DAN
+ACT
+DANCE
+DEACON
+OCEAN
+ENE
+ACETONE
+TONE
+ACTON
+CADET
+TEN
+NOT
+CATE
+CAN
+NEED
+TAN
+TEND
+ADO
+NODE
+DECENT
+CON
+DECO
+CODA
+TAE
+NOTE
+EAT
+CANE
+ECO
+TEE
+ACE
+COT
+TONED
+EON
+DOT
+EATEN
+DONATE
+DNA
+EEN
+COED
+NET
+CANTO
+ODA
+ETA
+DON
+NEE
+CENT
+TAD
+ANE
+CANT
+DONA
+NOD
+AND
+END
+TEC

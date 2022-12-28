@@ -1,26 +1,73 @@
 14
-ABREAST 6 2 True
-BASE 4 7 False
-TARA 3 2 False
-BATS 3 0 True
-ABATE 2 5 False
-AREAS 2 5 True
-ARES 0 3 False
-RASTA 0 9 False
-TEAR 0 6 True
-TSAR 0 1 True
-BARE 6 3 False
-BATE 3 0 False
-ERAS 9 3 True
-BEAR 8 0 True
+YIELDING 4 2 True
+INDIE 4 3 False
+LIGNE 3 7 False
+ELD 7 7 True
+DINE 1 4 False
+LIND 6 0 True
+LINED 1 0 True
+LIED 4 5 False
+LIEN 5 1 False
+LING 1 9 False
+EDGY 6 9 False
+END 0 2 False
+LYNE 1 0 False
+LINDY 9 5 True
 10 10
-- T S A R - T E A R
-- - - R - - - - - A
-- - - E - A R E A S
-B A T S - B - - - T
-A - A - - A - B - A
-T - R - - T - A - -
-E - A B R E A S T -
-- - - A - - - E - -
-B E A R - - - - - -
-- - - E R A S - - -
+- - E - - - - - - -
+L I N E D - - - - L
+Y - D - I - - - - I
+N - - - N - - L - N
+E - Y I E L D I N G
+- L - N - I - G - -
+L I N D - E - N - E
+- E - I - D - E L D
+- N - E - - - - - G
+- - - - - L I N D Y
+46
+LINE
+LEY
+DENY
+LEG
+IDE
+GIN
+GELD
+ING
+DIG
+NIL
+IDLE
+INDY
+LID
+DEL
+GEL
+DIE
+NYE
+LIN
+GED
+GID
+DYEING
+NID
+YEN
+DEY
+LED
+DEN
+LEND
+ENG
+YIN
+DING
+DYING
+DEI
+GLIDE
+NED
+YIELD
+DELI
+DYE
+LIE
+DEG
+NEG
+DIN
+NIE
+GEN
+LEI
+LYING
+GLEN

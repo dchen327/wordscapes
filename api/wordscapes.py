@@ -1,6 +1,7 @@
 import random
 import itertools
 import os
+import shutil
 from collections import Counter, defaultdict, namedtuple
 from copy import deepcopy
 from typing import Counter, List, Dict
@@ -23,7 +24,7 @@ def gen_puzzle_words(words_by_len: Dict, main_word: str) -> List[str]:
     '''
     main_ct = Counter(main_word)
     subwords = []
-    for word_len in range(4, 9):
+    for word_len in range(3, 9):
         subwords.extend(word for word in words_by_len[word_len] if contains(
             Counter(word), main_ct))
 
@@ -58,14 +59,20 @@ def gen_crossword(puzzle_words: List[str], output_file: str):
     beam_width = 20
 
     del puzzle_words[-1]  # remove longest word
-    word_weights = [len(word) - 2 for word in puzzle_words]
+    no_3_letters = [word for word in puzzle_words if len(word) > 3]
+    # prioritize adding longer words
+    word_weights = [len(word) - 2.5 for word in no_3_letters]
 
-    words = random.choices(puzzle_words, weights=word_weights, k=50)
-    words = np.random.choice(puzzle_words, size=min(
-        len(puzzle_words), 50), replace=False, p=word_weights/np.sum(word_weights))
-    for num_words in range(25):
+    words = list(np.random.choice(no_3_letters, size=min(
+        len(no_3_letters), 50), replace=False, p=word_weights/np.sum(word_weights)))
+
+    # add max 3 random 3-letter words
+    three_letters = [word for word in puzzle_words if len(word) == 3]
+    words.extend(random.choices(three_letters, k=min(3, len(three_letters))))
+
+    # 12-16 words (random 11-15 + start word)
+    for num_words in range(random.randint(11, 15)):
         new_crosswords = []
-        # print(num_words, len(crosswords))
         for grid, used in random.choices(crosswords, k=beam_width):
             unused_words = tuple(set(words) - set(used.keys()))
             if not unused_words:
@@ -97,20 +104,28 @@ def gen_crossword(puzzle_words: List[str], output_file: str):
         else:
             break
 
-    if len(words) < 6:  # crossword too small
+    if num_words < 6:  # crossword too small
         return None
 
     for grid, used in random.choices(crosswords, k=1):
         # print_grid(grid)
         with open(output_file, 'w') as f:
+            # write used words to file
             f.write(str(len(used)) + '\n')
             for word in used:
                 word_info = used[word]
                 f.write(
                     f'{word.upper()} {word_info.r} {word_info.c} {word_info.horiz}\n')
+
             # write grid to file
             f.write(f'{R} {C}\n')
             print_grid(grid, file=f, caps=True)
+
+            # bonus words
+            bonus_words = set(puzzle_words) - set(used.keys())
+            f.write(str(len(bonus_words)) + '\n')
+            for word in bonus_words:
+                f.write(word.upper() + '\n')
 
     return random.choice(crosswords)
 
@@ -196,12 +211,15 @@ def setup():
         for word in words:
             words_by_len[len(word)].append(word)
 
-        num_crosswords = 100  # will try to generate this many, might be fewer
+        num_crosswords = 10  # will try to generate this many, might be fewer
         main_words = random.choices(
             words_by_len[8] + words_by_len[7], k=num_crosswords)
-        # make puzzles directory if it doesn't exist
-        if not os.path.exists('puzzles'):
-            os.makedirs('puzzles')
+
+        # clear any previous puzzles
+        if os.path.exists('levels'):
+            shutil.rmtree('levels')
+        # make puzzles directory
+        os.makedirs('levels')
 
         level_num = 1
         for main_word in main_words:
@@ -211,6 +229,12 @@ def setup():
                     puzzle_words, output_file) is not None:
                 print(f'Crossword #{level_num}: {main_word}')
                 level_num += 1
+
+        main_word = random.choice(words_by_len[8])
+        main_word = 'yielding'
+        puzzle_words = gen_puzzle_words(words_by_len, main_word)
+        print(len(puzzle_words))
+        gen_crossword(puzzle_words, 'puzzle.txt')
 
 
 if __name__ == '__main__':

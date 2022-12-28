@@ -1,29 +1,109 @@
-17
-LAKESIDE 2 7 False
-SLED 2 6 True
-SEALED 5 3 True
-EASEL 3 3 False
-DALES 3 0 True
-ASIDE 0 0 False
-LAID 4 5 False
-LEED 9 6 True
-SEAL 7 0 True
-EELS 0 4 False
-SAILED 1 0 True
-DELI 6 1 False
-AIDES 0 9 False
-SILK 9 0 True
-DIAL 0 2 False
-LIED 6 9 False
-SIDA 0 6 True
+16
+PATHETIC 7 1 True
+ETAT 5 2 False
+HEAT 4 6 False
+TECH 5 1 True
+CIT 7 8 False
+PITCH 1 4 False
+TAIT 3 1 True
+HIP 7 4 False
+ETCH 5 6 True
+PATE 9 6 True
+CHAT 0 1 False
+EACH 2 9 False
+TICE 2 6 True
+EPIC 0 7 False
+HEAP 1 1 True
+THETA 0 5 True
 10 10
-A - D - E - S I D A
-S A I L E D - - - I
-I - A - L - S L E D
-D A L E S - - A - E
-E - - A - L - K - S
-- - - S E A L E D -
-- D - E - I - S - L
-S E A L - D - I - I
-- L - - - - - D - E
-S I L K - - L E E D
+- C - - - T H E T A
+- H E A P - - P - -
+- A - - I - T I C E
+- T A I T - - C - A
+- - - - C - H - - C
+- T E C H - E T C H
+- - T - - - A - - -
+- P A T H E T I C -
+- - T - I - - - I -
+- - - - P - P A T E
+80
+ITCH
+PET
+ATE
+PACT
+THE
+ETHIC
+TIE
+PHI
+CHEAP
+CHEAT
+ATT
+TATE
+PIA
+TEA
+ICE
+CHIP
+HAT
+PITA
+CHI
+PIC
+CHE
+THAT
+ETH
+CHIT
+PEACH
+HATE
+CHAI
+CAT
+TET
+TACIT
+ICH
+ACHE
+CHIA
+PATCH
+APT
+TAI
+ACH
+PETIT
+TIP
+TACT
+HIC
+HEP
+PAT
+CAP
+PATH
+TAT
+CITE
+ATTIC
+PEA
+CAPE
+ACT
+PAH
+PHAT
+PACE
+AIT
+HIT
+TIT
+PAC
+HAP
+TIC
+PEC
+APE
+TAE
+TAP
+EAT
+PIE
+ITA
+HEPATIC
+HET
+ACE
+CHA
+CHAP
+CEP
+ETA
+PEAT
+TAPE
+CATE
+TEACH
+PIT
+TEC

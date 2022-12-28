@@ -1,28 +1,40 @@
-16
-SCOOTER 3 0 False
-SCOT 3 0 True
-ROOTS 9 0 True
-TORO 6 2 False
-CERTS 0 3 False
-SOOT 4 3 True
-CORE 1 0 True
-RECS 6 4 False
-COST 8 4 True
-CERT 1 6 False
-COTE 1 6 True
-ROSCOE 6 4 True
-REST 5 9 False
-ROTE 2 3 True
-COTS 6 7 False
-ROTO 3 6 True
+11
+ADJUNCT 2 2 False
+AUNT 2 2 True
+CAN 0 4 False
+CAJUN 7 2 True
+JUNTA 4 2 True
+CUNT 0 4 True
+TUNA 6 5 False
+TUN 6 0 True
+DUCT 3 0 False
+CANT 9 4 True
+CUT 8 0 True
 10 10
-- - - C - - - - - -
-C O R E - - C O T E
-- - - R O T E - - -
-S C O T - - R O T O
-C - - S O O T - - -
-O - - - - - - - - R
-O - T - R O S C O E
-T - O - E - - O - S
-E - R - C O S T - T
-R O O T S - - S - -
+- - - - C U N T - -
+- - - - A - - - - -
+- - A U N T - - - -
+D - D - - - - - - -
+U - J U N T A - - -
+C - U - - - - - - -
+T U N - - T - - - -
+- - C A J U N - - -
+C U T - - N - - - -
+- - - - C A N T - -
+16
+CAT
+CAD
+NUT
+JUN
+TAJ
+AND
+DUN
+TAD
+DAN
+TAU
+ANT
+TAN
+ACT
+UTA
+NAT
+DNA
