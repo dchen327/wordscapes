@@ -192,11 +192,11 @@ const WordCircle = ({
           let angle = (2 * Math.PI) / letters.length;
           // initial value centered vertically on positive y-axis
           let x =
-            0.8 * circleRadius * Math.cos(angle * i - Math.PI / 2) +
+            0.85 * circleRadius * Math.cos(angle * i - Math.PI / 2) +
             circleRadius -
             letterWidth / 4;
           let y =
-            0.8 * circleRadius * Math.sin(angle * i - Math.PI / 2) +
+            0.85 * circleRadius * Math.sin(angle * i - Math.PI / 2) +
             circleRadius -
             letterWidth / 4;
           return (
