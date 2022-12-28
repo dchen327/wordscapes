@@ -35,6 +35,7 @@ const WordCircle = ({
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
+  const [foundBonusWords, setFoundBonusWords] = useState([]);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 
@@ -63,7 +64,7 @@ const WordCircle = ({
       } else if (bonusWords.includes(word)) {
         // bonus word
         clearTime = 1000; // shorter for incorrect words
-        // blue for bonus words
+        setFoundBonusWords([...foundBonusWords, word]);
         setInputtedWordBGColor("#60A5FA");
       } else {
         clearTime = 1000; // shorter for incorrect words
@@ -244,19 +245,19 @@ const WordCircle = ({
           className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
           onClick={shuffleLetters}
         >
-          <FontAwesomeIcon icon={faShuffle} size="lg" />
+          <FontAwesomeIcon icon={faShuffle} size="xl" />
         </button>
         <button
           className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
           onClick={() => setDefineMode(false)}
         >
-          <FontAwesomeIcon icon={faCrosshairs} size="lg" />
+          <FontAwesomeIcon icon={faCrosshairs} size="xl" />
         </button>
         <button
-          className="mt-auto w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
-          onClick={getNextLevel}
+          className="mt-auto w-[50px] aspect-square text-center text-slate-50 bg-slate-700 p-1 bg-opacity-25 border rounded-full"
+          onClick={() => console.log("show bonus words")}
         >
-          <FontAwesomeIcon icon={faForward} size="lg" />
+          {foundBonusWords.length}
         </button>
       </div>
 
@@ -278,22 +279,22 @@ const WordCircle = ({
         <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
           <FontAwesomeIcon
             icon={faLightbulb}
-            size="lg"
+            size="xl"
             onClick={() => revealLetters()}
           />
         </button>
         <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
           <FontAwesomeIcon
             icon={faBurst}
-            size="lg"
+            size="xl"
             onClick={() => revealLetters(5)}
           />
         </button>
         <button
-          className="mt-auto w-[50px] py-1 text-center text-slate-50 bg-slate-700 p-1 bg-opacity-75 rounded"
-          onClick={() => levelSelectClicked()}
+          className="mt-auto w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
+          onClick={getNextLevel}
         >
-          Level {levelNum}
+          <FontAwesomeIcon icon={faForward} size="xl" />
         </button>
       </div>
     </div>

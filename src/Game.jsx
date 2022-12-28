@@ -152,6 +152,14 @@ export const Game = () => {
           backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
         }}
       >
+        <div className="flex items-center justify-center w-full">
+          <button
+            className="bg-slate-200 rounded-lg p-2 m-2"
+            onClick={() => levelSelectClicked()}
+          >
+            Level Select
+          </button>
+        </div>
         {grid && (
           <Crossword
             {...{
