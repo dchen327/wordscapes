@@ -20,6 +20,7 @@ export const Game = () => {
     return levelNum ? parseInt(levelNum) : 1;
   });
   const [showLevelSelect, setShowLevelSelect] = useState(true);
+  const [levelNumInput, setLevelNumInput] = useState(levelNum);
 
   // disable body scrolling
   useEffect(() => {
@@ -56,7 +57,17 @@ export const Game = () => {
   };
 
   const selectLevel = (newLevelNum) => {
-    if (newLevelNum > 0) setLevelNum(newLevelNum);
+    if (newLevelNum > 0) {
+      setLevelNum(newLevelNum);
+      toast.success(`Level ${newLevelNum} Selected!`);
+      localStorage.setItem("levelNum", newLevelNum);
+    }
+    closeLevelSelect();
+  };
+
+  const closeLevelSelect = () => {
+    setShowLevelSelect(false);
+    setLevelNumInput(levelNum);
   };
 
   // fetch new crossword each time levelNum changes
@@ -92,21 +103,44 @@ export const Game = () => {
   return (
     <>
       <Toaster />
+      {/* level select modal */}
+      <Modal
+        className="flex flex-col justify-center items-center absolute bg-sky-800 rounded-lg p-4 mx-auto inset-x-0 top-1/3 text-center"
+        isOpen={showLevelSelect}
+        ariaHideApp={false}
+        onRequestClose={() => closeLevelSelect()}
+        shouldCloseOnOverlayClick={true}
+      >
+        <h1 className="text-2xl text-slate-200 font-bold">Level Select</h1>
+        <input
+          className="border-2 border-gray-300 rounded-lg p-2 m-2 text-center"
+          type="number"
+          value={levelNumInput}
+          onChange={(e) => setLevelNumInput(e.target.value)}
+          autoFocus
+        />
+        <div className="flex flex-row justify-evenly w-full">
+          <button
+            className="bg-slate-200 text-sky-00 rounded-lg p-2 m-2"
+            onClick={() => selectLevel(levelNumInput)}
+          >
+            Select
+          </button>
+          <button
+            className="bg-slate-200 text-sky-800 rounded-lg p-2 m-2"
+            onClick={() => closeLevelSelect()}
+          >
+            Cancel
+          </button>
+        </div>
+      </Modal>
       <div
+        id="background"
         className="flex flex-col justify-evenly items-center justify-center h-screen w-screen bg-cover"
         style={{
           backgroundImage: `url(${require("./assets/River-and-Trees-Wallpaper.jpg")})`,
         }}
       >
-        {/* level select modal */}
-        <Modal
-          isOpen={showLevelSelect}
-          ariaHideApp={false}
-          onRequestClose={() => setShowLevelSelect(false)}
-          shouldCloseOnOverlayClick={true}
-        >
-          <div>hi</div>
-        </Modal>
         {grid && (
           <Crossword
             {...{
