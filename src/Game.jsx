@@ -171,6 +171,7 @@ export const Game = () => {
           <WordCircle
             {...{
               words,
+              bonusWords,
               letters,
               setLetters,
               completeGrid,

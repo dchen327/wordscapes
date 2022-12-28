@@ -14,6 +14,7 @@ import {
 
 const WordCircle = ({
   words,
+  bonusWords,
   letters,
   setLetters,
   completeGrid,
@@ -59,6 +60,11 @@ const WordCircle = ({
       if (enterWord(word)) {
         clearTime = 3000; // longer for correct words
         setInputtedWordBGColor("#34D399");
+      } else if (bonusWords.includes(word)) {
+        // bonus word
+        clearTime = 1000; // shorter for incorrect words
+        // blue for bonus words
+        setInputtedWordBGColor("#60A5FA");
       } else {
         clearTime = 1000; // shorter for incorrect words
         setInputtedWordBGColor("#F87171");
