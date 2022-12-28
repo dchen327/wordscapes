@@ -8,7 +8,8 @@ import Modal from "react-modal";
 export const Game = () => {
   const [grid, setGrid] = useState([]);
   const [completeGrid, setCompleteGrid] = useState([]);
-  const [words, setWords] = useState(null);
+  const [words, setWords] = useState([]);
+  const [bonusWords, setBonusWords] = useState([]);
   const [letters, setLetters] = useState([]);
   const [wordsFound, setWordsFound] = useState(0);
   const [themeColor, setThemeColor] = useState("");
@@ -91,6 +92,7 @@ export const Game = () => {
       });
       setGrid(grid);
       setWords(data.words);
+      setBonusWords(data.bonus);
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);
       setLetters(startWord);
