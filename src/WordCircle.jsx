@@ -3,6 +3,7 @@ import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import CustomDragLayer from "./CustomDragLayer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Modal from "react-modal";
 
 import {
   faBurst,
@@ -33,6 +34,7 @@ const WordCircle = ({
   const [inputtedWord, setInputtedWord] = useState("");
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
   const [foundBonusWords, setFoundBonusWords] = useState([]);
+  const [showBonusWords, setShowBonusWords] = useState(false);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 
@@ -236,65 +238,92 @@ const WordCircle = ({
   // }, [words, enterWord]);
 
   return (
-    <div className="flex mb-20 w-full justify-evenly">
-      <div className="flex flex-col justify-start mt-10">
-        <button
-          className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
-          onClick={shuffleLetters}
-        >
-          <FontAwesomeIcon icon={faShuffle} size="xl" />
-        </button>
-        <button
-          className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
-          onClick={() => setDefineMode(false)}
-        >
-          <FontAwesomeIcon icon={faCrosshairs} size="xl" />
-        </button>
-        <button
-          className="mt-auto w-[50px] aspect-square text-center text-slate-50 bg-slate-700 p-1 bg-opacity-25 border rounded-full"
-          onClick={() => console.log("show bonus words")}
-        >
-          {foundBonusWords.length}
-        </button>
-      </div>
-
-      <div className="flex flex-col items-center justify-center ">
-        <div className="min-h-[2.75rem]">
-          <h1
-            className={
-              "text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold"
-            }
-            style={{ backgroundColor: inputtedWordBGColor }}
+    <>
+      <div className="flex mb-20 w-full justify-evenly">
+        <div className="flex flex-col justify-start mt-10">
+          <button
+            className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
+            onClick={shuffleLetters}
           >
-            {inputtedWord}
-          </h1>
+            <FontAwesomeIcon icon={faShuffle} size="xl" />
+          </button>
+          <button
+            className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
+            onClick={() => setDefineMode(false)}
+          >
+            <FontAwesomeIcon icon={faCrosshairs} size="xl" />
+          </button>
+          <button
+            className="mt-auto w-[50px] aspect-square text-center text-slate-50 bg-slate-700 p-1 bg-opacity-25 border rounded-full"
+            onClick={() => setShowBonusWords(true)}
+          >
+            {foundBonusWords.length}
+          </button>
         </div>
-        {GetCircleLayout(letters)}
-      </div>
 
-      <div className="flex flex-col justify-start mt-10">
-        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
-          <FontAwesomeIcon
-            icon={faLightbulb}
-            size="xl"
-            onClick={() => revealLetters()}
-          />
-        </button>
-        <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
-          <FontAwesomeIcon
-            icon={faBurst}
-            size="xl"
-            onClick={() => revealLetters(5)}
-          />
-        </button>
-        <button
-          className="mt-auto w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
-          onClick={getNextLevel}
-        >
-          <FontAwesomeIcon icon={faForward} size="xl" />
-        </button>
+        <div className="flex flex-col items-center justify-center ">
+          <div className="min-h-[2.75rem]">
+            <h1
+              className={
+                "text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold"
+              }
+              style={{ backgroundColor: inputtedWordBGColor }}
+            >
+              {inputtedWord}
+            </h1>
+          </div>
+          {GetCircleLayout(letters)}
+        </div>
+
+        <div className="flex flex-col justify-start mt-10">
+          <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+            <FontAwesomeIcon
+              icon={faLightbulb}
+              size="xl"
+              onClick={() => revealLetters()}
+            />
+          </button>
+          <button className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full">
+            <FontAwesomeIcon
+              icon={faBurst}
+              size="xl"
+              onClick={() => revealLetters(5)}
+            />
+          </button>
+          <button
+            className="mt-auto w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full"
+            onClick={getNextLevel}
+          >
+            <FontAwesomeIcon icon={faForward} size="xl" />
+          </button>
+        </div>
       </div>
-    </div>
+      {/* bonus words modal */}
+      <Modal
+        className="flex flex-col justify-center items-center bg-sky-800 rounded-lg p-4 m-5 inset-x-0 text-center h-5/6"
+        isOpen={showBonusWords}
+        ariaHideApp={false}
+        onRequestClose={() => setShowBonusWords(false)}
+        shouldCloseOnOverlayClick={true}
+      >
+        <div className="flex flex-col justify-center items-center w-full overflow-y-scroll">
+          <h1 className="text-base pb-2 text-slate-200 font-bold">
+            Bonus Words
+          </h1>
+          {foundBonusWords.map((word) => (
+            <p key={word} className="text-sm text-slate-200">
+              {word}
+            </p>
+          ))}
+        </div>
+        <button
+          className="bg-slate-200 rounded-lg py-1 px-2 m-2"
+          onClick={() => setShowBonusWords(false)}
+        >
+          Close
+        </button>
+      </Modal>
+    </>
   );
 };
 
