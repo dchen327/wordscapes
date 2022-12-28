@@ -154,10 +154,10 @@ export const Game = () => {
       >
         <div className="flex items-center justify-center w-full">
           <button
-            className="bg-slate-200 rounded-lg p-2 m-2"
+            className="bg-slate-200 rounded-lg py-1 px-2 m-2"
             onClick={() => levelSelectClicked()}
           >
-            Level Select
+            Level {levelNum}
           </button>
         </div>
         {grid && (
@@ -189,12 +189,10 @@ export const Game = () => {
               setWordsFound,
               themeColor,
               setThemeColor,
-              levelNum,
               levelComplete,
               getNextLevel,
               shuffleArray,
               setDefineMode,
-              levelSelectClicked,
             }}
           />
         )}

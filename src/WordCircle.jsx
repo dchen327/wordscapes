@@ -24,13 +24,10 @@ const WordCircle = ({
   setWordsFound,
   themeColor,
   setThemeColor,
-  levelNum,
-  setLevelNum,
   levelComplete,
   getNextLevel,
   shuffleArray,
   setDefineMode,
-  levelSelectClicked,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
