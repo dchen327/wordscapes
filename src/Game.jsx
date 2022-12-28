@@ -116,40 +116,6 @@ export const Game = () => {
   return (
     <>
       <Toaster />
-      {/* level select modal */}
-      <Modal
-        className="flex flex-col justify-center items-center absolute bg-sky-800 rounded-lg p-4 mx-5 inset-x-0 top-1/3 text-center"
-        isOpen={showLevelSelect}
-        ariaHideApp={false}
-        onRequestClose={() => closeLevelSelect()}
-        shouldCloseOnOverlayClick={true}
-      >
-        <form onSubmit={selectLevel}>
-          <h1 className="text-xl text-slate-200 font-bold">Level Select</h1>
-          <input
-            className="text-base w-1/2 border-2 border-gray-300 rounded-lg p-1 m-2 text-center"
-            type="number"
-            value={levelNumInput}
-            onChange={(e) => setLevelNumInput(e.target.value)}
-            autoFocus
-          />
-          <div className="flex flex-row justify-center w-full">
-            <button
-              type="submit"
-              className="bg-slate-200 rounded-lg py-1 px-2 m-2"
-              onClick={() => selectLevel(levelNumInput)}
-            >
-              Select
-            </button>
-            <button
-              className="bg-slate-200 rounded-lg py-1 px-2 m-2"
-              onClick={() => closeLevelSelect()}
-            >
-              Cancel
-            </button>
-          </div>
-        </form>
-      </Modal>
       <div
         id="background"
         className="flex flex-col justify-evenly items-center justify-center h-screen w-screen bg-cover"
@@ -204,6 +170,40 @@ export const Game = () => {
           />
         )}
       </div>
+      {/* level select modal */}
+      <Modal
+        className="flex flex-col justify-center items-center absolute bg-sky-800 rounded-lg p-4 mx-5 inset-x-0 top-1/3 text-center"
+        isOpen={showLevelSelect}
+        ariaHideApp={false}
+        onRequestClose={() => closeLevelSelect()}
+        shouldCloseOnOverlayClick={true}
+      >
+        <form onSubmit={selectLevel}>
+          <h1 className="text-xl text-slate-200 font-bold">Level Select</h1>
+          <input
+            className="text-base w-1/2 border-2 border-gray-300 rounded-lg p-1 m-2 text-center"
+            type="number"
+            value={levelNumInput}
+            onChange={(e) => setLevelNumInput(e.target.value)}
+            autoFocus
+          />
+          <div className="flex flex-row justify-center w-full">
+            <button
+              type="submit"
+              className="bg-slate-200 rounded-lg py-1 px-2 m-2"
+              onClick={() => selectLevel(levelNumInput)}
+            >
+              Select
+            </button>
+            <button
+              className="bg-slate-200 rounded-lg py-1 px-2 m-2"
+              onClick={() => closeLevelSelect()}
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+      </Modal>
     </>
   );
 };

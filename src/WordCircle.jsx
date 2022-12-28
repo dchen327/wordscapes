@@ -11,6 +11,7 @@ import {
   faForward,
   faLightbulb,
   faShuffle,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 const WordCircle = ({
@@ -35,7 +36,7 @@ const WordCircle = ({
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
-  const [showBonusWords, setShowBonusWords] = useState(false);
+  const [showBonusWords, setShowBonusWords] = useState(true);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 
@@ -301,28 +302,30 @@ const WordCircle = ({
       </div>
       {/* bonus words modal */}
       <Modal
-        className="flex flex-col justify-center items-center bg-sky-800 rounded-lg p-4 m-5 inset-x-0 text-center h-5/6"
+        className="bg-sky-800 rounded-lg p-4 m-5 inset-x-0 h-5/6 overflow-y-scroll"
         isOpen={showBonusWords}
         ariaHideApp={false}
         onRequestClose={() => setShowBonusWords(false)}
         shouldCloseOnOverlayClick={true}
       >
-        <div className="flex flex-col justify-center items-center w-full overflow-y-scroll">
-          <h1 className="text-base pb-2 text-slate-200 font-bold">
+        <div className="grid grid-cols-5 items-center mb-1">
+          <h1 className="col-start-2 col-span-3 text-lg text-center text-slate-200 font-bold">
             Bonus Words
           </h1>
+          <button
+            className="text-slate-300 p-1 text-right"
+            onClick={() => setShowBonusWords(false)}
+          >
+            <FontAwesomeIcon icon={faXmark} />
+          </button>
+        </div>
+        <div className="flex flex-col justify-center items-center">
           {foundBonusWords.map((word) => (
             <p key={word} className="text-sm text-slate-200">
               {word}
             </p>
           ))}
         </div>
-        <button
-          className="bg-slate-200 rounded-lg py-1 px-2 m-2"
-          onClick={() => setShowBonusWords(false)}
-        >
-          Close
-        </button>
       </Modal>
     </>
   );
