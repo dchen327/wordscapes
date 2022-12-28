@@ -12,6 +12,7 @@ export const Game = () => {
   const [bonusWords, setBonusWords] = useState([]);
   const [letters, setLetters] = useState([]);
   const [wordsFound, setWordsFound] = useState(0);
+  const [foundBonusWords, setFoundBonusWords] = useState([]);
   const [themeColor, setThemeColor] = useState("");
   // defineMode true: tap letter -> define, false: tap letter -> reveal
   const [defineMode, setDefineMode] = useState(true);
@@ -46,9 +47,14 @@ export const Game = () => {
     toast.success(`Level ${levelNum} Complete!`, {
       duration: 3000,
     });
-    setLevelNum(levelNum + 1);
-    localStorage.setItem("levelNum", levelNum + 1);
+    setLevel(levelNum + 1);
     // TODO: set theme color to something new
+  };
+
+  const setLevel = (levelNum) => {
+    setLevelNum(levelNum);
+    localStorage.setItem("levelNum", levelNum);
+    setFoundBonusWords([]);
   };
 
   const shuffleArray = (array) => {
@@ -66,9 +72,8 @@ export const Game = () => {
   const selectLevel = () => {
     const newLevelNum = parseInt(levelNumInput);
     if (newLevelNum > 0) {
-      setLevelNum(newLevelNum);
       toast.success(`Level ${newLevelNum} Selected!`);
-      localStorage.setItem("levelNum", newLevelNum);
+      setLevel(newLevelNum);
     }
     closeLevelSelect();
   };
@@ -187,6 +192,8 @@ export const Game = () => {
               setGrid,
               wordsFound,
               setWordsFound,
+              foundBonusWords,
+              setFoundBonusWords,
               themeColor,
               setThemeColor,
               levelComplete,
