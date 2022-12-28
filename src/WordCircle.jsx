@@ -36,7 +36,7 @@ const WordCircle = ({
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
-  const [showBonusWords, setShowBonusWords] = useState(true);
+  const [showBonusWords, setShowBonusWords] = useState(false);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 

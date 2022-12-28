@@ -97,9 +97,17 @@ function LetterNode({
             height: `${letterWidth}px`,
           }}
         >
-          <h1
+          {/* <h1
             className="font-sans font-semibold"
-            style={{ fontSize: `${letterWidth / 1.2}px` }}
+            style={{ fontSize: `${letterWidth / 1.1}px` }}
+          >
+            {letter}
+          </h1> */}
+          <h1
+            style={{
+              fontSize: `${letterWidth / 1.2}px`,
+              fontFamily: "Lato, sans-serif",
+            }}
           >
             {letter}
           </h1>
