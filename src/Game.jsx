@@ -22,6 +22,7 @@ export const Game = () => {
   });
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [levelNumInput, setLevelNumInput] = useState(levelNum);
+  const NUM_LEVELs = 10;
 
   // disable body scrolling
   useEffect(() => {
@@ -80,7 +81,7 @@ export const Game = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ levelNum }),
+        body: JSON.stringify({ levelNum: ((levelNum - 1) % NUM_LEVELs) + 1 }),
       });
       const data = await response.json();
       setCompleteGrid(data.grid);
