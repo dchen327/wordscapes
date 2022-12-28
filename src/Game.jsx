@@ -19,7 +19,7 @@ export const Game = () => {
     const levelNum = localStorage.getItem("levelNum");
     return levelNum ? parseInt(levelNum) : 1;
   });
-  const [showLevelSelect, setShowLevelSelect] = useState(true);
+  const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [levelNumInput, setLevelNumInput] = useState(levelNum);
 
   // disable body scrolling
@@ -56,7 +56,8 @@ export const Game = () => {
     }
   };
 
-  const selectLevel = (newLevelNum) => {
+  const selectLevel = () => {
+    const newLevelNum = parseInt(levelNumInput);
     if (newLevelNum > 0) {
       setLevelNum(newLevelNum);
       toast.success(`Level ${newLevelNum} Selected!`);
@@ -111,28 +112,31 @@ export const Game = () => {
         onRequestClose={() => closeLevelSelect()}
         shouldCloseOnOverlayClick={true}
       >
-        <h1 className="text-2xl text-slate-200 font-bold">Level Select</h1>
-        <input
-          className="border-2 border-gray-300 rounded-lg p-2 m-2 text-center"
-          type="number"
-          value={levelNumInput}
-          onChange={(e) => setLevelNumInput(e.target.value)}
-          autoFocus
-        />
-        <div className="flex flex-row justify-evenly w-full">
-          <button
-            className="bg-slate-200 text-sky-00 rounded-lg p-2 m-2"
-            onClick={() => selectLevel(levelNumInput)}
-          >
-            Select
-          </button>
-          <button
-            className="bg-slate-200 text-sky-800 rounded-lg p-2 m-2"
-            onClick={() => closeLevelSelect()}
-          >
-            Cancel
-          </button>
-        </div>
+        <form onSubmit={selectLevel}>
+          <h1 className="text-2xl text-slate-200 font-bold">Level Select</h1>
+          <input
+            className="border-2 border-gray-300 rounded-lg p-2 m-2 text-center"
+            type="number"
+            value={levelNumInput}
+            onChange={(e) => setLevelNumInput(e.target.value)}
+            autoFocus
+          />
+          <div className="flex flex-row justify-evenly w-full">
+            <button
+              type="submit"
+              className="bg-slate-200 rounded-lg p-2 m-2"
+              onClick={() => selectLevel(levelNumInput)}
+            >
+              Select
+            </button>
+            <button
+              className="bg-slate-200 rounded-lg p-2 m-2"
+              onClick={() => closeLevelSelect()}
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
       </Modal>
       <div
         id="background"
