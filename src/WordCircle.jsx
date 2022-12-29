@@ -3,15 +3,13 @@ import LetterNode from "./LetterNode";
 import Xarrow from "react-xarrows";
 import CustomDragLayer from "./CustomDragLayer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Modal from "react-modal";
 
 import {
   faBurst,
   faCrosshairs,
   faForward,
   faLightbulb,
-  faShuffle,
-  faXmark,
+  faShuffle
 } from "@fortawesome/free-solid-svg-icons";
 
 const WordCircle = ({
@@ -26,6 +24,7 @@ const WordCircle = ({
   setWordsFound,
   foundBonusWords,
   setFoundBonusWords,
+  setShowBonusWords,
   themeColor,
   setThemeColor,
   levelComplete,
@@ -36,7 +35,6 @@ const WordCircle = ({
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
-  const [showBonusWords, setShowBonusWords] = useState(false);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
 
@@ -300,33 +298,6 @@ const WordCircle = ({
           </button>
         </div>
       </div>
-      {/* bonus words modal */}
-      <Modal
-        className="bg-sky-800 rounded-lg p-4 m-5 inset-x-0 h-5/6 overflow-y-scroll"
-        isOpen={showBonusWords}
-        ariaHideApp={false}
-        onRequestClose={() => setShowBonusWords(false)}
-        shouldCloseOnOverlayClick={true}
-      >
-        <div className="grid grid-cols-5 items-center mb-1">
-          <h1 className="col-start-2 col-span-3 text-lg text-center text-slate-200 font-bold">
-            Bonus Words
-          </h1>
-          <button
-            className="text-slate-300 p-1 text-right"
-            onClick={() => setShowBonusWords(false)}
-          >
-            <FontAwesomeIcon icon={faXmark} />
-          </button>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          {foundBonusWords.map((word) => (
-            <p key={word} className="text-sm text-slate-200">
-              {word}
-            </p>
-          ))}
-        </div>
-      </Modal>
     </>
   );
 };

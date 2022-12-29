@@ -4,6 +4,8 @@ import { disableBodyScroll } from "body-scroll-lock";
 import Crossword from "./Crossword";
 import WordCircle from "./WordCircle";
 import Modal from "react-modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export const Game = () => {
   const [grid, setGrid] = useState([]);
@@ -21,6 +23,7 @@ export const Game = () => {
     const levelNum = localStorage.getItem("levelNum");
     return levelNum ? parseInt(levelNum) : 1;
   });
+  const [showBonusWords, setShowBonusWords] = useState(false);
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [levelNumInput, setLevelNumInput] = useState(levelNum);
   const NUM_LEVELs = 10;
@@ -80,6 +83,19 @@ export const Game = () => {
 
   const closeLevelSelect = () => {
     setShowLevelSelect(false);
+  };
+
+  const defineWord = async (word) => {
+    console.log(word);
+    const response = await fetch("/api/define.py", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ word }),
+    });
+    const data = await response.json();
+    console.log(data);
   };
 
   // fetch new crossword each time levelNum changes
@@ -160,6 +176,7 @@ export const Game = () => {
               setWordsFound,
               foundBonusWords,
               setFoundBonusWords,
+              setShowBonusWords,
               themeColor,
               setThemeColor,
               levelComplete,
@@ -203,6 +220,33 @@ export const Game = () => {
             </button>
           </div>
         </form>
+      </Modal>
+      {/* bonus words modal */}
+      <Modal
+        className="bg-sky-800 rounded-lg p-4 m-5 inset-x-0 h-5/6 overflow-y-scroll"
+        isOpen={showBonusWords}
+        ariaHideApp={false}
+        onRequestClose={() => setShowBonusWords(false)}
+        shouldCloseOnOverlayClick={true}
+      >
+        <div className="grid grid-cols-5 items-center mb-1">
+          <h1 className="col-start-2 col-span-3 text-lg text-center text-slate-200 font-bold">
+            Bonus Words
+          </h1>
+          <button
+            className="text-slate-300 p-1 text-right"
+            onClick={() => setShowBonusWords(false)}
+          >
+            <FontAwesomeIcon icon={faXmark} />
+          </button>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          {foundBonusWords.map((word) => (
+            <p key={word} className="text-sm text-slate-200">
+              {word}
+            </p>
+          ))}
+        </div>
       </Modal>
     </>
   );
