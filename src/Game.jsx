@@ -242,7 +242,11 @@ export const Game = () => {
         </div>
         <div className="flex flex-col justify-center items-center">
           {foundBonusWords.map((word) => (
-            <p key={word} className="text-sm text-slate-200">
+            <p
+              key={word}
+              onClick={() => defineWord(word)}
+              className="text-sm text-slate-200"
+            >
               {word}
             </p>
           ))}

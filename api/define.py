@@ -24,8 +24,9 @@ class handler(BaseHTTPRequestHandler):
             return {'definitions': []}
         all_defs = []
         for pos in definitions:
-            all_defs.extend(definitions[pos])
-
+            all_defs.extend(
+                f'({pos.lower()}) {definition}' for definition in definitions[pos]
+            )
         return {'definitions': all_defs}
 
 
