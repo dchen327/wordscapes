@@ -26,6 +26,8 @@ export const Game = () => {
   const [showBonusWords, setShowBonusWords] = useState(false);
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [levelNumInput, setLevelNumInput] = useState(levelNum);
+  const [definitions, setDefinitions] = useState([]);
+  const [showDefinitions, setShowDefinitions] = useState(true);
   const NUM_LEVELs = 10;
 
   // disable body scrolling
@@ -86,7 +88,6 @@ export const Game = () => {
   };
 
   const defineWord = async (word) => {
-    console.log(word);
     const response = await fetch("/api/define.py", {
       method: "POST",
       headers: {
@@ -95,7 +96,8 @@ export const Game = () => {
       body: JSON.stringify({ word }),
     });
     const data = await response.json();
-    console.log(data);
+    setDefinitions(data.definitions);
+    setShowDefinitions(true);
   };
 
   // fetch new crossword each time levelNum changes
@@ -248,6 +250,33 @@ export const Game = () => {
               className="text-sm text-slate-200"
             >
               {word}
+            </p>
+          ))}
+        </div>
+      </Modal>
+      {/* definitions modal */}
+      <Modal
+        className="bg-sky-800 rounded-lg p-4 m-5 inset-x-0 h-5/6 overflow-y-scroll"
+        isOpen={showDefinitions}
+        ariaHideApp={false}
+        onRequestClose={() => setShowDefinitions(false)}
+        shouldCloseOnOverlayClick={true}
+      >
+        <div className="grid grid-cols-5 items-center mb-1">
+          <h1 className="col-start-2 col-span-3 text-lg text-center text-slate-200 font-bold">
+            Definitions
+          </h1>
+          <button
+            className="text-slate-300 p-1 text-right"
+            onClick={() => setShowDefinitions(false)}
+          >
+            <FontAwesomeIcon icon={faXmark} />
+          </button>
+        </div>
+        <div className="flex flex-col justify-center">
+          {definitions.map((definition) => (
+            <p key={definition} className="text-sm text-slate-200">
+              {definition}
             </p>
           ))}
         </div>
