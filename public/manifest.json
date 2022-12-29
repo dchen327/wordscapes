@@ -1,6 +1,7 @@
 {
   "short_name": "Wordscapes++",
   "name": "Wordscapes++",
+  "description": "A crossword word finding game",
   "icons": [
     {
       "src": "favicon.ico",
