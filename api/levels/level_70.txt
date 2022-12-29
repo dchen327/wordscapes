@@ -1,0 +1,56 @@
+14
+CANYONS 0 1 True
+NANCY 0 6 False
+CYAN 3 6 True
+ANNOY 4 2 True
+CANONS 2 3 False
+NANO 6 3 True
+CONN 2 3 True
+NAYS 6 5 False
+ANNO 2 9 False
+COSY 0 1 False
+SONNY 9 5 True
+SCAN 6 8 False
+CANS 7 0 True
+CAN 6 1 False
+10 10
+- C A N Y O N S - -
+- O - - - - A - - -
+- S - C O N N - - A
+- Y - A - - C Y A N
+- - A N N O Y - - N
+- - - O - - - - - O
+- C - N A N O - S -
+C A N S - A - - C -
+- N - - - Y - - A -
+- - - - - S O N N Y
+29
+SYNC
+CANYON
+NON
+COSA
+SOC
+NAY
+SON
+ANY
+SOYA
+ANN
+CONS
+SOY
+SAY
+SAC
+NAS
+OCA
+COY
+ONS
+NYS
+ANS
+COS
+CAY
+YON
+CANON
+NOS
+SAN
+CON
+SYN
+ANON

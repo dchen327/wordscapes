@@ -1,0 +1,59 @@
+14
+PACKAGED 0 0 True
+CAKE 0 2 False
+PECK 3 1 True
+PEC 3 1 False
+KEA 3 4 False
+CAGED 5 3 True
+CAPE 2 6 False
+CAPA 2 6 True
+GAD 5 5 False
+PAGE 1 9 False
+DECK 5 7 False
+PACED 7 1 True
+CADE 6 2 False
+AGED 9 0 True
+10 10
+P A C K A G E D - -
+- - A - - - - - - P
+- - K - - - C A P A
+- P E C K - A - - G
+- E - - E - P - - E
+- C - C A G E D - -
+- - C - - A - E - -
+- P A C E D - C - -
+- - D - - - - K - -
+A G E D - - - - - -
+32
+DAP
+PACKAGE
+KEG
+AGA
+PED
+APE
+GED
+CAA
+DAG
+PAD
+GAP
+DEP
+PAK
+DEG
+PEA
+CEP
+CAD
+DAE
+ADAGE
+CAG
+AGE
+AGAPE
+ACE
+PAC
+PEAK
+PACK
+CAP
+PACE
+CAGE
+PACKED
+AKA
+PEG

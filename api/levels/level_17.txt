@@ -1,0 +1,40 @@
+13
+BIZARRE 3 1 False
+BARE 3 1 True
+RARE 0 4 False
+REZ 2 4 True
+ZEBRA 2 6 False
+BARRE 0 2 True
+BIER 4 6 True
+ZAIRE 6 0 True
+BRA 3 9 False
+BEAR 9 0 True
+AIR 6 6 True
+BRIAR 5 3 False
+REAR 6 8 False
+10 10
+- - B A R R E - - -
+- - - - A - - - - -
+- - - - R E Z - - -
+- B A R E - E - - B
+- I - - - - B I E R
+- Z - B - - R - - A
+Z A I R E - A I R -
+- R - I - - - - E -
+- R - A - - - - A -
+B E A R - - - - R -
+14
+ARB
+BIZ
+REI
+ERR
+RIB
+REB
+BAR
+RAI
+ARE
+EAR
+ERA
+BRIE
+IRE
+RIA

@@ -1,0 +1,69 @@
+12
+OBESITY 0 4 False
+BOTS 1 4 True
+SITE 1 7 False
+BEST 4 6 True
+TOYS 3 1 True
+OBITS 1 9 False
+BITS 1 1 False
+OBEY 6 1 True
+BETS 4 6 False
+BOYS 6 2 False
+SIT 7 6 True
+YETI 8 2 True
+10 10
+- - - - O - - - - -
+- B - - B O T S - O
+- I - - E - - I - B
+- T O Y S - - T - I
+- S - - I - B E S T
+- - - - T - E - - S
+- O B E Y - T - - -
+- - O - - - S I T -
+- - Y E T I - - - -
+- - S - - - - - - -
+44
+OBIT
+EST
+BOT
+BES
+TIS
+SOT
+BITES
+BIT
+OBE
+TES
+TIES
+BIOS
+BOI
+BIS
+TIE
+SEI
+YET
+BOIS
+BEY
+OBS
+TOE
+BYTES
+TOY
+ISO
+OES
+TOBY
+SOY
+OBI
+SOB
+BET
+BIO
+SET
+OSE
+SIB
+TYE
+TOES
+BOS
+BOY
+BYTE
+BYE
+BITE
+IOS
+ITS
+YES

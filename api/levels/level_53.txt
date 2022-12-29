@@ -1,0 +1,63 @@
+12
+CHARCOAL 1 0 False
+COACH 1 0 True
+LOCA 8 0 True
+CHAR 0 4 False
+CAA 5 0 True
+HAAR 6 3 False
+CORAL 3 2 True
+ROACH 9 3 True
+CHOC 0 4 True
+ORAL 0 6 False
+ARCH 7 3 True
+ACCA 6 5 False
+10 10
+- - - - C H O C - -
+C O A C H - R - - -
+H - - - A - A - - -
+A - C O R A L - - -
+R - - - - - - - - -
+C A A - - - - - - -
+O - - H - A - - - -
+A - - A R C H - - -
+L O C A - C - - - -
+- - - R O A C H - -
+38
+HALO
+AHA
+RHO
+HORA
+ORA
+RAH
+HOC
+COCA
+HOA
+ALOHA
+ACH
+ROC
+ARC
+CAROL
+ARCO
+CHORAL
+LOCH
+OCA
+CAL
+COL
+CHAO
+LAR
+CARL
+ORCA
+CHA
+COR
+ORC
+OAR
+OCH
+CROC
+CAR
+LAH
+LAC
+HAO
+COAL
+ALA
+COLA
+LOR

@@ -1,0 +1,62 @@
+12
+POLLARD 7 1 True
+POLAR 5 4 False
+LOAD 4 7 False
+POLL 5 6 True
+PALL 2 9 False
+DROP 5 1 True
+LORD 2 1 False
+PARD 9 2 True
+LOP 2 7 True
+DOLLAR 3 0 True
+DOR 1 5 False
+ORAL 0 3 False
+10 10
+- - - O - - - - - -
+- - - R - D - - - -
+- L - A - O - L O P
+D O L L A R - - - A
+- R - - - - - L - L
+- D R O P - P O L L
+- - - - O - - A - -
+- P O L L A R D - -
+- - - - A - - - - -
+- - P A R D - - - -
+37
+OPAL
+PRO
+PAR
+ORA
+ORD
+DAP
+DOLL
+ARD
+ALL
+PAD
+POD
+LOL
+ADO
+RAP
+LAP
+RAD
+LAD
+DOP
+ROAD
+ALP
+DAL
+APO
+LAR
+OPA
+DOL
+OLD
+LARD
+ROD
+ODA
+OAR
+PAL
+LOD
+POA
+ROLL
+POL
+PROD
+LOR

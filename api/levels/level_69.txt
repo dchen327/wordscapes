@@ -1,0 +1,62 @@
+14
+STRIVING 2 6 False
+GIST 9 6 True
+RISING 7 3 True
+VIRGINS 2 0 True
+TINS 6 4 False
+VIRGIN 1 1 False
+TRIG 3 6 True
+SITING 0 8 False
+INGS 5 6 True
+RIGS 9 1 True
+GRINS 0 4 False
+SIR 4 4 True
+RIN 5 0 True
+SIGN 0 2 True
+10 10
+- - S I G N - - S -
+- V - - R - - - I -
+V I R G I N S - T -
+- R - - N - T R I G
+- G - - S I R - N -
+R I N - - - I N G S
+- N - - T - V - - -
+- - - R I S I N G -
+- - - - N - N - - -
+- R I G S - G I S T
+35
+TIG
+RING
+STING
+GRITS
+ING
+TIRING
+GRIST
+TIS
+GRIN
+TING
+SIN
+GRIS
+RIT
+INS
+VISIT
+RINGS
+VIG
+STRING
+VIS
+GIT
+GRIT
+SRI
+NIS
+SING
+GIS
+STIR
+NIT
+TIN
+RIG
+IRIS
+ITS
+SIT
+GIN
+SIG
+VIN

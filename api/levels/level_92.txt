@@ -1,0 +1,41 @@
+13
+DRINKING 2 2 True
+DRINK 2 2 False
+GRIN 4 0 True
+GIN 0 5 False
+DING 0 2 True
+GRID 2 9 False
+RIND 5 6 True
+RIDING 4 7 False
+KING 6 2 True
+DIN 0 8 False
+GID 6 5 False
+GRIND 4 0 False
+KIND 8 2 True
+10 10
+- - D I N G - - D -
+- - - - - I - - I -
+- - D R I N K I N G
+- - R - - - - - - R
+G R I N - - - R - I
+R - N - - - R I N D
+I - K I N G - D - -
+N - - - - I - I - -
+D - K I N D - N - -
+- - - - - - - G - -
+15
+INN
+RING
+DIG
+ING
+RID
+DIRK
+RIN
+RIG
+KID
+RIGID
+KIN
+INK
+NID
+DINING
+RINK

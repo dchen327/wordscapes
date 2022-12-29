@@ -1,0 +1,65 @@
+14
+ELECTOR 1 3 False
+CREOLE 4 3 True
+ERECT 4 5 False
+TELE 1 8 False
+COTE 7 5 True
+COLE 3 0 True
+REEL 6 8 False
+CLOT 5 0 True
+COLT 9 6 True
+ROTE 2 5 True
+LEER 1 1 True
+REO 0 6 False
+LORE 5 1 False
+REE 8 0 True
+10 10
+- - - - - - R - - -
+- L E E R - E - T -
+- - - L - R O T E -
+C O L E - - - - L -
+- - - C R E O L E -
+C L O T - R - - - -
+- O - O - E - - R -
+- R - R - C O T E -
+R E E - - T - - E -
+- - - - - - C O L T
+38
+ERE
+TEL
+LEE
+LET
+ROC
+CEL
+ROLE
+ORE
+TREE
+TOC
+RET
+TOE
+ECO
+LOT
+ELECTRO
+CREE
+ELECT
+TEE
+TOR
+TELCO
+TORE
+ELT
+COL
+CORE
+OLE
+COT
+EEL
+COR
+ORC
+ROT
+CEE
+TEC
+ROE
+ORT
+RETE
+CERT
+REC
+LOR

@@ -1,0 +1,69 @@
+13
+SPONGES 1 7 False
+OPENS 6 5 True
+ONES 1 4 True
+POSE 4 9 False
+OPEN 6 5 False
+NOSE 0 4 False
+POSSE 8 1 True
+NOSES 2 0 True
+PONG 0 0 False
+PEGS 5 3 False
+POSS 0 2 False
+NOS 3 6 True
+NOPE 9 5 True
+10 10
+P - P - N - - - - -
+O - O - O N E S - -
+N O S E S - - P - -
+G - S - E - N O S -
+- - - - - - - N - P
+- - - P - - - G - O
+- - - E - O P E N S
+- - - G - P - S - E
+- P O S S E - - - -
+- - - - - N O P E -
+43
+SPONGE
+PESO
+GOSS
+EGO
+GEN
+ENS
+POS
+PES
+SON
+SONG
+NEP
+POSES
+OES
+OPE
+ONE
+EGOS
+EON
+PEN
+SOG
+ENG
+SEN
+NEG
+SONGS
+SENS
+PESOS
+GON
+GOES
+GONE
+OPS
+NOG
+OSE
+SOS
+ONS
+NESS
+NOES
+GEOS
+SEG
+SOP
+SONS
+PENS
+PEG
+ESS
+GEO

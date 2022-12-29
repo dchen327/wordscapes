@@ -1,0 +1,67 @@
+16
+TILLAGE 1 4 False
+TILE 4 2 True
+GALE 7 1 True
+GILT 1 2 False
+LET 7 3 False
+GILL 6 4 True
+LEA 6 7 False
+GALL 8 6 True
+LATE 9 1 True
+TIG 1 0 True
+LEGAL 5 1 False
+TEAL 1 4 True
+TILL 1 0 False
+GAIT 0 6 False
+TAIL 5 9 False
+TALE 3 6 True
+10 10
+- - - - - - G - - -
+T I G - T E A L - -
+I - I - I - I - - -
+L - L - L - T A L E
+L - T I L E - - - -
+- L - - A - - - - T
+- E - - G I L L - A
+- G A L E - - E - I
+- A - E - - G A L L
+- L A T E - - - - -
+38
+TEL
+AGILE
+TAE
+GET
+LEGIT
+TAG
+TIL
+ATE
+GILA
+ALL
+ILL
+EAT
+TIE
+LIT
+GEL
+TEA
+GAL
+LIE
+GIT
+ELT
+LAG
+AGE
+GATE
+TALL
+TAI
+LITE
+LEI
+LEG
+ELL
+LAT
+ALE
+GAT
+ALT
+AIT
+ITA
+ETA
+TELL
+AIL

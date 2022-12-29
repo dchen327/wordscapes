@@ -1,0 +1,59 @@
+12
+COUGHING 0 0 True
+INCH 0 5 False
+CHINO 3 4 True
+CHOU 1 8 False
+COIN 0 0 False
+CHIN 3 4 False
+ION 3 6 False
+CHING 6 1 True
+GONG 6 5 False
+COUGH 2 2 False
+OUCH 7 5 True
+HIN 8 3 True
+10 10
+C O U G H I N G - -
+O - - - - N - - C -
+I - C - - C - - H -
+N - O - C H I N O -
+- - U - H - O - U -
+- - G - I - N - - -
+- C H I N G - - - -
+- - - - - O U C H -
+- - - H I N - - - -
+- - - - - G - - - -
+34
+GHI
+HUN
+ING
+HOC
+UGH
+HIC
+HOG
+NIGH
+CHI
+ICH
+IGG
+HOGG
+INGO
+GUN
+COG
+UNI
+HUG
+GNU
+GIO
+GON
+ICON
+NOG
+CIG
+HONG
+HON
+OCH
+GUNG
+HOI
+GIG
+HUI
+CON
+GOING
+GIN
+HUNG

@@ -1,0 +1,55 @@
+14
+PURSUED 9 2 True
+SUPER 5 4 False
+PURE 6 7 False
+USER 5 3 True
+PURSUE 0 5 False
+REDS 3 2 True
+RUDE 1 4 True
+ERS 2 2 False
+REPS 7 2 True
+DEUS 0 7 False
+SER 3 7 True
+RES 4 0 True
+PURSE 1 9 False
+RUSE 4 0 False
+10 10
+- - - - - P - D - -
+- - - - R U D E - P
+- - E - - R - U - U
+- - R E D S - S E R
+R E S - - U - - - S
+U - - U S E R - - E
+S - - - U - - P - -
+E - R E P S - U - -
+- - - - E - - R - -
+- - P U R S U E D -
+28
+SPED
+SUD
+SPUD
+SUED
+SUE
+PED
+PUD
+EDS
+PES
+SUP
+DEP
+UPS
+DUE
+DUP
+PUR
+SPUR
+USED
+PER
+RED
+PUS
+SURE
+SED
+USE
+PRE
+DUES
+REP
+RUE
+URE

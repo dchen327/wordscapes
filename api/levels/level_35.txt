@@ -1,0 +1,45 @@
+14
+PHYSICS 5 2 True
+SIS 3 5 False
+SIPS 3 2 True
+PISS 2 8 False
+PSYCH 5 2 False
+HIPS 9 2 True
+PICS 0 2 False
+SPICY 1 0 True
+SHIP 1 0 False
+CHIP 5 7 False
+HIS 6 0 True
+HISS 6 0 False
+SPY 2 7 True
+CHIPS 7 5 True
+10 10
+- - P - - - - - - -
+S P I C Y - - - - -
+H - C - - - - S P Y
+I - S I P S - - I -
+P - - - - I - - S -
+- - P H Y S I C S -
+H I S - - - - H - -
+I - Y - - C H I P S
+S - C - - - - P - -
+S - H I P S - - - -
+18
+SICH
+HIP
+SHIPS
+SHY
+ISH
+SIC
+SIP
+CIS
+PIC
+YIP
+HIC
+PHI
+ICY
+PSI
+CHI
+ICH
+PIS
+HYP

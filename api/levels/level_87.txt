@@ -1,0 +1,64 @@
+13
+OPENNESS 6 0 True
+POSS 3 6 False
+NOPE 5 0 False
+SENS 6 7 False
+PESO 4 3 True
+SENSE 5 2 False
+NON 6 4 False
+POSSE 0 4 False
+PESOS 1 1 True
+PENS 3 6 True
+ESS 1 2 False
+ESSE 9 6 True
+SONS 1 8 False
+10 10
+- - - - P - - - - -
+- P E S O S - - S -
+- - S - S - - - O -
+- - S - S - P E N S
+- - - P E S O - S -
+N - S - - - S - - -
+O P E N N E S S - -
+P - N - O - - E - -
+E - S - N - - N - -
+- - E - - - E S S E
+38
+ESE
+OPEN
+NOSES
+ENS
+ENE
+ONENESS
+SEES
+POS
+PES
+SEE
+NEON
+SON
+NEP
+POSES
+EEN
+POSE
+OES
+OPE
+ONE
+EON
+PEN
+SEN
+NONE
+ONES
+OPENS
+SEEN
+OPS
+PEE
+SOS
+ONS
+NEE
+OSE
+NESS
+NOSE
+NOES
+SOP
+PENNE
+NOS

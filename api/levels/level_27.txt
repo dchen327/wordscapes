@@ -1,0 +1,75 @@
+13
+TOTALED 6 3 True
+TATE 4 3 False
+LATTE 4 1 True
+DELTA 0 2 False
+LATE 4 1 False
+DALE 1 5 False
+DOLE 2 0 True
+ETAT 6 8 False
+TOLD 3 9 False
+ATT 9 6 True
+DATE 1 5 True
+TAD 5 6 False
+OLDE 0 0 False
+10 10
+O - D - - - - - - -
+L - E - - D A T E -
+D O L E - A - - - -
+E - T - - L - - - T
+- L A T T E - - - O
+- A - A - - T - - L
+- T - T O T A L E D
+- E - E - - D - T -
+- - - - - - - - A -
+- - - - - - A T T -
+49
+ELD
+TEL
+TAE
+TOT
+LET
+TOAD
+LEAD
+ATE
+DEL
+TED
+EAT
+ADO
+ALTO
+DEALT
+TOE
+TAT
+LEA
+LOT
+TEA
+LAD
+TOD
+LOAD
+DOE
+TAO
+TOTAL
+DAL
+LATED
+TEAL
+ELT
+DAE
+DEAL
+TOTE
+ODE
+OLE
+LOTTA
+DOL
+OLD
+LED
+ALOE
+LAT
+ODA
+OAT
+TALE
+ALE
+ALT
+LOD
+TET
+DOT
+ETA

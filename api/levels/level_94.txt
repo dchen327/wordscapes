@@ -1,0 +1,47 @@
+14
+TIMEOUT 1 8 False
+MUTT 1 6 True
+TOUT 6 6 True
+TOME 6 6 False
+TOM 3 6 True
+TIME 8 4 True
+MITE 6 4 False
+TOTEM 6 0 True
+OMIT 3 0 False
+MUTE 4 0 True
+OUT 6 1 False
+EMIT 1 2 False
+MITT 2 2 True
+TOTE 0 4 False
+10 10
+- - - - T - - - - -
+- - E - O - M U T T
+- - M I T T - - I -
+O - I - E - T O M -
+M U T E - - - - E -
+I - - - - - - - O -
+T O T E M - T O U T
+- U - - I - O - T -
+- T - - T I M E - -
+- - - - E - E - - -
+20
+UTE
+MOI
+TOT
+MOT
+TIE
+ITEM
+TUT
+TOE
+MOTU
+MEU
+MOU
+MOTT
+EMU
+MOE
+TUM
+TUI
+TET
+TIT
+EMO
+MET

@@ -1,0 +1,58 @@
+14
+PERFORM 3 7 False
+ROPER 3 5 True
+PREM 9 4 True
+PROM 2 5 False
+MORE 7 6 True
+PERM 5 2 True
+REPO 3 2 False
+ROPE 0 8 False
+FORM 3 0 True
+PORE 0 6 True
+FORME 3 0 False
+PRO 1 1 False
+POEM 5 9 False
+PROF 1 1 True
+10 10
+- - - - - - P O R E
+- P R O F - - - O -
+- R - - - P - - P -
+F O R M - R O P E R
+O - E - - O - E - -
+R - P E R M - R - P
+M - O - - - - F - O
+E - - - - - M O R E
+- - - - - - - R - M
+- - - - P R E M - -
+31
+MOP
+FER
+MOR
+FOP
+FORE
+FORMER
+ORE
+POM
+FRO
+REF
+REPRO
+ERM
+OPE
+FOR
+FOE
+REO
+FEM
+ERR
+PER
+REFORM
+ROM
+ORF
+MOE
+REM
+PRE
+EMF
+ROMP
+ROE
+EMO
+REP
+FROM

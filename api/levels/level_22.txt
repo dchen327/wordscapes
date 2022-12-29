@@ -1,0 +1,69 @@
+14
+RESIZED 3 9 False
+DIRE 4 6 True
+REED 1 6 False
+SIZED 9 5 True
+DIES 6 5 False
+DEER 1 3 True
+REES 0 4 False
+SIDE 6 3 True
+SIZE 6 3 False
+REZ 7 7 False
+REDS 3 1 True
+REEDS 3 1 False
+RISE 9 0 True
+ZEE 8 3 True
+10 10
+- - - - R - - - - -
+- - - D E E R - - -
+- - - - E - E - - -
+- R E D S - E - - R
+- E - - - - D I R E
+- E - - - - - - - S
+- D - S I D E - - I
+- S - I - I - R - Z
+- - - Z E E - E - E
+R I S E - S I Z E D
+42
+ESE
+ERE
+RESID
+RIDES
+RIDE
+SEIZED
+SEZ
+RESIZE
+ERED
+EIDE
+EDS
+IDS
+SEE
+SEER
+REI
+SEI
+REIS
+RID
+SEED
+RESIDE
+SER
+IRE
+IDES
+DRIES
+ERS
+DIS
+RED
+DEI
+DESI
+SIR
+SED
+RES
+SRI
+SIRE
+REE
+SIDER
+SEIZE
+DESIRE
+IDE
+DEE
+ZED
+DIE

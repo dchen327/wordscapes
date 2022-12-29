@@ -1,0 +1,63 @@
+14
+SETTLER 5 3 True
+LEST 2 6 False
+SETTLE 0 8 False
+ELSE 5 4 False
+STEEL 7 4 True
+ESE 0 7 True
+LETS 2 6 True
+LES 7 8 False
+TREE 8 1 True
+REELS 1 3 False
+RETE 6 1 False
+ESTER 3 0 True
+EELS 2 0 False
+TRES 9 5 True
+10 10
+- - - - - - - E S E
+- - - R - - - - E -
+E - - E - - L E T S
+E S T E R - E - T -
+L - - L - - S - L -
+S - - S E T T L E R
+- R - - L - - - - -
+- E - - S T E E L -
+- T R E E - - - E -
+- E - - - T R E S -
+36
+STEER
+ERE
+TEL
+EST
+LEE
+LET
+REST
+TESTER
+LEES
+TES
+TREES
+SEE
+RESET
+SEER
+SEL
+LETTERS
+RET
+SER
+STREET
+REES
+TEST
+TEE
+ERS
+TELE
+ELT
+SET
+ELS
+RES
+EEL
+REE
+TEES
+LETTER
+TET
+LEER
+REEL
+SETTER

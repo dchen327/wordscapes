@@ -1,0 +1,48 @@
+13
+TRUMPET 8 1 True
+TEMP 5 5 False
+TRUMP 5 5 True
+TRUE 6 2 True
+PURE 5 9 False
+PREM 2 8 False
+UTTER 2 3 False
+TERM 6 2 False
+PUTT 4 0 True
+MUTE 2 2 True
+PERM 3 6 True
+TEMPT 1 0 False
+RUM 0 2 False
+10 10
+- - R - - - - - - -
+T - U - - - - - - -
+E - M U T E - - P -
+M - - T - - P E R M
+P U T T - - - - E -
+T - - E - T R U M P
+- - T R U E - - - U
+- - E - - M - - - R
+- T R U M P E T - E
+- - M - - - - - - -
+22
+UTE
+PERT
+TUT
+RET
+MEU
+PUTTER
+ERM
+PET
+PUR
+PER
+PUT
+EMU
+REM
+TUM
+PRE
+TET
+RUT
+REP
+RUE
+URE
+MET
+MUTT

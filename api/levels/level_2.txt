@@ -1,0 +1,47 @@
+12
+CONFORM 3 2 True
+MOOR 0 7 False
+COON 3 2 False
+ROOM 0 4 True
+MONO 3 8 False
+FORM 3 5 False
+CON 6 0 True
+MORON 6 5 True
+ROOF 6 7 False
+CORN 8 6 True
+CONF 6 0 False
+NORM 8 0 True
+10 10
+- - - - R O O M - -
+- - - - - - - O - -
+- - - - - - - O - -
+- - C O N F O R M -
+- - O - - O - - O -
+- - O - - R - - N -
+C O N - - M O R O N
+O - - - - - - O - -
+N O R M - - C O R N
+F - - - - - - F - -
+22
+COM
+MOR
+ROC
+MON
+MORN
+FON
+FRO
+NOR
+FOR
+NOM
+MOON
+MOC
+MOO
+ROM
+ORF
+COO
+COR
+ORC
+FOO
+ROO
+ONO
+FROM

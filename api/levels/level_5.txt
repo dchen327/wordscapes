@@ -1,0 +1,75 @@
+16
+RADIATOR 0 2 True
+ROAD 0 9 False
+TARA 0 7 False
+AORTA 0 3 False
+ARIA 2 6 True
+TAD 3 3 True
+ROTA 4 0 True
+DOIT 3 5 False
+RADAR 4 0 False
+TARO 6 5 True
+ART 6 6 False
+RATIO 8 4 True
+ROAR 2 0 True
+ARD 7 4 False
+DATA 6 0 True
+TOAD 9 1 True
+10 10
+- - R A D I A T O R
+- - - O - - - A - O
+R O A R - - A R I A
+- - - T A D - A - D
+R O T A - O - - - -
+A - - - - I - - - -
+D A T A - T A R O -
+A - - - A - R - - -
+R - - - R A T I O -
+- T O A D - - - - -
+46
+IOTA
+RADIO
+ORA
+RAT
+ORD
+DIT
+RAI
+DIRT
+RIT
+ADO
+RATA
+RAD
+RID
+TAR
+AIA
+ARTI
+TOD
+TRIO
+RIA
+TOR
+TAO
+TID
+TORA
+DROIT
+AIR
+AID
+TAI
+DOR
+ROD
+ODA
+ROT
+OAR
+OAT
+DARI
+RAID
+TRAD
+AIT
+ITA
+TORI
+DART
+ARID
+TIARA
+ORT
+RIOT
+DOT
+TRIAD

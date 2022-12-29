@@ -1,0 +1,54 @@
+12
+CHURNING 0 5 False
+CURING 6 1 True
+URCHIN 3 4 True
+CHURN 4 2 False
+CHING 0 5 True
+INCH 4 0 True
+HUI 3 7 False
+RICH 1 2 True
+CIG 0 3 False
+URN 2 1 False
+NIGH 3 9 False
+RUNG 8 0 True
+10 10
+- - - C - C H I N G
+- - R I C H - - - -
+- U - G - U - - - -
+- R - - U R C H I N
+I N C H - N - U - I
+- - H - - I - I - G
+- C U R I N G - - H
+- - R - - G - - - -
+R U N G - - - - - -
+- - - - - - - - - -
+29
+GHI
+RING
+HUN
+NUR
+ING
+UGH
+RIN
+HIC
+GRIN
+CHI
+ICH
+GUN
+UNI
+CRU
+CHIN
+RUN
+HUG
+GNU
+HIN
+INN
+RUIN
+INCUR
+RUG
+CUR
+RIG
+GRINCH
+NUN
+GIN
+HUNG

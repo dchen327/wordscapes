@@ -1,0 +1,42 @@
+13
+CYPRESS 2 2 True
+SEC 2 8 False
+SECS 1 6 False
+PRESS 2 4 False
+SPECS 5 0 True
+RECS 0 2 False
+CESS 2 0 False
+PREY 5 1 False
+SPEC 6 4 True
+REPS 0 2 True
+RYE 8 0 True
+PERC 6 5 False
+PEC 9 3 True
+10 10
+- - R E P S - - - -
+- - E - - - S - - -
+C - C Y P R E S S -
+E - S - R - C - E -
+S - - - E - S - C -
+S P E C S - - - - -
+- R - - S P E C - -
+- E - - - E - - - -
+R Y E - - R - - - -
+- - - P E C - - - -
+16
+PES
+ERS
+RES
+YER
+PER
+PRE
+SPY
+ESS
+SER
+YEP
+REP
+PRY
+REC
+CEP
+YES
+CRY

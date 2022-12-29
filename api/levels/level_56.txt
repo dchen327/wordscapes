@@ -1,0 +1,47 @@
+14
+BIWEEKLY 2 8 False
+WEEKLY 9 3 True
+EEK 7 6 True
+KYLE 6 4 False
+LEEK 6 1 True
+KEEL 5 6 True
+KYLIE 2 2 False
+ELK 2 0 True
+BEL 0 1 False
+LIKE 6 1 False
+BILE 4 0 True
+WEEK 2 6 False
+BLEW 0 1 True
+WEIL 0 4 False
+10 10
+- B L E W - - - - -
+- E - - E - - - - -
+E L K - I - W - B -
+- - Y - L - E - I -
+B I L E - - E - W -
+- - I - - - K E E L
+- L E E K - - - E -
+- I - - Y - E E K -
+- K - - L - - - L -
+- E - W E E K L Y -
+20
+WEB
+LEK
+ILK
+LEE
+WEE
+LEY
+BIKE
+BEY
+LIB
+YEW
+LEW
+LIE
+KEY
+EEL
+LEI
+BEE
+WYE
+EWE
+EYE
+BYE

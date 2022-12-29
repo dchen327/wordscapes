@@ -1,0 +1,68 @@
+12
+BUTTOCKS 0 2 True
+TOUTS 0 4 False
+CUTS 0 7 False
+BOUTS 4 0 True
+TOUT 3 1 False
+TOTS 6 1 True
+STUB 2 2 True
+SOCK 6 4 False
+BUCKS 8 2 True
+SOB 3 7 True
+BUTTS 4 6 False
+CUBS 5 5 True
+10 10
+- - B U T T O C K S
+- - - - O - - U - -
+- - S T U B - T - -
+- T - - T - - S O B
+B O U T S - B - - -
+- U - - - C U B S -
+- T O T S - T - - -
+- - - - O - T - - -
+- - B U C K S - - -
+- - - - K - - - - -
+43
+TUCK
+TOT
+STUCK
+BOT
+BUT
+KOS
+SUCK
+SOT
+COST
+SOC
+TUB
+BUTT
+BOCK
+TUT
+TOC
+BUST
+COB
+SUK
+SCOUT
+SUB
+BOK
+BOTT
+STOUT
+SOU
+BOTS
+BUS
+UTS
+TSK
+CUB
+COT
+BOUT
+BUCK
+TUBS
+COTS
+BOS
+STOCK
+OUTS
+COS
+CUT
+OUT
+SCOT
+OBS
+OUS

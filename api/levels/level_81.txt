@@ -1,0 +1,42 @@
+14
+SPONSORS 6 0 True
+OOPS 3 7 False
+SOON 5 5 False
+ONO 3 5 True
+PRO 5 7 True
+PORN 0 6 False
+POOR 0 6 True
+POSS 6 1 False
+SPOONS 1 0 False
+SON 4 3 False
+SONS 1 0 True
+PORNOS 4 9 False
+SPOON 8 1 True
+ROOS 9 6 True
+10 10
+- - - - - - P O O R
+S O N S - - O - - -
+P - - - - - R - - -
+O - - - - O N O - -
+O - - S - - - O - P
+N - - O - S - P R O
+S P O N S O R S - R
+- O - - - O - - - N
+- S P O O N - - - O
+- S - - - - R O O S
+15
+ROO
+SNOOP
+PORNO
+SOP
+SPONSOR
+OOP
+ORS
+NOR
+OPS
+NOS
+SOS
+ONS
+PROS
+POO
+POS

@@ -1,0 +1,54 @@
+14
+BURYING 3 9 False
+BURY 6 6 True
+GRUB 4 7 False
+BUYING 4 2 True
+GIN 2 6 False
+RING 2 3 True
+BUR 0 3 False
+BURG 4 2 False
+BING 9 6 True
+RUBIN 0 1 True
+RUIN 0 1 False
+BRIG 6 1 True
+GRIN 6 4 False
+BRUIN 9 0 True
+10 10
+- R U B I N - - - -
+- U - U - - - - - -
+- I - R I N G - - -
+- N - - - - I - - B
+- - B U Y I N G - U
+- - U - - - - R - R
+- B R I G - B U R Y
+- - G - R - - B - I
+- - - - I - - - - N
+B R U I N - B I N G
+27
+RUNG
+RUBY
+YIN
+NUR
+ING
+RUB
+RIN
+RYU
+BUG
+BUY
+GUN
+RIB
+UNI
+BURN
+BIN
+RUN
+GNU
+GUY
+BRING
+RUGBY
+URN
+BIG
+NIB
+URB
+RUG
+BUN
+RIG

@@ -1,0 +1,58 @@
+13
+LACKING 1 2 True
+GILA 1 8 False
+AKIN 0 5 False
+ALIGN 1 3 False
+KALI 3 0 True
+KILN 5 0 True
+CLAN 4 6 True
+LICK 0 0 False
+LING 5 2 False
+LIANG 4 7 False
+NAIL 7 2 True
+LACK 6 6 True
+KING 5 0 False
+10 10
+L - - - - A - - - -
+I - L A C K I N G -
+C - - L - I - - I -
+K A L I - N - - L -
+- - - G - - C L A N
+K I L N - - - I - -
+I - I - - - L A C K
+N - N A I L - N - -
+G - G - - - - G - -
+- - - - - - - - - -
+32
+ILK
+ING
+CAN
+ANI
+LINK
+KIN
+LANG
+ANIL
+LAIN
+GAIN
+KANG
+NIL
+GAL
+KAN
+CLING
+KAI
+LACING
+NICK
+CAL
+LAG
+CAG
+LIN
+CIG
+GIN
+KAIN
+CAIN
+GAN
+LAC
+AIN
+INK
+NAG
+AIL

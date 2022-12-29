@@ -1,0 +1,73 @@
+13
+GEODETIC 2 6 False
+TIED 6 4 True
+EIDE 3 6 True
+CITE 9 6 True
+DECO 4 3 True
+TICE 1 4 False
+EDGE 2 8 False
+TIDE 6 4 False
+COTE 1 2 True
+COED 8 1 True
+ICED 0 2 False
+DICE 6 1 False
+DIE 7 9 False
+10 10
+- - I - - - - - - -
+- - C O T E - - - -
+- - E - I - G - E -
+- - D - C - E I D E
+- - - D E C O - G -
+- - - - - - D - E -
+- D - - T I E D - -
+- I - - I - T - - D
+- C O E D - I - - I
+- E - - E - C I T E
+47
+CID
+TIG
+CITED
+TIC
+GET
+DIT
+EGO
+CIT
+GED
+ICE
+DOG
+TED
+DIET
+COG
+TIE
+GOD
+DIG
+TOC
+CODE
+TOE
+GOT
+ECO
+DECEIT
+DEG
+TOD
+TEE
+DOE
+GID
+TID
+COD
+GIO
+GIT
+DEI
+EDIT
+ODE
+COT
+CIG
+DOC
+CEE
+GEE
+IDE
+DOIT
+DEE
+TEC
+DOT
+DICT
+GEO

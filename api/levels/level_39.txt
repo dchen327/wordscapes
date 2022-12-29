@@ -1,0 +1,48 @@
+13
+BOOKLET 1 2 False
+LOBO 5 2 True
+OBE 5 5 False
+BOLT 6 5 True
+LOBE 3 1 True
+OBOE 0 4 False
+BEL 1 4 True
+LOOT 6 7 False
+KET 7 0 True
+BOOT 9 4 True
+BELT 3 8 False
+LOOK 4 0 False
+BLOT 0 6 False
+10 10
+- - - - O - B - - -
+- - B - B E L - - -
+- - O - O - O - - -
+- L O B E - T - B -
+L - K - - - - - E -
+O - L O B O - - L -
+O - E - - B O L T -
+K E T - - E - O - -
+- - - - - - - O - -
+- - - - B O O T - -
+22
+TOOK
+LEK
+TEL
+LET
+BOT
+TOOL
+BOOL
+LOO
+LOB
+TOE
+LOT
+OBO
+BOK
+BOO
+BET
+ELK
+ELT
+OLE
+EBOOK
+BOOK
+TOO
+BLOKE

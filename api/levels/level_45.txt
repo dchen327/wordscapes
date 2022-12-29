@@ -1,0 +1,61 @@
+14
+CROOKED 0 1 True
+DECOR 0 7 False
+CODER 0 1 False
+REDO 4 1 True
+DOCK 3 4 False
+CRED 4 6 True
+CORD 4 6 False
+CREDO 1 9 False
+DOOR 7 6 True
+CORK 6 1 True
+COKE 6 8 False
+ROC 2 5 True
+CORE 6 1 False
+CROOK 8 0 True
+10 10
+- C R O O K E D - -
+- O - - - - - E - C
+- D - - - R O C - R
+- E - - D - - O - E
+- R E D O - C R E D
+- - - - C - O - - O
+- C O R K - R - C -
+- O - - - - D O O R
+C R O O K - - - K -
+- E - - - - - - E -
+34
+ROK
+ORD
+DOO
+ORE
+KOR
+COOK
+CODE
+COOKED
+DORK
+RODEO
+ECO
+ROCKED
+RODE
+DOE
+REO
+DECO
+COD
+RED
+ODE
+DOR
+COO
+ROD
+DOC
+COR
+ORC
+ROO
+ROCK
+ROOK
+COOKER
+ROE
+DECK
+REC
+ODOR
+COED

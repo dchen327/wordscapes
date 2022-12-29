@@ -1,0 +1,39 @@
+10
+CURRENCY 1 6 False
+CURE 7 6 True
+CURR 2 5 True
+RYU 7 8 False
+RERUN 6 2 True
+RUNE 6 2 False
+CRUE 1 8 False
+CUR 4 4 True
+CURRY 4 4 False
+NYE 9 0 True
+10 10
+- - - - - - - - - -
+- - - - - - C - C -
+- - - - - C U R R -
+- - - - - - R - U -
+- - - - C U R - E -
+- - - - U - E - - -
+- - R E R U N - - -
+- - U - R - C U R E
+- - N - Y - Y - Y -
+N Y E - - - - - U -
+16
+RYE
+YEN
+ERR
+YER
+NUR
+CRU
+URN
+ECU
+CUE
+REN
+RUN
+REC
+RUE
+ERN
+URE
+CRY

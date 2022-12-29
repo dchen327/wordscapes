@@ -1,0 +1,77 @@
+14
+WAYSIDE 3 3 False
+DEW 3 1 True
+AYES 6 0 True
+IDEAS 7 3 True
+WADE 4 5 False
+IDEA 9 1 True
+AIDS 5 5 True
+SADE 0 2 False
+DESI 3 8 False
+WIDE 3 6 True
+SWAY 4 0 False
+SIDE 0 9 False
+YEAS 0 6 True
+DAISY 1 1 True
+10 10
+- - S - - - Y E A S
+- D A I S Y - - - I
+- - D - - - - - - D
+- D E W - - W I D E
+S - - A - W - - E -
+W - - Y - A I D S -
+A Y E S - D - - I -
+Y - - I D E A S - -
+- - - D - - - - - -
+- I D E A - - - - -
+50
+DAS
+DYES
+EASY
+WIS
+SAE
+AIS
+DEY
+AIDE
+IDS
+EDS
+SAID
+SEI
+ASIDE
+WISE
+EAS
+SEW
+YEW
+SAY
+IDES
+WAS
+DIS
+WED
+DIES
+DEI
+DAE
+DAY
+AID
+DAW
+AWE
+SED
+SIDA
+ADS
+DYE
+YEA
+WYE
+SAI
+SYED
+DAYS
+SEA
+SAW
+IDE
+WAY
+WAI
+WAYS
+AYE
+AIDES
+SAD
+WAD
+YES
+DIE

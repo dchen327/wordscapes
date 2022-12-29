@@ -1,0 +1,38 @@
+12
+TRIGGER 0 7 False
+REG 6 7 True
+TRIG 3 4 True
+GET 0 5 True
+ERR 6 8 False
+RITE 1 4 False
+TRIER 8 4 True
+TIRE 4 1 True
+TIER 3 2 False
+TIGER 1 0 True
+GRIT 6 1 True
+GERT 6 1 False
+10 10
+- - - - - G E T - -
+T I G E R - - R - -
+- - - - I - - I - -
+- - T - T R I G - -
+- T I R E - - G - -
+- - E - - - - E - -
+- G R I T - - R E G
+- E - - - - - - R -
+- R - - T R I E R -
+- T - - - - - - - -
+13
+TIG
+REI
+TIE
+ERG
+GIT
+RET
+GIG
+EGG
+RIG
+GER
+IRE
+RIT
+IGG

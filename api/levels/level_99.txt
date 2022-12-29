@@ -1,0 +1,54 @@
+13
+GRAMMARS 0 4 False
+GRAMMAR 3 0 True
+MAAR 5 2 True
+SAGA 0 2 True
+MARS 1 6 False
+MARG 0 0 False
+SAMA 0 2 False
+MAAS 1 6 True
+RAGS 7 1 True
+AMA 1 0 True
+MARA 0 8 False
+RAM 7 1 False
+MAMAS 9 1 True
+10 10
+M - S A G A - - M -
+A M A - R - M A A S
+R - M - A - A - R -
+G R A M M A R - A -
+- - - - M - S - - -
+- - M A A R - - - -
+- - - - R - - - - -
+- R A G S - - - - -
+- A - - - - - - - -
+- M A M A S - - - -
+28
+AGAR
+AGA
+MAGS
+SMA
+GAMMA
+SAG
+GAM
+GAR
+MAR
+GRAMS
+RAS
+AAS
+ARS
+AGS
+MAG
+SAR
+ARMS
+RAG
+GRAM
+MAGMA
+MAA
+MAMA
+GAS
+MAM
+RAMS
+MAS
+ARM
+SAM

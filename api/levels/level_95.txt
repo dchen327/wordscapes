@@ -1,0 +1,74 @@
+12
+SPARROWS 2 0 False
+PASS 3 0 True
+SARS 3 3 False
+ARROW 4 3 True
+SOAP 9 0 True
+PARS 2 5 False
+PAWS 0 2 False
+SWAPS 3 7 False
+ROWS 6 0 True
+PARR 0 2 True
+SPAS 6 6 True
+OARS 3 9 False
+10 10
+- - P A R R - - - -
+- - A - - - - - - -
+S - W - - P - - - -
+P A S S - A - S - O
+A - - A R R O W - A
+R - - R - S - A - R
+R O W S - - S P A S
+O - - - - - - S - -
+W - - - - - - - - -
+S O A P - - - - - -
+49
+ASP
+WAR
+PRO
+PAR
+ORA
+ROAR
+WARS
+SAP
+SOAPS
+WAP
+POS
+ARROWS
+POSS
+RAP
+WRAP
+ASS
+RAS
+WASPS
+SOAR
+SOW
+ARS
+WAS
+SAR
+RAW
+SAWS
+ROW
+PAW
+SPAR
+APO
+SPARROW
+OPS
+OPA
+WASP
+SOS
+PROS
+RAPS
+WRAPS
+SOARS
+WOP
+OAR
+PAS
+SOP
+SPA
+SAW
+POA
+ORS
+WARP
+SWAP
+POW

@@ -1,0 +1,34 @@
+8
+JUGGLING 0 6 False
+GUNG 2 3 True
+GLUG 2 3 False
+LUNG 7 3 True
+GIG 3 6 True
+LING 5 0 True
+NIL 7 5 False
+LIN 4 1 False
+10 10
+- - - - - - J - - -
+- - - - - - U - - -
+- - - G U N G - - -
+- - - L - - G I G -
+- L - U - - L - - -
+L I N G - - I - - -
+- N - - - - N - - -
+- - - L U N G - - -
+- - - - - I - - - -
+- - - - - L - - - -
+13
+JUN
+LUN
+GUN
+GUL
+UNI
+ING
+JIN
+JIG
+JUG
+GIN
+GNU
+IGG
+LUG

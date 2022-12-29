@@ -1,0 +1,29 @@
+12
+CHECKER 0 0 True
+CHECK 0 3 False
+CREE 2 0 True
+REE 0 6 False
+HERE 2 5 True
+HECK 4 0 True
+CHER 4 2 False
+CEE 0 8 False
+CHEER 6 0 True
+CREEK 5 4 False
+CHEEK 5 4 True
+ERE 5 6 False
+10 10
+C H E C K E R - C -
+- - - H - - E - E -
+C R E E - H E R E -
+- - - C - - - - - -
+H E C K - - - - - -
+- - H - C H E E K -
+C H E E R - R - - -
+- - R - E - E - - -
+- - - - E - - - - -
+- - - - K - - - - -
+4
+CHE
+EEK
+REC
+HER

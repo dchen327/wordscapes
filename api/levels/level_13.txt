@@ -1,0 +1,55 @@
+13
+FURNISH 2 7 False
+NURS 4 5 True
+HUNS 2 5 False
+SHUN 8 6 True
+FISH 2 2 True
+FURS 5 2 True
+SHIN 0 3 False
+RUNS 0 0 True
+UNIS 5 3 False
+RUINS 0 0 False
+URNS 8 0 True
+SINH 6 6 True
+FUN 7 0 False
+10 10
+R U N S - - - - - -
+U - - H - - - - - -
+I - F I S H - F - -
+N - - N - U - U - -
+S - - - - N U R S -
+- - F U R S - N - -
+- - - N - - S I N H
+F - - I - - - S - -
+U R N S - - S H U N
+N - - - - - - - - -
+29
+SUN
+HUN
+NUR
+RIN
+IFS
+SIN
+INS
+NUS
+FUR
+HIS
+UNI
+SURF
+RUN
+RUSH
+UNS
+HIN
+FIN
+FIR
+SUI
+URN
+RUIN
+ISH
+SIR
+SRI
+NIS
+RIF
+HUI
+FINS
+SHRI

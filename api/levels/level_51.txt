@@ -1,0 +1,60 @@
+14
+OCCUPIED 0 5 False
+CODE 7 3 True
+ICED 6 3 False
+DOPE 8 0 True
+PED 4 5 True
+CODEC 0 4 True
+COUPE 2 5 True
+COPIED 3 0 False
+DOE 4 7 False
+COPE 0 8 False
+COED 3 0 True
+DICE 0 2 False
+EPIC 1 0 True
+DECO 9 3 True
+10 10
+- - D - C O D E C -
+E P I C - C - - O -
+- - C - - C O U P E
+C O E D - U - - E -
+O - - - - P E D - -
+P - - - - I - O - -
+I - - I - E - E - -
+E - - C O D E - - -
+D O P E - - - - - -
+- - - D E C O - - -
+33
+CID
+ECCO
+PIC
+COUP
+PUD
+ICE
+POD
+PIED
+PEC
+DUO
+UDO
+ECO
+DEP
+DOP
+OPE
+POI
+DUE
+DUI
+PIE
+DUP
+CEP
+COD
+DIP
+DEI
+ECU
+ODE
+DOC
+CUPID
+IDE
+COP
+CUE
+DIE
+CUP

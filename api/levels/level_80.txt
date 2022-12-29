@@ -1,0 +1,47 @@
+12
+AFGHANS 1 5 False
+AFGHAN 5 1 True
+SAGA 1 2 True
+FAA 3 1 False
+FANS 2 5 True
+SHAN 7 5 True
+HANG 0 3 False
+SNAG 6 8 False
+NAG 9 6 True
+HANGS 0 7 False
+FANG 5 2 False
+SHAG 0 6 True
+10 10
+- - - H - - S H A G
+- - S A G A - A - -
+- - - N - F A N S -
+- F - G - G - G - -
+- A - - - H - S - -
+- A F G H A N - - -
+- - A - - N - - S -
+- - N - - S H A N -
+- - G - - - - - A -
+- - - - - - N A G -
+22
+AHA
+FAG
+HAN
+AGA
+SAG
+ASH
+AAS
+FAN
+NAH
+SHA
+AGS
+HAG
+NAS
+FAS
+AHS
+GAS
+ANS
+GAN
+ANA
+SAN
+SANG
+HAS

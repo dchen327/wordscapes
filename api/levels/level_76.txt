@@ -1,0 +1,79 @@
+11
+BROADWAY 6 1 True
+ABROAD 3 3 False
+RAYA 3 2 True
+WORD 6 6 False
+AWAY 1 5 False
+DRAB 9 6 True
+DARBY 2 8 False
+BOD 8 1 True
+WARD 2 5 True
+ARB 4 1 False
+BORA 1 2 True
+10 10
+- - - - - - - - - -
+- - B O R A - - - -
+- - - - - W A R D -
+- - R A Y A - - A -
+- A - B - Y - - R -
+- R - R - - - - B -
+- B R O A D W A Y -
+- - - A - - O - - -
+- B O D - - R - - -
+- - - - - - D R A B
+55
+BRA
+WAR
+BAY
+ORA
+ORD
+BOR
+DOB
+DOW
+ARY
+ADO
+YARD
+BRO
+WRY
+BROW
+BAR
+BOA
+ROW
+ROADWAY
+DAW
+AWARD
+DRY
+BOAR
+ODA
+OAR
+BROAD
+WAY
+BAD
+ABA
+ABOARD
+BRAD
+BODY
+BRAY
+AWA
+ABO
+BARD
+ROB
+BAA
+RAD
+BOARD
+WARY
+ROWDY
+DAB
+ROAD
+RAY
+RAW
+BORD
+DAY
+ORB
+DOR
+ROD
+BOY
+BOW
+WAD
+ARD
+DRAW

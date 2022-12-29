@@ -1,0 +1,43 @@
+13
+SLIMMING 7 2 True
+MIM 5 6 False
+SMILING 2 8 False
+MING 6 4 False
+NILS 4 2 False
+GIN 4 7 True
+INGS 4 1 True
+SLING 0 3 False
+SIMI 2 0 True
+MILS 2 5 True
+SING 0 3 True
+MINI 1 1 False
+SIGN 9 2 True
+10 10
+- - - S I N G - - -
+- M - L - - - - - -
+S I M I - M I L S -
+- N - N - - - - M -
+- I N G S - - G I N
+- - I - - - M - L -
+- - L - M - I - I -
+- - S L I M M I N G
+- - - - N - - - G -
+- - S I G N - - - -
+17
+GIS
+MIG
+INS
+ING
+MINIS
+LING
+NIL
+ISM
+MIL
+SIM
+SIG
+LIN
+LIS
+MIS
+NIS
+SIN
+SLIM

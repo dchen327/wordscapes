@@ -1,0 +1,55 @@
+13
+PRIMARY 5 0 True
+PRAY 5 0 False
+PIMA 4 2 False
+PARRY 1 6 False
+ARMY 7 2 True
+PRIMA 2 2 True
+PRAM 1 6 True
+PARR 0 8 False
+PRIM 0 4 False
+YAP 7 5 False
+RIP 9 3 True
+AMIR 8 5 True
+PAIR 6 7 False
+10 10
+- - - - P - - - P -
+- - - - R - P R A M
+- - P R I M A - R -
+- - - - M - R - R -
+- - P - - - R - - -
+P R I M A R Y - - -
+R - M - - - - P - -
+A - A R M Y - A - -
+Y - - - - A M I R -
+- - - R I P - R - -
+29
+MARY
+PAR
+RAI
+PAM
+RAMP
+AIRY
+ARY
+PRY
+AMI
+RIM
+MAR
+RAP
+PIR
+AIM
+PIA
+RAM
+YAM
+RIA
+RAY
+MARRY
+PAY
+MAP
+AIR
+YIP
+AMP
+MAY
+ARM
+MIR
+IMP

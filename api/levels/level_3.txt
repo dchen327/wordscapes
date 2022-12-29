@@ -1,0 +1,44 @@
+13
+EXPEDITE 0 5 False
+PIED 5 4 True
+EDIT 4 7 False
+TIE 7 7 True
+TEX 3 4 True
+DEEP 5 9 False
+EIDE 0 2 True
+EXITED 0 2 False
+TIDE 7 2 True
+DIET 6 3 False
+TIED 4 0 True
+EXIT 2 0 True
+PEE 0 0 False
+10 10
+P - E I D E - - - -
+E - X - - X - - - -
+E X I T - P - - - -
+- - T - T E X - - -
+T I E D - D - E - -
+- - D - P I E D - D
+- - - D - T - I - E
+- - T I D E - T I E
+- - - E - - - - - P
+- - - T - - - - - -
+18
+TID
+TED
+TIX
+DIT
+DEX
+DIP
+DEI
+PED
+IDE
+PIX
+PIT
+TIP
+DEE
+DEP
+DIE
+PET
+PIE
+TEE

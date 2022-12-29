@@ -1,0 +1,50 @@
+13
+TIDINGS 1 5 False
+SIND 3 2 True
+INGS 0 2 False
+STING 6 1 True
+DIGIT 5 3 False
+NIT 8 2 True
+SING 7 5 True
+DING 1 0 True
+DIG 1 0 False
+TINS 1 5 True
+TING 5 7 False
+SIGN 1 8 False
+GIST 4 1 False
+10 10
+- - I - - - - - - -
+D I N G - T I N S -
+I - G - - I - - I -
+G - S I N D - - G -
+- G - - - I - - N -
+- I - D - N - T - -
+- S T I N G - I - -
+- T - G - S I N G -
+- - N I T - - G - -
+- - - T - - - - - -
+24
+DIGS
+TIG
+ING
+DIT
+TIS
+SIN
+IDS
+SITING
+INS
+GID
+TID
+DIGITS
+DIS
+GIT
+DIN
+NIS
+GIS
+TIN
+ITS
+SIT
+GIN
+NID
+SIG
+SIDING

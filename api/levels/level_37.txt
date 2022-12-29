@@ -1,0 +1,70 @@
+15
+ACCORDS 0 2 True
+OAR 0 5 False
+ORCA 2 4 True
+CARD 2 6 False
+CARDS 5 3 True
+ACCORD 4 3 False
+ROADS 5 5 False
+SCAR 9 5 True
+ARCS 0 2 False
+CROC 6 0 True
+SOAR 6 8 False
+ARS 3 0 True
+COD 7 7 True
+RODS 6 1 False
+COSA 0 0 False
+10 10
+C - A C C O R D S -
+O - R - - A - - - -
+S - C - O R C A - -
+A R S - - - A - - -
+- - - A - - R - - -
+- - - C A R D S - -
+C R O C - O - - S -
+- O - O - A - C O D
+- D - R - D - - A -
+- S - D - S C A R -
+42
+SADO
+DAS
+ORA
+ORD
+SODA
+COCA
+ROC
+ARC
+SOC
+ADO
+CORD
+RAD
+ARCO
+RAS
+OARS
+OSCAR
+CORDS
+ROAD
+SAC
+CARS
+DOCS
+SAR
+DOS
+CODA
+OCA
+CAD
+DOR
+ADS
+ROD
+DOC
+COR
+ORC
+COS
+ODA
+CAR
+ODS
+ORS
+SOD
+DSO
+SAD
+ORCS
+ARD

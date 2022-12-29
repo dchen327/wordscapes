@@ -1,0 +1,35 @@
+13
+UNLAWFUL 8 2 True
+LULU 5 2 False
+FALL 6 4 False
+FULL 5 0 True
+LAWFUL 0 3 False
+LAWN 2 1 True
+AWFUL 5 8 False
+FAN 5 7 True
+LUN 3 9 False
+LAW 6 6 False
+LUAU 2 1 False
+WALL 3 6 True
+LUNA 0 7 False
+10 10
+- - - L - - - L - -
+- - - A - - - U - -
+- L A W N - - N - -
+- U - F - - W A L L
+- A - U - - - - - U
+F U L L - - - F A N
+- - U - F - L - W -
+- - L - A - A - F -
+- - U N L A W F U L
+- - - - L - - - L -
+9
+ALU
+WAN
+FLAW
+FUN
+AUF
+FLU
+ALL
+FAWN
+ALF

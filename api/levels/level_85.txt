@@ -1,0 +1,67 @@
+12
+STATINS 4 2 True
+NATS 2 5 False
+TITAN 4 3 False
+ANTI 6 1 True
+SAINTS 4 8 False
+SANT 8 5 True
+STAIN 0 7 False
+TAI 1 7 True
+TAIN 2 2 True
+STAINS 0 2 True
+TINT 0 9 False
+TIAN 6 6 False
+10 10
+- - S T A I N S - T
+- - - - - - - T A I
+- - T A I N - A - N
+- - - - - A - I - T
+- - S T A T I N S -
+- - - I - S - - A -
+- A N T I - T - I -
+- - - A - - I - N -
+- - - N - S A N T -
+- - - - - - N - S -
+42
+STATS
+SITS
+TINS
+ANI
+TIS
+STINT
+AIS
+TINA
+ANTS
+SIN
+SIS
+SINS
+NAT
+INS
+SAT
+ASS
+SAINT
+TAT
+ANT
+SANS
+SIT
+TITANS
+ATT
+NAS
+TITS
+NIS
+TAIT
+ANS
+ATS
+SAI
+TAN
+NIT
+TIN
+AIT
+ITA
+AIN
+STAT
+SATIN
+SAN
+ITS
+TIT
+TAS

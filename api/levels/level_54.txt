@@ -1,0 +1,43 @@
+12
+EVOLVES 0 3 True
+EVOLVE 0 3 False
+ELSE 5 3 True
+LOVE 0 6 False
+VOLS 3 1 True
+EELS 3 6 True
+LOVES 5 4 False
+SOLVE 0 1 False
+ELVES 7 2 True
+SOLE 3 9 False
+LEES 6 2 False
+EVE 8 0 True
+10 10
+- S - E V O L V E S
+- O - V - - O - - -
+- L - O - - V - - -
+- V O L S - E E L S
+- E - V - - - - - O
+- - - E L S E - - L
+- - L - O - - - - E
+- - E L V E S - - -
+E V E - E - - - - -
+- - S - S - - - - -
+18
+ESE
+SEE
+VOL
+EVO
+VEE
+SEL
+LEE
+SOL
+LOSE
+LOS
+OLE
+LES
+OES
+SEV
+OSE
+ELS
+EEL
+LEV

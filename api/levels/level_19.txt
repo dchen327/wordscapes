@@ -1,0 +1,48 @@
+12
+ARRIVING 0 6 False
+RANG 1 6 True
+GRAN 7 6 True
+GAR 1 9 False
+RAIN 6 8 False
+RING 9 6 True
+VIRGIN 5 2 True
+RAVING 3 2 False
+VAIN 3 4 True
+RAI 6 0 True
+RIVA 0 3 True
+GAIN 8 2 True
+10 10
+- - - R I V A - - -
+- - - - - - R A N G
+- - - - - - R - - A
+- - R - V A I N - R
+- - A - - - V - - -
+- - V I R G I N - -
+R A I - - - N - R -
+- - N - - - G R A N
+- - G A I N - - I -
+- - - - - - R I N G
+23
+RNA
+ING
+ANI
+RIN
+VIA
+GRIN
+NAV
+AIRING
+VIG
+RIA
+GRAIN
+VAR
+RAG
+AIR
+RAN
+VAN
+RAV
+GAN
+AIN
+RIG
+GIN
+NAG
+VIN

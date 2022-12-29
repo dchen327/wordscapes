@@ -1,0 +1,63 @@
+13
+OVERCOME 2 2 False
+MOVER 2 1 True
+CREME 1 5 False
+CORE 1 5 True
+MERE 5 4 True
+REMOVE 4 7 False
+ROVE 7 6 True
+MEER 0 8 False
+EVER 4 0 True
+MOOR 7 1 True
+COME 4 9 False
+VEER 9 0 True
+EMO 4 0 False
+10 10
+- - - - - - - - M -
+- - - - - C O R E -
+- M O V E R - - E -
+- - V - - E - - R -
+E V E R - M - R - C
+M - R - M E R E - O
+O - C - - - - M - M
+- M O O R - R O V E
+- - M - - - - V - -
+V E E R - - - E - -
+37
+COM
+ERE
+MOR
+MERC
+VOR
+COVE
+ROMEO
+ROC
+ORE
+EVE
+MOVE
+ROOM
+ECO
+ERM
+CREE
+MEE
+REO
+MOC
+MOO
+ROM
+MORE
+COO
+MOE
+REE
+COMER
+REM
+COR
+ORC
+EVO
+CEE
+ROO
+VEE
+COVER
+ROE
+OVER
+REC
+REV

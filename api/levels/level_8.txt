@@ -1,0 +1,75 @@
+12
+ARISING 9 3 True
+GRIS 6 6 False
+RISING 4 9 False
+AIRING 6 1 True
+RAIN 4 4 False
+AIRS 4 2 True
+ARIS 1 5 False
+AIN 6 1 False
+INGS 3 5 True
+SIGN 1 7 False
+RAGS 1 4 True
+SARI 3 2 False
+10 10
+- - - - - - - - - -
+- - - - R A G S - -
+- - - - - R - I - -
+- - S - - I N G S -
+- - A I R S - N - R
+- - R - A - - - - I
+- A I R I N G - - S
+- I - - N - R - - I
+- N - - - - I - - N
+- - - A R I S I N G
+50
+RING
+RAINS
+RNA
+ING
+RAI
+ANI
+RIN
+AIS
+GRIN
+SAG
+SIN
+GAIN
+RIGS
+GAR
+INS
+RINGS
+RAS
+GRAN
+ARS
+RIA
+GRAIN
+AGS
+GAINS
+GRINS
+SAR
+GRAINS
+RAG
+NAS
+AIR
+SIR
+RAN
+SRI
+NIS
+SING
+RANG
+RAISIN
+GAS
+GIS
+ANS
+SAI
+GAN
+RAISING
+SNAG
+RIG
+IRIS
+SAN
+SANG
+GIN
+NAG
+SIG

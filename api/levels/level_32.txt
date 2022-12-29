@@ -1,0 +1,76 @@
+12
+COUPLING 1 7 False
+LION 6 6 True
+LINO 2 4 True
+PLUG 1 4 False
+COL 1 7 True
+PONG 4 9 False
+COPING 8 2 True
+LINGO 4 1 True
+CLOG 6 3 False
+GIN 7 5 False
+LOGIN 1 2 False
+CLIP 1 1 True
+10 10
+- - - - - - - - - -
+- C L I P - - C O L
+- - O - L I N O - -
+- - G - U - - U - -
+- L I N G O - P - P
+- - N - - - - L - O
+- - - C - - L I O N
+- - - L - G - N - G
+- - C O P I N G - -
+- - - G - N - - - -
+51
+GIP
+ING
+LUNG
+NICOL
+PIN
+PIC
+LOU
+COUP
+LUPIN
+PUG
+OIL
+LIP
+PUN
+ION
+LOGIC
+LUG
+INGO
+GUN
+COG
+COLIN
+UNI
+COIN
+LOIN
+PIG
+NIL
+LONG
+COIL
+POI
+CLING
+GNU
+LUN
+GUL
+GIO
+LING
+LOG
+GON
+ICON
+PUL
+NOG
+LIN
+CIG
+UPON
+LOCI
+PING
+LOP
+COP
+NIP
+PION
+CON
+POL
+CUP
