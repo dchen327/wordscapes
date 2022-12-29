@@ -19,13 +19,15 @@ class handler(BaseHTTPRequestHandler):
     @staticmethod
     def define_word(word):
         dictionary = PyDictionary()
-        definitions = dictionary.meaning(word)
+        definitions = dictionary.meaning(word, disable_errors=True)
+        if definitions is None:
+            return {'definitions': []}
         all_defs = []
         for pos in definitions:
             all_defs.extend(definitions[pos])
 
-        return {'definitons': all_defs}
+        return {'definitions': all_defs}
 
 
 if __name__ == '__main__':
-    handler.define_word('set')
+    print(handler.define_word('basket'))
