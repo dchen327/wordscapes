@@ -212,7 +212,7 @@ def setup():
             words_by_len[len(word)].append(word)
 
         num_crosswords = 100  # will try to generate this many, might be fewer
-        
+
         main_words = random.choices(
             words_by_len[8] + words_by_len[7], k=2*num_crosswords)
 
@@ -222,20 +222,32 @@ def setup():
         # make puzzles directory
         os.makedirs('levels')
 
-        level_num = 1
-        while level_num <= num_crosswords:
-            main_word = main_words.pop()
-            puzzle_words = gen_puzzle_words(words_by_len, main_word)
-            output_file = f'levels/level_{level_num}.txt'
-            if gen_crossword(
-                    puzzle_words, output_file) is not None:
-                print(f'Crossword #{level_num}: {main_word}')
-                level_num += 1
+        # level_num = 1
+        # while level_num <= num_crosswords:
+        #     main_word = main_words.pop()
+        #     puzzle_words = gen_puzzle_words(words_by_len, main_word)
+        #     output_file = f'levels/level_{level_num}.txt'
+        #     if gen_crossword(
+        #             puzzle_words, output_file) is not None:
+        #         print(f'Crossword #{level_num}: {main_word}')
+        #         level_num += 1
 
-        # main_word = random.choice(words_by_len[8])
-        # main_word = 'yielding'
+        main_word = random.choice(words_by_len[8])
+        main_word = 'readings'
+        l = []
+        l2 = []
+        for word in random.choices(words_by_len[8] + words_by_len[7], k=1000):
+            puzzle_words = gen_puzzle_words(words_by_len, word)
+            l.append(len(puzzle_words))
+            no_3_ls = [c for c in puzzle_words if len(c) > 3]
+            l2.append(len(no_3_ls))
+
+        import pandas as pd
+        print(pd.Series(l).describe(
+            percentiles=[.25, .5, .6, .7, .8, .9, .95, .99]))
+        print(pd.Series(l2).describe(
+            percentiles=[.25, .5, .6, .7, .8, .9, .95, .99]))
         # puzzle_words = gen_puzzle_words(words_by_len, main_word)
-        # print(len(puzzle_words))
         # gen_crossword(puzzle_words, 'puzzle.txt')
 
 
