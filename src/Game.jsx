@@ -80,10 +80,6 @@ export const Game = () => {
       toast.success(`Level ${newLevelNum} Selected!`);
       setLevel(newLevelNum);
     }
-    closeLevelSelect();
-  };
-
-  const closeLevelSelect = () => {
     setShowLevelSelect(false);
   };
 
@@ -194,7 +190,7 @@ export const Game = () => {
         className="flex flex-col justify-center items-center absolute bg-sky-800 rounded-lg p-4 mx-5 inset-x-0 top-1/3 text-center"
         isOpen={showLevelSelect}
         ariaHideApp={false}
-        onRequestClose={() => closeLevelSelect()}
+        onRequestClose={() => setShowLevelSelect(false)}
         shouldCloseOnOverlayClick={true}
       >
         <form onSubmit={selectLevel}>
@@ -216,7 +212,7 @@ export const Game = () => {
             </button>
             <button
               className="bg-slate-200 rounded-lg py-1 px-2 m-2"
-              onClick={() => closeLevelSelect()}
+              onClick={() => setShowLevelSelect(false)}
             >
               Cancel
             </button>
