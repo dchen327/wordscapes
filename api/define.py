@@ -13,7 +13,7 @@ class handler(BaseHTTPRequestHandler):
 
         content_len = int(self.headers.get('Content-Length'))
         params = json.loads(self.rfile.read(content_len))
-        definitions = handler.define_word(params['word'])
+        definitions = handler.define_words(params['words'])
         self.wfile.write(json.dumps(definitions).encode())
 
     @staticmethod

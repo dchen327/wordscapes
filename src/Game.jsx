@@ -26,7 +26,7 @@ export const Game = () => {
   const [showBonusWords, setShowBonusWords] = useState(false);
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [levelNumInput, setLevelNumInput] = useState(levelNum);
-  const [definitions, setDefinitions] = useState([]);
+  const [definitions, setDefinitions] = useState(null);
   const [showDefinitions, setShowDefinitions] = useState(false);
   const NUM_LEVELs = 10;
 
@@ -53,6 +53,7 @@ export const Game = () => {
       duration: 3000,
     });
     setLevel(levelNum + 1);
+    setDefinitions(null); // reset definitions
     // TODO: set theme color to something new
   };
 
@@ -83,19 +84,6 @@ export const Game = () => {
     setShowLevelSelect(false);
   };
 
-  const defineWord = async (word) => {
-    const response = await fetch("/api/define.py", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ word }),
-    });
-    const data = await response.json();
-    setDefinitions(data.definitions);
-    setShowDefinitions(true);
-  };
-
   // fetch new crossword each time levelNum changes
   useEffect(() => {
     const fetchCrossword = async () => {
@@ -117,11 +105,26 @@ export const Game = () => {
       setGrid(grid);
       setWords(data.words);
       setBonusWords(data.bonus);
+      // get definitions of all words
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);
       setLetters(startWord);
       setThemeColor("#CF9FFF");
+      await getDefinitions(Object.keys(data.words));
       // TODO: pick new theme color here as well
+    };
+
+    const getDefinitions = async (words) => {
+      const response = await fetch("/api/define.py", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ words }),
+      });
+      const data = await response.json();
+      console.log(data.definitions);
+      setDefinitions(data.definitions);
     };
 
     fetchCrossword();
@@ -242,7 +245,7 @@ export const Game = () => {
           {foundBonusWords.map((word) => (
             <p
               key={word}
-              onClick={() => defineWord(word)}
+              onClick={() => console.log(word)}
               className="text-sm text-slate-200"
             >
               {word}
@@ -269,13 +272,13 @@ export const Game = () => {
             <FontAwesomeIcon icon={faXmark} />
           </button>
         </div>
-        <div className="flex flex-col justify-center">
+        {/* <div className="flex flex-col justify-center">
           {definitions.map((definition) => (
             <p key={definition} className="text-sm text-slate-200">
               {definition}
             </p>
           ))}
-        </div>
+        </div> */}
       </Modal>
     </>
   );
