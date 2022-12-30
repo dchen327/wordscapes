@@ -27,7 +27,7 @@ export const Game = () => {
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [levelNumInput, setLevelNumInput] = useState(levelNum);
   const [definitions, setDefinitions] = useState([]);
-  const [showDefinitions, setShowDefinitions] = useState(true);
+  const [showDefinitions, setShowDefinitions] = useState(false);
   const NUM_LEVELs = 10;
 
   // disable body scrolling

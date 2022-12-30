@@ -19,16 +19,33 @@ class handler(BaseHTTPRequestHandler):
     @staticmethod
     def define_word(word):
         dictionary = PyDictionary()
-        definitions = dictionary.meaning(word, disable_errors=True)
-        if definitions is None:
+        definition = dictionary.meaning(word, disable_errors=True)
+        if definition is None:
             return {'definitions': []}
         all_defs = []
-        for pos in definitions:
+        for pos in definition:
             all_defs.extend(
-                f'({pos.lower()}) {definition}' for definition in definitions[pos]
+                f'({pos.lower()}) {defn}' for defn in definition[pos]
             )
         return {'definitions': all_defs}
 
+    @staticmethod
+    def define_words(words):
+        dictionary = PyDictionary(*words)
+        definitions = {word: [] for word in words}
+        for word in words:
+            definition = dictionary.meaning(word, disable_errors=True)
+            if definition is None:
+                continue
+            for pos in definition:
+                definitions[word].extend(
+                    f'({pos.lower()}) {defn}' for defn in definition[pos]
+                )
+
+        return {'definitions': definitions}
+
 
 if __name__ == '__main__':
-    print(handler.define_word('basket'))
+    # print(handler.define_word('basket'))
+    words = ['polygon', 'subst', 'cat', 'ajdslk']
+    print(handler.define_words(words))

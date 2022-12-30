@@ -9,7 +9,7 @@ import {
   faCrosshairs,
   faForward,
   faLightbulb,
-  faShuffle
+  faShuffle,
 } from "@fortawesome/free-solid-svg-icons";
 
 const WordCircle = ({
@@ -56,10 +56,18 @@ const WordCircle = ({
       setSelectedLetterIDs([]);
       setInputtedWord(word);
 
-      // update grid if word is present
-      if (enterWord(word)) {
-        clearTime = 3000; // longer for correct words
-        setInputtedWordBGColor("#34D399");
+      if (Object.keys(words).includes(word)) {
+        // word is correct (could already be entered)
+        if (enterWord(word)) {
+          clearTime = 3000; // longer for correct words
+          setInputtedWordBGColor("#34D399");
+        } else {
+          // word is a duplicate
+          clearTime = 1000; // shorter for incorrect words
+          setInputtedWordBGColor("#F87171");
+          // TODO: highlight the word in the grid
+          console.log("dup");
+        }
       } else if (bonusWords.includes(word)) {
         // bonus word
         clearTime = 1000; // shorter for incorrect words
@@ -88,35 +96,32 @@ const WordCircle = ({
   const enterWord = useCallback(
     (word) => {
       // enter word into crossword, return true if word was not already there
-      if (Object.keys(words).includes(word)) {
-        let [r, c, horiz] = words[word];
-        let wordArray = word.split("");
-        let changeMade;
-        if (horiz) {
-          wordArray.forEach((letter, i) => {
-            if (grid[r][c + i] === "_") {
-              changeMade = true;
-            }
-            grid[r][c + i] = letter;
-          });
-        } else {
-          wordArray.forEach((letter, i) => {
-            if (grid[r + i][c] === "_") {
-              changeMade = true;
-            }
-            grid[r + i][c] = letter;
-          });
-        }
-
-        if (changeMade) {
-          setWordsFound(wordsFound + 1);
-          setGrid(grid);
-          delete words[word];
-          setInputtedWord(word);
-          return true;
-        }
-        return false;
+      let [r, c, horiz] = words[word];
+      let wordArray = word.split("");
+      let changeMade;
+      if (horiz) {
+        wordArray.forEach((letter, i) => {
+          if (grid[r][c + i] === "_") {
+            changeMade = true;
+          }
+          grid[r][c + i] = letter;
+        });
+      } else {
+        wordArray.forEach((letter, i) => {
+          if (grid[r + i][c] === "_") {
+            changeMade = true;
+          }
+          grid[r + i][c] = letter;
+        });
       }
+
+      if (changeMade) {
+        setWordsFound(wordsFound + 1);
+        setGrid(grid);
+        setInputtedWord(word);
+        return true;
+      }
+      return false;
     },
     [words, grid, setGrid, wordsFound, setWordsFound]
   );
