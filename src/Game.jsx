@@ -27,6 +27,7 @@ export const Game = () => {
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [levelNumInput, setLevelNumInput] = useState(levelNum);
   const [definitions, setDefinitions] = useState(null);
+  const [defineModalWords, setDefineModalWords] = useState([]);
   const [showDefinitions, setShowDefinitions] = useState(false);
   const NUM_LEVELs = 10;
 
@@ -84,6 +85,15 @@ export const Game = () => {
     setShowLevelSelect(false);
   };
 
+  const defineWords = (words) => {
+    // toast loading message if definitions are still loading from API
+    if (!definitions) {
+      toast.loading("Loading definitions...");
+    }
+    setDefineModalWords(words);
+    setShowDefinitions(true);
+  };
+
   // fetch new crossword each time levelNum changes
   useEffect(() => {
     const fetchCrossword = async () => {
@@ -109,9 +119,10 @@ export const Game = () => {
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);
       setLetters(startWord);
-      setThemeColor("#CF9FFF");
-      await getDefinitions(Object.keys(data.words));
       // TODO: pick new theme color here as well
+      setThemeColor("#CF9FFF");
+      await getDefinitions([...Object.keys(data.words), ...data.bonus]);
+      toast.dismiss(); // dismiss loading definitions toast
     };
 
     const getDefinitions = async (words) => {
@@ -245,7 +256,7 @@ export const Game = () => {
           {foundBonusWords.map((word) => (
             <p
               key={word}
-              onClick={() => console.log(word)}
+              onClick={() => defineWords([word])}
               className="text-sm text-slate-200"
             >
               {word}
@@ -256,7 +267,7 @@ export const Game = () => {
       {/* definitions modal */}
       <Modal
         className="bg-sky-800 rounded-lg p-4 m-5 inset-x-0 h-5/6 overflow-y-scroll"
-        isOpen={showDefinitions}
+        isOpen={showDefinitions && !!definitions}
         ariaHideApp={false}
         onRequestClose={() => setShowDefinitions(false)}
         shouldCloseOnOverlayClick={true}
@@ -272,13 +283,21 @@ export const Game = () => {
             <FontAwesomeIcon icon={faXmark} />
           </button>
         </div>
-        {/* <div className="flex flex-col justify-center">
-          {definitions.map((definition) => (
-            <p key={definition} className="text-sm text-slate-200">
-              {definition}
-            </p>
-          ))}
-        </div> */}
+        {definitions && (
+          <div className="flex flex-col justify-center">
+            {defineModalWords.map((word) => (
+              <div key={word}>
+                <p className="text-sm text-slate-200">{word}</p>
+                {definitions[word]}
+                {/* {definitions[word].map((definition) => (
+                  <p key={definition} className="text-sm text-slate-200">
+                    {definition}
+                  </p>
+                ))} */}
+              </div>
+            ))}
+          </div>
+        )}
       </Modal>
     </>
   );
