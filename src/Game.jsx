@@ -29,6 +29,7 @@ export const Game = () => {
   const [definitions, setDefinitions] = useState(null);
   const [defineModalWords, setDefineModalWords] = useState([]);
   const [showDefinitions, setShowDefinitions] = useState(false);
+  const [posToWords, setPosToWords] = useState({});
   const NUM_LEVELs = 10;
 
   // disable body scrolling
@@ -116,6 +117,8 @@ export const Game = () => {
       setGrid(grid);
       setWords(data.words);
       setBonusWords(data.bonus);
+      setPosToWords(data.posToWords);
+      console.log(data.posToWords);
       // get definitions of all words
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);

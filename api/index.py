@@ -1,4 +1,5 @@
 from http.server import BaseHTTPRequestHandler
+from collections import defaultdict
 import json
 
 
@@ -28,8 +29,19 @@ class handler(BaseHTTPRequestHandler):
             crossword = [f.readline().split() for _ in range(r)]
             num_bonus = int(f.readline())
             bonus = [f.readline().strip() for _ in range(num_bonus)]
-        return {'words': words, 'bonus': bonus, 'grid': crossword}
+            # pos -> words that the letter is a part of
+            # pos is (r, c) -> num_cols * r + c (flattened)
+            pos_to_words = defaultdict(list)
+            for word, (r, c, is_horiz) in words.items():
+                for _ in word:
+                    pos_to_words[len(crossword[0]) * r + c].append(word)
+                    if is_horiz:
+                        c += 1
+                    else:
+                        r += 1
+
+        return {'words': words, 'bonus': bonus, 'grid': crossword, 'posToWords': pos_to_words}
 
 
 if __name__ == '__main__':
-    handler.parse_file(15)
+    print(handler.parse_file(15))
