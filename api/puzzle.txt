@@ -1,143 +1,65 @@
 13
-JACKPOTS 0 5 False
-COAST 2 5 True
-TACOS 6 5 True
-STOCK 3 1 True
-COS 1 1 False
-SOAP 6 9 False
-JACKS 7 1 True
-TAPS 6 2 False
-TOPS 2 3 False
-CASK 0 8 False
-ATOP 9 6 True
-COSA 9 0 True
-SACK 4 7 False
+SQUEAKY 0 5 False
+KAYS 0 2 True
+YEAS 6 5 True
+SAKE 5 7 False
+KEYS 0 2 False
+USE 1 0 True
+SQUEAK 5 0 True
+QUAKE 5 1 False
+EASY 3 0 True
+QUAY 2 4 True
+AYE 1 7 False
+AYES 8 5 True
+YES 9 0 True
 10 10
-- - - - - J - - C -
-- C - - - A - - A -
-- O - T - C O A S T
-- S T O C K - - K -
-- - - P - P - S - -
-- - - S - O - A - -
-- - T - - T A C O S
-- J A C K S - K - O
-- - P - - - - - - A
-C O S A - - A T O P
-90
-ASP
-SPOT
-COP
-CATS
-ACTS
-POS
-POA
-SCOT
-COAT
-KAS
+- - K A Y S - - - -
+U S E - - Q - A - -
+- - Y - Q U A Y - -
+E A S Y - E - E - -
+- - - - - A - - - -
+S Q U E A K - S - -
+- U - - - Y E A S -
+- A - - - - - K - -
+- K - - - A Y E S -
+Y E S - - - - - - -
+18
+YEA
+SUK
+SEA
+KEY
+EAS
+YAK
+SAE
 ASK
-JOCKS
-SCAT
-CAPO
+QUA
+EAU
+KEA
+KAS
+SKY
 SKA
-COT
-ACT
-JACK
-OPT
-PAST
-OPTS
-OPS
-SOT
-ASCOT
-SPA
-TOP
-OAT
-SOP
-SAP
-SCOP
-JAP
-APT
-PACT
-COTS
-JACKPOT
-COST
-TACK
-TAOS
-SAC
-PACK
-KAT
-SOAK
-TOC
-PATS
-CAT
-CAP
-POT
-COATS
-SPAT
-TSK
-KOS
-JAK
-COPS
-TACO
-TAP
-PACS
-APTS
-PACKS
-POST
-CAST
-STACK
-OAK
-PST
-TASK
-PAK
-TAO
-CAPS
-PAT
-SAT
-OCA
-COSTA
-SOC
-KOA
-JOCK
-OPA
-APO
-OAKS
-PAS
-ATS
-TAK
-JOT
-PAC
-TAJ
-SOCK
-POTS
-JOTA
-TAS
-PACO
-STOP
-OATS
-13
-jackpots
-["(noun) the cumulative amount involved in a game (such as poker", "(noun) any outstanding award"]
-coast
-["(noun) the shore of a sea or ocean", "(noun) a slope down which sleds may coast", "(noun) the area within view", "(verb) move effortlessly; by force of gravity"]
-tacos
-["(noun) (ethnic slur", "(noun) a tortilla rolled cupped around a filling"]
-stock
-["(noun) the capital raised by a corporation through the issue of shares entitling holders to an ownership interest (equity", "(noun) the merchandise that a shop has on hand", "(noun) the handle of a handgun or the butt end of a rifle or shotgun or part of the support of a machine gun or artillery gun", "(verb) have on hand", "(verb) equip with a stock", "(verb) supply with fish", "(adjective) repeated too often; overfamiliar through overuse", "(adjective) routine", "(adjective) regularly and widely used or sold"]
-cos
-["(noun) an odorless very poisonous gas that is a product of incomplete combustion of carbon", "(noun) a hard ferromagnetic silver-white bivalent or trivalent metallic element; a trace element in plant and animal nutrition", "(noun) one who refuses to serve in the armed forces on grounds of conscience"]
-soap
-["(noun) a cleansing agent made from the salts of vegetable or animal fats", "(noun) money offered as a bribe", "(noun) street names for gamma hydroxybutyrate", "(verb) rub soap all over, usually with the purpose of cleaning"]
-jacks
-["(noun) a small worthless amount", "(noun) a man who serves as a sailor", "(noun) someone who works with their hands; someone engaged in manual labor", "(verb) lift with a special device", "(verb) hunt with a jacklight"]
-taps
-["(noun) the sound made by a gentle blow", "(noun) a gentle blow", "(noun) a faucet for drawing water from a pipe or cask", "(verb) cut a female screw thread with a tap", "(verb) draw from or dip into to get something", "(verb) strike lightly"]
-tops
-["(noun) the upper part of anything", "(noun) the highest or uppermost side of anything", "(noun) the top or extreme point of something (usually a mountain or hill", "(verb) be superior or better than some standard", "(verb) pass by, over, or under without making contact", "(verb) be at the top of or constitute the top or highest point", "(adjective) of the highest quality"]
-cask
-["(noun) the quantity a cask will hold", "(noun) a cylindrical container that holds liquids"]
-atop
-["(adverb) on, to, or at the top"]
-cosa
-[]
-sack
-["(noun) a bag made of paper or plastic for holding customer's purchases", "(noun) an enclosed space", "(noun) the quantity contained in a sack", "(verb) plunder (a town", "(verb) terminate the employment of; discharge from an office or position", "(verb) make as a net profit"]
+SAU
+SUE
+SAY
+KAY
+10
+SQUEAKY
+["(adjective) having or making a high-pitched sound such as that made by a mouse or a rusty hinge"]
+YEAS
+["(noun) an affirmative"]
+SAKE
+["(noun) a reason for wanting something done", "(noun) Japanese alcoholic beverage made from fermented rice; usually served hot", "(noun) the purpose of achieving or obtaining"]
+KEYS
+["(noun) metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated", "(noun) something crucial for explaining", "(noun) pitch of the voice", "(verb) identify as in botany or biology, for example", "(verb) provide with a key", "(verb) vandalize a car by scratching the sides with a key"]
+USE
+["(noun) the act of using", "(noun) what something is used for", "(noun) a particular service", "(verb) put into service; make work or employ for a particular purpose or for its inherent or natural purpose", "(verb) take or consume (regularly or habitually", "(verb) use up, consume fully"]
+SQUEAK
+["(noun) a short high-pitched noise", "(noun) something achieved (or escaped", "(verb) make a high-pitched, screeching noise"]
+QUAKE
+["(noun) shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity", "(verb) shake with fast, tremulous movements", "(verb) shake with seismic vibrations"]
+EASY
+["(adjective) posing no difficulty; requiring little effort", "(adjective) not hurried or forced", "(adjective) or easygoing", "(adverb) with ease (`easy' is sometimes used informally for `easily'", "(adverb) without speed (`slow' is sometimes used informally for `slowly'", "(adverb) in a relaxed manner; or without hardship"]
+QUAY
+["(noun) wharf usually built parallel to the shoreline"]
+YES
+["(noun) an affirmative"]
