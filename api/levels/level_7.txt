@@ -1,90 +1,97 @@
-12
-FORCIBLY 2 4 False
-CORBY 9 0 True
-LYRIC 5 0 True
-FLOR 2 2 False
-BROIL 7 4 True
-ROLF 5 8 False
-BLOC 4 0 False
-CRY 7 0 True
-FOLIC 2 4 True
-BOIL 6 6 False
-BRIO 0 7 False
-ORB 5 7 True
+15
+ARGUABLY 0 4 False
+GRAY 7 1 True
+GRAB 0 2 True
+BURY 5 2 False
+LYRA 6 4 True
+GRUB 0 2 False
+LAURA 5 7 False
+RAYA 4 3 True
+GABY 9 6 True
+ALBA 1 6 False
+BURG 3 6 True
+BRAG 0 9 False
+BAR 1 0 True
+LAB 3 0 True
+ALB 0 7 True
 10 10
-- - - - - - - B - -
-- - - - - - - R - -
-- - F - F O L I C -
-- - L - O - - O - -
-B - O - R - - - - -
-L Y R I C - - O R B
-O - - - I - B - O -
-C R Y - B R O I L -
-- - - - L - I - F -
-C O R B Y - L - - -
-40
-COB
-FRY
-FIB
-LOR
-ROC
-ICY
-CRIB
-BIO
-FICO
-FLY
-FIL
-COR
-ORF
-FOY
-FOIL
-LOB
-RIB
-COL
-ROB
-RIF
-LOCI
-BOY
-COIL
-CORY
-COY
-ORC
-COLBY
-LOY
-FOR
-FIR
-BOR
-FOB
-FOCI
-OILY
-BRO
-OBI
-BOI
-LIB
-FRO
-OIL
-12
-FORCIBLY
-["(adverb) in a forcible manner"]
-CORBY
-[]
-LYRIC
-["(noun) the text of a popular song or musical-comedy number", "(noun) a short poem of songlike quality", "(verb) write lyrics for (a song", "(adjective) expressing deep emotion", "(adjective) used of a singer or singing voice that is light in volume and modest in range", "(adjective) relating to or being musical drama"]
-FLOR
-[]
-BROIL
-["(noun) cooking by direct exposure to radiant heat (as over a fire or under a grill", "(verb) cook under a broiler", "(verb) heat by a natural force", "(verb) be very hot, due to hot weather or exposure to the sun"]
-ROLF
-["(noun) Norse chieftain who became the first duke of Normandy (860-931"]
-BLOC
-["(noun) a group of countries in special alliance"]
-CRY
-["(noun) a loud utterance; often in protest or opposition", "(noun) a loud utterance of emotion (especially when inarticulate", "(noun) a slogan used to rally support for a cause", "(verb) utter a sudden loud cry", "(verb) shed tears because of sadness, rage, or pain", "(verb) utter aloud; often with surprise, horror, or joy"]
-FOLIC
-[]
-BOIL
-["(noun) a painful sore with a hard core filled with pus", "(noun) the temperature at which a liquid boils at sea level", "(verb) come to the boiling point and change from a liquid to vapor", "(verb) immerse or be immersed in a boiling liquid, often for cooking purposes", "(verb) bring to, or maintain at, the boiling point"]
-BRIO
-["(noun) quality of being active or spirited or alive and vigorous"]
-ORB
-["(noun) the ball-shaped capsule containing the vertebrate eye", "(noun) an object with a spherical shape", "(verb) move in an orbit"]
+- - G R A B - A L B
+B A R - R - A - - R
+- - U - G - L - - A
+L A B - U - B U R G
+- - - R A Y A - - -
+- - B - B - - L - -
+- - U - L Y R A - -
+- G R A Y - - U - -
+- - Y - - - - R - -
+- - - - - - G A B Y
+42
+RUGBY
+RUB
+BAG
+BRA
+ABA
+RAY
+BUY
+LUG
+RYU
+BAY
+UGLY
+RUBY
+ARY
+GAY
+GAL
+AURAL
+AGA
+LAR
+GAR
+LAG
+ABLY
+GUL
+RUG
+RAG
+LAY
+AGAR
+ARB
+BURL
+GALA
+GUY
+ALA
+URB
+BUG
+BAL
+ALU
+GAB
+AURA
+BUR
+GARB
+BLUR
+BAA
+BRAY
+13
+ARGUABLY
+["(adverb) as can be shown by argument"]
+GRAY
+["(noun) a neutral achromatic color midway between white and black", "(noun) clothing that is a grey color", "(noun) any organization or party whose uniforms or badges are grey", "(verb) make grey", "(verb) turn grey", "(adjective) of an achromatic color of any lightness intermediate between the extremes of white and black", "(adjective) showing characteristics of age, especially having grey or white hair", "(adjective) used to signify the Confederate forces in the American Civil War (who wore grey uniforms"]
+GRAB
+["(noun) a mechanical device for gripping an object", "(noun) the act of catching an object with the hands", "(verb) take hold of so as to seize or restrain or stop the motion of", "(verb) get hold of or seize quickly and easily", "(verb) make a grasping or snatching motion with the hand"]
+BURY
+["(verb) cover from sight", "(verb) place in a grave or tomb", "(verb) place in the earth and cover with soil"]
+LYRA
+["(noun) a small constellation in the northern hemisphere near Cygnus and Draco; contains the star Vega"]
+GRUB
+["(noun) informal terms for a meal", "(noun) a soft thick wormlike larva of certain beetles and other insects", "(verb) ask for and get free; be a parasite", "(verb) search about busily"]
+RAYA
+["(noun) a synthetic silklike fabric"]
+ALBA
+["(noun) one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers", "(noun) a book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc"]
+BURG
+["(noun) colloquial American term for a town"]
+BRAG
+["(noun) an instance of boastful talk", "(verb) show off", "(adjective) exceptionally good"]
+BAR
+["(noun) a room or establishment where alcoholic drinks are served over a counter", "(noun) a counter where you can obtain food or drink", "(noun) a rigid piece of metal or wood; usually used as a fastening or obstruction or weapon", "(verb) prevent from entering; keep out", "(verb) render unsuitable for passage", "(verb) expel, as if by official decree"]
+LAB
+["(noun) a workplace for the conduct of scientific research"]
+ALB
+["(noun) a white linen liturgical vestment with sleeves; worn by priests"]

@@ -1,52 +1,84 @@
-8
-ACIDITY 3 6 False
-TIDY 8 6 True
-DAY 3 5 True
-CID 6 8 False
-ACID 0 5 False
-DICT 6 6 True
-CITY 1 5 True
-TAI 7 4 True
+13
+MUSHROOM 0 2 False
+HOUR 3 2 True
+OHMS 0 0 True
+HOURS 0 5 False
+SOUR 4 5 True
+MOHR 5 1 True
+HUMOR 7 0 True
+RUM 7 4 False
+ROOS 4 8 False
+SUMO 6 5 True
+HORS 0 5 True
+ROM 0 7 False
+MUMS 9 2 True
 10 10
-- - - - - A - - - -
-- - - - - C I T Y -
-- - - - - I - - - -
-- - - - - D A Y - -
-- - - - - - C - - -
-- - - - - - I - - -
-- - - - - - D I C T
-- - - - T A I - I -
-- - - - - - T I D Y
-- - - - - - Y - - -
-14
-CAD
-TAD
-CAY
-TIC
-ITA
-ACT
-DIT
-CAT
-TAY
-AID
-TID
-ICY
-CIT
-AIT
-8
-ACIDITY
-["(noun) the property of being acidic", "(noun) the taste experience when something acidic is taken into the mouth", "(noun) pH values below 7"]
-TIDY
-["(noun) receptacle that holds odds and ends (as sewing materials", "(verb) put (things or places", "(adjective) marked by order and cleanliness in appearance or habits", "(adjective) (of hair", "(adjective) large in amount or extent or degree"]
-DAY
-["(noun) time for Earth to make a complete rotation on its axis", "(noun) some point or period in time", "(noun) a day assigned to a particular purpose or observance"]
-CID
-["(noun) the United States Army's principal law enforcement agency responsible for the conduct of criminal investigations for all levels of the Army anywhere in the world"]
-ACID
-["(noun) any of various water-soluble compounds having a sour taste and capable of turning litmus red and reacting with a base to form a salt", "(noun) street name for lysergic acid diethylamide", "(adjective) harsh or corrosive in tone", "(adjective) being sour to the taste", "(adjective) having the characteristics of an acid"]
-DICT
-[]
-CITY
-["(noun) a large and densely populated urban area; may include several independent administrative districts", "(noun) an incorporated administrative district established by state charter", "(noun) people living in a large densely populated municipality"]
-TAI
-["(noun) a native or inhabitant of Thailand", "(noun) the most widespread and best known of the Kadai family of languages", "(adjective) of or relating to or characteristic of Thailand or its people", "(adjective) of or relating to the languages of the Thai people", "(adjective) of or relating to Thailand"]
+O H M S - H O R S -
+- - U - - O - O - -
+- - S - - U - M - -
+- - H O U R - - - -
+- - R - - S O U R -
+- M O H R - - - O -
+- - O - - S U M O -
+H U M O R - - - S -
+- - - - U - - - - -
+- - M U M S - - - -
+37
+OUR
+HOM
+MOMS
+RUSH
+ROOMS
+MUM
+ROOM
+UMM
+ORS
+SOM
+OUS
+HOS
+MUSH
+ROMS
+SOHO
+MOS
+HUM
+MOO
+OHS
+MOORS
+MOM
+OURS
+OOH
+SOU
+MOR
+SHO
+OMS
+SUM
+HOO
+HOMO
+MUS
+OHM
+MOU
+ROO
+HMM
+RHO
+MOOR
+10
+MUSHROOM
+["(noun) common name for an edible agaric (contrasting with the inedible toadstool", "(noun) mushrooms and related fleshy fungi (including toadstools, puffballs, morels, coral fungi, etc.", "(noun) any of various fleshy fungi of the subdivision Basidiomycota consisting of a cap at the end of a stem arising from an underground mycelium", "(verb) pick or gather mushrooms", "(verb) grow and spread fast"]
+HOUR
+["(noun) a period of time equal to 1/24th of a day", "(noun) clock time", "(noun) a special and memorable period"]
+OHMS
+["(noun) a unit of electrical resistance equal to the resistance between two points on a conductor when a potential difference of one volt between them produces a current of one ampere", "(noun) German physicist who formulated Ohm's law (1787-1854"]
+HOURS
+["(noun) a period of time equal to 1/24th of a day", "(noun) clock time", "(noun) a special and memorable period"]
+SOUR
+["(noun) a cocktail made of a liquor (especially whiskey or gin", "(noun) the taste experience when vinegar or lemon juice is taken into the mouth", "(noun) the property of being acidic", "(verb) go sour or spoil", "(verb) make sour or more sour", "(adjective) smelling of fermentation or staleness", "(adjective) having a sharp biting taste", "(adjective) one of the four basic taste sensations; like the taste of vinegar or lemons"]
+HUMOR
+["(noun) a message whose ingenuity or verbal skill or incongruity has the power to evoke laughter", "(noun) the trait of appreciating (and being able to express", "(noun) a characteristic (habitual or relatively temporary", "(verb) put into a good mood"]
+RUM
+["(noun) liquor distilled from fermented molasses", "(noun) a card game based on collecting sets and sequences; the winner is the first to meld all their cards", "(adjective) beyond or deviating from the usual or expected"]
+SUMO
+["(noun) a Japanese form of wrestling; you lose if you are forced out of a small ring or if any part of your body (other than your feet"]
+ROM
+["(noun) (computer science"]
+MUMS
+["(noun) of China", "(noun) informal terms for a mother", "(noun) secrecy"]

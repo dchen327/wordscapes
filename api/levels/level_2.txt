@@ -1,107 +1,73 @@
-14
-TONNAGE 3 9 False
-GAT 3 7 True
-GONE 9 6 True
-NANG 6 6 False
-TAG 1 7 False
-GENT 6 4 True
-GENOA 2 3 True
-ANON 8 3 True
-GONNA 0 5 False
-TAE 7 3 False
-GATE 2 3 False
-NONE 5 0 True
-TONE 9 0 True
-TANGO 0 2 True
+12
+QUARTET 1 4 False
+TATE 7 4 True
+QUART 1 4 True
+TETRA 3 0 True
+RAT 5 2 True
+UTTER 0 8 False
+RATE 0 6 False
+TEAR 3 0 False
+ETAT 6 6 False
+TRUE 0 1 False
+TART 3 2 False
+TREAT 9 2 True
 10 10
-- - T A N G O - - -
-- - - - - O - T - -
-- - - G E N O A - -
-- - - A - N - G A T
-- - - T - A - - - O
-N O N E - - - - - N
-- - - - G E N T - N
-- - - T - - A - - A
-- - - A N O N - - G
-T O N E - - G O N E
-51
-EAT
-GON
-NOTE
-ANNO
-ETA
-NOT
-GOT
-ONE
-EAN
-ANN
-ANT
-ETNA
-EGO
-GOA
-GAN
-TOE
-NEAT
-NON
-AGENT
-NOG
-GNAT
-TEN
-NANO
-NOTA
-TONGA
-ANTE
-GET
-AGE
-NET
-NEON
-NEG
-TEA
-AGO
-TONG
-ENG
-GEO
-NAE
-OAT
-EON
-TONNE
-AEON
-NAG
-TAO
-GOAT
-NAT
-ANE
-TON
-GEN
-TANG
-TAN
+- T - - - - R - U -
+- R - - Q U A R T -
+- U - - U - T - T -
+T E T R A - E - E -
+E - A - R - - - R -
+A - R A T - - - - -
+R - T - E - E - - -
+- - - - T A T E - -
+- - - - - - A - - -
+- - T R E A T - - -
+25
 ATE
-14
-TONNAGE
-["(noun) a tax imposed on ships that enter the US; based on the tonnage of the ship"]
-GAT
-["(noun) a gangster's pistol"]
-GONE
-["(verb) change location; move, travel, or proceed, also metaphorically", "(verb) follow a procedure or take a course", "(verb) move away from a place into another direction", "(adjective) destroyed or killed", "(adjective) well in the past; former", "(adjective) stupefied or excited by a chemical substance (especially alcohol"]
-NANG
-[]
-TAG
-["(noun) a label written or printed on paper, cardboard, or plastic that is attached to something to indicate its owner, nature, price, etc.", "(noun) a label associated with something for the purpose of identification", "(noun) a small piece of cloth or paper", "(verb) attach a tag or label to", "(verb) touch a player while he is holding the ball", "(verb) provide with a name or nickname"]
-GENT
-["(noun) informal abbreviation of `gentleman'", "(noun) a boy or man", "(noun) port city in northwestern Belgium and industrial center; famous for cloth industry"]
-GENOA
-["(noun) a seaport in northwestern Italy; provincial capital of Liguria"]
-ANON
-["(adverb) at another time", "(adverb) (old-fashioned or informal"]
-GONNA
-[]
+UREA
+TATU
 TAE
-["(noun) a hard grey lustrous metallic element that is highly resistant to corrosion; occurs in niobite and fergusonite and tantalite"]
-GATE
-["(noun) a movable barrier in a fence or wall", "(noun) a computer circuit with several inputs but only one output that can be activated by particular combinations of inputs", "(noun) total admission receipts at a sports event", "(verb) supply with a gate", "(verb) control with a valve or other device that functions like a gate", "(verb) restrict (school boys'"]
-NONE
-["(noun) a canonical hour that is the ninth hour of the day counting from sunrise", "(noun) a service in the Roman Catholic Church formerly read or chanted at 3 PM (the ninth hour counting from sunrise", "(adjective) not any", "(adverb) not at all or in no way"]
-TONE
-["(noun) the quality of a person's voice", "(noun) (linguistics", "(noun) (music", "(verb) utter monotonously and repetitively and rhythmically", "(verb) vary the pitch of one's speech", "(verb) change the color or tone of"]
-TANGO
-["(noun) a ballroom dance of Latin-American origin", "(noun) music written in duple time for dancing the tango", "(verb) dance a tango"]
+TAT
+RUT
+EAT
+ERA
+EAU
+ATT
+RUE
+TET
+ARE
+UTA
+QUA
+UTE
+TAR
+TEA
+EAR
+TUT
+URE
+RET
+ETA
+TAU
+ART
+11
+QUARTET
+["(noun) the cardinal number that is the sum of three and one", "(noun) four performers or singers who perform together", "(noun) a set of four similar things considered as a unit"]
+TATE
+["(noun) United States poet and critic (1899-1979"]
+QUART
+["(noun) a United States liquid unit equal to 32 fluid ounces; four quarts equal one gallon", "(noun) a British imperial capacity measure (liquid or dry", "(noun) a United States dry unit equal to 2 pints or 67.2 cubic inches"]
+TETRA
+["(noun) brightly colored tropical freshwater fishes"]
+RAT
+["(noun) any of various long-tailed rodents similar to but larger than a mouse", "(noun) someone who works (or provides workers", "(noun) a person who is deemed to be despicable or contemptible", "(verb) desert one's party or group of friends, for example, for one's personal advantage", "(verb) employ scabs or strike breakers in", "(verb) take the place of work of someone on strike"]
+UTTER
+["(verb) articulate; either verbally or with a cry, shout, or noise", "(verb) express audibly; utter sounds (not necessarily words", "(verb) express in speech", "(adjective) without qualification; used informally as (often pejorative", "(adjective) complete and absolute"]
+RATE
+["(noun) a magnitude or frequency relative to a time unit", "(noun) amount of a charge or payment relative to some basis", "(noun) the relative speed of progress or change", "(verb) assign a rank or rating to", "(verb) be worthy of or have a certain rating", "(verb) estimate the value of"]
+TEAR
+["(noun) a drop of the clear salty saline solution secreted by the lacrimal glands", "(noun) an opening made forcibly as by pulling apart", "(noun) an occasion for excessive eating or drinking", "(verb) separate or cause to separate abruptly", "(verb) to separate or be separated by force", "(verb) move quickly and violently"]
+TRUE
+["(noun) proper alignment; the property possessed by something that is in correct or proper alignment", "(verb) make level, square, balanced, or concentric", "(adjective) consistent with fact or reality; not false", "(adjective) accurately placed or thrown", "(adjective) devoted (sometimes fanatically", "(adverb) as acknowledged"]
+TART
+["(noun) a woman who engages in sexual intercourse for money", "(noun) a small open pie with a fruit filling", "(noun) a pastry cup with a filling of fruit or custard and no top crust", "(adjective) tasting sour like a lemon"]
+TREAT
+["(noun) something considered choice to eat", "(noun) an occurrence that causes special pleasure or delight", "(verb) interact in a certain way", "(verb) subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition", "(verb) provide treatment for"]

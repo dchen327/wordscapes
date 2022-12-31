@@ -1,71 +1,100 @@
-13
-SQUEAKY 9 3 True
-ASK 7 8 False
-AYES 6 3 False
-SAKE 6 2 True
-YEAS 7 6 True
-SQUEAK 1 4 False
-KEYS 3 2 False
-QUA 2 4 True
-QUAKE 3 7 False
-KAYS 1 1 True
-QUAY 4 6 True
-SEA 0 6 False
-EASY 1 6 True
+12
+ASHAMED 6 1 True
+SHEA 6 2 False
+MAHA 6 5 False
+HADES 8 5 True
+MASHED 1 7 False
+MESH 3 3 False
+SAME 2 6 True
+HEAD 9 0 True
+HEADS 1 9 False
+DAMS 3 1 True
+SHED 0 1 False
+MEDS 0 4 False
 10 10
-- - - - - - S - - -
-- K A Y S - E A S Y
-- - - - Q U A - - -
-- - K - U - - Q - -
-- - E - E - Q U A Y
-- - Y - A - - A - -
-- - S A K E - K - -
-- - - Y - - Y E A S
-- - - E - - - - S -
-- - - S Q U E A K Y
-18
-KAY
-SAY
-USE
-KAS
-EAU
-SAU
-YEA
-SAE
-SUK
-SUE
-SKY
-YAK
-YES
-AYE
-KEA
-EAS
-KEY
-SKA
-13
-SQUEAKY
-["(adjective) having or making a high-pitched sound such as that made by a mouse or a rusty hinge"]
-ASK
-["(verb) make a request or demand for something to somebody", "(verb) direct or put; seek an answer to", "(verb) consider obligatory; request and expect"]
-AYES
-[]
-SAKE
-["(noun) a reason for wanting something done", "(noun) Japanese alcoholic beverage made from fermented rice; usually served hot", "(noun) the purpose of achieving or obtaining"]
-YEAS
-["(noun) an affirmative"]
-SQUEAK
-["(noun) a short high-pitched noise", "(noun) something achieved (or escaped", "(verb) make a high-pitched, screeching noise"]
-KEYS
-["(noun) metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated", "(noun) something crucial for explaining", "(noun) pitch of the voice", "(verb) identify as in botany or biology, for example", "(verb) provide with a key", "(verb) vandalize a car by scratching the sides with a key"]
-QUA
-[]
-QUAKE
-["(noun) shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity", "(verb) shake with fast, tremulous movements", "(verb) shake with seismic vibrations"]
-KAYS
-[]
-QUAY
-["(noun) wharf usually built parallel to the shoreline"]
+- S - - M - - - - -
+- H - - E - - M - H
+- E - - D - S A M E
+- D A M S - - S - A
+- - - E - - - H - D
+- - - S - - - E - S
+- A S H A M E D - -
+- - H - - A - - - -
+- - E - - H A D E S
+H E A D - A - - - -
+52
+HES
 SEA
-["(noun) a division of an ocean or a large body of salt water partially enclosed by land", "(noun) anything apparently limitless in quantity or volume", "(noun) turbulent water with swells of considerable size"]
-EASY
-["(adjective) posing no difficulty; requiring little effort", "(adjective) not hurried or forced", "(adjective) or easygoing", "(adverb) with ease (`easy' is sometimes used informally for `easily'", "(adverb) without speed (`slow' is sometimes used informally for `slowly'", "(adverb) in a relaxed manner; or without hardship"]
+SAE
+DASH
+SMA
+EHS
+MEAD
+MAAS
+SHAD
+SED
+AHEM
+DAH
+ASH
+ADS
+SEAM
+HAMS
+MES
+DAM
+MADE
+MASH
+SAD
+SHE
+MAD
+MAA
+MED
+HEM
+AHA
+SHADE
+AHS
+MESA
+DAS
+SAMA
+HAD
+AMA
+DAME
+SAM
+EMS
+SHAM
+AAS
+SHAME
+EDS
+SHA
+EAS
+DAE
+MAE
+AHEAD
+MEH
+SADE
+MAS
+HAM
+HAS
+AME
+11
+ASHAMED
+["(adjective) feeling shame or guilt or embarrassment or remorse"]
+MAHA
+["(noun) a member of the Siouan people formerly living in the Missouri river valley in northeastern Nebraska"]
+HADES
+["(noun) (Greek mythology", "(noun) (religion"]
+MASHED
+["(verb) to compress with violence, out of natural shape or condition", "(verb) talk or behave amorously, without serious intentions", "(verb) reduce to small pieces or particles by pounding or abrading"]
+MESH
+["(noun) the number of openings per linear inch of a screen; measures size of particles", "(noun) contact by fitting together", "(noun) the topology of a network whose components are all connected directly to every other component", "(verb) keep engaged", "(verb) coordinate in such a way that all parts work together effectively", "(verb) work together in harmony"]
+SAME
+["(noun) a member of an indigenous nomadic people living in northern Scandinavia and herding reindeer", "(noun) the language of nomadic Lapps in northern Scandinavia and the Kola Peninsula", "(adjective) same in identity", "(adjective) closely similar or comparable in kind or quality or quantity or degree", "(adjective) equal in amount or value"]
+HEAD
+["(noun) the upper part of the human body or the front part of the body in animals; contains the face and brains", "(noun) a single domestic animal", "(noun) that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason", "(verb) to go or travel towards", "(verb) be in charge of", "(verb) travel in front of; go in advance of others"]
+HEADS
+["(noun) the upper part of the human body or the front part of the body in animals; contains the face and brains", "(noun) a single domestic animal", "(noun) that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason", "(verb) to go or travel towards", "(verb) be in charge of", "(verb) travel in front of; go in advance of others"]
+DAMS
+["(noun) a barrier constructed to contain the flow of water or to keep out the sea", "(noun) a metric unit of length equal to ten meters", "(noun) female parent of an animal especially domestic livestock", "(verb) obstruct with, or as if with, a dam"]
+SHED
+["(noun) an outbuilding with a single story; used for shelter or storage", "(verb) get rid of", "(verb) pour out in drops or small quantities or as if in drops or small quantities", "(verb) cause or allow (a solid substance", "(adjective) shed at an early stage of development"]
+MEDS
+["(noun) a master's degree in education"]

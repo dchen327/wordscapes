@@ -1,74 +1,65 @@
-14
-SOFTWOOD 0 9 False
-DOST 3 6 True
-WOODS 0 6 False
-FOODS 4 2 True
-FOOT 3 4 False
-FOOD 7 6 True
-WOOD 1 4 True
-WOOT 6 7 False
-SOOT 6 1 True
-WOOF 1 2 False
-STOW 6 1 False
-DOTS 8 0 True
-SOFT 9 4 True
-DOW 2 1 True
+12
+DISTINCT 0 1 True
+DIT 0 1 False
+TICS 0 8 False
+TITS 0 4 False
+DISC 3 6 True
+DICT 3 6 False
+TINS 6 6 True
+STINT 2 0 True
+SIN 6 9 False
+SIND 2 0 False
+NIT 4 0 True
+TINT 4 2 False
 10 10
-- - - - - - W - - S
-- - W - W O O D - O
-- D O W - - O - - F
-- - O - F - D O S T
-- - F O O D S - - W
-- - - - O - - - - O
-- S O O T - - W - O
-- T - - - - F O O D
-D O T S - - - O - -
-- W - - S O F T - -
-18
-WOT
-SOD
-TOO
-DOS
-FOO
-TOD
-STOOD
-DOF
-WOO
-TWO
-DOT
-SOW
-DOO
-ODS
-SOT
-DSO
-TOW
-OFT
-14
-SOFTWOOD
-["(noun) wood that is easy to saw (from conifers such as pine or fir"]
-DOST
-[]
-WOODS
-["(noun) the hard fibrous lignified substance under the bark of trees", "(noun) the trees and other plants in a large densely wooded area", "(noun) United States film actress (1938-1981"]
-FOODS
-["(noun) any substance that can be metabolized by an animal to give energy and build tissue", "(noun) any solid substance (as opposed to liquid", "(noun) anything that provides mental stimulus for thinking"]
-FOOT
-["(noun) the part of the leg of a human being below the ankle joint", "(noun) a linear unit of length equal to 12 inches or a third of a yard", "(noun) the lower part of anything", "(verb) pay for something", "(verb) add a column of numbers"]
-FOOD
-["(noun) any substance that can be metabolized by an animal to give energy and build tissue", "(noun) any solid substance (as opposed to liquid", "(noun) anything that provides mental stimulus for thinking"]
-WOOD
-["(noun) the hard fibrous lignified substance under the bark of trees", "(noun) the trees and other plants in a large densely wooded area", "(noun) United States film actress (1938-1981"]
-WOOT
-[]
-SOOT
-["(noun) a black colloidal substance consisting wholly or principally of amorphous carbon and used to make pigments and ink", "(verb) coat with soot"]
-WOOF
-["(noun) the yarn woven across the warp yarn in weaving"]
-STOW
-["(verb) fill by packing tightly"]
-DOTS
-["(noun) a very small circular shape", "(noun) the United States federal department that institutes and coordinates national transportation programs; created in 1966", "(noun) the shorter of the two telegraphic signals used in Morse code", "(verb) scatter or intersperse like dots or studs", "(verb) distribute loosely", "(verb) make a dot or dots"]
-SOFT
-["(adjective) yielding readily to pressure or weight", "(adjective) compassionate and kind; conciliatory", "(adjective) (of sound", "(adverb) in a relaxed manner; or without hardship"]
-DOW
-[]
+- D I S T I N C T -
+- I - - I - - - I -
+S T I N T - - - C -
+I - - - S - D I S C
+N I T - - - I - - -
+D - I - - - C - - -
+- - N - - - T I N S
+- - T - - - - - - I
+- - - - - - - - - N
+- - - - - - - - - -
+17
+ITS
+CIT
+TID
+CID
+IDS
+SIT
+CIS
+DIN
+NID
+TIS
+TIT
+TIC
+INS
+DIS
+NIS
+SIC
+TIN
+11
+DISTINCT
+["(adjective) easy to perceive; especially clearly outlined", "(adjective) constituting a separate entity or part", "(adjective) recognizable; marked"]
+DIT
+["(noun) the shorter of the two telegraphic signals used in Morse code"]
+TICS
+["(noun) a local and habitual twitching especially in the face"]
+TITS
+["(noun) either of two soft fleshy milk-secreting glandular organs on the chest of a woman", "(noun) the small projection of a mammary gland", "(noun) small insectivorous birds"]
+DISC
+["(noun) sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove", "(noun) something with a round shape resembling a flat circular plate", "(noun) (computer science"]
+TINS
+["(noun) a silvery malleable metallic element that resists corrosion; used in many alloys and to coat other metals to prevent corrosion; obtained chiefly from cassiterite where it occurs as tin oxide", "(noun) a vessel (box, can, pan, etc.", "(noun) metal container for storing dry foods such as tea or flour", "(verb) plate with tin", "(verb) preserve in a can or tin", "(verb) prepare (a metal"]
+STINT
+["(noun) an unbroken period of time during which you do something", "(noun) smallest American sandpiper", "(noun) an individual's prescribed share of work", "(verb) subsist on a meager allowance", "(verb) supply sparingly and with restricted quantities"]
+SIN
+["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]
+SIND
+["(noun) a region of southeastern Pakistan"]
+NIT
+["(noun) a luminance unit equal to 1 candle per square meter measured perpendicular to the rays from the source", "(noun) egg or young of an insect parasitic on mammals especially a sucking louse; often attached to a hair or item of clothing"]
+TINT
+["(noun) a quality of a given color that differs slightly from another color", "(noun) a dye for coloring the hair", "(noun) a just detectable amount", "(verb) color lightly"]

@@ -1,59 +1,62 @@
 12
-LOLLIPOP 2 3 False
-LILO 5 3 True
-POOP 7 0 True
-POLIO 1 6 False
-POLL 4 0 True
-LOOP 3 6 True
-POOL 3 9 False
-POLO 1 6 True
-PILL 2 0 True
-PIP 2 0 False
-POI 0 1 False
-LOO 1 8 False
+ANNOYING 6 1 True
+ANION 5 3 False
+AGO 8 1 True
+INGO 6 6 False
+NANO 9 3 True
+GAIN 6 8 False
+GINNY 2 5 False
+GYNO 2 5 True
+GONNA 2 1 False
+NANG 0 7 False
+YANG 0 5 True
+GIO 2 1 True
 10 10
-- P - - - - - - - -
-- O - - - - P O L O
-P I L L - - O - O -
-I - - O - - L O O P
-P O L L - - I - - O
-- - - L I L O - - O
-- - - I - - - - - L
-P O O P - - - - - -
-- - - O - - - - - -
-- - - P - - - - - -
-9
-LOP
-POO
-OOP
-LOL
-POP
-LIP
-ILL
-POL
-OIL
-12
-LOLLIPOP
-["(noun) ice cream or water ice on a small wooden stick", "(noun) hard candy on a stick"]
-LILO
-["(noun) a type of inflatable air mattress"]
-POOP
-["(noun) obscene terms for feces", "(noun) a stupid foolish person", "(noun) slang terms for inside information"]
-POLIO
-["(noun) an acute viral disease marked by inflammation of nerve cells of the brain stem and spinal cord"]
-POLL
-["(noun) an inquiry into public opinion conducted by interviewing a random sample of people", "(noun) the top of the head", "(noun) the part of the head between the ears", "(verb) get the opinions (of people", "(verb) vote in an election at a polling station", "(verb) get the votes of"]
-LOOP
-["(noun) fastener consisting of a metal ring for lining a small hole to permit the attachment of cords or lines", "(noun) anything with a round or oval shape (formed by a curve that is closed and does not intersect itself", "(noun) (computer science", "(verb) move in loops", "(verb) make a loop in", "(verb) fly loops, perform a loop"]
-POOL
-["(noun) an excavation that is (usually", "(noun) a small lake", "(noun) an organization of people or resources that can be shared", "(verb) combine into a common fund", "(verb) join or form a pool of people"]
-POLO
-["(noun) Venetian traveler who explored Asia in the 13th century and served Kublai Khan (1254-1324", "(noun) a game similar to field hockey but played on horseback using long-handled mallets and a wooden ball"]
-PILL
-["(noun) something that resembles a tablet of medicine in shape or size", "(noun) a dose of medicine in the form of a small pellet", "(noun) a unpleasant or tiresome person"]
-PIP
-["(noun) a disease of poultry", "(noun) a minor nonspecific ailment", "(noun) a small hard seed found in some fruits", "(verb) kill by firing a missile", "(verb) hit with a missile from a weapon", "(verb) defeat thoroughly"]
-POI
-["(noun) Hawaiian dish of taro root pounded to a paste and often allowed to ferment"]
-LOO
-["(noun) a toilet in Britain"]
+- - - - - Y A N G -
+- - - - - - - A - -
+- G I O - G Y N O -
+- O - - - I - G - -
+- N - - - N - - - -
+- N - A - N - - - -
+- A N N O Y I N G -
+- - - I - - N - A -
+- A G O - - G - I -
+- - - N A N O - N -
+26
+ANON
+GIN
+YOGA
+ION
+ING
+AIN
+ANNOY
+GAY
+YIN
+YOGI
+GON
+NON
+NONI
+ANY
+NAY
+ANI
+ANN
+AGONY
+ANNO
+GAN
+NOG
+NANNY
+YON
+GOA
+NAG
+INN
+5
+ANNOYING
+["(noun) the act of troubling or annoying someone", "(verb) cause annoyance in; disturb, especially by minor irritations", "(adjective) causing irritation or annoyance"]
+ANION
+["(noun) a negatively charged ion"]
+AGO
+["(adjective) gone by; or in the past", "(adverb) in the past"]
+GAIN
+["(noun) a quantity that is added", "(noun) the advantageous quality of being beneficial", "(noun) the amount of increase in signal power or voltage or current expressed as the ratio of output to input", "(verb) obtain", "(verb) win something through one's efforts", "(verb) derive a benefit from"]
+YANG
+["(noun) the bright positive masculine principle in Chinese dualistic cosmology"]

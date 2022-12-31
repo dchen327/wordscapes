@@ -1,84 +1,80 @@
-13
-MIDTOWN 5 3 True
-MIND 5 3 False
-WIND 2 5 False
-DINO 8 3 True
-DOIT 3 3 True
-TOW 7 6 False
-WONT 9 6 True
-TOWN 7 0 True
-TWIN 2 9 False
-DIT 2 7 True
-DOWN 6 1 False
-MID 0 7 False
-OMIT 0 6 True
+12
+AUTISTIC 1 8 False
+TACIT 4 5 True
+STATIC 1 5 False
+TACT 6 3 True
+TITS 6 3 False
+TATU 2 5 True
+ACTS 1 2 True
+SUIT 8 0 True
+TICS 8 6 True
+TAIT 0 2 False
+SITU 3 0 True
+CATS 0 0 False
 10 10
-- - - - - - O M I T
-- - - - - - - I - -
-- - - - - W - D I T
-- - - D O I T - - W
-- - - - - N - - - I
-- - - M I D T O W N
-- D - I - - - - - -
-T O W N - - T - - -
-- W - D I N O - - -
-- N - - - - W O N T
-31
-MINT
-DOM
-TIN
-NOT
-DOT
-TID
-MON
-WIT
-WIN
-MOD
-MOT
-TOM
-OWN
-DIM
-DIN
-WOT
-MOW
-NOW
-DOW
-TWO
-ION
-MOI
-NOM
-WON
-TON
-TOD
-INTO
-NOD
-NID
-NIT
-DON
-13
-MIDTOWN
-[]
-MIND
-["(noun) that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason", "(noun) recall or remembrance", "(noun) an opinion formed by judging something", "(verb) be offended or bothered by; take offense with, be bothered by", "(verb) be concerned with or about something or somebody", "(verb) be in charge of or deal with"]
-WIND
-["(noun) air moving (sometimes with considerable force", "(noun) a tendency or force that influences events", "(noun) breath", "(verb) to move or cause to move in a sinuous, spiral, or circular course", "(verb) extend in curves and turns", "(verb) arrange or or coil around"]
-DINO
-[]
-DOIT
-[]
-TOW
-["(noun) the act of hauling something (as a vehicle", "(verb) drag behind"]
-WONT
-["(noun) an established custom"]
-TOWN
-["(noun) an urban area with a fixed boundary that is smaller than a city", "(noun) the people living in a municipality smaller than a city", "(noun) an administrative division of a county"]
-TWIN
-["(noun) either of two offspring born at the same time from the same pregnancy", "(noun) (astrology", "(noun) a waterfall in the Snake River in southern Idaho", "(verb) duplicate or match", "(verb) bring two objects, ideas, or people together", "(verb) grow as twins", "(adjective) being two identical"]
-DIT
-["(noun) the shorter of the two telegraphic signals used in Morse code"]
-DOWN
-["(noun) soft fine feathers", "(noun) (American football", "(noun) English physician who first described Down's syndrome (1828-1896", "(verb) drink down entirely", "(verb) eat up completely, as with great appetite", "(verb) bring down or defeat (an opponent", "(adjective) being or moving lower in position or less in some value", "(adjective) extending or moving from a higher to a lower place", "(adjective) becoming progressively lower", "(adverb) spatially or metaphorically from a higher to a lower level or position", "(adverb) away from a more central or a more northerly place", "(adverb) paid in cash at time of purchase"]
-MID
-["(adjective) used in combination to denote the middle"]
-OMIT
-["(verb) prevent from being included or considered or accepted", "(verb) leave undone or leave out"]
+C - T - - - - - - -
+A - A C T S - - A -
+T - I - - T A T U -
+S I T U - A - - T -
+- - - - - T A C I T
+- - - - - I - - S -
+- - - T A C T - T -
+- - - I - - - - I -
+S U I T - - T I C S
+- - - S - - - - - -
+34
+ITS
+CIT
+CAT
+AIS
+CUT
+UTS
+TIC
+ATS
+CAST
+SAU
+TAT
+ATT
+TAS
+TAI
+TUI
+ACT
+CUTS
+SAC
+TIS
+TIT
+ITA
+SAT
+UTA
+SIC
+SAI
+AIT
+ATTIC
+TUT
+SUI
+CIS
+SCAT
+STAT
+SIT
+TAU
+10
+AUTISTIC
+["(adjective) characteristic of or affected with autism"]
+TACIT
+["(adjective) implied by or inferred from actions or statements"]
+STATIC
+["(noun) a crackling or hissing noise caused by electrical interference", "(noun) angry criticism", "(adjective) not in physical motion", "(adjective) concerned with or producing or caused by static electricity", "(adjective) showing little if any change"]
+TACT
+["(noun) consideration in dealing with others and avoiding giving offense"]
+TITS
+["(noun) either of two soft fleshy milk-secreting glandular organs on the chest of a woman", "(noun) the small projection of a mammary gland", "(noun) small insectivorous birds"]
+TATU
+["(noun) about three feet long exclusive of tail"]
+ACTS
+["(noun) a legal document codifying the result of deliberations of a committee or society or legislative body", "(noun) something that people do or cause to happen", "(noun) a subdivision of a play or opera or ballet", "(verb) perform an action, or work out or perform (an action", "(verb) behave in a certain manner; show a certain behavior; conduct or comport oneself", "(verb) play a role or part"]
+SUIT
+["(noun) a set of garments (usually including a jacket and trousers or skirt", "(noun) a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy", "(noun) (slang", "(verb) be agreeable or acceptable to", "(verb) be agreeable or acceptable", "(verb) accord or comport with"]
+TICS
+["(noun) a local and habitual twitching especially in the face"]
+CATS
+["(noun) feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats", "(noun) an informal term for a youth or man", "(noun) a spiteful woman gossip", "(verb) beat with a cat-o'-nine-tails", "(verb) eject the contents of the stomach through the mouth"]

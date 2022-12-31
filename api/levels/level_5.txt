@@ -1,66 +1,81 @@
-12
-RACCOON 1 9 False
-CROC 3 6 True
-COCOA 3 6 False
-COCO 6 3 True
-NOR 1 7 False
-CARON 1 3 True
-ORA 0 5 False
-COR 6 3 False
-COON 1 3 False
-ARCO 8 2 True
-CORN 4 0 True
-ACORN 2 1 False
+14
+PRELUDE 0 7 False
+LURED 5 3 True
+ERE 6 7 True
+REE 1 7 True
+DEEP 0 4 True
+RUPEE 5 5 False
+RULED 3 5 True
+DUEL 2 3 False
+RUDE 9 2 True
+LEED 0 9 False
+LEER 6 2 False
+PEEL 5 9 False
+PURE 4 0 True
+ERED 7 0 True
 10 10
-- - - - - O - - - -
-- - - C A R O N - R
-- A - O - A - O - A
-- C - O - - C R O C
-C O R N - - O - - C
-- R - - - - C - - O
-- N - C O C O - - O
-- - - O - - A - - N
-- - A R C O - - - -
-- - - - - - - - - -
-16
-RAN
-CON
-CAN
-CAR
-CORONA
-ARC
-ORC
-OCA
-RNA
-ROO
-COO
-ROC
-ONO
-ORCA
-COCA
-OAR
-12
-RACCOON
-["(noun) the fur of the North American racoon", "(noun) an omnivorous nocturnal mammal native to North America and Central America"]
-CROC
-[]
-COCOA
-["(noun) a beverage made from cocoa powder and milk and sugar; usually drunk hot", "(noun) powder of ground roasted cacao beans with most of the fat removed"]
-COCO
-["(noun) tall palm tree bearing coconuts as fruits; widely planted throughout the tropics"]
-NOR
-[]
-CARON
-[]
-ORA
-[]
-COR
-[]
-COON
-["(noun) an eccentric or undignified rustic", "(noun) North American raccoon"]
-ARCO
-["(adjective) (of instruments in the violin family"]
-CORN
-["(noun) tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times", "(noun) the dried grains or kernels or corn used as animal feed or ground for meal", "(noun) ears of corn that can be prepared and served for human food", "(verb) feed (cattle", "(verb) preserve with salt"]
-ACORN
-["(noun) fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base"]
+- - - - D E E P - L
+- - - - - - - R E E
+- - - D - - - E - E
+- - - U - R U L E D
+P U R E - - - U - -
+- - - L U R E D - P
+- - L - - U - E R E
+E R E D - P - - - E
+- - E - - E - - - L
+- - R U D E - - - -
+33
+EEL
+PUL
+LURE
+PUREE
+DUE
+PRE
+PUR
+PUD
+PEER
+LEE
+DEE
+ELDER
+RED
+LEU
+RUE
+REEL
+REED
+DEER
+PER
+PEL
+REPEL
+PEE
+LEP
+REP
+PED
+RULE
+DEP
+DUP
+LED
+URE
+ELD
+PERE
+DEL
+10
+PRELUDE
+["(noun) something that serves as a preceding event or introduces what follows", "(noun) music that precedes a fugue or introduces an act in an opera", "(verb) serve as a prelude or opening to", "(verb) play as a prelude"]
+LURED
+["(verb) provoke someone to do something through (often false or exaggerated"]
+DEEP
+["(noun) the central and most intense or profound part", "(noun) a long steep-sided depression in the ocean floor", "(noun) literary term for an ocean", "(adjective) relatively deep or strong; affecting one deeply", "(adjective) marked by depth of thinking", "(adjective) having great spatial extension or penetration downward or inward from an outer surface or backward or laterally or outward from a center; sometimes used in combination", "(adverb) to a great depth; far down or in", "(adverb) to an advanced time", "(adverb) to a great distance"]
+RUPEE
+["(noun) the basic unit of money in Sri Lanka; equal to 100 cents", "(noun) the basic unit of money in Seychelles; equal to 100 cents", "(noun) the basic unit of money in Nepal; equal to 100 paisa"]
+RULED
+["(verb) exercise authority over; as of nations", "(verb) decide with authority", "(verb) be larger in number, quantity, power, status or importance", "(adjective) subject to a ruling authority"]
+DUEL
+["(noun) a prearranged fight with deadly weapons by two people (accompanied by seconds", "(noun) any struggle between two skillful opponents (individuals or groups", "(verb) fight a duel, as over one's honor or a woman"]
+RUDE
+["(adjective) socially incorrect in behavior", "(adjective) (of persons", "(adjective) lacking civility or good manners"]
+LEER
+["(noun) a facial expression of contempt or scorn; the upper lip curls", "(noun) a suggestive or sneering look or grin", "(verb) look suggestively or obliquely; look or gaze with a sly, immodest, or malign expression"]
+PEEL
+["(noun) British politician (1788-1850", "(noun) the rind of a fruit or vegetable", "(verb) strip the skin off", "(verb) come off in flakes or thin small pieces", "(verb) get undressed"]
+PURE
+["(adjective) free of extraneous elements of any kind", "(adjective) without qualification; used informally as (often pejorative", "(adjective) (of color"]

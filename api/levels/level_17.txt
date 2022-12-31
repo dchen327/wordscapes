@@ -1,84 +1,74 @@
-12
-MOSQUITO 2 8 False
-SITU 6 5 True
-OUTS 3 5 False
-OMIT 5 2 True
-MOOT 3 3 True
-MISO 0 4 False
-TOMS 0 2 True
-MOTU 4 2 False
-SUMO 7 1 True
-MOS 7 3 False
-SUIT 8 5 True
-MIST 9 1 True
+14
+REALIZE 3 8 False
+EARL 3 6 True
+REEL 1 6 False
+EEL 1 9 False
+LEAR 1 3 True
+LIRE 1 3 False
+RAIL 6 5 True
+RIAL 6 5 False
+REAL 9 2 True
+ZAIRE 3 0 True
+REZ 1 0 False
+LIAR 6 2 False
+LEI 9 7 True
+LAIR 7 0 True
 10 10
-- - T O M S - - - -
-- - - - I - - - - -
-- - - - S - - - M -
-- - - M O O T - O -
-- - M - - U - - S -
-- - O M I T - - Q -
-- - T - - S I T U -
-- S U M O - - - I -
-- - - O - S U I T -
-- M I S T - - - O -
-34
-MUST
-ISO
-MOO
-TUM
-MOST
-OUT
-SIT
-UTS
-QUITS
-ITS
-TUI
-MOT
-TOM
-SOT
-SOOT
-SOU
-ISM
-TIS
-SUI
-MIS
-MUS
-OUS
-SUM
-MOI
-SOM
-SMIT
-MOU
-TOO
-IOS
-SIM
-SMUT
-MOIST
-QUIT
-OMS
+- - - - - - - - - -
+R - - L E A R - - E
+E - - I - - E - - E
+Z A I R E - E A R L
+- - - E - - L - E -
+- - - - - - - - A -
+- - L - - R A I L -
+L A I R - I - - I -
+- - A - - A - - Z -
+- - R E A L - L E I
+22
+AIL
+LIE
+LEE
+AIR
+LAR
+REI
+LEER
+ERA
+ERE
+LIRA
+IRE
+RAI
+ARE
+ZEAL
+REE
+ALE
+EAR
+LEA
+RIEL
+RIA
+ARIEL
+ZEE
 12
-MOSQUITO
-["(noun) two-winged insect whose female has a long proboscis to pierce the skin and suck the blood of humans and animals"]
-SITU
-[]
-OUTS
-["(noun) (baseball", "(verb) to state openly and publicly one's homosexuality", "(verb) reveal (something", "(verb) be made known; be disclosed or revealed"]
-OMIT
-["(verb) prevent from being included or considered or accepted", "(verb) leave undone or leave out"]
-MOOT
-["(noun) a hypothetical case that law students argue as an exercise", "(verb) think about carefully; weigh", "(adjective) of no legal significance (as having been previously decided", "(adjective) open to argument or debate"]
-MISO
-["(noun) a thick paste made from fermented soybeans and barley or rice malt; used in Japanese cooking to make soups or sauces"]
-TOMS
-["(noun) male cat", "(noun) male turkey"]
-MOTU
-[]
-SUMO
-["(noun) a Japanese form of wrestling; you lose if you are forced out of a small ring or if any part of your body (other than your feet"]
-MOS
-["(noun) an indefinitely short time", "(noun) a polyvalent metallic element that resembles chromium and tungsten in its properties; used to strengthen and harden steel", "(noun) a midwestern state in central United States; a border state during the American Civil War, Missouri was admitted to the Confederacy without actually seceding from the Union"]
-SUIT
-["(noun) a set of garments (usually including a jacket and trousers or skirt", "(noun) a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy", "(noun) (slang", "(verb) be agreeable or acceptable to", "(verb) be agreeable or acceptable", "(verb) accord or comport with"]
-MIST
-["(noun) a thin fog with condensation near the ground", "(verb) become covered with mist", "(verb) make less visible or unclear", "(verb) spray finely or cover with mist"]
+REALIZE
+["(verb) be fully aware or cognizant of", "(verb) perceive (an idea or situation", "(verb) make real or concrete; give reality or substance to"]
+EARL
+["(noun) a British peer ranking below a marquess and above a viscount"]
+REEL
+["(noun) a roll of photographic film holding a series of frames to be projected by a movie projector", "(noun) music composed for dancing a reel", "(noun) winder consisting of a revolving spool with a handle; attached to a fishing rod", "(verb) walk as if unable to control one's movements", "(verb) revolve quickly and repeatedly around one's own axis", "(verb) wind onto or off a reel"]
+EEL
+["(noun) the fatty flesh of eel; an elongate fish found in fresh water in Europe and America; large eels are usually smoked or pickled", "(noun) voracious snakelike marine or freshwater fishes with smooth slimy usually scaleless skin and having a continuous vertical fin but no ventral fins"]
+LEAR
+["(noun) British artist and writer of nonsense verse (1812-1888", "(noun) the hero of William Shakespeare's tragedy who was betrayed and mistreated by two of his scheming daughters"]
+RAIL
+["(noun) a barrier consisting of a horizontal bar and supports", "(noun) short for railway", "(noun) a bar or pair of parallel bars of rolled steel making the railway along which railroad cars or other vehicles can roll", "(verb) complain bitterly", "(verb) enclose with rails", "(verb) provide with rails"]
+RIAL
+["(noun) the basic unit of money in Yemen; equal to 100 fils", "(noun) the basic unit of money in Oman", "(noun) the basic unit of money in Iran"]
+REAL
+["(noun) any rational or irrational number", "(noun) the basic unit of money in Brazil; equal to 100 centavos", "(noun) an old small silver Spanish coin", "(adjective) being or occurring in fact or actuality; having verified existence; not illusory", "(adjective) no less than what is stated; worthy of the name", "(adjective) not to be taken lightly", "(adverb) used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal"]
+ZAIRE
+["(noun) the basic unit of money in Zaire", "(noun) a republic in central Africa; achieved independence from Belgium in 1960"]
+LIAR
+["(noun) a person who has lied or who lies repeatedly"]
+LEI
+["(noun) flower arrangement consisting of a circular band of foliage or flowers for ornamental purposes"]
+LAIR
+["(noun) the habitation of wild animals"]

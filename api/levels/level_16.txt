@@ -1,89 +1,77 @@
-13
-TRIPLET 2 1 True
-LITRE 1 3 False
-LIRE 5 0 True
-RIPE 4 3 True
-PETIT 4 5 False
-TITLE 8 5 True
-PILE 5 9 False
-PET 0 7 False
-TIP 5 7 True
-TRIPLE 0 4 True
-TILT 5 7 False
-LITE 5 0 False
-PERI 7 2 True
+15
+WARNING 0 2 False
+WIN 3 0 True
+RING 2 2 True
+GRAN 6 2 True
+WANG 4 5 False
+WINN 4 5 True
+RIG 6 3 False
+WANING 3 0 False
+GRAIN 7 5 True
+GAIN 6 7 False
+WIGAN 0 7 False
+NANG 5 9 False
+WARN 0 2 True
+RAIN 9 4 True
+WING 1 6 True
 10 10
-- - - - T R I P L E
-- - - L - - - E - -
-- T R I P L E T - -
-- - - T - - - - - -
-- - - R I P E - - -
-L I R E - E - T I P
-I - - - - T - I - I
-T - P E R I - L - L
-E - - - - T I T L E
-- - - - - - - - - -
-36
-IRE
-TRIP
-RIP
-TIER
-TIT
-TIL
-LEI
-TET
-RIEL
-PEL
-TIE
-PRE
-REI
-PERIL
-LITER
-TILE
-PERT
-LITTER
-RITE
-LIT
-PER
-LET
-TIRE
-ELT
-TITRE
-LIP
-PIE
-LIE
-TEL
-PIR
-LEP
-RET
-PIER
-REP
-RIT
-PIT
-13
-TRIPLET
-["(noun) the cardinal number that is the sum of one and one and one", "(noun) one of three offspring born at the same time from the same pregnancy", "(noun) a set of three similar things considered as a unit"]
-LITRE
-["(noun) a metric unit of capacity, formerly defined as the volume of one kilogram of pure water under standard conditions; now equal to 1,000 cubic centimeters (or approximately 1.75 pints"]
-LIRE
-[]
-RIPE
-["(adjective) fully developed or matured and ready to be eaten or used", "(adjective) fully prepared or eager", "(adjective) most suitable or right for a particular purpose"]
-PETIT
-[]
-TITLE
-["(noun) a heading that names a statute or legislative bill; may give a brief summary of the matters it deals with", "(noun) the name of a work of art or literary composition etc.", "(noun) a general or descriptive heading for a section of a written work", "(verb) give a title to", "(verb) designate by an identifying term"]
-PILE
-["(noun) a collection of objects laid on top of each other", "(noun) a large sum of money (especially as pay or profit", "(noun) fine soft dense hair (as the fine short hair of cattle or deer or the wool of sheep or the undercoat of certain dogs", "(verb) arrange in stacks", "(verb) press tightly together or cram", "(verb) place or lay as if in a pile"]
-PET
-["(noun) a domesticated animal kept for companionship or amusement", "(noun) a special loved one", "(noun) a fit of petulance or sulkiness (especially at what is felt to be a slight", "(verb) stroke or caress gently", "(verb) stroke or caress in an erotic manner, as during lovemaking", "(adjective) preferred above all others and treated with partiality"]
-TIP
-["(noun) the extreme end of something; especially something pointed", "(noun) a relatively small amount of money given for services rendered (as by a waiter", "(noun) an indication of potential opportunity", "(verb) cause to tilt", "(verb) mark with a tip", "(verb) give a tip or gratuity to in return for a service, beyond the compensation agreed on"]
-TRIPLE
-["(noun) a base hit at which the batter stops safely at third base", "(noun) a set of three similar things considered as a unit", "(noun) a quantity that is three times as great as another", "(verb) increase threefold", "(verb) hit a three-base hit", "(adjective) having three units or components or elements", "(adjective) three times as great or many", "(adjective) or triple"]
-TILT
-["(noun) a combat between two mounted knights tilting against each other with blunted lances", "(noun) a contentious speech act; a dispute where there is strong disagreement", "(noun) a slight but noticeable partiality", "(verb) to incline or bend from a vertical position", "(verb) heel over", "(verb) move sideways or in an unsteady way"]
-LITE
-["(adjective) having relatively few calories", "(adjective) or lite", "(adjective) or light"]
-PERI
-["(noun) a beautiful and graceful girl", "(noun) (Persian folklore"]
+- - W A R N - W - -
+- - A - - - W I N G
+- - R I N G - G - -
+W I N - - - - A - -
+A - I - - W I N N -
+N - N - - A - - - N
+I - G R A N - G - A
+N - - I - G R A I N
+G - - G - - - I - G
+- - - - R A I N - -
+26
+GIN
+AWNING
+ING
+AIN
+RNA
+AIR
+GAR
+RAN
+WIG
+RAI
+RAG
+RIN
+WARING
+WAR
+RANG
+WAI
+WAG
+RAW
+ANI
+ANN
+WAN
+GRIN
+GAN
+NAG
+RIA
+INN
+11
+WARNING
+["(noun) a message informing of danger", "(noun) cautionary advice about something imminent (especially imminent danger or other unpleasantness", "(noun) notification of something, usually in advance", "(verb) notify of danger, potential harm, or risk", "(verb) advise or counsel in terms of someone's behavior", "(verb) ask to go away", "(adjective) serving to warn"]
+WIN
+["(noun) a victory (as in a race or other competition", "(noun) something won (especially money", "(verb) be the winner in a contest or competition; be victorious", "(verb) win something through one's efforts", "(verb) obtain advantages, such as points, etc."]
+RING
+["(noun) a characteristic sound", "(noun) a toroidal shape", "(noun) a rigid circular band of metal or wood or other material used for holding or fastening or hanging or pulling", "(verb) sound loudly and sonorously", "(verb) ring or echo with sound", "(verb) make (bells"]
+GRAN
+["(noun) the mother of your father or mother"]
+RIG
+["(noun) gear (including necessary machinery", "(noun) a truck consisting of a tractor and trailer together", "(noun) formation of masts, spars, sails, etc., on a vessel", "(verb) arrange the outcome of by means of deceit", "(verb) manipulate in a fraudulent manner", "(verb) connect or secure to"]
+WANING
+["(noun) a gradual decrease in magnitude or extent", "(verb) grow smaller", "(verb) become smaller", "(verb) decrease in phase", "(adjective) (of the Moon"]
+GRAIN
+["(noun) a relatively small granular particle of a substance", "(noun) foodstuff prepared from the starchy grains of cereal grasses", "(noun) the side of leather from which the hair has been removed", "(verb) thoroughly work in", "(verb) paint (a surface", "(verb) form into grains"]
+GAIN
+["(noun) a quantity that is added", "(noun) the advantageous quality of being beneficial", "(noun) the amount of increase in signal power or voltage or current expressed as the ratio of output to input", "(verb) obtain", "(verb) win something through one's efforts", "(verb) derive a benefit from"]
+WARN
+["(verb) notify of danger, potential harm, or risk", "(verb) advise or counsel in terms of someone's behavior", "(verb) ask to go away"]
+RAIN
+["(noun) water falling in drops from vapor condensed in the atmosphere", "(noun) drops of fresh water that fall as precipitation from clouds", "(noun) anything happening rapidly or in quick successive", "(verb) precipitate as rain"]
+WING
+["(noun) a movable organ for flying (one of a pair", "(noun) one of the horizontal airfoils on either side of the fuselage of an airplane", "(noun) a stage area out of sight of the audience", "(verb) travel through the air; be airborne"]

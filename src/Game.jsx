@@ -278,12 +278,24 @@ export const Game = () => {
                 <button className="text-lg font-semibold text-slate-200 border rounded-lg py-1 px-2 m-2">
                   {word}
                 </button>
-                {word in definitions && definitions[word].length > 0 ? (
+                {word in definitions ? (
                   definitions[word].map((definition) => (
                     <p key={definition} className="text-sm text-slate-200">
                       {definition}
                     </p>
                   ))
+                ) : bonusWords.includes(word) ? (
+                  <p className="text-sm text-slate-200">
+                    No definitions for bonus words yet:{" "}
+                    <a
+                      className="text-slate-200 underline font-bold"
+                      href={`https://www.google.com/search?q=define+"${word.toLowerCase()}"`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Search Google
+                    </a>
+                  </p>
                 ) : (
                   <p className="text-sm text-slate-200">
                     No definitions found:{" "}

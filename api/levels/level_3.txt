@@ -1,80 +1,58 @@
-13
-VENEERS 0 3 True
-NERVE 0 5 False
-NERVES 4 4 True
-REEVE 4 6 False
-SEEN 4 9 False
-RES 0 8 False
-EVER 8 4 True
-VERSE 6 2 True
-REES 2 5 True
-NEVE 4 2 False
-REE 7 0 True
-SEER 4 0 False
-VEER 0 3 False
+12
+CIVILIAN 5 1 True
+CLAN 2 8 False
+ANIL 5 7 False
+VAN 5 3 False
+LAIN 7 5 True
+CAIN 7 0 True
+VAC 3 1 False
+ANVIL 1 5 False
+VAIN 2 2 True
+VAIL 3 5 True
+VIAL 0 3 False
+NAV 0 1 True
 10 10
-- - - V E N E E R S
-- - - E - E - - E -
-- - - E - R E E S -
-- - - R - V - - - -
-S - N - N E R V E S
-E - E - - - E - - E
-E - V E R S E - - E
-R E E - - - V - - N
-- - - - E V E R - -
+- N A V - - - - - -
+- - - I - A - - - -
+- - V A I N - - C -
+- V - L - V A I L -
+- A - - - I - - A -
+- C I V I L I A N -
+- - - A - - - N - -
+C A I N - L A I N -
+- - - - - - - L - -
 - - - - - - - - - -
-27
-EVE
-EVEN
-ERN
-REVS
-REV
-SEV
-ESE
-EEN
-ENE
-SERENE
-SEE
-VENEER
-SERVE
-ERE
-SER
-ENS
-SEVER
-NEE
-REN
-SEVEN
-NEVER
-SEN
-VERS
-ERS
-SEVERE
-VEE
-REEVES
-13
-VENEERS
-["(noun) coating consisting of a thin layer of superior wood glued to a base of inferior wood", "(noun) an ornamental coating to a building", "(verb) cover with veneer"]
-NERVE
-["(noun) any bundle of nerve fibers running to various organs and tissues of the body", "(noun) the courage to carry on", "(noun) impudent aggressiveness", "(verb) get ready for something difficult or unpleasant"]
-NERVES
-["(noun) any bundle of nerve fibers running to various organs and tissues of the body", "(noun) the courage to carry on", "(noun) impudent aggressiveness", "(verb) get ready for something difficult or unpleasant"]
-REEVE
-["(noun) female ruff", "(verb) pass a rope through", "(verb) pass through a hole or opening", "(verb) fasten by passing through a hole or around something"]
-SEEN
-["(verb) perceive by sight or have the power to perceive by sight", "(verb) perceive (an idea or situation", "(verb) perceive or be contemporaneous with"]
-RES
-["(noun) a rare heavy polyvalent metallic element that resembles manganese chemically and is used in some alloys; is obtained as a by-product in refining molybdenum", "(noun) ancient Egyptian sun god with the head of a hawk; a universal creator; he merged with the god Amen as Amen-Ra to become the king of the gods", "(noun) the syllable naming the second (supertonic"]
-EVER
-["(adverb) at any time", "(adverb) at all times; all the time and on every occasion", "(adverb) (intensifier for adjectives"]
-VERSE
-["(noun) literature in metrical form", "(noun) a piece of poetry", "(noun) a line of metrical text", "(verb) compose verses or put into verse", "(verb) familiarize through thorough study or experience"]
-REES
-[]
-NEVE
-["(noun) the upper part of a glacier (beyond the limit of perpetual snow"]
-REE
-[]
-SEER
-["(noun) a person with unusual powers of foresight", "(noun) an observer who perceives visually", "(noun) an authoritative person who divines the future"]
-VEER
-["(verb) turn sharply; change direction abruptly", "(verb) shift to a clockwise direction"]
+12
+LAC
+CAN
+AIL
+NIL
+VIN
+LIN
+CIVIL
+NAIL
+AIN
+VIA
+CAL
+ANI
+10
+CIVILIAN
+["(noun) a nonmilitary citizen", "(adjective) associated with civil life or performed by persons who are not active members of the military"]
+CLAN
+["(noun) group of people related by blood or marriage"]
+ANIL
+["(noun) a blue dye obtained from plants or made synthetically", "(noun) shrub of West Indies and South America that is a source of indigo dye"]
+VAN
+["(noun) any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts", "(noun) the leading units moving at the head of an army", "(noun) (Great Britain"]
+LAIN
+["(verb) be located or situated somewhere; occupy a certain position", "(verb) be lying, be prostrate; be in a horizontal position", "(verb) originate (in"]
+CAIN
+["(noun) (Old Testament"]
+VAC
+["(noun) informal term for vacation"]
+ANVIL
+["(noun) a heavy block of iron or steel on which hot metals are shaped by hammering", "(noun) the ossicle between the malleus and the stapes"]
+VAIN
+["(adjective) characteristic of false pride; having an exaggerated sense of self-importance", "(adjective) unproductive of success"]
+VIAL
+["(noun) a small bottle that contains a drug (especially a sealed sterile container for injection by needle"]

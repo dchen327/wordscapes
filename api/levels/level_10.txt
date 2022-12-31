@@ -1,89 +1,82 @@
-14
-BACKUPS 9 3 True
-SCUBA 5 4 False
-CAPS 6 4 True
-CABS 6 9 False
-CUBS 5 1 True
-BACKUP 1 2 False
-BUCK 3 0 True
-PAS 4 7 False
-PUBS 1 0 True
-CUPS 4 5 True
-PACKS 0 8 False
-PACK 6 6 False
-SAC 2 5 False
-SKA 1 6 True
+15
+SCRUBBER 1 0 False
+CURR 2 0 True
+RUBS 8 0 True
+USER 4 0 True
+CUBE 6 2 False
+CURBS 6 2 True
+CUES 3 6 False
+CURE 3 6 True
+BUS 6 5 False
+SCRUB 8 5 True
+CURSE 0 2 False
+CURES 0 2 True
+CRUE 2 8 False
+CUBS 6 9 False
+URE 7 7 False
 10 10
-- - - - - - - - P -
-P U B S - - S K A -
-- - A - - S - - C -
-B U C K - A - - K -
-- - K - - C U P S -
-- C U B S - - A - -
-- - P - C A P S - C
-- - - - U - A - - A
-- - - - B - C - - B
-- - - B A C K U P S
-33
+- - C U R E S - - -
+S - U - - - - - - -
+C U R R - - - - C -
+R - S - - - C U R E
+U S E R - - U - U -
+B - - - - - E - E -
+B - C U R B S - - C
+E - U - - U - U - U
+R U B S - S C R U B
+- - E - - - - E - S
+29
+RUB
+CUE
+REC
+ECU
+RUSE
+CURB
+ERS
+ERR
+RES
+SEC
+BES
+SURE
+EBB
+CRU
+RECS
+RUE
+SUE
+CUBES
+BURR
+CUR
+REB
+USE
+URB
 CUB
-BAP
-CUSP
-KAS
-UPS
-BACK
-CASK
-CAB
-SAB
-SUK
-BUCKS
-SUP
-PUB
-PUCK
-PACS
-BAC
-SAP
-ASP
-CAP
-BAS
-BACKS
-PUS
-SPA
-ABS
-PAK
-CUP
-ASK
-BUS
-SAU
-SUCK
-SACK
-PAC
 SUB
-14
-BACKUPS
-["(noun) an accumulation caused by clogging or a stoppage", "(noun) someone who takes the place of another (as when things get dangerous or difficult", "(noun) a musical part (vocal or instrumental"]
-SCUBA
-["(noun) a device (trade name Aqua-Lung"]
-CAPS
-["(noun) a tight-fitting headdress", "(noun) a top (as for a bottle", "(noun) a mechanical or electrical explosive device or a small amount of explosive; can be used to initiate the reaction of a disrupting explosive", "(verb) lie at the top of", "(verb) restrict the number or amount of"]
-CABS
-["(noun) a compartment at the front of a motor vehicle or locomotive where driver sits", "(noun) small two-wheeled horse-drawn carriage; with two seats and a folding hood", "(noun) a car driven by a person whose job is to take passengers where they want to go in exchange for money", "(verb) ride in a taxicab"]
+SER
+SUCRE
+BUR
+RUBBER
+12
+SCRUBBER
+["(noun) a worker who uses a scrub brush to clean a surface (usually a floor or deck", "(noun) a brush with short stiff bristles for heavy cleaning", "(noun) a purifier that removes impurities from a gas"]
+RUBS
+["(noun) an unforeseen obstacle", "(noun) the act of rubbing or wiping", "(verb) move over something with pressure", "(verb) cause friction", "(verb) scrape or rub as if to relieve itching"]
+USER
+["(noun) a person who makes use of a thing; someone who uses or employs something", "(noun) a person who uses something or someone selfishly or unethically", "(noun) a person who takes drugs"]
+CUBE
+["(noun) a hexahedron with six equal squares as faces", "(noun) a three-dimensional shape with six square or rectangular sides", "(noun) the product of three equal terms", "(verb) raise to the third power", "(verb) cut into cubes"]
+CURBS
+["(noun) an edge between a sidewalk and a roadway consisting of a line of curbstones (usually forming part of a gutter", "(noun) a horse's bit with an attached chain or strap to check the horse", "(noun) a stock exchange in New York", "(verb) lessen the intensity of; temper; hold in restraint; hold or keep within limits", "(verb) keep to the curb", "(verb) place restrictions on"]
+CUES
+["(noun) an actor's line that immediately precedes and serves as a reminder for some action or speech", "(noun) evidence that helps to solve a problem", "(noun) a stimulus that provides information about what to do", "(verb) assist (somebody acting or reciting"]
+CURE
+["(noun) a medicine or therapy that cures disease or relieve pain", "(verb) provide a cure for, make healthy again", "(verb) prepare by drying, salting, or chemical processing in order to preserve", "(verb) make (substances"]
+BUS
+["(noun) a vehicle carrying many passengers; used for public transport", "(noun) the topology of a network whose components are connected by a busbar", "(noun) an electrical conductor that makes a common connection between several circuits", "(verb) send or move around by bus", "(verb) ride in a bus", "(verb) remove used dishes from the table in restaurants"]
+SCRUB
+["(noun) dense vegetation consisting of stunted trees or bushes", "(noun) the act of cleaning a surface by rubbing it with a brush and soap and water", "(verb) clean with hard rubbing", "(verb) wash thoroughly", "(verb) postpone indefinitely or annul something that was scheduled", "(adjective) (of domestic animals"]
+CURSE
+["(noun) profane or obscene expression usually of surprise or anger", "(noun) an appeal to some supernatural power to inflict evil on someone or some group", "(noun) an evil spell", "(verb) utter obscenities or profanities", "(verb) heap obscenities upon", "(verb) wish harm upon; invoke evil upon"]
+CURES
+["(noun) a medicine or therapy that cures disease or relieve pain", "(verb) provide a cure for, make healthy again", "(verb) prepare by drying, salting, or chemical processing in order to preserve", "(verb) make (substances"]
 CUBS
 ["(noun) an awkward and inexperienced youth", "(noun) a male child (a familiar term of address to a boy", "(noun) the young of certain carnivorous mammals such as the bear or wolf or lion", "(verb) give birth to cubs"]
-BACKUP
-["(noun) an accumulation caused by clogging or a stoppage", "(noun) someone who takes the place of another (as when things get dangerous or difficult", "(noun) a musical part (vocal or instrumental"]
-BUCK
-["(noun) a gymnastic horse without pommels and with one end elongated; used lengthwise for vaulting", "(noun) a piece of paper money worth one dollar", "(noun) United States author whose novels drew on her experiences as a missionary in China (1892-1973", "(verb) to strive with determination", "(verb) resist", "(verb) move quickly and violently"]
-PAS
-["(noun) (ballet", "(noun) especially in classical ballet"]
-PUBS
-["(noun) tavern consisting of a building with a bar and public rooms; often provides light meals"]
-CUPS
-["(noun) a small open container usually used for drinking; usually has a handle", "(noun) the quantity a cup will hold", "(noun) any cup-shaped concavity", "(verb) form into the shape of a cup", "(verb) put into a cup", "(verb) treat by applying evacuated cups to the patient's skin"]
-PACKS
-["(noun) a large indefinite number", "(noun) a complete collection of similar things", "(noun) a convenient package or parcel (as of cigarettes or film", "(verb) arrange in a container", "(verb) fill to capacity", "(verb) compress into a wad"]
-PACK
-["(noun) a large indefinite number", "(noun) a complete collection of similar things", "(noun) a convenient package or parcel (as of cigarettes or film", "(verb) arrange in a container", "(verb) fill to capacity", "(verb) compress into a wad"]
-SAC
-["(noun) an enclosed space", "(noun) a case or sheath especially a pollen sac or moss capsule", "(noun) a member of the Algonquian people formerly living in Wisconsin in the Fox River valley and on the shores of Green Bay"]
-SKA
-[]

@@ -1,80 +1,92 @@
-12
-PERVERSE 0 4 False
-PERES 7 1 True
-VEER 6 2 False
-EVER 1 2 True
-SEER 0 2 False
-REES 9 2 True
-REVERSE 4 3 True
-SEVERE 4 8 False
-PEER 2 6 False
-ESE 2 0 True
-REPS 1 0 False
-PERE 2 6 True
+14
+BELIEVES 1 8 False
+EVILS 3 5 True
+ISLE 7 5 True
+BILE 6 5 False
+EVIL 8 2 True
+SLEEVE 3 2 False
+LEVEE 0 5 False
+ELSE 3 0 True
+LIES 5 6 True
+SIEVE 5 0 True
+LEES 2 0 False
+VILE 1 2 True
+LIVE 0 3 False
+LES 0 5 True
 10 10
-- - S - P - - - - -
-R - E V E R - - - -
-E S E - R - P E R E
-P - R - V - E - - -
-S - - R E V E R S E
-- - - - R - R - E -
-- - V - S - - - V -
-- P E R E S - - E -
-- - E - - - - - R -
-- - R E E S - - E -
-30
-EVE
-REEVE
-REVS
-PES
-SPEER
-PEE
-REV
+- - - L - L E S - -
+- - V I L E - - B -
+L - - V - V - - E -
+E L S E - E V I L S
+E - L - - E - - I -
+S I E V E - L I E S
+- - E - - B - - V -
+- - V - - I S L E -
+- - E V I L - - S -
+- - - - - E - - - -
+38
+EEL
+LEI
 SEV
-SPREE
-REVERE
+EELS
+BEE
+VIE
+LEVIES
+LIE
+BEL
+LEE
+LIVES
+BES
+VIBE
+ELS
+LEVIS
+LIS
+BEES
+SIB
 SEE
-PRE
-SERVE
-PER
-ERE
-SERVER
-SER
-RES
-RESERVE
-PRESERVE
-VERSE
-SEVER
-REE
-ERR
-VERS
-REP
-PEERS
-ERS
+SEL
+VIBES
+BELIEVE
+SEI
+LIBS
+VEILS
+VIS
+EVE
+LEVEES
+VISE
+BEVEL
 VEE
-REEVES
-12
-PERVERSE
-["(adjective) marked by a disposition to oppose and contradict", "(adjective) resistant to guidance or discipline", "(adjective) deviating from what is considered moral or right or proper or good"]
-PERES
-[]
-VEER
-["(verb) turn sharply; change direction abruptly", "(verb) shift to a clockwise direction"]
-EVER
-["(adverb) at any time", "(adverb) at all times; all the time and on every occasion", "(adverb) (intensifier for adjectives"]
-SEER
-["(noun) a person with unusual powers of foresight", "(noun) an observer who perceives visually", "(noun) an authoritative person who divines the future"]
-REES
-[]
-REVERSE
-["(noun) a relation of direct opposition", "(noun) the gears by which the motion of a machine can be reversed", "(noun) an unfortunate happening that hinders or impedes; something that is thwarting or frustrating", "(verb) change to the contrary", "(verb) turn inside out or upside down", "(verb) rule against", "(adjective) directed or moving toward the rear", "(adjective) of the transmission gear causing backward movement in a motor vehicle", "(adjective) reversed (turned backward"]
-SEVERE
-["(adjective) intensely or extremely bad or unpleasant in degree or quality", "(adjective) very strong or vigorous", "(adjective) severely simple"]
-PEER
-["(noun) a person who is of equal standing with another in a group", "(noun) a nobleman (duke or marquis or earl or viscount or baron", "(verb) look searchingly"]
+VEIL
 ESE
-["(noun) the compass point midway between east and southeast"]
-REPS
-["(noun) informal abbreviation of `representative'", "(noun) a fabric with prominent rounded crosswise ribs"]
-PERE
-[]
+LIB
+LEV
+BIS
+BELIVE
+ELVES
+13
+BELIEVES
+["(noun) any cognitive content held as true", "(noun) a vague idea in which some confidence is placed", "(verb) accept as true; take to be true", "(verb) judge or regard; look upon; judge", "(verb) be confident about something"]
+EVILS
+["(noun) morally objectionable behavior", "(noun) that which causes harm or destruction or misfortune", "(noun) the quality of being morally wrong in principle or practice"]
+ISLE
+["(noun) a small island"]
+BILE
+["(noun) a digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats"]
+EVIL
+["(noun) morally objectionable behavior", "(noun) that which causes harm or destruction or misfortune", "(noun) the quality of being morally wrong in principle or practice", "(adjective) morally bad or wrong", "(adjective) having the nature of vice", "(adjective) having or exerting a malignant influence"]
+SLEEVE
+["(noun) the part of a garment that is attached at the armhole and that provides a cloth covering for the arm", "(noun) small case into which an object fits"]
+LEVEE
+["(noun) a formal reception of visitors or guests (as at a royal court", "(noun) a pier that provides a landing place on a river", "(noun) an embankment that is built in order to prevent a river from overflowing"]
+LIES
+["(noun) a field covered with grass or herbage and suitable for grazing by livestock", "(noun) a statement that deviates from or perverts the truth", "(noun) Norwegian diplomat who was the first Secretary General of the United Nations (1896-1968", "(verb) be located or situated somewhere; occupy a certain position", "(verb) be lying, be prostrate; be in a horizontal position", "(verb) originate (in"]
+SIEVE
+["(noun) a strainer for separating lumps from powdered material or grading particles", "(verb) examine in order to test suitability", "(verb) check and sort carefully", "(verb) separate by passing through a sieve or other straining device to separate out coarser elements"]
+LEES
+["(noun) the sediment from fermentation of an alcoholic beverage"]
+VILE
+["(adjective) morally reprehensible", "(adjective) causing or able to cause nausea"]
+LIVE
+["(verb) be an inhabitant of or reside in", "(verb) lead a certain kind of life; live in a certain style", "(verb) continue to live and avoid dying", "(adjective) actually being performed at the time of hearing or viewing", "(adjective) exerting force or containing energy", "(adjective) possessing life", "(adverb) not recorded"]
+LES
+["(noun) a chronic inflammatory collagen disease affecting connective tissue (skin or joints"]

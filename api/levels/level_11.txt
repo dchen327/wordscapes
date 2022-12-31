@@ -1,85 +1,63 @@
-11
-PEDAGOGY 0 1 False
-DOPE 5 0 True
-DAP 3 0 True
-PAGE 0 1 True
-PEA 4 3 False
-EDGY 0 4 False
-AGED 6 3 True
-DEP 6 6 False
-DOGGY 1 4 True
-YOGA 1 8 False
-GAGE 6 4 False
+12
+REVENUE 2 2 False
+RUNE 2 2 True
+VEE 1 5 False
+NEVER 6 2 True
+NERVE 4 6 False
+VENUE 1 5 True
+RUE 8 0 True
+VEER 6 4 False
+ERN 5 6 True
+NEVE 4 0 True
+REVUE 0 9 False
+EVEN 1 0 False
 10 10
-- P A G E - - - - -
-- E - - D O G G Y -
-- D - - G - - - O -
-D A P - Y - - - G -
-- G - P - - - - A -
-D O P E - - - - - -
-- G - A G E D - - -
-- Y - - A - E - - -
-- - - - G - P - - -
-- - - - E - - - - -
-38
-DAG
-DOE
-PED
-YEA
-DOG
-POD
-GAP
-AGE
-YEP
-DEY
-GAG
-EGO
-DYE
-PEG
-OPE
-GOA
-GAY
-YAP
-AGO
-PAD
-APE
-ADO
-DOP
-EGG
-ODE
-GOD
-POA
-GEO
-DAE
-APO
-AYE
-OPA
-DAY
-GAD
-PAY
-ODA
-DEG
-GED
+- - - - - - - - - R
+E - - - - V E N U E
+V - R U N E - - - V
+E - E - - E - - - U
+N E V E - - N - - E
+- - E - - - E R N -
+- - N E V E R - - -
+- - U - E - V - - -
+R U E - E - E - - -
+- - - - R - - - - -
+15
+EEN
+NEE
+ENE
+REN
+EVER
+REV
+URE
+REEVE
+ERE
+EVE
+URN
+VENEER
+RUN
+NUR
+REE
 11
-PEDAGOGY
-["(noun) the principles and methods of instruction", "(noun) the profession of a teacher", "(noun) the activities of educating or instructing; activities that impart knowledge or skill"]
-DOPE
-["(noun) street names for marijuana", "(noun) an ignorant or foolish person", "(noun) carbonated drink flavored with extract from kola nuts (`dope' is a southernism in the United States", "(verb) take drugs to improve one's athletic performance", "(verb) add impurities to (a semiconductor", "(verb) give a narcotic to"]
-DAP
-[]
-PAGE
-["(noun) one side of one leaf (of a book or magazine or newspaper or letter etc.", "(noun) English industrialist who pioneered in the design and manufacture of aircraft (1885-1962", "(noun) United States diplomat and writer about the Old South (1853-1922", "(verb) contact, as with a pager or by calling somebody's name over a P.A. system", "(verb) work as a page", "(verb) number the pages of a book or manuscript"]
-PEA
-["(noun) seed of a pea plant used for food", "(noun) the fruit or seed of a pea plant", "(noun) a leguminous plant of the genus Pisum with small white flowers and long green pods containing edible green seeds"]
-EDGY
-["(adjective) being in a tense state"]
-AGED
-["(noun) people who are old collectively", "(verb) begin to seem older; get older", "(verb) grow old or older", "(verb) make older", "(adjective) advanced in years; (`aged' is pronounced as two syllables", "(adjective) at an advanced stage of erosion (pronounced as one syllable", "(adjective) having attained a specific age; (`aged' is pronounced as one syllable"]
-DEP
-[]
-DOGGY
-["(noun) informal terms for dogs"]
-YOGA
-["(noun) discipline aimed at training the consciousness for a state of perfect spiritual insight and tranquility that is achieved through the three paths of actions and knowledge and devotion", "(noun) a system of physical, breathing and meditation exercises practiced to promote control of the body and mind"]
-GAGE
-["(noun) street names for marijuana", "(noun) a measuring instrument for measuring and indicating a quantity such as the thickness of wire or the amount of rain etc.", "(verb) place a bet on"]
+REVENUE
+["(noun) the entire amount of income before any deductions are made", "(noun) government income due to taxation"]
+RUNE
+["(noun) any character from an ancient Germanic alphabet used in Scandinavia from the 3rd century to the Middle Ages"]
+NEVER
+["(adverb) not ever; at no time in the past or future", "(adverb) not at all; certainly not; not in any circumstances"]
+NERVE
+["(noun) any bundle of nerve fibers running to various organs and tissues of the body", "(noun) the courage to carry on", "(noun) impudent aggressiveness", "(verb) get ready for something difficult or unpleasant"]
+VENUE
+["(noun) the scene of any event or action (especially the place of a meeting", "(noun) in law: the jurisdiction where a trial will be held"]
+RUE
+["(noun) European strong-scented perennial herb with grey-green bitter-tasting leaves; an irritant similar to poison ivy", "(noun) leaves sometimes used for flavoring fruit or claret cup but should be used with great caution: can cause irritation like poison ivy", "(noun) sadness associated with some wrong done or some disappointment", "(verb) feel remorse for; feel sorry for; be contrite about"]
+VEER
+["(verb) turn sharply; change direction abruptly", "(verb) shift to a clockwise direction"]
+ERN
+["(noun) bulky greyish-brown eagle with a short wedge-shaped white tail; of Europe and Greenland"]
+NEVE
+["(noun) the upper part of a glacier (beyond the limit of perpetual snow"]
+REVUE
+["(noun) a variety show with topical sketches and songs and dancing and comedians"]
+EVEN
+["(noun) the latter part of the day (the period of decreasing daylight from late afternoon until nightfall", "(verb) make level or straight", "(verb) become even or more even", "(verb) make even or more even", "(adjective) divisible by two", "(adjective) equal in degree or extent or amount; or equally matched or balanced", "(adjective) or even", "(adverb) used as an intensive especially to indicate something unexpected", "(adverb) in spite of; notwithstanding", "(adverb) to a greater degree or extent; used with comparisons"]

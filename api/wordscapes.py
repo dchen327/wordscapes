@@ -233,7 +233,7 @@ def define_words(words):
             definitions[word].extend(
                 f'({pos.lower()}) {defn}' for defn in definition[pos][:3]
             )
-    print([] in definitions.values())
+
     return definitions
 
 
@@ -250,28 +250,28 @@ def setup():
             words_by_len[8] + words_by_len[7], k=3*num_crosswords)
 
         # clear any previous puzzles
-        # if os.path.exists('levels'):
-        #     shutil.rmtree('levels')
-        # # make puzzles directory
-        # os.makedirs('levels')
+        if os.path.exists('levels'):
+            shutil.rmtree('levels')
+        # make puzzles directory
+        os.makedirs('levels')
 
-        # level_num = 1
-        # while level_num <= num_crosswords:
-        #     main_word = main_words.pop()
-        #     puzzle_words = gen_puzzle_words(words_by_len, main_word)
-        #     no_3_letters = [word for word in puzzle_words if len(word) > 3]
-        #     if len(no_3_letters) > 30:  # too many words
-        #         continue
-        #     output_file = f'levels/level_{level_num}.txt'
-        #     if gen_crossword(
-        #             puzzle_words, output_file) is not None:
-        #         print(f'Crossword #{level_num} Done!')
-        #         level_num += 1
+        level_num = 1
+        while level_num <= num_crosswords:
+            main_word = main_words.pop()
+            puzzle_words = gen_puzzle_words(words_by_len, main_word)
+            no_3_letters = [word for word in puzzle_words if len(word) > 3]
+            if len(no_3_letters) > 30:  # too many words
+                continue
+            output_file = f'levels/level_{level_num}.txt'
+            if gen_crossword(
+                    puzzle_words, output_file) is not None:
+                print(f'Crossword #{level_num} Done!')
+                level_num += 1
 
-        main_word = random.choice(words_by_len[8])
-        main_word = 'squeaky'
-        puzzle_words = gen_puzzle_words(words_by_len, main_word)
-        gen_crossword(puzzle_words, 'puzzle.txt')
+        # main_word = random.choice(words_by_len[8])
+        # main_word = 'squeaky'
+        # puzzle_words = gen_puzzle_words(words_by_len, main_word)
+        # gen_crossword(puzzle_words, 'puzzle.txt')
 
 
 if __name__ == '__main__':

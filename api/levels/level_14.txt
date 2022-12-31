@@ -1,75 +1,53 @@
-12
-HARDBALL 0 0 False
-DAL 3 0 True
-DAHL 0 2 False
-LARD 7 0 True
-ALA 7 1 False
-BALLAD 9 0 True
-BALD 6 5 False
-DRAB 0 2 True
-HALL 2 2 True
-BRAD 6 5 True
-BARD 3 8 False
-ALBA 4 5 True
+10
+BULLPEN 4 3 True
+BELL 3 8 False
+LUBE 2 3 False
+PELL 1 5 False
+PULL 2 0 True
+BULL 6 5 True
+BLUE 0 1 False
+BEN 6 5 False
+PEN 1 5 True
+PUN 8 3 True
 10 10
-H - D R A B - - - -
-A - A - - - - - - -
-R - H A L L - - - -
-D A L - - - - - B -
-B - - - - A L B A -
-A - - - - - - - R -
-L - - - - B R A D -
-L A R D - A - - - -
-- L - - - L - - - -
-B A L L A D - - - -
-25
-DAB
-BALL
-RAD
-BAR
-BLAH
-AHA
-LAR
-DAH
-ALB
-ARD
-BAD
-LAD
-ARB
-BAH
-BAA
-ALL
-LAH
-BRA
-BAL
-HARD
-LAB
-ABA
-RAH
-HAD
-HAAR
-12
-HARDBALL
-["(noun) a no-nonsense attitude in business or politics", "(noun) baseball as distinguished from softball"]
-DAL
-["(noun) a metric unit of volume or capacity equal to 10 liters"]
-DAHL
-["(noun) tropical woody herb with showy yellow flowers and flat pods; much cultivated in the tropics", "(noun) small highly nutritious seed of the tropical pigeon-pea plant"]
-LARD
-["(noun) soft white semisolid fat obtained by rendering the fatty tissue of the hog", "(verb) prepare or cook with lard", "(verb) add details to"]
-ALA
-["(noun) a flat wing-shaped process or winglike part of an organism", "(noun) a wing of an insect"]
-BALLAD
-["(noun) a narrative song with a recurrent refrain", "(noun) a narrative poem of popular origin"]
-BALD
-["(verb) grow bald; lose hair on one's head", "(adjective) with no effort to conceal", "(adjective) lacking hair on all or most of the scalp", "(adjective) without the natural or usual covering"]
-DRAB
-["(noun) a dull greyish to yellowish or light olive brown", "(adjective) lacking in liveliness or charm or surprise", "(adjective) lacking brightness or color; dull", "(adjective) of a light brownish green color"]
-HALL
-["(noun) an interior passage or corridor onto which rooms open", "(noun) a large entrance or reception room or area", "(noun) a large room for gatherings or entertainment"]
-BRAD
-["(noun) a small nail", "(verb) fasten with brads"]
-BARD
-["(noun) a lyric poet", "(noun) an ornamental caparison for a horse", "(verb) put a caparison on"]
-ALBA
-["(noun) one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers", "(noun) a book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc"]
+- B - - - - - - - -
+- L - - - P E N - -
+P U L L - E - - - -
+- E - U - L - - B -
+- - - B U L L P E N
+- - - E - - - - L -
+- - - - - B U L L -
+- - - - - E - - - -
+- - - P U N - - - -
+- - - - - - - - - -
+11
+ELL
+PUL
+BUN
+PEL
+LEP
+LEU
+LUN
+NEP
+BEL
+PUB
+NEB
+9
+BULLPEN
+["(noun) a place on a baseball field where relief pitchers can warm up during a game", "(noun) a large cell where prisoners (people awaiting trial or sentence or refugees or illegal immigrants"]
+BELL
+["(noun) a hollow device made of metal that makes a ringing sound when struck", "(noun) a push button at an outer door that gives a ringing or buzzing signal when pushed", "(noun) the sound of a bell being struck", "(verb) attach a bell to"]
+LUBE
+["(noun) a substance capable of reducing friction by making surfaces smooth or slippery", "(verb) apply a lubricant to"]
+PULL
+["(noun) the act of pulling; applying force to move something toward or with you", "(noun) the force used in pulling", "(noun) special advantage or influence", "(verb) cause to move by pulling", "(verb) direct toward itself or oneself by means of some psychological power or physical attributes", "(verb) move into a certain direction"]
+BULL
+["(noun) uncastrated adult male of domestic cattle", "(noun) a large and strong and heavyset man", "(noun) obscene words for unacceptable behavior", "(verb) push or force", "(verb) try to raise the price of stocks through speculative buying", "(verb) speak insincerely or without regard for facts or truths"]
+BLUE
+["(noun) blue color or pigment; resembling the color of the clear sky in the daytime", "(noun) blue clothing", "(noun) any organization or party whose uniforms or badges are blue", "(verb) turn blue", "(adjective) of the color intermediate between green and violet; having a color similar to that of a clear unclouded sky", "(adjective) used to signify the Union forces in the American Civil War (who wore blue uniforms", "(adjective) filled with melancholy and despondency"]
+BEN
+["(noun) a mountain or tall hill"]
+PEN
+["(noun) a writing implement with a point from which ink flows", "(noun) an enclosure for confining livestock", "(noun) a portable enclosure in which babies may be left to play", "(verb) produce a literary work"]
+PUN
+["(noun) a humorous play on words", "(verb) make a play on words"]

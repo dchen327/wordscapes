@@ -1,97 +1,76 @@
 12
-BROWSERS 2 2 False
-ERS 9 0 True
-ORES 3 1 True
-ROSES 8 2 True
-ROBES 4 6 False
-WEBS 0 4 False
-OWES 5 6 True
-WORSE 5 0 False
-SWORE 0 3 True
-BREW 2 4 True
-WOES 5 4 False
-SORES 1 9 False
+WHALING 2 5 False
+WANG 4 4 True
+WIGAN 2 5 True
+LING 6 4 True
+LIANG 8 1 True
+GAIN 6 7 False
+NAIL 5 1 False
+WING 0 9 False
+LAG 7 3 False
+ANIL 9 6 True
+AIN 7 7 True
+LAH 6 0 True
 10 10
-- - - S W O R E - -
-- - - - E - - - - S
-- - B - B R E W - O
-- O R E S - - - - R
-- - O - - - R - - E
-W - W - W - O W E S
-O - S - O - B - - -
-R - E - E - E - - -
-S - R O S E S - - -
-E R S - - - - - - -
-47
-ROW
-SOS
-REO
-SOBER
-BROWSER
-WOE
-BOS
-OSE
-BES
-WEB
-EROS
-BROWSE
-BOWER
-ORB
-ROWS
-BOWES
-BOWERS
-BROW
-SOW
-ROB
-ROSE
-ROE
-SEW
-SER
-BORE
-RES
-ORE
-BROWS
-BROS
-WORE
-ORS
-BOR
-BOWS
-SORE
-BOSS
-BOW
-REB
-OWE
-BRO
-OES
-OBE
-ERR
-ESS
-OBS
-SOB
-ROBE
-BOWSER
-12
-BROWSERS
-["(noun) a viewer who looks around casually without seeking anything in particular", "(noun) a program used to view HTML documents"]
-ERS
-["(noun) a trivalent metallic element of the rare earth group; occurs with yttrium", "(noun) a room in a hospital or clinic staffed and equipped to provide emergency care to persons requiring immediate medical treatment"]
-ORES
-["(noun) a mineral that contains metal that is valuable enough to be mined", "(noun) a monetary subunit in Denmark and Norway and Sweden; 100 ore equal 1 krona"]
-ROSES
-["(noun) any of many shrubs of the genus Rosa that bear roses", "(noun) pinkish table wine from red grapes whose skins were removed after fermentation began", "(noun) a dusty pink color"]
-ROBES
-["(noun) any loose flowing garment", "(noun) outerwear consisting of a long flowing garment used for official or ceremonial occasions", "(verb) clothe formally; especially in ecclesiastical robes", "(verb) cover as if with clothing"]
-WEBS
-["(noun) an intricate network suggesting something that was formed by weaving or interweaving", "(noun) an intricate trap that entangles or ensnares its victim", "(noun) the flattened weblike part of a feather consisting of a series of barbs on either side of the shaft", "(verb) construct or form a web, as if by weaving"]
-OWES
-["(verb) be obliged to pay or repay", "(verb) be indebted to, in an abstract or intellectual sense", "(verb) be in debt"]
-WORSE
-["(noun) something inferior in quality or condition or effect", "(adjective) having undesirable or negative qualities", "(adjective) very intense", "(adjective) or bad", "(adverb) to a severe or serious degree", "(adverb) (`ill' is often used as a combining form", "(adverb) evilly or wickedly"]
-SWORE
-["(verb) utter obscenities or profanities", "(verb) to declare or affirm solemnly and formally as true", "(verb) promise solemnly; take an oath"]
-BREW
-["(noun) drink made by steeping and boiling and fermenting rather than distilling", "(verb) prepare by brewing", "(verb) sit or let sit in boiling water so as to extract the flavor"]
-WOES
-["(noun) misery resulting from affliction", "(noun) intense mournfulness"]
-SORES
-["(noun) an open skin infection"]
+- - - - - - - - - W
+- - - - - - - - - I
+- - - - - W I G A N
+- - - - - H - - - G
+- - - - W A N G - -
+- N - - - L - - - -
+L A H - L I N G - -
+- I - L - N - A I N
+- L I A N G - I - -
+- - - G - - A N I L
+32
+GIN
+AIL
+NIL
+WHA
+HIN
+ING
+WAH
+GAL
+ALIGN
+LIN
+WIG
+LAW
+HAIN
+LAIN
+HANG
+WIN
+WAI
+WAG
+LAWN
+HAW
+ANI
+NIGH
+WAN
+GAN
+HAIL
+NAH
+GHI
+NAG
+LANG
+HAN
+HAG
+GILA
+9
+WHALING
+["(verb) hunt for whales"]
+LING
+["(noun) water chestnut whose spiny fruit has two rather than 4 prongs", "(noun) common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere", "(noun) elongated marine food fish of Greenland and northern Europe; often salted and dried"]
+GAIN
+["(noun) a quantity that is added", "(noun) the advantageous quality of being beneficial", "(noun) the amount of increase in signal power or voltage or current expressed as the ratio of output to input", "(verb) obtain", "(verb) win something through one's efforts", "(verb) derive a benefit from"]
+NAIL
+["(noun) horny plate covering and protecting part of the dorsal surface of the digits", "(noun) a thin pointed piece of metal that is hammered into materials as a fastener", "(noun) a former unit of length for cloth equal to 1/16 of a yard", "(verb) attach something somewhere by means of nails", "(verb) take into custody", "(verb) hit hard"]
+WING
+["(noun) a movable organ for flying (one of a pair", "(noun) one of the horizontal airfoils on either side of the fuselage of an airplane", "(noun) a stage area out of sight of the audience", "(verb) travel through the air; be airborne"]
+LAG
+["(noun) the act of slowing down or falling behind", "(noun) the time between one event, process, or period and another", "(noun) one of several thin slats of wood forming the sides of a barrel or bucket", "(verb) hang (back", "(verb) behind", "(verb) lock up or confine, in or as in a jail"]
+ANIL
+["(noun) a blue dye obtained from plants or made synthetically", "(noun) shrub of West Indies and South America that is a source of indigo dye"]
+AIN
+["(adjective) belonging to or on behalf of a specified person (especially yourself"]
+LAH
+["(noun) the syllable naming the sixth (submediant"]

@@ -1,113 +1,96 @@
-15
-SNAPPED 2 7 False
-PANES 2 3 True
-PADS 4 6 True
-ASPEN 6 5 True
-NAPS 5 5 False
-SPAN 1 3 False
-DEAN 4 0 True
-APES 1 0 True
-SANE 0 5 False
-SAND 0 5 True
-PAPE 1 1 False
-DEP 7 3 True
-PEAS 1 9 False
-DAE 7 3 False
-DANS 4 0 False
+16
+MUTATED 3 3 False
+TAME 7 3 True
+MEAD 3 3 True
+MUTE 0 4 False
+MED 6 6 False
+DUET 8 6 True
+ETAT 5 9 False
+MATTE 5 0 True
+MAUD 4 1 False
+MATTED 0 4 True
+TATU 1 1 True
+MEAT 6 6 True
+DATE 0 9 False
+MAT 0 2 False
+TUT 2 7 True
+MADE 9 1 True
 10 10
-- - - - - S A N D -
-A P E S - A - - - P
-- A - P A N E S - E
-- P - A - E - N - A
-D E A N - - P A D S
-A - - - - N - P - -
-N - - - - A S P E N
-S - - D E P - E - -
-- - - A - S - D - -
-- - - E - - - - - -
-54
-PEN
-PANE
-DEN
-SPEND
-PED
-SPED
-ENDS
-EAS
-EDS
-EAN
-SEND
-APPS
-APE
-DNA
-DEANS
-SNAP
-SAN
-DAS
-SAP
-APP
-ENS
-ANS
-SEAN
-NAS
-SEDAN
-NAP
-END
-PES
-PAN
-APPEND
-PAP
-SEA
-SAE
-PAS
-PAD
-ADS
-PANS
-ASP
-PENS
-NAE
-AND
-SPA
-DAN
-SPADE
-SAD
-SED
-PEA
-NEP
-DAP
-ANE
-SADE
-NED
-SEN
-PEP
-15
-SNAPPED
-["(verb) utter in an angry, sharp, or abrupt tone", "(verb) separate or cause to separate abruptly", "(verb) break suddenly and abruptly, as under tension"]
-PANES
-["(noun) sheet glass cut in shapes for windows or doors", "(noun) a panel or section of panels in a wall or door", "(noun) street name for lysergic acid diethylamide"]
-PADS
-["(noun) a number of sheets of paper fastened together along one edge", "(noun) the large floating leaf of an aquatic plant (as the water lily", "(noun) a block of absorbent material saturated with ink; used to transfer ink evenly to a rubber stamp", "(verb) add details to", "(verb) walk heavily and firmly, as when weary, or through mud", "(verb) line or stuff with soft material"]
-ASPEN
-["(noun) any of several trees of the genus Populus having leaves on flattened stalks so that they flutter in the lightest wind"]
-NAPS
-["(noun) a period of time spent sleeping", "(noun) a soft or fuzzy surface texture", "(noun) the yarn (as in a rug or velvet or corduroy", "(verb) take a siesta"]
-SPAN
-["(noun) the complete duration of something", "(noun) the distance or interval between two points", "(noun) two items of the same kind", "(verb) to cover or extend over an area or time period"]
-DEAN
-["(noun) an administrator in charge of a division of a university or college", "(noun) United States film actor whose moody rebellious roles made him a cult figure (1931-1955", "(noun) a man who is the senior member of a group"]
-APES
-["(noun) any of various primates with short tails or no tail at all", "(noun) someone who copies the words or behavior of another", "(noun) person who resembles a nonhuman primate", "(verb) imitate uncritically and in every aspect", "(verb) represent in or produce a caricature of"]
-SANE
-["(adjective) mentally healthy; free from mental disorder", "(adjective) marked by sound judgment"]
-SAND
-["(noun) a loose material consisting of grains of rock or coral", "(noun) French writer known for works concerning women's rights and independence (1804-1876", "(noun) fortitude and determination", "(verb) rub with sandpaper"]
-PAPE
-[]
-DEP
-[]
-PEAS
-["(noun) seed of a pea plant used for food", "(noun) the fruit or seed of a pea plant", "(noun) a leguminous plant of the genus Pisum with small white flowers and long green pods containing edible green seeds"]
+- - M - M A T T E D
+- T A T U - - - - A
+- - T - T - - T U T
+- - - M E A D - - E
+- M - U - - - - - -
+M A T T E - - - - E
+- U - A - - M E A T
+- D - T A M E - - A
+- - - E - - D U E T
+- M A D E - - - - -
+38
+MET
+MUTT
+TED
+MATED
+TAM
+ATE
+DUE
+TEAM
+TUM
+MEU
+DUMA
+MATE
+DAM
+EMU
+TAE
+TAT
+EAT
+MAD
+EAU
+ATT
+DUM
+MUTED
+TET
+MUD
+TATE
+META
+DAME
+UTA
+UTE
+DATUM
+TEA
+TAD
 DAE
-["(noun) an official prosecutor for a judicial district"]
-DANS
-[]
+MAE
+ETA
+TAU
+MATT
+AME
+14
+MUTATED
+["(verb) undergo mutation"]
+TAME
+["(verb) correct by punishment or discipline", "(verb) make less strong or intense; soften", "(verb) adapt (a wild plant or unclaimed land", "(adjective) flat and uninspiring", "(adjective) very restrained or quiet", "(adjective) brought from wildness into a domesticated state"]
+MEAD
+["(noun) United States anthropologist noted for her claims about adolescence and sexual behavior in Polynesian cultures (1901-1978", "(noun) United States philosopher of pragmatism (1863-1931", "(noun) made of fermented honey and water"]
+MUTE
+["(noun) a deaf person who is unable to speak", "(noun) a device used to soften the tone of a musical instrument", "(verb) deaden (a sound or noise", "(adjective) expressed without speech", "(adjective) unable to speak because of hereditary deafness"]
+MED
+["(noun) a master's degree in education"]
+DUET
+["(noun) two items of the same kind", "(noun) two performers or singers who perform together", "(noun) a pair who associate with one another"]
+MATTE
+["(noun) a mixture of sulfides that forms when sulfide metal ores are smelted", "(noun) the property of having little or no contrast; lacking highlights or gloss", "(verb) change texture so as to become matted and felt-like", "(adjective) not reflecting light; not glossy"]
+MATTED
+["(verb) twist together or entwine into a confusing mass", "(verb) change texture so as to become matted and felt-like", "(verb) change texture so as to become matted and felt-like", "(adjective) tangled in a dense mass", "(adjective) not reflecting light; not glossy"]
+TATU
+["(noun) about three feet long exclusive of tail"]
+MEAT
+["(noun) the flesh of animals (including fishes and birds and snails", "(noun) the inner and usually edible part of a seed or grain or nut or fruit stone", "(noun) the choicest or most essential or most vital part of some idea or experience"]
+DATE
+["(noun) the specified day of the month", "(noun) a participant in a date", "(noun) a meeting arranged in advance", "(verb) go on a date with", "(verb) stamp with a date", "(verb) assign a date to; determine the (probable"]
+MAT
+["(noun) a thick flat pad used as a floor covering", "(noun) mounting consisting of a border or background for a picture", "(noun) sports equipment consisting of a piece of thick padding on the floor for gymnastic sports", "(verb) twist together or entwine into a confusing mass", "(verb) change texture so as to become matted and felt-like", "(adjective) not reflecting light; not glossy"]
+TUT
+["(verb) utter `tsk,' `tut,' or `tut-tut,' as in disapproval"]
+MADE
+["(verb) engage in", "(verb) give certain properties to something", "(verb) make or cause to be or to become", "(adjective) produced by a manufacturing process", "(adjective) (of a bed", "(adjective) successful or assured of success"]
