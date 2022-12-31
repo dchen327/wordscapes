@@ -118,7 +118,6 @@ export const Game = () => {
       setWords(data.words);
       setBonusWords(data.bonus);
       setPosToWords(data.posToWords);
-      console.log(data.posToWords);
       // get definitions of all words
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);
@@ -138,7 +137,6 @@ export const Game = () => {
         body: JSON.stringify({ words }),
       });
       const data = await response.json();
-      console.log(data.definitions);
       setDefinitions(data.definitions);
     };
 
@@ -163,18 +161,20 @@ export const Game = () => {
             Level {levelNum}
           </button>
         </div>
-        {grid && (
+        {grid && words && posToWords && (
           <Crossword
             {...{
               grid,
               setGrid,
               completeGrid,
+              words,
               levelComplete,
               getNextLevel,
-              wordsFound,
               themeColor,
               defineMode,
               setDefineMode,
+              posToWords,
+              defineWords,
             }}
           />
         )}
@@ -299,6 +299,11 @@ export const Game = () => {
                     {definition}
                   </p>
                 ))}
+                {definitions[word].length === 0 && (
+                  <p className="text-sm text-slate-200">
+                    No definitions found for {word}
+                  </p>
+                )}
               </div>
             ))}
           </div>

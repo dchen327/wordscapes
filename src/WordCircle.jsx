@@ -98,7 +98,7 @@ const WordCircle = ({
       // enter word into crossword, return true if word was not already there
       let [r, c, horiz] = words[word];
       let wordArray = word.split("");
-      let changeMade;
+      let changeMade = false;
       if (horiz) {
         wordArray.forEach((letter, i) => {
           if (grid[r][c + i] === "_") {

@@ -1,15 +1,17 @@
 import { useEffect } from "react";
-import { toast } from "react-hot-toast";
 
 const Crossword = ({
   grid,
   setGrid,
   completeGrid,
+  words,
   levelComplete,
   getNextLevel,
   themeColor,
   defineMode,
   setDefineMode,
+  posToWords,
+  defineWords,
 }) => {
   const numCols = grid[0]?.length;
 
@@ -44,7 +46,34 @@ const Crossword = ({
     let r = Math.floor(idx / numCols);
     let c = idx % numCols;
     if (defineMode && grid[r][c] !== "_") {
-      toast.error("Definitions not implemented yet");
+      const wordsToDefine = []; // found words
+      // check if words are complete
+      for (const word of posToWords[idx]) {
+        let [r, c, horiz] = words[word];
+        let wordFound = true;
+        if (horiz) {
+          for (let i = 0; i < word.length; i++) {
+            if (grid[r][c + i] === "_") {
+              wordFound = false;
+              break;
+            }
+          }
+        } else {
+          for (let i = 0; i < word.length; i++) {
+            if (grid[r + i][c] === "_") {
+              wordFound = false;
+              break;
+            }
+          }
+        }
+
+        if (wordFound) {
+          wordsToDefine.push(word);
+        }
+      }
+      if (wordsToDefine.length) {
+        defineWords(wordsToDefine);
+      }
     } else if (!defineMode && grid[r][c] === "_") {
       const newGrid = [...grid];
       newGrid[r][c] = completeGrid[r][c];
