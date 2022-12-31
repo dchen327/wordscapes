@@ -141,7 +141,7 @@ def gen_crossword(puzzle_words: List[str], output_file: str):
             definitions = define_words(used.keys())
             f.write(str(len(used)) + '\n')
             for word in used:
-                f.write(word + '\n')
+                f.write(word.upper() + '\n')
                 f.write(json.dumps(definitions[word]) + '\n')
 
     return random.choice(crosswords)

@@ -1,89 +1,97 @@
-14
-STRINGS 3 1 True
-GRITS 1 4 False
-TING 1 1 True
-SINS 0 7 False
-SIGNS 3 1 False
-GRIN 3 6 False
-GIST 0 2 False
-STINGS 5 4 True
-INGS 6 0 True
-STIR 5 9 False
-SITS 6 3 False
-TINS 9 0 True
-SIS 0 7 True
-SIGN 0 9 False
+13
+ENACTED 6 2 True
+CENT 3 6 False
+ANE 4 2 False
+CANE 6 5 False
+CANT 4 1 True
+CADE 3 6 True
+CAN 8 3 True
+DEAN 1 3 False
+ANCE 2 0 True
+ANTE 0 9 False
+DAN 1 0 False
+ETNA 6 7 False
+DANCE 1 3 True
 10 10
-- - G - - - - S I S
-- T I N G - - I - I
-- - S - R - - N - G
-- S T R I N G S - N
-- I - - T - R - - -
-- G - - S T I N G S
-I N G S - - N - - T
-- S - I - - - - - I
-- - - T - - - - - R
-T I N S - - - - - -
-33
-ITS
-RIN
-GRIT
-GRIST
-RIGS
-STING
-ING
-STRING
-RIG
-TIS
-SIR
-TIN
-RING
-SIT
-TIG
-NIS
-GIN
-INS
-SIGS
-GRIS
-GIT
-RINGS
-GRINS
-SINGS
-RIT
-SIG
-SRI
-STIRS
-SIN
-NIT
-GIS
-SING
-TRIG
-14
-strings
-["(noun) a lightweight cord", "(noun) stringed instruments that are played with a bow", "(noun) a tightly stretched cord of wire or gut, as a part of an instrument or a tennis racket", "(verb) thread on or as if on a string", "(verb) add as if on a string", "(verb) move or come along"]
-grits
-["(noun) a hard coarse-grained siliceous sandstone", "(noun) fortitude and determination", "(noun) coarsely ground hulled corn boiled as a breakfast dish in the southern United States", "(verb) cover with a grit", "(verb) clench together"]
-ting
-["(noun) a light clear metallic sound as of a small bell", "(verb) cause to make a ting", "(verb) make a light, metallic sound; go `ting'"]
-sins
-["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]
-signs
-["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement"]
-grin
-["(noun) a facial expression characterized by turning up the corners of the mouth; usually shows pleasure or amusement", "(verb) to draw back the lips and reveal the teeth, in a smile, grimace, or snarl"]
-gist
-["(noun) the central meaning or theme of a speech or literary work", "(noun) the choicest or most essential or most vital part of some idea or experience"]
-stings
-["(noun) a kind of pain; something as sudden and painful as being stung", "(noun) a mental pain or distress", "(noun) a painful wound caused by the thrust of an insect's stinger into skin", "(verb) cause a sharp or stinging pain or discomfort", "(verb) deliver a sting to", "(verb) saddle with something disagreeable or disadvantageous"]
-ings
+- - - - - - - - - A
+D - - D A N C E - N
+A N C E - - - - - T
+N - - A - - C A D E
+- C A N T - E - - -
+- - N - - - N - - -
+- - E N A C T E D -
+- - - - - A - T - -
+- - - C A N - N - -
+- - - - - E - A - -
+44
+ANT
+TAD
+TEA
+ENACT
+TEC
+END
+CAD
+NEED
+EAT
+EAN
+ATE
+DENT
+ETA
+NEAT
+CADET
+TEE
+NET
+ACTED
+TED
+EEN
+CEE
+CAT
+ACNE
+NAT
+TEN
+DEE
+ACT
+DEN
+NEE
+EATEN
+DECENT
+NED
+DAE
+TEEN
+AND
+ACE
+TAE
+ENE
+DATE
+NAE
+TEND
+TAN
+DNA
+CATE
+13
+ENACTED
+["(verb) order by virtue of superior authority; decree", "(verb) act out; represent or perform as if in a play"]
+CENT
+["(noun) a fractional monetary unit of several countries", "(noun) a coin worth one-hundredth of the value of the basic unit"]
+ANE
+["(adjective) used of a single unit or thing; not two or more"]
+CANE
+["(noun) a stick that people can lean on to help them walk", "(noun) a strong slender often flexible stem as of bamboos, reeds, rattans, or sugar cane", "(noun) a stiff switch used to hit students as punishment", "(verb) beat with a cane"]
+CANT
+["(noun) stock phrases that have become nonsense through endless repetition", "(noun) a slope in the turn of a road or track; the outside is higher than the inside in order to reduce the effects of centrifugal force", "(noun) a characteristic language of a particular group (as among thieves", "(verb) heel over"]
+CADE
 []
-stir
-["(noun) a prominent or sensational but short-lived news event", "(noun) emotional agitation and excitement", "(noun) a rapid active commotion", "(verb) move an implement through", "(verb) move very slightly", "(verb) stir feelings in"]
-sits
-["(verb) be seated", "(verb) be around, often idly or without specific purpose", "(verb) take a seat"]
-tins
-["(noun) a silvery malleable metallic element that resists corrosion; used in many alloys and to coat other metals to prevent corrosion; obtained chiefly from cassiterite where it occurs as tin oxide", "(noun) a vessel (box, can, pan, etc.", "(noun) metal container for storing dry foods such as tea or flour", "(verb) plate with tin", "(verb) preserve in a can or tin", "(verb) prepare (a metal"]
-sis
-["(noun) a tetravalent nonmetallic element; next to oxygen it is the most abundant element in the earth's crust; occurs in clay and feldspar and granite and quartz and sand; used as a semiconductor in transistors", "(noun) a complete metric system of units of measurement for scientists; fundamental quantities are length (meter", "(noun) kilogram"]
-sign
-["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement", "(adjective) used of the language of the deaf"]
+CAN
+["(noun) airtight sealed metal container for food or drink or paint etc.", "(noun) the quantity contained in a can", "(noun) a buoy with a round bottom and conical top", "(verb) preserve in a can or tin", "(verb) terminate the employment of; discharge from an office or position"]
+DEAN
+["(noun) an administrator in charge of a division of a university or college", "(noun) United States film actor whose moody rebellious roles made him a cult figure (1931-1955", "(noun) a man who is the senior member of a group"]
+ANCE
+[]
+ANTE
+["(noun) (poker", "(verb) place one's stake"]
+DAN
+[]
+ETNA
+["(noun) an inactive volcano in Sicily; last erupted in 1961; the highest volcano in Europe (10,500 feet", "(noun) a gas burner used in laboratories; has an air valve to regulate the mixture of gas and air"]
+DANCE
+["(noun) an artistic form of nonverbal communication", "(noun) a party of people assembled for dancing", "(noun) taking a series of rhythmical steps (and movements", "(verb) move in a graceful and rhythmical way", "(verb) move in a pattern; usually to musical accompaniment; do or perform a dance", "(verb) skip, leap, or move up and down or sideways"]

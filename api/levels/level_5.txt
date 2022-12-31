@@ -1,98 +1,65 @@
 14
-INTIMACY 9 1 True
-CITY 6 8 False
-CAIN 7 6 True
-CAMI 6 1 False
-AMICI 5 4 False
-MAY 7 0 True
-TIAN 5 2 True
-MANI 2 3 False
-MICA 2 3 True
-MINA 3 0 True
-MANY 1 6 False
-MINT 1 6 True
-ACTIN 0 1 False
-TAM 0 0 True
+SIGNINGS 1 7 False
+SIGS 1 4 True
+SINGS 1 4 False
+SIN 3 2 True
+GIS 3 7 True
+SING 5 6 True
+INGS 0 2 False
+SIG 8 7 True
+SIGNING 7 1 True
+SIGNS 5 0 True
+SIGN 6 5 False
+GIGS 0 9 False
+INNS 9 3 True
+SINS 2 0 False
 10 10
-T A M - - - - - - -
-- C - - - - M I N T
-- T - M I C A - - -
-M I N A - - N - - -
-- N - N - - Y - - -
-- - T I A N - - - -
-- C - - M - - - C -
-M A Y - I - C A I N
-- M - - C - - - T -
-- I N T I M A C Y -
-42
-TAY
-MAN
-CAN
-YIN
-ANTI
-AMIN
-MAIN
-NAY
-ANI
-TIN
-AMITY
-ITA
-MANIC
-AIT
-TAN
-CYAN
-TAIN
-CIT
-AMI
-AIN
-ICY
-ANY
-TINY
-MAT
-CAY
-ACT
-CAT
-YAM
-MINI
-NAT
-MYC
-NIT
-TIC
-MAC
-MIC
-TINA
-TAI
-CAM
-NAM
-ANT
-CANT
-AIM
+- - I - - - - - - G
+- - N - S I G S - I
+S - G - I - - I - G
+I - S I N - - G I S
+N - - - G - - N - -
+S I G N S - S I N G
+- - - - - S - N - -
+- S I G N I N G - -
+- - - - - G - S I G
+- - - I N N S - - -
+9
+GIG
+NIS
+SINGING
+IGG
+SIS
+GIN
+INS
+ING
+INN
 14
-intimacy
-["(noun) close or warm friendship", "(noun) a usually secretive or illicit sexual relationship", "(noun) a feeling of being intimate and belonging together"]
-city
-["(noun) a large and densely populated urban area; may include several independent administrative districts", "(noun) an incorporated administrative district established by state charter", "(noun) people living in a large densely populated municipality"]
-cain
-["(noun) (Old Testament"]
-cami
-["(noun) French writer who portrayed the human condition as isolated in an absurd world (1913-1960"]
-amici
+SIGNINGS
+["(noun) language expressed by visible hand gestures"]
+SIGS
 []
-may
-["(noun) the month following April and preceding June", "(noun) thorny Eurasian shrub of small tree having dense clusters of white to scarlet flowers followed by deep red berries; established as an escape in eastern North America"]
-tian
+SINGS
+["(verb) deliver by singing", "(verb) produce tones with the voice", "(verb) to make melodious sounds"]
+SIN
+["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]
+GIS
+["(noun) a unit of magnetomotive force equal to 0.7958 ampere-turns", "(verb) clean in preparation for inspection"]
+SING
+["(verb) deliver by singing", "(verb) produce tones with the voice", "(verb) to make melodious sounds"]
+INGS
 []
-mani
-["(noun) the (prehensile"]
-mica
-["(noun) any of various minerals consisting of hydrous silicates of aluminum or potassium etc. that crystallize in forms that allow perfect cleavage into very thin leaves; used as dielectrics because of their resistance to electricity"]
-mina
-["(noun) tropical Asian starlings"]
-many
-["(adjective) a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number"]
-mint
-["(noun) any north temperate plant of the genus Mentha with aromatic leaves and small mauve flowers", "(noun) any member of the mint family of plants", "(noun) the leaves of a mint plant used fresh or candied", "(verb) form by stamping, punching, or printing", "(adjective) as if new"]
-actin
-["(noun) one of the proteins into which actomyosin can be split; can exist in either a globular or a fibrous form"]
-tam
-["(noun) a woolen cap of Scottish origin"]
+SIG
+[]
+SIGNING
+["(noun) language expressed by visible hand gestures", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement"]
+SIGNS
+["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement"]
+SIGN
+["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement", "(adjective) used of the language of the deaf"]
+GIGS
+["(noun) long and light rowing boat; especially for racing", "(noun) an implement with a shaft and barbed point used for catching fish", "(noun) a cluster of hooks (without barbs"]
+INNS
+["(noun) a hotel providing overnight lodging for travelers"]
+SINS
+["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]

@@ -1,73 +1,71 @@
-12
-WALKWAYS 8 0 True
-AWAY 6 5 False
-WALK 5 3 False
-AWAYS 6 5 True
-ASK 5 9 False
-ALWAYS 3 7 False
-SKA 6 1 True
-ALAS 3 5 True
-SLAY 1 5 False
-LAWS 1 2 True
-WALKS 2 1 False
-WAYS 0 8 False
+13
+WHITHER 1 6 False
+WRITE 6 2 True
+THREW 2 2 False
+HER 4 0 True
+WEIR 1 6 True
+HIT 4 0 False
+RET 6 3 False
+RITE 7 6 True
+WITH 4 4 True
+HEIR 6 9 False
+HITHER 9 4 True
+WERT 8 0 True
+TIER 0 8 False
 10 10
-- - - - - - - - W -
-- - L A W S - - A -
-- W - - - L - - Y -
-- A - - - A L A S -
-- L - - - Y - L - -
-- K - W - - - W - A
-- S K A - A W A Y S
-- - - L - W - Y - K
-W A L K W A Y S - -
-- - - - - Y - - - -
-23
-KAYS
-YAK
-LAYS
-SLY
-SAY
-SKY
-AWA
-ALS
-WAS
-WALKWAY
-ALA
-SWAY
-LAW
-AKA
-SAL
-LAS
-AAS
-LAY
-SAW
-AWK
-KAY
-KAS
-WAY
-12
-walkways
-["(noun) a path set aside for walking"]
-away
-["(adjective) not present; having left", "(adjective) used of an opponent's ground", "(adjective) (of a baseball pitch", "(adverb) from a particular thing or place or position (`forth' is obsolete", "(adverb) from one's possession", "(adverb) out of the way (especially away from one's thoughts"]
-walk
-["(noun) the act of traveling by foot", "(noun) (baseball", "(noun) manner of walking", "(verb) use one's feet to advance; advance by steps", "(verb) accompany or escort", "(verb) obtain a base on balls"]
-aways
+- - - - - - - - T -
+- - - - - - W E I R
+- - T - - - H - E -
+- - H - - - I - R -
+H E R - W I T H - -
+I - E - - - H - - -
+T - W R I T E - - H
+- - - E - - R I T E
+W E R T - - - - - I
+- - - - H I T H E R
+18
+REI
+HET
+WET
+WRIT
+WHIT
+THE
+TIE
+WIT
+HEH
+ETH
+TIRE
+WIRE
+WHITE
+RIT
+IRE
+HIRE
+TEW
+THEIR
+13
+WHITHER
 []
-ask
-["(verb) make a request or demand for something to somebody", "(verb) direct or put; seek an answer to", "(verb) consider obligatory; request and expect"]
-always
-["(adverb) at all times; all the time and on every occasion", "(adverb) without variation or change, in every case", "(adverb) without interruption"]
-ska
+WRITE
+["(verb) produce a literary work", "(verb) communicate or express by writing", "(verb) communicate (with"]
+THREW
+["(verb) propel through the air", "(verb) move violently, energetically, or carelessly", "(verb) get rid of"]
+HER
 []
-alas
-["(adverb) by bad luck"]
-slay
-["(verb) kill intentionally and with premeditation"]
-laws
-["(noun) the collection of rules imposed by authority", "(noun) legal document setting forth rules governing a particular kind of activity", "(noun) a rule or body of rules of conduct inherent in human nature and essential to or binding upon human society"]
-walks
-["(noun) the act of traveling by foot", "(noun) (baseball", "(noun) manner of walking", "(verb) use one's feet to advance; advance by steps", "(verb) accompany or escort", "(verb) obtain a base on balls"]
-ways
-["(noun) how something is done or how it happens", "(noun) thing or person that acts to produce a particular effect or achieve an end", "(noun) a line leading to a place or point"]
+WEIR
+["(noun) a low dam built across a stream to raise its level or divert its flow", "(noun) a fence or wattle built across a stream to catch or retain fish"]
+HIT
+["(noun) (baseball", "(noun) especially in baseball", "(noun) the act of contacting one thing with another", "(verb) cause to move by striking", "(verb) hit against; come into sudden contact with", "(verb) deal a blow to, either with the hand or with an instrument"]
+RET
+["(verb) place (flax, hemp, or jute"]
+RITE
+["(noun) an established ceremony prescribed by a religion", "(noun) any customary observance or practice"]
+WITH
+[]
+HEIR
+["(noun) a person who is entitled by law or by the terms of a will to inherit the estate of another", "(noun) a person who inherits some title or office"]
+HITHER
+["(adverb) to this place (especially toward the speaker"]
+WERT
+[]
+TIER
+["(noun) a relative position or degree of value in a graded group", "(noun) any one of two or more competitors who tie one another", "(noun) a worker who ties something"]

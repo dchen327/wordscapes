@@ -1,86 +1,95 @@
-13
-COTTAGE 0 2 True
-COTTA 0 2 False
-TAO 0 5 False
-COAT 2 4 True
-GOTTA 0 7 False
-TATE 4 1 True
-TOTE 4 1 False
-TACT 4 3 False
-CAGE 6 3 True
-ATE 4 7 True
-ETAT 6 6 False
-TACO 9 6 True
-OCTET 1 9 False
+12
+LAUGHED 1 7 False
+AGED 4 6 True
+GLAD 2 5 True
+AULD 7 4 True
+DALE 6 4 False
+DUEL 8 1 True
+LEAD 5 1 False
+LUGE 0 5 False
+GLUE 5 0 True
+HALE 2 3 False
+GALE 0 3 True
+GLADE 3 1 True
 10 10
-- - C O T T A G E -
-- - O - - A - O - O
-- - T - C O A T - C
-- - T - - - - T - T
-- T A T E - - A T E
-- O - A - - - - - T
-- T - C A G E - - -
-- E - T - - T - - -
-- - - - - - A - - -
-- - - - - - T A C O
-33
-TEA
-TOE
-COT
-TET
-CAG
-TAE
-TAT
-TEC
-TOC
-TAG
-AGO
-GOA
-OCA
-COTE
-COG
+- - - G A L E - - -
+- - - - - U - L - -
+- - - H - G L A D -
+- G L A D E - U - -
+- - - L - - A G E D
+G L U E - - - H - -
+- E - - D - - E - -
+- A - - A U L D - -
+- D U E L - - - - -
+- - - - E - - - - -
+45
+DAHL
+HELD
+LAD
+LAG
+LAUGH
 AGE
-ACT
-CAT
-GOAT
-CATE
-GOT
-GEO
-GATE
-EGO
-GAT
-GET
-ACE
-EAT
-ETA
-OAT
-TOT
-ECO
-ATT
-13
-cottage
-["(noun) a small house with a single story"]
-cotta
-["(noun) soft silky fibers from cotton plants in their raw state", "(noun) fabric woven from cotton fibers", "(noun) erect bushy mallow plant or small tree bearing bolls containing seeds with many long hairy fibers"]
-tao
-["(noun) an adherent of any branch of Taoism", "(noun) the ultimate principle of the universe"]
-coat
-["(noun) an outer garment that has sleeves and covers the body from shoulder down; worn outdoors", "(noun) a thin layer covering something", "(noun) growth of hair or wool or fur covering the body of an animal", "(verb) put a coat on; cover the surface of; furnish with a surface", "(verb) cover or provide with a coat", "(verb) form a coat over"]
-gotta
-[]
-tate
-["(noun) United States poet and critic (1899-1979"]
-tote
-["(noun) a capacious bag or basket", "(verb) carry with difficulty"]
-tact
-["(noun) consideration in dealing with others and avoiding giving offense"]
-cage
-["(noun) an enclosure made or wire or metal bars in which birds or animals can be kept", "(noun) something that restricts freedom as a cage restricts movement", "(noun) United States composer of avant-garde music (1912-1992", "(verb) confine in a cage"]
-ate
-["(noun) goddess of criminal rashness and its punishment", "(verb) take in solid food", "(verb) eat a meal; take a meal", "(verb) take in food; used of animals only"]
-etat
-[]
-taco
-["(noun) (ethnic slur", "(noun) a tortilla rolled cupped around a filling"]
-octet
-["(noun) the cardinal number that is the sum of seven and one", "(noun) eight performers or singers who perform together", "(noun) a set of eight similar things considered as a unit"]
+ELD
+HUG
+ALE
+DUG
+LUG
+LEG
+UGH
+GED
+GELD
+GAL
+HAG
+HUGE
+ALU
+DAH
+GEL
+HUE
+GAD
+GUL
+LED
+DAG
+HEAD
+DEL
+DAL
+DUAL
+HEAL
+DEG
+HAUL
+HULA
+HAD
+DEAL
+DAE
+DUH
+GLUED
+LEU
+HAULED
+DUE
+EAU
+LEA
+LAH
+12
+LAUGHED
+["(verb) produce laughter"]
+AGED
+["(noun) people who are old collectively", "(verb) begin to seem older; get older", "(verb) grow old or older", "(verb) make older", "(adjective) advanced in years; (`aged' is pronounced as two syllables", "(adjective) at an advanced stage of erosion (pronounced as one syllable", "(adjective) having attained a specific age; (`aged' is pronounced as one syllable"]
+GLAD
+["(noun) any of numerous plants of the genus Gladiolus native chiefly to tropical and South Africa having sword-shaped leaves and one-sided spikes of brightly colored funnel-shaped flowers; widely cultivated", "(adjective) showing or causing joy and pleasure; especially made happy", "(adjective) eagerly disposed to act or to be of service", "(adjective) feeling happy appreciation"]
+AULD
+["(adjective) a Scottish word"]
+DALE
+["(noun) an open river valley (in a hilly area"]
+DUEL
+["(noun) a prearranged fight with deadly weapons by two people (accompanied by seconds", "(noun) any struggle between two skillful opponents (individuals or groups", "(verb) fight a duel, as over one's honor or a woman"]
+LEAD
+["(noun) an advantage held by a competitor in a race", "(noun) a soft heavy toxic malleable metallic element; bluish white when freshly cut but tarnishes readily to dull grey", "(noun) evidence pointing to a possible solution", "(verb) take somebody somewhere", "(verb) produce as a result or residue", "(verb) tend to or result in"]
+LUGE
+["(noun) a racing sled for one or two people", "(verb) move along on a luge or toboggan"]
+GLUE
+["(noun) cement consisting of a sticky substance that is used as an adhesive", "(verb) join or attach with or as if with glue", "(verb) be fixed as if by glue"]
+HALE
+["(noun) a soldier of the American Revolution who was hanged as a spy by the British; his last words were supposed to have been `I only regret that I have but one life to give for my country' (1755-1776", "(noun) United States astronomer who discovered that sunspots are associated with strong magnetic fields (1868-1938", "(noun) prolific United States writer (1822-1909", "(verb) to cause to do through pressure or necessity, by physical, moral or intellectual means", "(verb) draw slowly or heavily", "(adjective) exhibiting or restored to vigorous good health"]
+GALE
+["(noun) a strong wind moving 45-90 knots; force 7 to 10 on Beaufort scale"]
+GLADE
+["(noun) a tract of land with few or no trees in the middle of a wooded area"]

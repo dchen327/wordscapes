@@ -1,64 +1,98 @@
-12
-BETWEEN 7 2 True
-EWE 7 7 False
-BEEN 5 3 False
-BEET 5 3 True
-NEWT 2 6 False
-WEN 4 6 True
-BENE 3 3 True
-TWEEN 0 8 False
-BENT 0 5 True
-TEE 1 4 False
-TEEN 9 6 True
-WENT 1 1 True
-10 10
-- - - - - B E N T -
-- W E N T - - - W -
-- - - - E - N - E -
-- - - B E N E - E -
-- - - - - - W E N -
-- - - B E E T - - -
-- - - E - - - - - -
-- - B E T W E E N -
-- - - N - - - W - -
-- - - - - - T E E N
 14
-WEE
-TEN
-NEW
-ENE
-EEN
-WET
-BEN
-NEE
-TEW
-NET
-BET
-WEB
-NEB
-BEE
-12
-between
-["(adverb) in the interval", "(adverb) in between"]
-ewe
-["(noun) a member of a people living in southern Benin and Togo and southeastern Ghana", "(noun) a Kwa language spoken by the Ewe in Ghana and Togo and Benin", "(noun) female sheep"]
-been
-["(verb) have the quality of being; (copula, used with an adjective or a predicate noun", "(verb) be identical to; be someone or something", "(verb) occupy a certain position or area; be somewhere"]
-beet
-["(noun) biennial Eurasian plant usually having a swollen edible root; widely cultivated as a food crop", "(noun) round red root vegetable"]
-newt
-["(noun) small usually bright-colored semiaquatic salamanders of North America and Europe and northern Asia"]
-wen
-["(noun) a common cyst of the skin; filled with fatty matter (sebum"]
-bene
+OCTOPUS 1 5 False
+COOP 2 5 True
+SOUP 7 5 True
+OPUS 2 7 False
+SCOOP 5 1 True
+POT 7 8 False
+CUTS 5 2 False
+TOPO 1 2 True
+POTS 7 0 True
+PUTS 9 6 True
+COTS 2 1 False
+SOOT 0 3 False
+COST 3 0 True
+OPTS 6 0 False
+10 10
+- - - S - - - - - -
+- - T O P O - - - -
+- C - O - C O O P -
+C O S T - T - P - -
+- T - - - O - U - -
+- S C O O P - S - -
+O - U - - U - - - -
+P O T S - S O U P -
+T - S - - - - - O -
+S - - - - - P U T S
+42
+SPOT
+PST
+COS
+OPS
+COT
+PUT
+TOC
+CUP
+TOP
+SCOUT
+TOO
+POST
+POO
+OUTS
+SCOP
+COOS
+OPT
+CUT
+SOP
+UTS
+CUPS
+OOP
+PUS
+UPS
+SUP
+SOT
+TOPS
+COO
+SOC
+SCOT
+SPOUT
+POCO
+STOP
+OOPS
+POS
+COP
+SOU
+OUS
+CUSP
+COPS
+COUP
+OUT
+14
+OCTOPUS
+["(noun) tentacles of octopus prepared as food", "(noun) bottom-living cephalopod having a soft oval body with eight long tentacles"]
+COOP
+["(noun) a farm building for housing poultry", "(noun) an enclosure made or wire or metal bars in which birds or animals can be kept"]
+SOUP
+["(noun) liquid food especially of meat or fish or vegetable stock often containing pieces of solid food", "(noun) any composition having a consistency suggestive of soup", "(noun) an unfortunate situation", "(verb) dope (a racehorse"]
+OPUS
+["(noun) a musical work that has been created"]
+SCOOP
+["(noun) the quantity a scoop will hold", "(noun) a hollow concave shape made by removing something", "(noun) a news report that is reported first by one news organization", "(verb) take out or up with or as if with a scoop", "(verb) get the better of"]
+POT
+["(noun) metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid", "(noun) a plumbing fixture for defecation and urination", "(noun) the quantity contained in a pot", "(verb) plant in a pot"]
+CUTS
+["(noun) a share of the profits", "(noun) a trench resembling a furrow that was made by erosion or excavation", "(noun) a step on some scale", "(verb) separate with or as if with an instrument", "(verb) cut down on; make a reduction in", "(verb) turn sharply; change direction abruptly"]
+TOPO
 []
-tween
-[]
-bent
-["(noun) a relatively permanent inclination to react in a particular way", "(noun) grass for pastures and lawns especially bowling and putting greens", "(noun) an area of grassland unbounded by fences or hedges", "(verb) form a curve", "(verb) change direction", "(verb) cause (a plastic object", "(adjective) fixed in your purpose", "(adjective) used of the back and knees; stooped", "(adjective) or bended"]
-tee
-["(noun) the starting place for each hole on a golf course", "(noun) support holding a football on end and above the ground preparatory to the kickoff", "(noun) a short peg put into the ground to hold a golf ball off the ground", "(verb) place on a tee", "(verb) connect with a tee"]
-teen
-["(noun) a juvenile between the onset of puberty and maturity", "(adjective) being of the age 13 through 19"]
-went
-["(verb) change location; move, travel, or proceed, also metaphorically", "(verb) follow a procedure or take a course", "(verb) move away from a place into another direction"]
+POTS
+["(noun) metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid", "(noun) a plumbing fixture for defecation and urination", "(noun) the quantity contained in a pot", "(verb) plant in a pot"]
+PUTS
+["(noun) the option to sell a given stock (or stock index or commodity future", "(verb) put into a certain place or abstract location", "(verb) cause to be in a certain state; cause to be in a certain relation", "(verb) formulate in a particular style or language"]
+COTS
+["(noun) a sheath worn to protect a finger", "(noun) baby bed with high sides made of slats", "(noun) a small bed that folds up for storage or transport"]
+SOOT
+["(noun) a black colloidal substance consisting wholly or principally of amorphous carbon and used to make pigments and ink", "(verb) coat with soot"]
+COST
+["(noun) the total spent for goods or services including money and time and labor", "(noun) the property of having material worth (often indicated by the amount of money something would bring if sold", "(noun) value measured by what must be given or done or undergone to obtain something", "(verb) be priced at", "(verb) require to lose, suffer, or sacrifice"]
+OPTS
+["(verb) select as an alternative over another"]

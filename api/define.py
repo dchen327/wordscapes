@@ -47,5 +47,5 @@ class handler(BaseHTTPRequestHandler):
 
 if __name__ == '__main__':
     # print(handler.define_word('basket'))
-    words = ['polygon', 'subst', 'cat', 'ajdslk']
+    words = ['soup']
     print(handler.define_words(words))
