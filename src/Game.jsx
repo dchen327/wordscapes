@@ -136,6 +136,7 @@ export const Game = () => {
         },
         body: JSON.stringify({ words }),
       });
+      console.log(await response.text());
       const data = await response.json();
       setDefinitions(data.definitions);
     };

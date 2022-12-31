@@ -17,19 +17,6 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write(json.dumps(definitions).encode())
 
     @staticmethod
-    def define_word(word):
-        dictionary = PyDictionary()
-        definition = dictionary.meaning(word, disable_errors=True)
-        if definition is None:
-            return {'definitions': []}
-        all_defs = []
-        for pos in definition:
-            all_defs.extend(
-                f'({pos.lower()}) {defn}' for defn in definition[pos]
-            )
-        return {'definitions': all_defs}
-
-    @staticmethod
     def define_words(words):
         dictionary = PyDictionary(*words)
         definitions = {word: [] for word in words}
@@ -46,6 +33,5 @@ class handler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    # print(handler.define_word('basket'))
-    words = ['polygon', 'subst', 'cat', 'ajdslk']
+    words = ['polygon']
     print(handler.define_words(words))
