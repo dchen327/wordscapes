@@ -88,6 +88,7 @@ export const Game = () => {
   const defineWords = (words) => {
     // toast loading message if definitions are still loading from API
     if (!definitions) {
+      toast.dismiss(); // clear previous toasts
       toast.loading("Loading definitions...");
     }
     setDefineModalWords(words);
@@ -287,13 +288,14 @@ export const Game = () => {
           <div className="flex flex-col justify-center">
             {defineModalWords.map((word) => (
               <div key={word}>
-                <p className="text-sm text-slate-200">{word}</p>
-                {definitions[word]}
-                {/* {definitions[word].map((definition) => (
+                <button className="text-lg font-semibold text-slate-200 border rounded-lg py-1 px-2 m-2">
+                  {word}
+                </button>
+                {definitions[word].map((definition) => (
                   <p key={definition} className="text-sm text-slate-200">
                     {definition}
                   </p>
-                ))} */}
+                ))}
               </div>
             ))}
           </div>
