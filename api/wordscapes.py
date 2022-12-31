@@ -2,11 +2,13 @@ import random
 import itertools
 import os
 import shutil
+import json
 from collections import Counter, defaultdict, namedtuple
 from copy import deepcopy
 from typing import Counter, List, Dict
 from icecream import ic
 import numpy as np
+from PyDictionary import PyDictionary
 
 
 WordInfo = namedtuple('WordInfo', ['word', 'r', 'c', 'horiz'])
@@ -37,7 +39,7 @@ def gen_crossword(puzzle_words: List[str], output_file: str):
         - Start by randomly placing the main word (longest)
         - At each step:
             - Pick random set of crosswords
-            - Pick a random word and try to insert 
+            - Pick a random word and try to insert
         - Store a crossword as a grid and the used dictionary
         - Returns None if no crossword can be generated with at least 6 words,
             otherwise returns a generated crossword
@@ -135,6 +137,13 @@ def gen_crossword(puzzle_words: List[str], output_file: str):
             for word in bonus_words:
                 f.write(word.upper() + '\n')
 
+            # definitions of used words
+            definitions = define_words(used.keys())
+            f.write(str(len(definitions)) + '\n')
+            for word in definitions:
+                f.write(word.upper() + '\n')
+                f.write(json.dumps(definitions[word]) + '\n')
+
     return random.choice(crosswords)
 
 
@@ -212,6 +221,22 @@ def print_grid(grid, file=None, caps=False):
     # print()
 
 
+def define_words(words):
+    dictionary = PyDictionary(*words)
+    definitions = defaultdict(list)
+    for word in words:
+        definition = dictionary.meaning(word, disable_errors=True)
+        if definition is None:
+            continue
+        # max 3 for each part of speech
+        for pos in list(definition.keys()):
+            definitions[word].extend(
+                f'({pos.lower()}) {defn}' for defn in definition[pos][:3]
+            )
+
+    return definitions
+
+
 def setup():
     with open('clean_words.txt') as f:
         words = f.read().splitlines()
@@ -219,7 +244,7 @@ def setup():
         for word in words:
             words_by_len[len(word)].append(word)
 
-        num_crosswords = 100  # will try to generate this many, might be fewer
+        num_crosswords = 20  # will try to generate this many, might be fewer
 
         main_words = random.choices(
             words_by_len[8] + words_by_len[7], k=3*num_crosswords)
@@ -240,15 +265,12 @@ def setup():
             output_file = f'levels/level_{level_num}.txt'
             if gen_crossword(
                     puzzle_words, output_file) is not None:
-                print(f'Crossword #{level_num}: {main_word}')
+                print(f'Crossword #{level_num} Done!')
                 level_num += 1
 
         # main_word = random.choice(words_by_len[8])
-        # main_word = 'pulley'
-
+        # main_word = 'squeaky'
         # puzzle_words = gen_puzzle_words(words_by_len, main_word)
-        # print(len(puzzle_words))
-        # print(puzzle_words)
         # gen_crossword(puzzle_words, 'puzzle.txt')
 
 

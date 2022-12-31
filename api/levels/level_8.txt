@@ -1,75 +1,96 @@
-12
-ARISING 9 3 True
-GRIS 6 6 False
-RISING 4 9 False
-AIRING 6 1 True
-RAIN 4 4 False
-AIRS 4 2 True
-ARIS 1 5 False
-AIN 6 1 False
-INGS 3 5 True
-SIGN 1 7 False
-RAGS 1 4 True
-SARI 3 2 False
+16
+MUTATED 3 3 False
+TAME 7 3 True
+MEAD 3 3 True
+MUTE 0 4 False
+MED 6 6 False
+DUET 8 6 True
+ETAT 5 9 False
+MATTE 5 0 True
+MAUD 4 1 False
+MATTED 0 4 True
+TATU 1 1 True
+MEAT 6 6 True
+DATE 0 9 False
+MAT 0 2 False
+TUT 2 7 True
+MADE 9 1 True
 10 10
-- - - - - - - - - -
-- - - - R A G S - -
-- - - - - R - I - -
-- - S - - I N G S -
-- - A I R S - N - R
-- - R - A - - - - I
-- A I R I N G - - S
-- I - - N - R - - I
-- N - - - - I - - N
-- - - A R I S I N G
-50
-RING
-RAINS
-RNA
-ING
-RAI
-ANI
-RIN
-AIS
-GRIN
-SAG
-SIN
-GAIN
-RIGS
-GAR
-INS
-RINGS
-RAS
-GRAN
-ARS
-RIA
-GRAIN
-AGS
-GAINS
-GRINS
-SAR
-GRAINS
-RAG
-NAS
-AIR
-SIR
-RAN
-SRI
-NIS
-SING
-RANG
-RAISIN
-GAS
-GIS
-ANS
-SAI
-GAN
-RAISING
-SNAG
-RIG
-IRIS
-SAN
-SANG
-GIN
-NAG
-SIG
+- - M - M A T T E D
+- T A T U - - - - A
+- - T - T - - T U T
+- - - M E A D - - E
+- M - U - - - - - -
+M A T T E - - - - E
+- U - A - - M E A T
+- D - T A M E - - A
+- - - E - - D U E T
+- M A D E - - - - -
+38
+MET
+MUTT
+TED
+MATED
+TAM
+ATE
+DUE
+TEAM
+TUM
+MEU
+DUMA
+MATE
+DAM
+EMU
+TAE
+TAT
+EAT
+MAD
+EAU
+ATT
+DUM
+MUTED
+TET
+MUD
+TATE
+META
+DAME
+UTA
+UTE
+DATUM
+TEA
+TAD
+DAE
+MAE
+ETA
+TAU
+MATT
+AME
+14
+MUTATED
+["(verb) undergo mutation"]
+TAME
+["(verb) correct by punishment or discipline", "(verb) make less strong or intense; soften", "(verb) adapt (a wild plant or unclaimed land", "(adjective) flat and uninspiring", "(adjective) very restrained or quiet", "(adjective) brought from wildness into a domesticated state"]
+MEAD
+["(noun) United States anthropologist noted for her claims about adolescence and sexual behavior in Polynesian cultures (1901-1978", "(noun) United States philosopher of pragmatism (1863-1931", "(noun) made of fermented honey and water"]
+MUTE
+["(noun) a deaf person who is unable to speak", "(noun) a device used to soften the tone of a musical instrument", "(verb) deaden (a sound or noise", "(adjective) expressed without speech", "(adjective) unable to speak because of hereditary deafness"]
+MED
+["(noun) a master's degree in education"]
+DUET
+["(noun) two items of the same kind", "(noun) two performers or singers who perform together", "(noun) a pair who associate with one another"]
+MATTE
+["(noun) a mixture of sulfides that forms when sulfide metal ores are smelted", "(noun) the property of having little or no contrast; lacking highlights or gloss", "(verb) change texture so as to become matted and felt-like", "(adjective) not reflecting light; not glossy"]
+MATTED
+["(verb) twist together or entwine into a confusing mass", "(verb) change texture so as to become matted and felt-like", "(verb) change texture so as to become matted and felt-like", "(adjective) tangled in a dense mass", "(adjective) not reflecting light; not glossy"]
+TATU
+["(noun) about three feet long exclusive of tail"]
+MEAT
+["(noun) the flesh of animals (including fishes and birds and snails", "(noun) the inner and usually edible part of a seed or grain or nut or fruit stone", "(noun) the choicest or most essential or most vital part of some idea or experience"]
+DATE
+["(noun) the specified day of the month", "(noun) a participant in a date", "(noun) a meeting arranged in advance", "(verb) go on a date with", "(verb) stamp with a date", "(verb) assign a date to; determine the (probable"]
+MAT
+["(noun) a thick flat pad used as a floor covering", "(noun) mounting consisting of a border or background for a picture", "(noun) sports equipment consisting of a piece of thick padding on the floor for gymnastic sports", "(verb) twist together or entwine into a confusing mass", "(verb) change texture so as to become matted and felt-like", "(adjective) not reflecting light; not glossy"]
+TUT
+["(verb) utter `tsk,' `tut,' or `tut-tut,' as in disapproval"]
+MADE
+["(verb) engage in", "(verb) give certain properties to something", "(verb) make or cause to be or to become", "(adjective) produced by a manufacturing process", "(adjective) (of a bed", "(adjective) successful or assured of success"]

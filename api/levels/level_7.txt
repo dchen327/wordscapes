@@ -1,49 +1,97 @@
-14
-COROLLA 8 2 True
-CALL 5 6 False
-COLLAR 3 4 False
-ORCA 5 8 False
-COLL 3 4 True
-LOCO 4 1 True
-ROLL 0 7 False
-CAROL 0 1 False
-CORAL 6 0 True
-ARCO 0 6 True
-ORAL 2 0 True
-ORC 0 9 False
-COL 0 3 False
-CARL 6 0 False
+15
+ARGUABLY 0 4 False
+GRAY 7 1 True
+GRAB 0 2 True
+BURY 5 2 False
+LYRA 6 4 True
+GRUB 0 2 False
+LAURA 5 7 False
+RAYA 4 3 True
+GABY 9 6 True
+ALBA 1 6 False
+BURG 3 6 True
+BRAG 0 9 False
+BAR 1 0 True
+LAB 3 0 True
+ALB 0 7 True
 10 10
-- C - C - - A R C O
-- A - O - - - O - R
-O R A L - - - L - C
-- O - - C O L L - -
-- L O C O - - - - -
-- - - - L - C - O -
-C O R A L - A - R -
-A - - - A - L - C -
-R - C O R O L L A -
-L - - - - - - - - -
-22
-ORA
-ROC
-LOCAL
-LOCA
-ALL
-LOO
-ARC
-LOL
-OCA
-CAL
-COOL
-COLOR
+- - G R A B - A L B
+B A R - R - A - - R
+- - U - G - L - - A
+L A B - U - B U R G
+- - - R A Y A - - -
+- - B - B - - L - -
+- - U - L Y R A - -
+- G R A Y - - U - -
+- - Y - - - - R - -
+- - - - - - G A B Y
+42
+RUGBY
+RUB
+BAG
+BRA
+ABA
+RAY
+BUY
+LUG
+RYU
+BAY
+UGLY
+RUBY
+ARY
+GAY
+GAL
+AURAL
+AGA
 LAR
-COO
-COR
-ROO
-OAR
-CAR
-LAC
-COAL
-COLA
-LOR
+GAR
+LAG
+ABLY
+GUL
+RUG
+RAG
+LAY
+AGAR
+ARB
+BURL
+GALA
+GUY
+ALA
+URB
+BUG
+BAL
+ALU
+GAB
+AURA
+BUR
+GARB
+BLUR
+BAA
+BRAY
+13
+ARGUABLY
+["(adverb) as can be shown by argument"]
+GRAY
+["(noun) a neutral achromatic color midway between white and black", "(noun) clothing that is a grey color", "(noun) any organization or party whose uniforms or badges are grey", "(verb) make grey", "(verb) turn grey", "(adjective) of an achromatic color of any lightness intermediate between the extremes of white and black", "(adjective) showing characteristics of age, especially having grey or white hair", "(adjective) used to signify the Confederate forces in the American Civil War (who wore grey uniforms"]
+GRAB
+["(noun) a mechanical device for gripping an object", "(noun) the act of catching an object with the hands", "(verb) take hold of so as to seize or restrain or stop the motion of", "(verb) get hold of or seize quickly and easily", "(verb) make a grasping or snatching motion with the hand"]
+BURY
+["(verb) cover from sight", "(verb) place in a grave or tomb", "(verb) place in the earth and cover with soil"]
+LYRA
+["(noun) a small constellation in the northern hemisphere near Cygnus and Draco; contains the star Vega"]
+GRUB
+["(noun) informal terms for a meal", "(noun) a soft thick wormlike larva of certain beetles and other insects", "(verb) ask for and get free; be a parasite", "(verb) search about busily"]
+RAYA
+["(noun) a synthetic silklike fabric"]
+ALBA
+["(noun) one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers", "(noun) a book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc"]
+BURG
+["(noun) colloquial American term for a town"]
+BRAG
+["(noun) an instance of boastful talk", "(verb) show off", "(adjective) exceptionally good"]
+BAR
+["(noun) a room or establishment where alcoholic drinks are served over a counter", "(noun) a counter where you can obtain food or drink", "(noun) a rigid piece of metal or wood; usually used as a fastening or obstruction or weapon", "(verb) prevent from entering; keep out", "(verb) render unsuitable for passage", "(verb) expel, as if by official decree"]
+LAB
+["(noun) a workplace for the conduct of scientific research"]
+ALB
+["(noun) a white linen liturgical vestment with sleeves; worn by priests"]

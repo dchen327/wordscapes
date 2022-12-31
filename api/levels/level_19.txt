@@ -1,48 +1,45 @@
-12
-ARRIVING 0 6 False
-RANG 1 6 True
-GRAN 7 6 True
-GAR 1 9 False
-RAIN 6 8 False
-RING 9 6 True
-VIRGIN 5 2 True
-RAVING 3 2 False
-VAIN 3 4 True
-RAI 6 0 True
-RIVA 0 3 True
-GAIN 8 2 True
+8
+GREENER 1 3 False
+GENRE 6 2 True
+GENE 5 6 False
+GREE 3 0 True
+REG 2 3 True
+GERE 5 6 True
+GEE 8 5 True
+GREEN 3 9 False
 10 10
-- - - R I V A - - -
-- - - - - - R A N G
-- - - - - - R - - A
-- - R - V A I N - R
-- - A - - - V - - -
-- - V I R G I N - -
-R A I - - - N - R -
-- - N - - - G R A N
-- - G A I N - - I -
-- - - - - - R I N G
-23
-RNA
-ING
-ANI
-RIN
-VIA
-GRIN
-NAV
-AIRING
-VIG
-RIA
-GRAIN
-VAR
-RAG
-AIR
-RAN
-VAN
-RAV
-GAN
-AIN
-RIG
-GIN
-NAG
-VIN
+- - - - - - - - - -
+- - - G - - - - - -
+- - - R E G - - - -
+G R E E - - - - - G
+- - - E - - - - - R
+- - - N - - G E R E
+- - G E N R E - - E
+- - - R - - N - - N
+- - - - - G E E - -
+- - - - - - - - - -
+13
+GEN
+EEN
+NEE
+ENE
+REN
+ERG
+ENG
+ERN
+GER
+ERE
+ERR
+REE
+NEG
+5
+GREENER
+["(adjective) of the color between blue and yellow in the color spectrum; similar to the color of fresh grass", "(adjective) concerned with or supporting or in conformity with the political principles of the Green Party", "(adjective) not fully developed or mature; not ripe"]
+GENRE
+["(noun) a kind of literary or artistic work", "(noun) a style of expressing yourself in writing", "(noun) an expressive style of music"]
+GENE
+["(noun) (genetics"]
+GEE
+["(noun) a unit of force equal to the force exerted by gravity; used to indicate the force to which a body is subjected when it is accelerated", "(verb) turn to the right side", "(verb) give a command to a horse to turn to the right side"]
+GREEN
+["(noun) green color or pigment; resembling the color of growing grass", "(noun) a piece of open land for recreational use in an urban area", "(noun) United States labor leader who was president of the American Federation of Labor from 1924 to 1952 and who led the struggle with the Congress of Industrial Organizations (1873-1952", "(verb) turn or become green", "(adjective) of the color between blue and yellow in the color spectrum; similar to the color of fresh grass", "(adjective) concerned with or supporting or in conformity with the political principles of the Green Party", "(adjective) not fully developed or mature; not ripe"]

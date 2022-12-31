@@ -1,32 +1,73 @@
-9
-HUMILITY 5 0 True
-MILT 5 2 False
-HTML 8 1 True
-LIMIT 1 6 False
-LITHIUM 3 0 True
-LIT 1 6 True
-YUM 5 7 False
-MYTH 0 3 False
-HUI 5 0 False
+14
+SIBLINGS 2 1 True
+BLISS 1 4 False
+SINS 0 6 False
+SIGNS 5 4 True
+SINGS 4 0 True
+IBIS 5 5 False
+SLINGS 2 1 False
+NILS 5 7 False
+SIGS 2 8 False
+LIBS 8 2 True
+NIS 7 3 False
+LIN 7 7 True
+SIGN 0 6 True
+INGS 6 9 False
 10 10
-- - - M - - - - - -
-- - - Y - - L I T -
-- - - T - - I - - -
-L I T H I U M - - -
-- - - - - - I - - -
-H U M I L I T Y - -
-U - I - - - - U - -
-I - L - - - - M - -
-- H T M L - - - - -
-- - - - - - - - - -
-10
-TUM
-TUI
-HUM
-HIT
-THY
-HIM
-TIL
-HUT
-MIL
-LUM
+- - - - - - S I G N
+- - - - B - I - - -
+- S I B L I N G S -
+- L - - I - S - I -
+S I N G S - - - G -
+- N - - S I G N S -
+- G - - - B - I - I
+- S - N - I - L I N
+- - L I B S - S - G
+- - - S - - - - - S
+23
+GIN
+SING
+NIL
+BINS
+SLING
+ING
+SIS
+LIS
+INS
+SIB
+SIN
+BING
+BIG
+GIS
+LING
+GLIB
+SIBLING
+SIG
+LIB
+BLING
+NIB
+BIS
+BIN
+11
+SIBLINGS
+["(noun) a person's brother or sister"]
+BLISS
+["(noun) a state of extreme happiness"]
+SINS
+["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]
+SIGNS
+["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement"]
+SINGS
+["(verb) deliver by singing", "(verb) produce tones with the voice", "(verb) to make melodious sounds"]
+IBIS
+["(noun) wading birds of warm regions having long slender down-curved bills"]
+SLINGS
+["(noun) a highball with liquor and water with sugar and lemon or lime juice", "(noun) a plaything consisting of a Y-shaped stick with elastic between the arms; used to propel small stones", "(noun) a shoe that has a strap that wraps around the heel", "(verb) hurl as if with a sling", "(verb) hang loosely or freely; let swing", "(verb) move with a sling"]
+NILS
+["(noun) a quantity of no importance"]
+NIS
+["(noun) a hard malleable ductile silvery metallic element that is resistant to corrosion; used in alloys; occurs in pentlandite and smaltite and garnierite and millerite"]
+LIN
+["(noun) United States sculptor and architect whose public works include the memorial to veterans of the Vietnam War in Washington (born in 1959"]
+SIGN
+["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement", "(adjective) used of the language of the deaf"]

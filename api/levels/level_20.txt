@@ -1,61 +1,65 @@
-14
-PLUNDER 0 3 True
-DUNE 0 7 False
-LEND 0 4 False
-NUDE 3 2 True
-UNDER 3 3 False
-RULE 7 3 True
-RUDE 6 0 True
-PURE 5 1 False
-DEN 1 2 False
-LED 1 0 True
-RUNE 0 9 False
-RULED 5 5 False
-RUND 5 5 True
-DUEL 5 8 False
+12
+DISTINCT 0 1 True
+DIT 0 1 False
+TICS 0 8 False
+TITS 0 4 False
+DISC 3 6 True
+DICT 3 6 False
+TINS 6 6 True
+STINT 2 0 True
+SIN 6 9 False
+SIND 2 0 False
+NIT 4 0 True
+TINT 4 2 False
 10 10
-- - - P L U N D E R
-L E D - E - - U - U
-- - E - N - - N - N
-- - N U D E - E - E
-- - - N - - - - - -
-- P - D - R U N D -
-R U D E - U - - U -
-- R - R U L E - E -
-- E - - - E - - L -
-- - - - - D - - - -
-34
-ELD
-NUR
-PED
-PUN
-END
-PEL
-PUD
-DEL
-LURED
-NED
-LEU
-NEP
-DEP
-RUN
-ERN
-DUP
-PUR
-DUE
-PEN
-LURE
-LUN
-PER
-URN
-RED
-NERD
-PUL
-PRE
-PRUNE
-REN
-REP
-RUE
-DUN
-URE
-LEP
+- D I S T I N C T -
+- I - - I - - - I -
+S T I N T - - - C -
+I - - - S - D I S C
+N I T - - - I - - -
+D - I - - - C - - -
+- - N - - - T I N S
+- - T - - - - - - I
+- - - - - - - - - N
+- - - - - - - - - -
+17
+ITS
+CIT
+TID
+CID
+IDS
+SIT
+CIS
+DIN
+NID
+TIS
+TIT
+TIC
+INS
+DIS
+NIS
+SIC
+TIN
+11
+DISTINCT
+["(adjective) easy to perceive; especially clearly outlined", "(adjective) constituting a separate entity or part", "(adjective) recognizable; marked"]
+DIT
+["(noun) the shorter of the two telegraphic signals used in Morse code"]
+TICS
+["(noun) a local and habitual twitching especially in the face"]
+TITS
+["(noun) either of two soft fleshy milk-secreting glandular organs on the chest of a woman", "(noun) the small projection of a mammary gland", "(noun) small insectivorous birds"]
+DISC
+["(noun) sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove", "(noun) something with a round shape resembling a flat circular plate", "(noun) (computer science"]
+TINS
+["(noun) a silvery malleable metallic element that resists corrosion; used in many alloys and to coat other metals to prevent corrosion; obtained chiefly from cassiterite where it occurs as tin oxide", "(noun) a vessel (box, can, pan, etc.", "(noun) metal container for storing dry foods such as tea or flour", "(verb) plate with tin", "(verb) preserve in a can or tin", "(verb) prepare (a metal"]
+STINT
+["(noun) an unbroken period of time during which you do something", "(noun) smallest American sandpiper", "(noun) an individual's prescribed share of work", "(verb) subsist on a meager allowance", "(verb) supply sparingly and with restricted quantities"]
+SIN
+["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]
+SIND
+["(noun) a region of southeastern Pakistan"]
+NIT
+["(noun) a luminance unit equal to 1 candle per square meter measured perpendicular to the rays from the source", "(noun) egg or young of an insect parasitic on mammals especially a sucking louse; often attached to a hair or item of clothing"]
+TINT
+["(noun) a quality of a given color that differs slightly from another color", "(noun) a dye for coloring the hair", "(noun) a just detectable amount", "(verb) color lightly"]

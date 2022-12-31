@@ -1,29 +1,80 @@
-7
-BUCKEYE 3 7 False
-BECK 6 4 True
-CUBE 4 4 False
-BUCK 4 2 True
-YUCK 1 5 False
-BUY 8 5 True
-BEE 4 2 False
+12
+AUTISTIC 1 8 False
+TACIT 4 5 True
+STATIC 1 5 False
+TACT 6 3 True
+TITS 6 3 False
+TATU 2 5 True
+ACTS 1 2 True
+SUIT 8 0 True
+TICS 8 6 True
+TAIT 0 2 False
+SITU 3 0 True
+CATS 0 0 False
 10 10
-- - - - - - - - - -
-- - - - - Y - - - -
-- - - - - U - - - -
-- - - - - C - B - -
-- - B U C K - U - -
-- - E - U - - C - -
-- - E - B E C K - -
-- - - - E - - E - -
-- - - - - B U Y - -
-- - - - - - - E - -
-9
-CEE
-EYE
-KEY
-BYE
-BEY
-ECU
-CUE
-CUB
-EEK
+C - T - - - - - - -
+A - A C T S - - A -
+T - I - - T A T U -
+S I T U - A - - T -
+- - - - - T A C I T
+- - - - - I - - S -
+- - - T A C T - T -
+- - - I - - - - I -
+S U I T - - T I C S
+- - - S - - - - - -
+34
+ITS
+CIT
+CAT
+AIS
+CUT
+UTS
+TIC
+ATS
+CAST
+SAU
+TAT
+ATT
+TAS
+TAI
+TUI
+ACT
+CUTS
+SAC
+TIS
+TIT
+ITA
+SAT
+UTA
+SIC
+SAI
+AIT
+ATTIC
+TUT
+SUI
+CIS
+SCAT
+STAT
+SIT
+TAU
+10
+AUTISTIC
+["(adjective) characteristic of or affected with autism"]
+TACIT
+["(adjective) implied by or inferred from actions or statements"]
+STATIC
+["(noun) a crackling or hissing noise caused by electrical interference", "(noun) angry criticism", "(adjective) not in physical motion", "(adjective) concerned with or producing or caused by static electricity", "(adjective) showing little if any change"]
+TACT
+["(noun) consideration in dealing with others and avoiding giving offense"]
+TITS
+["(noun) either of two soft fleshy milk-secreting glandular organs on the chest of a woman", "(noun) the small projection of a mammary gland", "(noun) small insectivorous birds"]
+TATU
+["(noun) about three feet long exclusive of tail"]
+ACTS
+["(noun) a legal document codifying the result of deliberations of a committee or society or legislative body", "(noun) something that people do or cause to happen", "(noun) a subdivision of a play or opera or ballet", "(verb) perform an action, or work out or perform (an action", "(verb) behave in a certain manner; show a certain behavior; conduct or comport oneself", "(verb) play a role or part"]
+SUIT
+["(noun) a set of garments (usually including a jacket and trousers or skirt", "(noun) a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy", "(noun) (slang", "(verb) be agreeable or acceptable to", "(verb) be agreeable or acceptable", "(verb) accord or comport with"]
+TICS
+["(noun) a local and habitual twitching especially in the face"]
+CATS
+["(noun) feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats", "(noun) an informal term for a youth or man", "(noun) a spiteful woman gossip", "(verb) beat with a cat-o'-nine-tails", "(verb) eject the contents of the stomach through the mouth"]

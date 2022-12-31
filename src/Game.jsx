@@ -30,7 +30,7 @@ export const Game = () => {
   const [defineModalWords, setDefineModalWords] = useState([]);
   const [showDefinitions, setShowDefinitions] = useState(false);
   const [posToWords, setPosToWords] = useState({});
-  const NUM_LEVELs = 10;
+  const NUM_LEVELs = 20;
 
   // disable body scrolling
   useEffect(() => {
@@ -51,9 +51,7 @@ export const Game = () => {
 
   const getNextLevel = () => {
     toast.dismiss(); // clear previous toasts
-    toast.success(`Level ${levelNum} Complete!`, {
-      duration: 3000,
-    });
+    toast.success(`Level ${levelNum} Complete!`);
     setLevel(levelNum + 1);
     setDefinitions(null); // reset definitions
     // TODO: set theme color to something new
@@ -118,26 +116,12 @@ export const Game = () => {
       setWords(data.words);
       setBonusWords(data.bonus);
       setPosToWords(data.posToWords);
-      // get definitions of all words
+      setDefinitions(data.definitions);
       let startWord = Object.keys(data.words)[0].split("");
       shuffleArray(startWord);
       setLetters(startWord);
       // TODO: pick new theme color here as well
       setThemeColor("#CF9FFF");
-      await getDefinitions([...Object.keys(data.words), ...data.bonus]);
-      toast.dismiss(); // dismiss loading definitions toast
-    };
-
-    const getDefinitions = async (words) => {
-      const response = await fetch("/api/define.py", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ words }),
-      });
-      const data = await response.json();
-      setDefinitions(data.definitions);
     };
 
     fetchCrossword();
@@ -287,21 +271,42 @@ export const Game = () => {
             <FontAwesomeIcon icon={faXmark} />
           </button>
         </div>
-        {definitions && (
+        {definitions && defineModalWords && (
           <div className="flex flex-col justify-center">
             {defineModalWords.map((word) => (
               <div key={word}>
                 <button className="text-lg font-semibold text-slate-200 border rounded-lg py-1 px-2 m-2">
                   {word}
                 </button>
-                {definitions[word].map((definition) => (
-                  <p key={definition} className="text-sm text-slate-200">
-                    {definition}
-                  </p>
-                ))}
-                {definitions[word].length === 0 && (
+                {word in definitions ? (
+                  definitions[word].map((definition) => (
+                    <p key={definition} className="text-sm text-slate-200">
+                      {definition}
+                    </p>
+                  ))
+                ) : bonusWords.includes(word) ? (
                   <p className="text-sm text-slate-200">
-                    No definitions found for {word}
+                    No definitions for bonus words yet:{" "}
+                    <a
+                      className="text-slate-200 underline font-bold"
+                      href={`https://www.google.com/search?q=define+"${word.toLowerCase()}"`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Search Google
+                    </a>
+                  </p>
+                ) : (
+                  <p className="text-sm text-slate-200">
+                    No definitions found:{" "}
+                    <a
+                      className="text-slate-200 underline font-bold"
+                      href={`https://www.google.com/search?q=define+"${word.toLowerCase()}"`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Search Google
+                    </a>
                   </p>
                 )}
               </div>

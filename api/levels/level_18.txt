@@ -1,82 +1,92 @@
 14
-QUAGMIRE 0 2 True
-MARQUE 0 6 False
-GRAM 2 5 True
-GAME 5 3 True
-MAGE 2 8 False
-ARGUE 3 3 False
-URGE 4 6 True
-GARE 7 0 True
-MARE 6 1 False
-GERM 9 0 True
-MARG 5 5 False
-GEAR 3 1 True
-GRIM 8 5 True
-RAGE 1 1 False
+BELIEVES 1 8 False
+EVILS 3 5 True
+ISLE 7 5 True
+BILE 6 5 False
+EVIL 8 2 True
+SLEEVE 3 2 False
+LEVEE 0 5 False
+ELSE 3 0 True
+LIES 5 6 True
+SIEVE 5 0 True
+LEES 2 0 False
+VILE 1 2 True
+LIVE 0 3 False
+LES 0 5 True
 10 10
-- - Q U A G M I R E
-- R - - - - A - - -
-- A - - - G R A M -
-- G E A R - Q - A -
-- E - R - - U R G E
-- - - G A M E - E -
-- M - U - A - - - -
-G A R E - R - - - -
-- R - - - G R I M -
-G E R M - - - - - -
-55
-MIG
-EAU
-MAE
-RAI
-RUM
-AMI
-RIM
-GAR
-REI
-MIRAGE
-ERM
-REAM
-REG
-MUIR
-REM
-IMAGE
-AME
-MIR
-RUE
-URE
-MAGI
-GER
-ERG
-AUGER
-MEGA
-UREA
-GAMER
-MEG
-EAR
-GRIME
-QUA
-EMIR
-GAM
-AMIR
-MAR
-MEU
-AIM
-RAM
-IRE
-RIA
-MAG
-RAG
-EMU
-ARE
-AIR
-AGE
-ERA
-RUG
-ARM
-GUM
-MUG
-RIG
-MARGE
-GEM
-IMAGER
+- - - L - L E S - -
+- - V I L E - - B -
+L - - V - V - - E -
+E L S E - E V I L S
+E - L - - E - - I -
+S I E V E - L I E S
+- - E - - B - - V -
+- - V - - I S L E -
+- - E V I L - - S -
+- - - - - E - - - -
+38
+EEL
+LEI
+SEV
+EELS
+BEE
+VIE
+LEVIES
+LIE
+BEL
+LEE
+LIVES
+BES
+VIBE
+ELS
+LEVIS
+LIS
+BEES
+SIB
+SEE
+SEL
+VIBES
+BELIEVE
+SEI
+LIBS
+VEILS
+VIS
+EVE
+LEVEES
+VISE
+BEVEL
+VEE
+VEIL
+ESE
+LIB
+LEV
+BIS
+BELIVE
+ELVES
+13
+BELIEVES
+["(noun) any cognitive content held as true", "(noun) a vague idea in which some confidence is placed", "(verb) accept as true; take to be true", "(verb) judge or regard; look upon; judge", "(verb) be confident about something"]
+EVILS
+["(noun) morally objectionable behavior", "(noun) that which causes harm or destruction or misfortune", "(noun) the quality of being morally wrong in principle or practice"]
+ISLE
+["(noun) a small island"]
+BILE
+["(noun) a digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats"]
+EVIL
+["(noun) morally objectionable behavior", "(noun) that which causes harm or destruction or misfortune", "(noun) the quality of being morally wrong in principle or practice", "(adjective) morally bad or wrong", "(adjective) having the nature of vice", "(adjective) having or exerting a malignant influence"]
+SLEEVE
+["(noun) the part of a garment that is attached at the armhole and that provides a cloth covering for the arm", "(noun) small case into which an object fits"]
+LEVEE
+["(noun) a formal reception of visitors or guests (as at a royal court", "(noun) a pier that provides a landing place on a river", "(noun) an embankment that is built in order to prevent a river from overflowing"]
+LIES
+["(noun) a field covered with grass or herbage and suitable for grazing by livestock", "(noun) a statement that deviates from or perverts the truth", "(noun) Norwegian diplomat who was the first Secretary General of the United Nations (1896-1968", "(verb) be located or situated somewhere; occupy a certain position", "(verb) be lying, be prostrate; be in a horizontal position", "(verb) originate (in"]
+SIEVE
+["(noun) a strainer for separating lumps from powdered material or grading particles", "(verb) examine in order to test suitability", "(verb) check and sort carefully", "(verb) separate by passing through a sieve or other straining device to separate out coarser elements"]
+LEES
+["(noun) the sediment from fermentation of an alcoholic beverage"]
+VILE
+["(adjective) morally reprehensible", "(adjective) causing or able to cause nausea"]
+LIVE
+["(verb) be an inhabitant of or reside in", "(verb) lead a certain kind of life; live in a certain style", "(verb) continue to live and avoid dying", "(adjective) actually being performed at the time of hearing or viewing", "(adjective) exerting force or containing energy", "(adjective) possessing life", "(adverb) not recorded"]
+LES
+["(noun) a chronic inflammatory collagen disease affecting connective tissue (skin or joints"]

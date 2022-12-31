@@ -1,39 +1,53 @@
 10
-CURRENCY 1 6 False
-CURE 7 6 True
-CURR 2 5 True
-RYU 7 8 False
-RERUN 6 2 True
-RUNE 6 2 False
-CRUE 1 8 False
-CUR 4 4 True
-CURRY 4 4 False
-NYE 9 0 True
+BULLPEN 4 3 True
+BELL 3 8 False
+LUBE 2 3 False
+PELL 1 5 False
+PULL 2 0 True
+BULL 6 5 True
+BLUE 0 1 False
+BEN 6 5 False
+PEN 1 5 True
+PUN 8 3 True
 10 10
+- B - - - - - - - -
+- L - - - P E N - -
+P U L L - E - - - -
+- E - U - L - - B -
+- - - B U L L P E N
+- - - E - - - - L -
+- - - - - B U L L -
+- - - - - E - - - -
+- - - P U N - - - -
 - - - - - - - - - -
-- - - - - - C - C -
-- - - - - C U R R -
-- - - - - - R - U -
-- - - - C U R - E -
-- - - - U - E - - -
-- - R E R U N - - -
-- - U - R - C U R E
-- - N - Y - Y - Y -
-N Y E - - - - - U -
-16
-RYE
-YEN
-ERR
-YER
-NUR
-CRU
-URN
-ECU
-CUE
-REN
-RUN
-REC
-RUE
-ERN
-URE
-CRY
+11
+ELL
+PUL
+BUN
+PEL
+LEP
+LEU
+LUN
+NEP
+BEL
+PUB
+NEB
+9
+BULLPEN
+["(noun) a place on a baseball field where relief pitchers can warm up during a game", "(noun) a large cell where prisoners (people awaiting trial or sentence or refugees or illegal immigrants"]
+BELL
+["(noun) a hollow device made of metal that makes a ringing sound when struck", "(noun) a push button at an outer door that gives a ringing or buzzing signal when pushed", "(noun) the sound of a bell being struck", "(verb) attach a bell to"]
+LUBE
+["(noun) a substance capable of reducing friction by making surfaces smooth or slippery", "(verb) apply a lubricant to"]
+PULL
+["(noun) the act of pulling; applying force to move something toward or with you", "(noun) the force used in pulling", "(noun) special advantage or influence", "(verb) cause to move by pulling", "(verb) direct toward itself or oneself by means of some psychological power or physical attributes", "(verb) move into a certain direction"]
+BULL
+["(noun) uncastrated adult male of domestic cattle", "(noun) a large and strong and heavyset man", "(noun) obscene words for unacceptable behavior", "(verb) push or force", "(verb) try to raise the price of stocks through speculative buying", "(verb) speak insincerely or without regard for facts or truths"]
+BLUE
+["(noun) blue color or pigment; resembling the color of the clear sky in the daytime", "(noun) blue clothing", "(noun) any organization or party whose uniforms or badges are blue", "(verb) turn blue", "(adjective) of the color intermediate between green and violet; having a color similar to that of a clear unclouded sky", "(adjective) used to signify the Union forces in the American Civil War (who wore blue uniforms", "(adjective) filled with melancholy and despondency"]
+BEN
+["(noun) a mountain or tall hill"]
+PEN
+["(noun) a writing implement with a point from which ink flows", "(noun) an enclosure for confining livestock", "(noun) a portable enclosure in which babies may be left to play", "(verb) produce a literary work"]
+PUN
+["(noun) a humorous play on words", "(verb) make a play on words"]

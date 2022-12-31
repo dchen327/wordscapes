@@ -1,55 +1,80 @@
 13
-FURNISH 2 7 False
-NURS 4 5 True
-HUNS 2 5 False
-SHUN 8 6 True
-FISH 2 2 True
-FURS 5 2 True
-SHIN 0 3 False
-RUNS 0 0 True
-UNIS 5 3 False
-RUINS 0 0 False
-URNS 8 0 True
-SINH 6 6 True
-FUN 7 0 False
+WILDLIFE 8 0 True
+DWELL 4 4 False
+WILLIE 5 4 True
+FILL 2 7 False
+WELL 6 2 False
+WELD 4 1 True
+WIDE 3 6 True
+FILE 0 9 False
+FELL 1 3 False
+FLIED 2 0 True
+LEW 6 0 True
+FLEW 1 1 False
+IDE 5 8 False
 10 10
-R U N S - - - - - -
-U - - H - - - - - -
-I - F I S H - F - -
-N - - N - U - U - -
-S - - - - N U R S -
-- - F U R S - N - -
-- - - N - - S I N H
-F - - I - - - S - -
-U R N S - - S H U N
-N - - - - - - - - -
-29
-SUN
-HUN
-NUR
-RIN
-IFS
-SIN
-INS
-NUS
-FUR
-HIS
-UNI
-SURF
-RUN
-RUSH
-UNS
-HIN
-FIN
-FIR
-SUI
-URN
-RUIN
-ISH
-SIR
-SRI
-NIS
-RIF
-HUI
-FINS
-SHRI
+- - - - - - - - - F
+- F - F - - - - - I
+F L I E D - - F - L
+- E - L - - W I D E
+- W E L D - - L - -
+- - - - W I L L I E
+L E W - E - - - D -
+- - E - L - - - E -
+W I L D L I F E - -
+- - L - - - - - - -
+35
+FID
+LEI
+ELF
+DILL
+LIED
+FEW
+FILLED
+DEI
+FILED
+WILL
+FED
+LIE
+WIFE
+FIELD
+DEF
+WED
+WIELD
+DELI
+WILLED
+DEW
+WILD
+DIE
+FLED
+DIF
+FIL
+ELL
+LID
+WEIL
+LED
+LIFE
+ELD
+DELL
+DEL
+IDLE
+ILL
+9
+WILDLIFE
+["(noun) all living things (except people"]
+DWELL
+["(verb) think moodily or anxiously about something", "(verb) originate (in", "(verb) be an inhabitant of or reside in"]
+FILL
+["(noun) a quantity sufficient to satisfy", "(noun) any material that fills a space or container", "(verb) make full, also in a metaphorical sense", "(verb) become full", "(verb) occupy the whole of"]
+WELL
+["(noun) a deep hole or shaft dug or drilled to obtain water or oil or gas or brine", "(noun) a cavity or vessel used to contain liquid", "(noun) an abundant source", "(verb) come up, as of a liquid", "(adjective) in good health especially after having suffered illness or injury", "(adjective) resulting favorably", "(adjective) wise or advantageous and hence advisable", "(adverb) (often used as a combining form", "(adverb) `good' is a nonstandard dialectal variant for `well'", "(adverb) thoroughly or completely; fully; often used as a combining form"]
+WELD
+["(noun) European mignonette cultivated as a source of yellow dye; naturalized in North America", "(noun) United States abolitionist (1803-1895", "(noun) a metal joint formed by softening with heat and fusing or hammering together", "(verb) join together by heating", "(verb) unite closely or intimately"]
+WIDE
+["(adjective) having great (or a certain", "(adjective) broad in scope or content", "(adjective) (used of eyes", "(adverb) with or by a broad space", "(adverb) to the fullest extent possible", "(adverb) far from the intended target"]
+FILE
+["(noun) a set of related records (either written or electronic", "(noun) a line of persons or things ranged one behind the other", "(noun) office furniture consisting of a container for keeping papers in order", "(verb) record in a public office or in a court of law", "(verb) smooth with a file", "(verb) proceed in line"]
+FELL
+["(noun) the dressed skin of an animal (especially a large animal", "(noun) seam made by turning under or folding together and stitching the seamed materials to avoid rough edges", "(noun) the act of felling something (as a tree", "(verb) descend in free fall under the influence of gravity", "(verb) move downward and lower, but not necessarily all the way", "(verb) pass suddenly and passively into a state of body or mind", "(adjective) (of persons or their actions"]
+FLEW
+["(verb) travel through the air; be airborne", "(verb) move quickly or suddenly", "(verb) operate an airplane"]

@@ -1,47 +1,73 @@
 12
-CONFORM 3 2 True
-MOOR 0 7 False
-COON 3 2 False
-ROOM 0 4 True
-MONO 3 8 False
-FORM 3 5 False
-CON 6 0 True
-MORON 6 5 True
-ROOF 6 7 False
-CORN 8 6 True
-CONF 6 0 False
-NORM 8 0 True
+QUARTET 1 4 False
+TATE 7 4 True
+QUART 1 4 True
+TETRA 3 0 True
+RAT 5 2 True
+UTTER 0 8 False
+RATE 0 6 False
+TEAR 3 0 False
+ETAT 6 6 False
+TRUE 0 1 False
+TART 3 2 False
+TREAT 9 2 True
 10 10
-- - - - R O O M - -
-- - - - - - - O - -
-- - - - - - - O - -
-- - C O N F O R M -
-- - O - - O - - O -
-- - O - - R - - N -
-C O N - - M O R O N
-O - - - - - - O - -
-N O R M - - C O R N
-F - - - - - - F - -
-22
-COM
-MOR
-ROC
-MON
-MORN
-FON
-FRO
-NOR
-FOR
-NOM
-MOON
-MOC
-MOO
-ROM
-ORF
-COO
-COR
-ORC
-FOO
-ROO
-ONO
-FROM
+- T - - - - R - U -
+- R - - Q U A R T -
+- U - - U - T - T -
+T E T R A - E - E -
+E - A - R - - - R -
+A - R A T - - - - -
+R - T - E - E - - -
+- - - - T A T E - -
+- - - - - - A - - -
+- - T R E A T - - -
+25
+ATE
+UREA
+TATU
+TAE
+TAT
+RUT
+EAT
+ERA
+EAU
+ATT
+RUE
+TET
+ARE
+UTA
+QUA
+UTE
+TAR
+TEA
+EAR
+TUT
+URE
+RET
+ETA
+TAU
+ART
+11
+QUARTET
+["(noun) the cardinal number that is the sum of three and one", "(noun) four performers or singers who perform together", "(noun) a set of four similar things considered as a unit"]
+TATE
+["(noun) United States poet and critic (1899-1979"]
+QUART
+["(noun) a United States liquid unit equal to 32 fluid ounces; four quarts equal one gallon", "(noun) a British imperial capacity measure (liquid or dry", "(noun) a United States dry unit equal to 2 pints or 67.2 cubic inches"]
+TETRA
+["(noun) brightly colored tropical freshwater fishes"]
+RAT
+["(noun) any of various long-tailed rodents similar to but larger than a mouse", "(noun) someone who works (or provides workers", "(noun) a person who is deemed to be despicable or contemptible", "(verb) desert one's party or group of friends, for example, for one's personal advantage", "(verb) employ scabs or strike breakers in", "(verb) take the place of work of someone on strike"]
+UTTER
+["(verb) articulate; either verbally or with a cry, shout, or noise", "(verb) express audibly; utter sounds (not necessarily words", "(verb) express in speech", "(adjective) without qualification; used informally as (often pejorative", "(adjective) complete and absolute"]
+RATE
+["(noun) a magnitude or frequency relative to a time unit", "(noun) amount of a charge or payment relative to some basis", "(noun) the relative speed of progress or change", "(verb) assign a rank or rating to", "(verb) be worthy of or have a certain rating", "(verb) estimate the value of"]
+TEAR
+["(noun) a drop of the clear salty saline solution secreted by the lacrimal glands", "(noun) an opening made forcibly as by pulling apart", "(noun) an occasion for excessive eating or drinking", "(verb) separate or cause to separate abruptly", "(verb) to separate or be separated by force", "(verb) move quickly and violently"]
+TRUE
+["(noun) proper alignment; the property possessed by something that is in correct or proper alignment", "(verb) make level, square, balanced, or concentric", "(adjective) consistent with fact or reality; not false", "(adjective) accurately placed or thrown", "(adjective) devoted (sometimes fanatically", "(adverb) as acknowledged"]
+TART
+["(noun) a woman who engages in sexual intercourse for money", "(noun) a small open pie with a fruit filling", "(noun) a pastry cup with a filling of fruit or custard and no top crust", "(adjective) tasting sour like a lemon"]
+TREAT
+["(noun) something considered choice to eat", "(noun) an occurrence that causes special pleasure or delight", "(verb) interact in a certain way", "(verb) subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition", "(verb) provide treatment for"]

@@ -1,67 +1,84 @@
-14
-MANATEE 2 5 False
-ENEMA 8 5 True
-MANTA 4 3 True
-TEAM 6 9 False
-TANA 3 7 False
-MEAN 4 3 False
-TEN 3 7 True
-ANT 6 7 True
-TAME 5 0 True
-TEEN 7 0 True
-MATE 0 8 False
-NEAT 2 0 False
-NEEM 2 0 True
-NAAM 0 5 True
+13
+MUSHROOM 0 2 False
+HOUR 3 2 True
+OHMS 0 0 True
+HOURS 0 5 False
+SOUR 4 5 True
+MOHR 5 1 True
+HUMOR 7 0 True
+RUM 7 4 False
+ROOS 4 8 False
+SUMO 6 5 True
+HORS 0 5 True
+ROM 0 7 False
+MUMS 9 2 True
 10 10
-- - - - - N A A M -
-- - - - - - - - A -
-N E E M - M - - T -
-E - - - - A - T E N
-A - - M A N T A - -
-T A M E - A - N - -
-- - - A - T - A N T
-T E E N - E - - - E
-- - - - - E N E M A
-- - - - - - - - - M
-40
-MAN
-NAME
-TAE
-MAE
-MEN
-ENE
-AMA
-MAT
-ATE
-MANA
-ANTE
-EAT
-NAT
-NEMA
-NAM
-MEAT
-EEN
-TEA
-MEE
-TEE
-MANE
-TAM
-ANE
-NAE
-ETNA
-MENT
-MAA
-NEE
-NET
-EATEN
-MEANT
-TAN
-AME
-MEET
-ANA
-EAN
-AMEN
-ETA
-META
-MET
+O H M S - H O R S -
+- - U - - O - O - -
+- - S - - U - M - -
+- - H O U R - - - -
+- - R - - S O U R -
+- M O H R - - - O -
+- - O - - S U M O -
+H U M O R - - - S -
+- - - - U - - - - -
+- - M U M S - - - -
+37
+OUR
+HOM
+MOMS
+RUSH
+ROOMS
+MUM
+ROOM
+UMM
+ORS
+SOM
+OUS
+HOS
+MUSH
+ROMS
+SOHO
+MOS
+HUM
+MOO
+OHS
+MOORS
+MOM
+OURS
+OOH
+SOU
+MOR
+SHO
+OMS
+SUM
+HOO
+HOMO
+MUS
+OHM
+MOU
+ROO
+HMM
+RHO
+MOOR
+10
+MUSHROOM
+["(noun) common name for an edible agaric (contrasting with the inedible toadstool", "(noun) mushrooms and related fleshy fungi (including toadstools, puffballs, morels, coral fungi, etc.", "(noun) any of various fleshy fungi of the subdivision Basidiomycota consisting of a cap at the end of a stem arising from an underground mycelium", "(verb) pick or gather mushrooms", "(verb) grow and spread fast"]
+HOUR
+["(noun) a period of time equal to 1/24th of a day", "(noun) clock time", "(noun) a special and memorable period"]
+OHMS
+["(noun) a unit of electrical resistance equal to the resistance between two points on a conductor when a potential difference of one volt between them produces a current of one ampere", "(noun) German physicist who formulated Ohm's law (1787-1854"]
+HOURS
+["(noun) a period of time equal to 1/24th of a day", "(noun) clock time", "(noun) a special and memorable period"]
+SOUR
+["(noun) a cocktail made of a liquor (especially whiskey or gin", "(noun) the taste experience when vinegar or lemon juice is taken into the mouth", "(noun) the property of being acidic", "(verb) go sour or spoil", "(verb) make sour or more sour", "(adjective) smelling of fermentation or staleness", "(adjective) having a sharp biting taste", "(adjective) one of the four basic taste sensations; like the taste of vinegar or lemons"]
+HUMOR
+["(noun) a message whose ingenuity or verbal skill or incongruity has the power to evoke laughter", "(noun) the trait of appreciating (and being able to express", "(noun) a characteristic (habitual or relatively temporary", "(verb) put into a good mood"]
+RUM
+["(noun) liquor distilled from fermented molasses", "(noun) a card game based on collecting sets and sequences; the winner is the first to meld all their cards", "(adjective) beyond or deviating from the usual or expected"]
+SUMO
+["(noun) a Japanese form of wrestling; you lose if you are forced out of a small ring or if any part of your body (other than your feet"]
+ROM
+["(noun) (computer science"]
+MUMS
+["(noun) of China", "(noun) informal terms for a mother", "(noun) secrecy"]

@@ -1,267 +1,65 @@
-12
-READINGS 8 1 True
-EARS 5 8 False
-SIRE 5 5 True
-GANDER 3 1 False
-END 5 0 True
-RAN 7 3 False
-GRAINED 3 1 True
-SIND 0 7 False
-GRANDS 0 5 False
-RAIDS 1 5 True
-DRAG 1 3 False
-ARD 1 1 True
+13
+SQUEAKY 0 5 False
+KAYS 0 2 True
+YEAS 6 5 True
+SAKE 5 7 False
+KEYS 0 2 False
+USE 1 0 True
+SQUEAK 5 0 True
+QUAKE 5 1 False
+EASY 3 0 True
+QUAY 2 4 True
+AYE 1 7 False
+AYES 8 5 True
+YES 9 0 True
 10 10
-- - - - - G - S - -
-- A R D - R A I D S
-- - - R - A - N - -
-- G R A I N E D - -
-- A - G - D - - - -
-E N D - - S I R E -
-- D - - - - - - A -
-- E - R - - - - R -
-- R E A D I N G S -
-- - - N - - - - - -
-242
-GRAN
-DARI
-DEANS
-REIGNS
-IDS
-ERASING
-RAND
-REIS
-DAS
-ANGER
-SIREN
-SIN
-SEAR
-RAISE
-AIDES
-RAS
-SINGER
-ING
-DINARS
-RAIN
-SAI
-AIRED
-SIDER
-NAE
-GAIN
-SANGER
-DIGS
-DEGAS
-SANG
-EARNS
-SNARE
-ARID
-NEG
-SAGE
-RAINED
-AGED
-DIS
-EARN
-DARN
-DING
-REGS
-SINE
-RESIN
-DESIGN
-SADE
-DANGER
-DNA
-EASING
-AIS
-DIRE
-GRIS
-ERG
-ARISE
-SARGE
-RIN
-RNA
-RIDES
-DEG
-GAS
-SERA
-RIA
-INGS
-RINGS
-RING
-AGES
-RESIGN
-DANS
-GRAIN
-AGS
-ASIDE
-RANG
-DARE
-NIS
-SARI
-SAD
-GID
-DRAGS
-RIDE
-IDE
-GIS
-DEN
-SANDER
-NIE
-RANGE
-DINAR
-NAS
-DEAR
-ANI
-RESID
-REN
-ERA
-IDEA
-SAGER
-RAD
-ARISEN
-GEN
-DAE
-RISE
-IRE
-SIGNED
-DEI
-EAR
-GRAD
-REDS
-SRI
-AND
-GRIDS
-GRADS
-GARDEN
-AIN
-SEI
-NID
-RISEN
-EDS
-ARE
-DARING
-GARDENS
-GRAINS
-SIG
-SAG
-SEDAN
-GAINED
-NERD
-NAG
-SIDA
-RAISED
-NERDS
-SIGN
-SED
-AIDS
-REI
-ANE
-SEND
-SER
-RAGS
+- - K A Y S - - - -
+U S E - - Q - A - -
+- - Y - Q U A Y - -
+E A S Y - E - E - -
+- - - - - A - - - -
+S Q U E A K - S - -
+- U - - - Y E A S -
+- A - - - - - K - -
+- K - - - A Y E S -
+Y E S - - - - - - -
+18
+YEA
+SUK
 SEA
-DIES
-IDEAS
-GAN
-GAINS
-REGINA
-SIDE
-NEAR
-GEARS
-GRADES
-GRINS
-DENIS
-GRIND
-DAG
+KEY
 EAS
-RANGES
-SNAG
-SANE
-DINERS
-GARE
-RAGE
-RES
-NED
-GIN
-NIGER
-RIDGE
-SAR
-REINS
-REGAIN
-SAN
-ENS
-SAID
-SAND
-ERS
-IDES
-RAG
-READS
-REIGN
-AIR
-REG
-DRAINS
-SIGNER
-DIG
-DRIES
-ENDS
-RINSE
-GAD
-DARES
-GRID
-DEAN
-EAN
-GED
-DIN
-RED
+YAK
 SAE
-ERN
-DANG
-SEN
-GEAR
-ENG
-AIDE
-AID
-RIG
-SING
-ARIS
-DINER
-DESI
-RAI
-GRIN
-GRADE
-RANGED
-INS
-ARSE
-REIN
-GRAND
-DIE
-ANS
-DAN
-ANGERS
-SIR
-SEAN
-GER
-ARS
-AIRS
-RIND
-RAID
-DANGERS
-RIDGES
-RID
-SEG
-RIGS
-GAINERS
-READ
-DRAIN
-AGE
-AEGIS
-ARES
-GRANDE
-SNIDER
-NEARS
-ERAS
-DINE
-RINSED
-READING
-ADS
-GAR
-RAINS
+ASK
+QUA
+EAU
+KEA
+KAS
+SKY
+SKA
+SAU
+SUE
+SAY
+KAY
+10
+SQUEAKY
+["(adjective) having or making a high-pitched sound such as that made by a mouse or a rusty hinge"]
+YEAS
+["(noun) an affirmative"]
+SAKE
+["(noun) a reason for wanting something done", "(noun) Japanese alcoholic beverage made from fermented rice; usually served hot", "(noun) the purpose of achieving or obtaining"]
+KEYS
+["(noun) metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated", "(noun) something crucial for explaining", "(noun) pitch of the voice", "(verb) identify as in botany or biology, for example", "(verb) provide with a key", "(verb) vandalize a car by scratching the sides with a key"]
+USE
+["(noun) the act of using", "(noun) what something is used for", "(noun) a particular service", "(verb) put into service; make work or employ for a particular purpose or for its inherent or natural purpose", "(verb) take or consume (regularly or habitually", "(verb) use up, consume fully"]
+SQUEAK
+["(noun) a short high-pitched noise", "(noun) something achieved (or escaped", "(verb) make a high-pitched, screeching noise"]
+QUAKE
+["(noun) shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity", "(verb) shake with fast, tremulous movements", "(verb) shake with seismic vibrations"]
+EASY
+["(adjective) posing no difficulty; requiring little effort", "(adjective) not hurried or forced", "(adjective) or easygoing", "(adverb) with ease (`easy' is sometimes used informally for `easily'", "(adverb) without speed (`slow' is sometimes used informally for `slowly'", "(adverb) in a relaxed manner; or without hardship"]
+QUAY
+["(noun) wharf usually built parallel to the shoreline"]
+YES
+["(noun) an affirmative"]

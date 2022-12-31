@@ -1,35 +1,62 @@
-13
-UNLAWFUL 8 2 True
-LULU 5 2 False
-FALL 6 4 False
-FULL 5 0 True
-LAWFUL 0 3 False
-LAWN 2 1 True
-AWFUL 5 8 False
-FAN 5 7 True
-LUN 3 9 False
-LAW 6 6 False
-LUAU 2 1 False
-WALL 3 6 True
-LUNA 0 7 False
+12
+ANNOYING 6 1 True
+ANION 5 3 False
+AGO 8 1 True
+INGO 6 6 False
+NANO 9 3 True
+GAIN 6 8 False
+GINNY 2 5 False
+GYNO 2 5 True
+GONNA 2 1 False
+NANG 0 7 False
+YANG 0 5 True
+GIO 2 1 True
 10 10
-- - - L - - - L - -
-- - - A - - - U - -
-- L A W N - - N - -
-- U - F - - W A L L
-- A - U - - - - - U
-F U L L - - - F A N
-- - U - F - L - W -
-- - L - A - A - F -
-- - U N L A W F U L
-- - - - L - - - L -
-9
-ALU
-WAN
-FLAW
-FUN
-AUF
-FLU
-ALL
-FAWN
-ALF
+- - - - - Y A N G -
+- - - - - - - A - -
+- G I O - G Y N O -
+- O - - - I - G - -
+- N - - - N - - - -
+- N - A - N - - - -
+- A N N O Y I N G -
+- - - I - - N - A -
+- A G O - - G - I -
+- - - N A N O - N -
+26
+ANON
+GIN
+YOGA
+ION
+ING
+AIN
+ANNOY
+GAY
+YIN
+YOGI
+GON
+NON
+NONI
+ANY
+NAY
+ANI
+ANN
+AGONY
+ANNO
+GAN
+NOG
+NANNY
+YON
+GOA
+NAG
+INN
+5
+ANNOYING
+["(noun) the act of troubling or annoying someone", "(verb) cause annoyance in; disturb, especially by minor irritations", "(adjective) causing irritation or annoyance"]
+ANION
+["(noun) a negatively charged ion"]
+AGO
+["(adjective) gone by; or in the past", "(adverb) in the past"]
+GAIN
+["(noun) a quantity that is added", "(noun) the advantageous quality of being beneficial", "(noun) the amount of increase in signal power or voltage or current expressed as the ratio of output to input", "(verb) obtain", "(verb) win something through one's efforts", "(verb) derive a benefit from"]
+YANG
+["(noun) the bright positive masculine principle in Chinese dualistic cosmology"]

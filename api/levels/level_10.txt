@@ -1,48 +1,82 @@
-13
-TRUMPET 8 1 True
-TEMP 5 5 False
-TRUMP 5 5 True
-TRUE 6 2 True
-PURE 5 9 False
-PREM 2 8 False
-UTTER 2 3 False
-TERM 6 2 False
-PUTT 4 0 True
-MUTE 2 2 True
-PERM 3 6 True
-TEMPT 1 0 False
-RUM 0 2 False
+15
+SCRUBBER 1 0 False
+CURR 2 0 True
+RUBS 8 0 True
+USER 4 0 True
+CUBE 6 2 False
+CURBS 6 2 True
+CUES 3 6 False
+CURE 3 6 True
+BUS 6 5 False
+SCRUB 8 5 True
+CURSE 0 2 False
+CURES 0 2 True
+CRUE 2 8 False
+CUBS 6 9 False
+URE 7 7 False
 10 10
-- - R - - - - - - -
-T - U - - - - - - -
-E - M U T E - - P -
-M - - T - - P E R M
-P U T T - - - - E -
-T - - E - T R U M P
-- - T R U E - - - U
-- - E - - M - - - R
-- T R U M P E T - E
-- - M - - - - - - -
-22
-UTE
-PERT
-TUT
-RET
-MEU
-PUTTER
-ERM
-PET
-PUR
-PER
-PUT
-EMU
-REM
-TUM
-PRE
-TET
-RUT
-REP
+- - C U R E S - - -
+S - U - - - - - - -
+C U R R - - - - C -
+R - S - - - C U R E
+U S E R - - U - U -
+B - - - - - E - E -
+B - C U R B S - - C
+E - U - - U - U - U
+R U B S - S C R U B
+- - E - - - - E - S
+29
+RUB
+CUE
+REC
+ECU
+RUSE
+CURB
+ERS
+ERR
+RES
+SEC
+BES
+SURE
+EBB
+CRU
+RECS
 RUE
-URE
-MET
-MUTT
+SUE
+CUBES
+BURR
+CUR
+REB
+USE
+URB
+CUB
+SUB
+SER
+SUCRE
+BUR
+RUBBER
+12
+SCRUBBER
+["(noun) a worker who uses a scrub brush to clean a surface (usually a floor or deck", "(noun) a brush with short stiff bristles for heavy cleaning", "(noun) a purifier that removes impurities from a gas"]
+RUBS
+["(noun) an unforeseen obstacle", "(noun) the act of rubbing or wiping", "(verb) move over something with pressure", "(verb) cause friction", "(verb) scrape or rub as if to relieve itching"]
+USER
+["(noun) a person who makes use of a thing; someone who uses or employs something", "(noun) a person who uses something or someone selfishly or unethically", "(noun) a person who takes drugs"]
+CUBE
+["(noun) a hexahedron with six equal squares as faces", "(noun) a three-dimensional shape with six square or rectangular sides", "(noun) the product of three equal terms", "(verb) raise to the third power", "(verb) cut into cubes"]
+CURBS
+["(noun) an edge between a sidewalk and a roadway consisting of a line of curbstones (usually forming part of a gutter", "(noun) a horse's bit with an attached chain or strap to check the horse", "(noun) a stock exchange in New York", "(verb) lessen the intensity of; temper; hold in restraint; hold or keep within limits", "(verb) keep to the curb", "(verb) place restrictions on"]
+CUES
+["(noun) an actor's line that immediately precedes and serves as a reminder for some action or speech", "(noun) evidence that helps to solve a problem", "(noun) a stimulus that provides information about what to do", "(verb) assist (somebody acting or reciting"]
+CURE
+["(noun) a medicine or therapy that cures disease or relieve pain", "(verb) provide a cure for, make healthy again", "(verb) prepare by drying, salting, or chemical processing in order to preserve", "(verb) make (substances"]
+BUS
+["(noun) a vehicle carrying many passengers; used for public transport", "(noun) the topology of a network whose components are connected by a busbar", "(noun) an electrical conductor that makes a common connection between several circuits", "(verb) send or move around by bus", "(verb) ride in a bus", "(verb) remove used dishes from the table in restaurants"]
+SCRUB
+["(noun) dense vegetation consisting of stunted trees or bushes", "(noun) the act of cleaning a surface by rubbing it with a brush and soap and water", "(verb) clean with hard rubbing", "(verb) wash thoroughly", "(verb) postpone indefinitely or annul something that was scheduled", "(adjective) (of domestic animals"]
+CURSE
+["(noun) profane or obscene expression usually of surprise or anger", "(noun) an appeal to some supernatural power to inflict evil on someone or some group", "(noun) an evil spell", "(verb) utter obscenities or profanities", "(verb) heap obscenities upon", "(verb) wish harm upon; invoke evil upon"]
+CURES
+["(noun) a medicine or therapy that cures disease or relieve pain", "(verb) provide a cure for, make healthy again", "(verb) prepare by drying, salting, or chemical processing in order to preserve", "(verb) make (substances"]
+CUBS
+["(noun) an awkward and inexperienced youth", "(noun) a male child (a familiar term of address to a boy", "(noun) the young of certain carnivorous mammals such as the bear or wolf or lion", "(verb) give birth to cubs"]

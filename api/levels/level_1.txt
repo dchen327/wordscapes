@@ -1,58 +1,100 @@
-14
-PERFORM 3 7 False
-ROPER 3 5 True
-PREM 9 4 True
-PROM 2 5 False
-MORE 7 6 True
-PERM 5 2 True
-REPO 3 2 False
-ROPE 0 8 False
-FORM 3 0 True
-PORE 0 6 True
-FORME 3 0 False
-PRO 1 1 False
-POEM 5 9 False
-PROF 1 1 True
+12
+ASHAMED 6 1 True
+SHEA 6 2 False
+MAHA 6 5 False
+HADES 8 5 True
+MASHED 1 7 False
+MESH 3 3 False
+SAME 2 6 True
+HEAD 9 0 True
+HEADS 1 9 False
+DAMS 3 1 True
+SHED 0 1 False
+MEDS 0 4 False
 10 10
-- - - - - - P O R E
-- P R O F - - - O -
-- R - - - P - - P -
-F O R M - R O P E R
-O - E - - O - E - -
-R - P E R M - R - P
-M - O - - - - F - O
-E - - - - - M O R E
-- - - - - - - R - M
-- - - - P R E M - -
-31
-MOP
-FER
-MOR
-FOP
-FORE
-FORMER
-ORE
-POM
-FRO
-REF
-REPRO
-ERM
-OPE
-FOR
-FOE
-REO
-FEM
-ERR
-PER
-REFORM
-ROM
-ORF
-MOE
-REM
-PRE
-EMF
-ROMP
-ROE
-EMO
-REP
-FROM
+- S - - M - - - - -
+- H - - E - - M - H
+- E - - D - S A M E
+- D A M S - - S - A
+- - - E - - - H - D
+- - - S - - - E - S
+- A S H A M E D - -
+- - H - - A - - - -
+- - E - - H A D E S
+H E A D - A - - - -
+52
+HES
+SEA
+SAE
+DASH
+SMA
+EHS
+MEAD
+MAAS
+SHAD
+SED
+AHEM
+DAH
+ASH
+ADS
+SEAM
+HAMS
+MES
+DAM
+MADE
+MASH
+SAD
+SHE
+MAD
+MAA
+MED
+HEM
+AHA
+SHADE
+AHS
+MESA
+DAS
+SAMA
+HAD
+AMA
+DAME
+SAM
+EMS
+SHAM
+AAS
+SHAME
+EDS
+SHA
+EAS
+DAE
+MAE
+AHEAD
+MEH
+SADE
+MAS
+HAM
+HAS
+AME
+11
+ASHAMED
+["(adjective) feeling shame or guilt or embarrassment or remorse"]
+MAHA
+["(noun) a member of the Siouan people formerly living in the Missouri river valley in northeastern Nebraska"]
+HADES
+["(noun) (Greek mythology", "(noun) (religion"]
+MASHED
+["(verb) to compress with violence, out of natural shape or condition", "(verb) talk or behave amorously, without serious intentions", "(verb) reduce to small pieces or particles by pounding or abrading"]
+MESH
+["(noun) the number of openings per linear inch of a screen; measures size of particles", "(noun) contact by fitting together", "(noun) the topology of a network whose components are all connected directly to every other component", "(verb) keep engaged", "(verb) coordinate in such a way that all parts work together effectively", "(verb) work together in harmony"]
+SAME
+["(noun) a member of an indigenous nomadic people living in northern Scandinavia and herding reindeer", "(noun) the language of nomadic Lapps in northern Scandinavia and the Kola Peninsula", "(adjective) same in identity", "(adjective) closely similar or comparable in kind or quality or quantity or degree", "(adjective) equal in amount or value"]
+HEAD
+["(noun) the upper part of the human body or the front part of the body in animals; contains the face and brains", "(noun) a single domestic animal", "(noun) that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason", "(verb) to go or travel towards", "(verb) be in charge of", "(verb) travel in front of; go in advance of others"]
+HEADS
+["(noun) the upper part of the human body or the front part of the body in animals; contains the face and brains", "(noun) a single domestic animal", "(noun) that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason", "(verb) to go or travel towards", "(verb) be in charge of", "(verb) travel in front of; go in advance of others"]
+DAMS
+["(noun) a barrier constructed to contain the flow of water or to keep out the sea", "(noun) a metric unit of length equal to ten meters", "(noun) female parent of an animal especially domestic livestock", "(verb) obstruct with, or as if with, a dam"]
+SHED
+["(noun) an outbuilding with a single story; used for shelter or storage", "(verb) get rid of", "(verb) pour out in drops or small quantities or as if in drops or small quantities", "(verb) cause or allow (a solid substance", "(adjective) shed at an early stage of development"]
+MEDS
+["(noun) a master's degree in education"]

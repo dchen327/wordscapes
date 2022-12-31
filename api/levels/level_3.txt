@@ -1,44 +1,58 @@
-13
-EXPEDITE 0 5 False
-PIED 5 4 True
-EDIT 4 7 False
-TIE 7 7 True
-TEX 3 4 True
-DEEP 5 9 False
-EIDE 0 2 True
-EXITED 0 2 False
-TIDE 7 2 True
-DIET 6 3 False
-TIED 4 0 True
-EXIT 2 0 True
-PEE 0 0 False
+12
+CIVILIAN 5 1 True
+CLAN 2 8 False
+ANIL 5 7 False
+VAN 5 3 False
+LAIN 7 5 True
+CAIN 7 0 True
+VAC 3 1 False
+ANVIL 1 5 False
+VAIN 2 2 True
+VAIL 3 5 True
+VIAL 0 3 False
+NAV 0 1 True
 10 10
-P - E I D E - - - -
-E - X - - X - - - -
-E X I T - P - - - -
-- - T - T E X - - -
-T I E D - D - E - -
-- - D - P I E D - D
-- - - D - T - I - E
-- - T I D E - T I E
-- - - E - - - - - P
-- - - T - - - - - -
-18
-TID
-TED
-TIX
-DIT
-DEX
-DIP
-DEI
-PED
-IDE
-PIX
-PIT
-TIP
-DEE
-DEP
-DIE
-PET
-PIE
-TEE
+- N A V - - - - - -
+- - - I - A - - - -
+- - V A I N - - C -
+- V - L - V A I L -
+- A - - - I - - A -
+- C I V I L I A N -
+- - - A - - - N - -
+C A I N - L A I N -
+- - - - - - - L - -
+- - - - - - - - - -
+12
+LAC
+CAN
+AIL
+NIL
+VIN
+LIN
+CIVIL
+NAIL
+AIN
+VIA
+CAL
+ANI
+10
+CIVILIAN
+["(noun) a nonmilitary citizen", "(adjective) associated with civil life or performed by persons who are not active members of the military"]
+CLAN
+["(noun) group of people related by blood or marriage"]
+ANIL
+["(noun) a blue dye obtained from plants or made synthetically", "(noun) shrub of West Indies and South America that is a source of indigo dye"]
+VAN
+["(noun) any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts", "(noun) the leading units moving at the head of an army", "(noun) (Great Britain"]
+LAIN
+["(verb) be located or situated somewhere; occupy a certain position", "(verb) be lying, be prostrate; be in a horizontal position", "(verb) originate (in"]
+CAIN
+["(noun) (Old Testament"]
+VAC
+["(noun) informal term for vacation"]
+ANVIL
+["(noun) a heavy block of iron or steel on which hot metals are shaped by hammering", "(noun) the ossicle between the malleus and the stapes"]
+VAIN
+["(adjective) characteristic of false pride; having an exaggerated sense of self-importance", "(adjective) unproductive of success"]
+VIAL
+["(noun) a small bottle that contains a drug (especially a sealed sterile container for injection by needle"]

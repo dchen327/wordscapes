@@ -1,61 +1,76 @@
-14
-SUMMING 1 1 True
-GNUS 0 6 False
-MUG 1 4 False
-SUNG 3 6 True
-MUMS 0 2 False
-SNUG 0 9 False
-USING 3 7 False
-SING 7 4 True
-SUING 5 5 False
-MING 9 2 True
-MINUS 5 1 True
-MUGS 5 1 False
-ING 5 7 True
-GUMS 5 9 False
+12
+WHALING 2 5 False
+WANG 4 4 True
+WIGAN 2 5 True
+LING 6 4 True
+LIANG 8 1 True
+GAIN 6 7 False
+NAIL 5 1 False
+WING 0 9 False
+LAG 7 3 False
+ANIL 9 6 True
+AIN 7 7 True
+LAH 6 0 True
 10 10
-- - M - - - G - - S
-- S U M M I N G - N
-- - M - U - U - - U
-- - S - G - S U N G
-- - - - - - - S - -
-- M I N U S - I N G
-- U - - - U - N - U
-- G - - S I N G - M
-- S - - - N - - - S
-- - M I N G - - - -
-34
-SUN
-SUM
-GUNS
-MIG
-UMM
-MUS
-MUNI
-INGS
-SIN
-GUN
-INS
-NUS
-UNI
-ISM
-GUS
-MUSING
-SIM
-UNS
-GNU
-SUI
+- - - - - - - - - W
+- - - - - - - - - I
+- - - - - W I G A N
+- - - - - H - - - G
+- - - - W A N G - -
+- N - - - L - - - -
+L A H - L I N G - -
+- I - L - N - A I N
+- L I A N G - I - -
+- - - G - - A N I L
+32
 GIN
-NIS
-GIS
-SIGN
-MUN
-MUM
-SMUG
-GUM
-SUG
-UNIS
-UGS
-MIS
-SIG
-MIM
+AIL
+NIL
+WHA
+HIN
+ING
+WAH
+GAL
+ALIGN
+LIN
+WIG
+LAW
+HAIN
+LAIN
+HANG
+WIN
+WAI
+WAG
+LAWN
+HAW
+ANI
+NIGH
+WAN
+GAN
+HAIL
+NAH
+GHI
+NAG
+LANG
+HAN
+HAG
+GILA
+9
+WHALING
+["(verb) hunt for whales"]
+LING
+["(noun) water chestnut whose spiny fruit has two rather than 4 prongs", "(noun) common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere", "(noun) elongated marine food fish of Greenland and northern Europe; often salted and dried"]
+GAIN
+["(noun) a quantity that is added", "(noun) the advantageous quality of being beneficial", "(noun) the amount of increase in signal power or voltage or current expressed as the ratio of output to input", "(verb) obtain", "(verb) win something through one's efforts", "(verb) derive a benefit from"]
+NAIL
+["(noun) horny plate covering and protecting part of the dorsal surface of the digits", "(noun) a thin pointed piece of metal that is hammered into materials as a fastener", "(noun) a former unit of length for cloth equal to 1/16 of a yard", "(verb) attach something somewhere by means of nails", "(verb) take into custody", "(verb) hit hard"]
+WING
+["(noun) a movable organ for flying (one of a pair", "(noun) one of the horizontal airfoils on either side of the fuselage of an airplane", "(noun) a stage area out of sight of the audience", "(verb) travel through the air; be airborne"]
+LAG
+["(noun) the act of slowing down or falling behind", "(noun) the time between one event, process, or period and another", "(noun) one of several thin slats of wood forming the sides of a barrel or bucket", "(verb) hang (back", "(verb) behind", "(verb) lock up or confine, in or as in a jail"]
+ANIL
+["(noun) a blue dye obtained from plants or made synthetically", "(noun) shrub of West Indies and South America that is a source of indigo dye"]
+AIN
+["(adjective) belonging to or on behalf of a specified person (especially yourself"]
+LAH
+["(noun) the syllable naming the sixth (submediant"]
