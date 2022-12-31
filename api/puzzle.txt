@@ -1,267 +1,143 @@
-12
-READINGS 8 1 True
-EARS 5 8 False
-SIRE 5 5 True
-GANDER 3 1 False
-END 5 0 True
-RAN 7 3 False
-GRAINED 3 1 True
-SIND 0 7 False
-GRANDS 0 5 False
-RAIDS 1 5 True
-DRAG 1 3 False
-ARD 1 1 True
+13
+JACKPOTS 0 5 False
+COAST 2 5 True
+TACOS 6 5 True
+STOCK 3 1 True
+COS 1 1 False
+SOAP 6 9 False
+JACKS 7 1 True
+TAPS 6 2 False
+TOPS 2 3 False
+CASK 0 8 False
+ATOP 9 6 True
+COSA 9 0 True
+SACK 4 7 False
 10 10
-- - - - - G - S - -
-- A R D - R A I D S
-- - - R - A - N - -
-- G R A I N E D - -
-- A - G - D - - - -
-E N D - - S I R E -
-- D - - - - - - A -
-- E - R - - - - R -
-- R E A D I N G S -
-- - - N - - - - - -
-242
-GRAN
-DARI
-DEANS
-REIGNS
-IDS
-ERASING
-RAND
-REIS
-DAS
-ANGER
-SIREN
-SIN
-SEAR
-RAISE
-AIDES
-RAS
-SINGER
-ING
-DINARS
-RAIN
-SAI
-AIRED
-SIDER
-NAE
-GAIN
-SANGER
-DIGS
-DEGAS
-SANG
-EARNS
-SNARE
-ARID
-NEG
-SAGE
-RAINED
-AGED
-DIS
-EARN
-DARN
-DING
-REGS
-SINE
-RESIN
-DESIGN
-SADE
-DANGER
-DNA
-EASING
-AIS
-DIRE
-GRIS
-ERG
-ARISE
-SARGE
-RIN
-RNA
-RIDES
-DEG
-GAS
-SERA
-RIA
-INGS
-RINGS
-RING
-AGES
-RESIGN
-DANS
-GRAIN
-AGS
-ASIDE
-RANG
-DARE
-NIS
-SARI
-SAD
-GID
-DRAGS
-RIDE
-IDE
-GIS
-DEN
-SANDER
-NIE
-RANGE
-DINAR
-NAS
-DEAR
-ANI
-RESID
-REN
-ERA
-IDEA
-SAGER
-RAD
-ARISEN
-GEN
-DAE
-RISE
-IRE
-SIGNED
-DEI
-EAR
-GRAD
-REDS
-SRI
-AND
-GRIDS
-GRADS
-GARDEN
-AIN
-SEI
-NID
-RISEN
-EDS
-ARE
-DARING
-GARDENS
-GRAINS
-SIG
-SAG
-SEDAN
-GAINED
-NERD
-NAG
-SIDA
-RAISED
-NERDS
-SIGN
-SED
-AIDS
-REI
-ANE
-SEND
-SER
-RAGS
-SEA
-DIES
-IDEAS
-GAN
-GAINS
-REGINA
-SIDE
-NEAR
-GEARS
-GRADES
-GRINS
-DENIS
-GRIND
-DAG
-EAS
-RANGES
-SNAG
-SANE
-DINERS
-GARE
-RAGE
-RES
-NED
-GIN
-NIGER
-RIDGE
-SAR
-REINS
-REGAIN
-SAN
-ENS
-SAID
-SAND
-ERS
-IDES
-RAG
-READS
-REIGN
-AIR
-REG
-DRAINS
-SIGNER
-DIG
-DRIES
-ENDS
-RINSE
-GAD
-DARES
-GRID
-DEAN
-EAN
-GED
-DIN
-RED
-SAE
-ERN
-DANG
-SEN
-GEAR
-ENG
-AIDE
-AID
-RIG
-SING
-ARIS
-DINER
-DESI
-RAI
-GRIN
-GRADE
-RANGED
-INS
-ARSE
-REIN
-GRAND
-DIE
-ANS
-DAN
-ANGERS
-SIR
-SEAN
-GER
-ARS
-AIRS
-RIND
-RAID
-DANGERS
-RIDGES
-RID
-SEG
-RIGS
-GAINERS
-READ
-DRAIN
-AGE
-AEGIS
-ARES
-GRANDE
-SNIDER
-NEARS
-ERAS
-DINE
-RINSED
-READING
-ADS
-GAR
-RAINS
+- - - - - J - - C -
+- C - - - A - - A -
+- O - T - C O A S T
+- S T O C K - - K -
+- - - P - P - S - -
+- - - S - O - A - -
+- - T - - T A C O S
+- J A C K S - K - O
+- - P - - - - - - A
+C O S A - - A T O P
+90
+ASP
+SPOT
+COP
+CATS
+ACTS
+POS
+POA
+SCOT
+COAT
+KAS
+ASK
+JOCKS
+SCAT
+CAPO
+SKA
+COT
+ACT
+JACK
+OPT
+PAST
+OPTS
+OPS
+SOT
+ASCOT
+SPA
+TOP
+OAT
+SOP
+SAP
+SCOP
+JAP
+APT
+PACT
+COTS
+JACKPOT
+COST
+TACK
+TAOS
+SAC
+PACK
+KAT
+SOAK
+TOC
+PATS
+CAT
+CAP
+POT
+COATS
+SPAT
+TSK
+KOS
+JAK
+COPS
+TACO
+TAP
+PACS
+APTS
+PACKS
+POST
+CAST
+STACK
+OAK
+PST
+TASK
+PAK
+TAO
+CAPS
+PAT
+SAT
+OCA
+COSTA
+SOC
+KOA
+JOCK
+OPA
+APO
+OAKS
+PAS
+ATS
+TAK
+JOT
+PAC
+TAJ
+SOCK
+POTS
+JOTA
+TAS
+PACO
+STOP
+OATS
+13
+jackpots
+["(noun) the cumulative amount involved in a game (such as poker", "(noun) any outstanding award"]
+coast
+["(noun) the shore of a sea or ocean", "(noun) a slope down which sleds may coast", "(noun) the area within view", "(verb) move effortlessly; by force of gravity"]
+tacos
+["(noun) (ethnic slur", "(noun) a tortilla rolled cupped around a filling"]
+stock
+["(noun) the capital raised by a corporation through the issue of shares entitling holders to an ownership interest (equity", "(noun) the merchandise that a shop has on hand", "(noun) the handle of a handgun or the butt end of a rifle or shotgun or part of the support of a machine gun or artillery gun", "(verb) have on hand", "(verb) equip with a stock", "(verb) supply with fish", "(adjective) repeated too often; overfamiliar through overuse", "(adjective) routine", "(adjective) regularly and widely used or sold"]
+cos
+["(noun) an odorless very poisonous gas that is a product of incomplete combustion of carbon", "(noun) a hard ferromagnetic silver-white bivalent or trivalent metallic element; a trace element in plant and animal nutrition", "(noun) one who refuses to serve in the armed forces on grounds of conscience"]
+soap
+["(noun) a cleansing agent made from the salts of vegetable or animal fats", "(noun) money offered as a bribe", "(noun) street names for gamma hydroxybutyrate", "(verb) rub soap all over, usually with the purpose of cleaning"]
+jacks
+["(noun) a small worthless amount", "(noun) a man who serves as a sailor", "(noun) someone who works with their hands; someone engaged in manual labor", "(verb) lift with a special device", "(verb) hunt with a jacklight"]
+taps
+["(noun) the sound made by a gentle blow", "(noun) a gentle blow", "(noun) a faucet for drawing water from a pipe or cask", "(verb) cut a female screw thread with a tap", "(verb) draw from or dip into to get something", "(verb) strike lightly"]
+tops
+["(noun) the upper part of anything", "(noun) the highest or uppermost side of anything", "(noun) the top or extreme point of something (usually a mountain or hill", "(verb) be superior or better than some standard", "(verb) pass by, over, or under without making contact", "(verb) be at the top of or constitute the top or highest point", "(adjective) of the highest quality"]
+cask
+["(noun) the quantity a cask will hold", "(noun) a cylindrical container that holds liquids"]
+atop
+["(adverb) on, to, or at the top"]
+cosa
+[]
+sack
+["(noun) a bag made of paper or plastic for holding customer's purchases", "(noun) an enclosed space", "(noun) the quantity contained in a sack", "(verb) plunder (a town", "(verb) terminate the employment of; discharge from an office or position", "(verb) make as a net profit"]
