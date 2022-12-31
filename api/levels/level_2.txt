@@ -1,47 +1,64 @@
 12
-CONFORM 3 2 True
-MOOR 0 7 False
-COON 3 2 False
-ROOM 0 4 True
-MONO 3 8 False
-FORM 3 5 False
-CON 6 0 True
-MORON 6 5 True
-ROOF 6 7 False
-CORN 8 6 True
-CONF 6 0 False
-NORM 8 0 True
+BETWEEN 7 2 True
+EWE 7 7 False
+BEEN 5 3 False
+BEET 5 3 True
+NEWT 2 6 False
+WEN 4 6 True
+BENE 3 3 True
+TWEEN 0 8 False
+BENT 0 5 True
+TEE 1 4 False
+TEEN 9 6 True
+WENT 1 1 True
 10 10
-- - - - R O O M - -
-- - - - - - - O - -
-- - - - - - - O - -
-- - C O N F O R M -
-- - O - - O - - O -
-- - O - - R - - N -
-C O N - - M O R O N
-O - - - - - - O - -
-N O R M - - C O R N
-F - - - - - - F - -
-22
-COM
-MOR
-ROC
-MON
-MORN
-FON
-FRO
-NOR
-FOR
-NOM
-MOON
-MOC
-MOO
-ROM
-ORF
-COO
-COR
-ORC
-FOO
-ROO
-ONO
-FROM
+- - - - - B E N T -
+- W E N T - - - W -
+- - - - E - N - E -
+- - - B E N E - E -
+- - - - - - W E N -
+- - - B E E T - - -
+- - - E - - - - - -
+- - B E T W E E N -
+- - - N - - - W - -
+- - - - - - T E E N
+14
+WEE
+TEN
+NEW
+ENE
+EEN
+WET
+BEN
+NEE
+TEW
+NET
+BET
+WEB
+NEB
+BEE
+12
+between
+["(adverb) in the interval", "(adverb) in between"]
+ewe
+["(noun) a member of a people living in southern Benin and Togo and southeastern Ghana", "(noun) a Kwa language spoken by the Ewe in Ghana and Togo and Benin", "(noun) female sheep"]
+been
+["(verb) have the quality of being; (copula, used with an adjective or a predicate noun", "(verb) be identical to; be someone or something", "(verb) occupy a certain position or area; be somewhere"]
+beet
+["(noun) biennial Eurasian plant usually having a swollen edible root; widely cultivated as a food crop", "(noun) round red root vegetable"]
+newt
+["(noun) small usually bright-colored semiaquatic salamanders of North America and Europe and northern Asia"]
+wen
+["(noun) a common cyst of the skin; filled with fatty matter (sebum"]
+bene
+[]
+tween
+[]
+bent
+["(noun) a relatively permanent inclination to react in a particular way", "(noun) grass for pastures and lawns especially bowling and putting greens", "(noun) an area of grassland unbounded by fences or hedges", "(verb) form a curve", "(verb) change direction", "(verb) cause (a plastic object", "(adjective) fixed in your purpose", "(adjective) used of the back and knees; stooped", "(adjective) or bended"]
+tee
+["(noun) the starting place for each hole on a golf course", "(noun) support holding a football on end and above the ground preparatory to the kickoff", "(noun) a short peg put into the ground to hold a golf ball off the ground", "(verb) place on a tee", "(verb) connect with a tee"]
+teen
+["(noun) a juvenile between the onset of puberty and maturity", "(adjective) being of the age 13 through 19"]
+went
+["(verb) change location; move, travel, or proceed, also metaphorically", "(verb) follow a procedure or take a course", "(verb) move away from a place into another direction"]

@@ -1,58 +1,86 @@
-14
-PERFORM 3 7 False
-ROPER 3 5 True
-PREM 9 4 True
-PROM 2 5 False
-MORE 7 6 True
-PERM 5 2 True
-REPO 3 2 False
-ROPE 0 8 False
-FORM 3 0 True
-PORE 0 6 True
-FORME 3 0 False
-PRO 1 1 False
-POEM 5 9 False
-PROF 1 1 True
+13
+COTTAGE 0 2 True
+COTTA 0 2 False
+TAO 0 5 False
+COAT 2 4 True
+GOTTA 0 7 False
+TATE 4 1 True
+TOTE 4 1 False
+TACT 4 3 False
+CAGE 6 3 True
+ATE 4 7 True
+ETAT 6 6 False
+TACO 9 6 True
+OCTET 1 9 False
 10 10
-- - - - - - P O R E
-- P R O F - - - O -
-- R - - - P - - P -
-F O R M - R O P E R
-O - E - - O - E - -
-R - P E R M - R - P
-M - O - - - - F - O
-E - - - - - M O R E
-- - - - - - - R - M
-- - - - P R E M - -
-31
-MOP
-FER
-MOR
-FOP
-FORE
-FORMER
-ORE
-POM
-FRO
-REF
-REPRO
-ERM
-OPE
-FOR
-FOE
-REO
-FEM
-ERR
-PER
-REFORM
-ROM
-ORF
-MOE
-REM
-PRE
-EMF
-ROMP
-ROE
-EMO
-REP
-FROM
+- - C O T T A G E -
+- - O - - A - O - O
+- - T - C O A T - C
+- - T - - - - T - T
+- T A T E - - A T E
+- O - A - - - - - T
+- T - C A G E - - -
+- E - T - - T - - -
+- - - - - - A - - -
+- - - - - - T A C O
+33
+TEA
+TOE
+COT
+TET
+CAG
+TAE
+TAT
+TEC
+TOC
+TAG
+AGO
+GOA
+OCA
+COTE
+COG
+AGE
+ACT
+CAT
+GOAT
+CATE
+GOT
+GEO
+GATE
+EGO
+GAT
+GET
+ACE
+EAT
+ETA
+OAT
+TOT
+ECO
+ATT
+13
+cottage
+["(noun) a small house with a single story"]
+cotta
+["(noun) soft silky fibers from cotton plants in their raw state", "(noun) fabric woven from cotton fibers", "(noun) erect bushy mallow plant or small tree bearing bolls containing seeds with many long hairy fibers"]
+tao
+["(noun) an adherent of any branch of Taoism", "(noun) the ultimate principle of the universe"]
+coat
+["(noun) an outer garment that has sleeves and covers the body from shoulder down; worn outdoors", "(noun) a thin layer covering something", "(noun) growth of hair or wool or fur covering the body of an animal", "(verb) put a coat on; cover the surface of; furnish with a surface", "(verb) cover or provide with a coat", "(verb) form a coat over"]
+gotta
+[]
+tate
+["(noun) United States poet and critic (1899-1979"]
+tote
+["(noun) a capacious bag or basket", "(verb) carry with difficulty"]
+tact
+["(noun) consideration in dealing with others and avoiding giving offense"]
+cage
+["(noun) an enclosure made or wire or metal bars in which birds or animals can be kept", "(noun) something that restricts freedom as a cage restricts movement", "(noun) United States composer of avant-garde music (1912-1992", "(verb) confine in a cage"]
+ate
+["(noun) goddess of criminal rashness and its punishment", "(verb) take in solid food", "(verb) eat a meal; take a meal", "(verb) take in food; used of animals only"]
+etat
+[]
+taco
+["(noun) (ethnic slur", "(noun) a tortilla rolled cupped around a filling"]
+octet
+["(noun) the cardinal number that is the sum of seven and one", "(noun) eight performers or singers who perform together", "(noun) a set of eight similar things considered as a unit"]

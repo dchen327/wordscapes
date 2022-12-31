@@ -139,7 +139,6 @@ def gen_crossword(puzzle_words: List[str], output_file: str):
 
             # definitions of used words
             definitions = define_words(used.keys())
-            print(definitions)
             f.write(str(len(used)) + '\n')
             for word in used:
                 f.write(word + '\n')
@@ -245,34 +244,34 @@ def setup():
         for word in words:
             words_by_len[len(word)].append(word)
 
-        num_crosswords = 100  # will try to generate this many, might be fewer
+        num_crosswords = 5  # will try to generate this many, might be fewer
 
-        # main_words = random.choices(
-        #     words_by_len[8] + words_by_len[7], k=3*num_crosswords)
+        main_words = random.choices(
+            words_by_len[8] + words_by_len[7], k=3*num_crosswords)
 
-        # # clear any previous puzzles
-        # if os.path.exists('levels'):
-        #     shutil.rmtree('levels')
-        # # make puzzles directory
-        # os.makedirs('levels')
+        # clear any previous puzzles
+        if os.path.exists('levels'):
+            shutil.rmtree('levels')
+        # make puzzles directory
+        os.makedirs('levels')
 
-        # level_num = 1
-        # while level_num <= num_crosswords:
-        #     main_word = main_words.pop()
-        #     puzzle_words = gen_puzzle_words(words_by_len, main_word)
-        #     no_3_letters = [word for word in puzzle_words if len(word) > 3]
-        #     if len(no_3_letters) > 30:  # too many words
-        #         continue
-        #     output_file = f'levels/level_{level_num}.txt'
-        #     if gen_crossword(
-        #             puzzle_words, output_file) is not None:
-        #         print(f'Crossword #{level_num}: {main_word}')
-        #         level_num += 1
+        level_num = 1
+        while level_num <= num_crosswords:
+            main_word = main_words.pop()
+            puzzle_words = gen_puzzle_words(words_by_len, main_word)
+            no_3_letters = [word for word in puzzle_words if len(word) > 3]
+            if len(no_3_letters) > 30:  # too many words
+                continue
+            output_file = f'levels/level_{level_num}.txt'
+            if gen_crossword(
+                    puzzle_words, output_file) is not None:
+                print(f'Crossword #{level_num}: {main_word}')
+                level_num += 1
 
-        # main_word = random.choice(words_by_len[8])
-        main_word = 'jackpots'
-        puzzle_words = gen_puzzle_words(words_by_len, main_word)
-        gen_crossword(puzzle_words, 'puzzle.txt')
+        main_word = random.choice(words_by_len[8])
+        # main_word = 'jackpots'
+        # puzzle_words = gen_puzzle_words(words_by_len, main_word)
+        # gen_crossword(puzzle_words, 'puzzle.txt')
 
 
 if __name__ == '__main__':

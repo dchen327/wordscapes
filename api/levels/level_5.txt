@@ -1,75 +1,98 @@
-16
-RADIATOR 0 2 True
-ROAD 0 9 False
-TARA 0 7 False
-AORTA 0 3 False
-ARIA 2 6 True
-TAD 3 3 True
-ROTA 4 0 True
-DOIT 3 5 False
-RADAR 4 0 False
-TARO 6 5 True
-ART 6 6 False
-RATIO 8 4 True
-ROAR 2 0 True
-ARD 7 4 False
-DATA 6 0 True
-TOAD 9 1 True
+14
+INTIMACY 9 1 True
+CITY 6 8 False
+CAIN 7 6 True
+CAMI 6 1 False
+AMICI 5 4 False
+MAY 7 0 True
+TIAN 5 2 True
+MANI 2 3 False
+MICA 2 3 True
+MINA 3 0 True
+MANY 1 6 False
+MINT 1 6 True
+ACTIN 0 1 False
+TAM 0 0 True
 10 10
-- - R A D I A T O R
-- - - O - - - A - O
-R O A R - - A R I A
-- - - T A D - A - D
-R O T A - O - - - -
-A - - - - I - - - -
-D A T A - T A R O -
-A - - - A - R - - -
-R - - - R A T I O -
-- T O A D - - - - -
-46
-IOTA
-RADIO
-ORA
-RAT
-ORD
-DIT
-RAI
-DIRT
-RIT
-ADO
-RATA
-RAD
-RID
-TAR
-AIA
-ARTI
-TOD
-TRIO
-RIA
-TOR
-TAO
-TID
-TORA
-DROIT
-AIR
-AID
-TAI
-DOR
-ROD
-ODA
-ROT
-OAR
-OAT
-DARI
-RAID
-TRAD
-AIT
+T A M - - - - - - -
+- C - - - - M I N T
+- T - M I C A - - -
+M I N A - - N - - -
+- N - N - - Y - - -
+- - T I A N - - - -
+- C - - M - - - C -
+M A Y - I - C A I N
+- M - - C - - - T -
+- I N T I M A C Y -
+42
+TAY
+MAN
+CAN
+YIN
+ANTI
+AMIN
+MAIN
+NAY
+ANI
+TIN
+AMITY
 ITA
-TORI
-DART
-ARID
-TIARA
-ORT
-RIOT
-DOT
-TRIAD
+MANIC
+AIT
+TAN
+CYAN
+TAIN
+CIT
+AMI
+AIN
+ICY
+ANY
+TINY
+MAT
+CAY
+ACT
+CAT
+YAM
+MINI
+NAT
+MYC
+NIT
+TIC
+MAC
+MIC
+TINA
+TAI
+CAM
+NAM
+ANT
+CANT
+AIM
+14
+intimacy
+["(noun) close or warm friendship", "(noun) a usually secretive or illicit sexual relationship", "(noun) a feeling of being intimate and belonging together"]
+city
+["(noun) a large and densely populated urban area; may include several independent administrative districts", "(noun) an incorporated administrative district established by state charter", "(noun) people living in a large densely populated municipality"]
+cain
+["(noun) (Old Testament"]
+cami
+["(noun) French writer who portrayed the human condition as isolated in an absurd world (1913-1960"]
+amici
+[]
+may
+["(noun) the month following April and preceding June", "(noun) thorny Eurasian shrub of small tree having dense clusters of white to scarlet flowers followed by deep red berries; established as an escape in eastern North America"]
+tian
+[]
+mani
+["(noun) the (prehensile"]
+mica
+["(noun) any of various minerals consisting of hydrous silicates of aluminum or potassium etc. that crystallize in forms that allow perfect cleavage into very thin leaves; used as dielectrics because of their resistance to electricity"]
+mina
+["(noun) tropical Asian starlings"]
+many
+["(adjective) a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number"]
+mint
+["(noun) any north temperate plant of the genus Mentha with aromatic leaves and small mauve flowers", "(noun) any member of the mint family of plants", "(noun) the leaves of a mint plant used fresh or candied", "(verb) form by stamping, punching, or printing", "(adjective) as if new"]
+actin
+["(noun) one of the proteins into which actomyosin can be split; can exist in either a globular or a fibrous form"]
+tam
+["(noun) a woolen cap of Scottish origin"]

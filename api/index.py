@@ -40,8 +40,14 @@ class handler(BaseHTTPRequestHandler):
                     else:
                         r += 1
 
-        return {'words': words, 'bonus': bonus, 'grid': crossword, 'posToWords': pos_to_words}
+            num_definitions = int(f.readline())
+            definitions = {}
+            for _ in range(num_definitions):
+                word = f.readline().strip()
+                definitions[word] = json.loads(f.readline())
+
+        return {'words': words, 'bonus': bonus, 'grid': crossword, 'posToWords': pos_to_words, 'definitions': definitions}
 
 
 if __name__ == '__main__':
-    print(handler.parse_file(15))
+    print(handler.parse_file(1))

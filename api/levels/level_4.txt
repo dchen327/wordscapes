@@ -1,35 +1,73 @@
-13
-UNLAWFUL 8 2 True
-LULU 5 2 False
-FALL 6 4 False
-FULL 5 0 True
-LAWFUL 0 3 False
-LAWN 2 1 True
-AWFUL 5 8 False
-FAN 5 7 True
-LUN 3 9 False
-LAW 6 6 False
-LUAU 2 1 False
-WALL 3 6 True
-LUNA 0 7 False
+12
+WALKWAYS 8 0 True
+AWAY 6 5 False
+WALK 5 3 False
+AWAYS 6 5 True
+ASK 5 9 False
+ALWAYS 3 7 False
+SKA 6 1 True
+ALAS 3 5 True
+SLAY 1 5 False
+LAWS 1 2 True
+WALKS 2 1 False
+WAYS 0 8 False
 10 10
-- - - L - - - L - -
-- - - A - - - U - -
-- L A W N - - N - -
-- U - F - - W A L L
-- A - U - - - - - U
-F U L L - - - F A N
-- - U - F - L - W -
-- - L - A - A - F -
-- - U N L A W F U L
-- - - - L - - - L -
-9
-ALU
-WAN
-FLAW
-FUN
-AUF
-FLU
-ALL
-FAWN
-ALF
+- - - - - - - - W -
+- - L A W S - - A -
+- W - - - L - - Y -
+- A - - - A L A S -
+- L - - - Y - L - -
+- K - W - - - W - A
+- S K A - A W A Y S
+- - - L - W - Y - K
+W A L K W A Y S - -
+- - - - - Y - - - -
+23
+KAYS
+YAK
+LAYS
+SLY
+SAY
+SKY
+AWA
+ALS
+WAS
+WALKWAY
+ALA
+SWAY
+LAW
+AKA
+SAL
+LAS
+AAS
+LAY
+SAW
+AWK
+KAY
+KAS
+WAY
+12
+walkways
+["(noun) a path set aside for walking"]
+away
+["(adjective) not present; having left", "(adjective) used of an opponent's ground", "(adjective) (of a baseball pitch", "(adverb) from a particular thing or place or position (`forth' is obsolete", "(adverb) from one's possession", "(adverb) out of the way (especially away from one's thoughts"]
+walk
+["(noun) the act of traveling by foot", "(noun) (baseball", "(noun) manner of walking", "(verb) use one's feet to advance; advance by steps", "(verb) accompany or escort", "(verb) obtain a base on balls"]
+aways
+[]
+ask
+["(verb) make a request or demand for something to somebody", "(verb) direct or put; seek an answer to", "(verb) consider obligatory; request and expect"]
+always
+["(adverb) at all times; all the time and on every occasion", "(adverb) without variation or change, in every case", "(adverb) without interruption"]
+ska
+[]
+alas
+["(adverb) by bad luck"]
+slay
+["(verb) kill intentionally and with premeditation"]
+laws
+["(noun) the collection of rules imposed by authority", "(noun) legal document setting forth rules governing a particular kind of activity", "(noun) a rule or body of rules of conduct inherent in human nature and essential to or binding upon human society"]
+walks
+["(noun) the act of traveling by foot", "(noun) (baseball", "(noun) manner of walking", "(verb) use one's feet to advance; advance by steps", "(verb) accompany or escort", "(verb) obtain a base on balls"]
+ways
+["(noun) how something is done or how it happens", "(noun) thing or person that acts to produce a particular effect or achieve an end", "(noun) a line leading to a place or point"]
