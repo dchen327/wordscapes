@@ -1,98 +1,107 @@
 14
-OCTOPUS 1 5 False
-COOP 2 5 True
-SOUP 7 5 True
-OPUS 2 7 False
-SCOOP 5 1 True
-POT 7 8 False
-CUTS 5 2 False
-TOPO 1 2 True
-POTS 7 0 True
-PUTS 9 6 True
-COTS 2 1 False
-SOOT 0 3 False
-COST 3 0 True
-OPTS 6 0 False
+TONNAGE 3 9 False
+GAT 3 7 True
+GONE 9 6 True
+NANG 6 6 False
+TAG 1 7 False
+GENT 6 4 True
+GENOA 2 3 True
+ANON 8 3 True
+GONNA 0 5 False
+TAE 7 3 False
+GATE 2 3 False
+NONE 5 0 True
+TONE 9 0 True
+TANGO 0 2 True
 10 10
-- - - S - - - - - -
-- - T O P O - - - -
-- C - O - C O O P -
-C O S T - T - P - -
-- T - - - O - U - -
-- S C O O P - S - -
-O - U - - U - - - -
-P O T S - S O U P -
-T - S - - - - - O -
-S - - - - - P U T S
-42
-SPOT
-PST
-COS
-OPS
-COT
-PUT
-TOC
-CUP
-TOP
-SCOUT
-TOO
-POST
-POO
-OUTS
-SCOP
-COOS
-OPT
-CUT
-SOP
-UTS
-CUPS
-OOP
-PUS
-UPS
-SUP
-SOT
-TOPS
-COO
-SOC
-SCOT
-SPOUT
-POCO
-STOP
-OOPS
-POS
-COP
-SOU
-OUS
-CUSP
-COPS
-COUP
-OUT
+- - T A N G O - - -
+- - - - - O - T - -
+- - - G E N O A - -
+- - - A - N - G A T
+- - - T - A - - - O
+N O N E - - - - - N
+- - - - G E N T - N
+- - - T - - A - - A
+- - - A N O N - - G
+T O N E - - G O N E
+51
+EAT
+GON
+NOTE
+ANNO
+ETA
+NOT
+GOT
+ONE
+EAN
+ANN
+ANT
+ETNA
+EGO
+GOA
+GAN
+TOE
+NEAT
+NON
+AGENT
+NOG
+GNAT
+TEN
+NANO
+NOTA
+TONGA
+ANTE
+GET
+AGE
+NET
+NEON
+NEG
+TEA
+AGO
+TONG
+ENG
+GEO
+NAE
+OAT
+EON
+TONNE
+AEON
+NAG
+TAO
+GOAT
+NAT
+ANE
+TON
+GEN
+TANG
+TAN
+ATE
 14
-OCTOPUS
-["(noun) tentacles of octopus prepared as food", "(noun) bottom-living cephalopod having a soft oval body with eight long tentacles"]
-COOP
-["(noun) a farm building for housing poultry", "(noun) an enclosure made or wire or metal bars in which birds or animals can be kept"]
-SOUP
-["(noun) liquid food especially of meat or fish or vegetable stock often containing pieces of solid food", "(noun) any composition having a consistency suggestive of soup", "(noun) an unfortunate situation", "(verb) dope (a racehorse"]
-OPUS
-["(noun) a musical work that has been created"]
-SCOOP
-["(noun) the quantity a scoop will hold", "(noun) a hollow concave shape made by removing something", "(noun) a news report that is reported first by one news organization", "(verb) take out or up with or as if with a scoop", "(verb) get the better of"]
-POT
-["(noun) metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid", "(noun) a plumbing fixture for defecation and urination", "(noun) the quantity contained in a pot", "(verb) plant in a pot"]
-CUTS
-["(noun) a share of the profits", "(noun) a trench resembling a furrow that was made by erosion or excavation", "(noun) a step on some scale", "(verb) separate with or as if with an instrument", "(verb) cut down on; make a reduction in", "(verb) turn sharply; change direction abruptly"]
-TOPO
+TONNAGE
+["(noun) a tax imposed on ships that enter the US; based on the tonnage of the ship"]
+GAT
+["(noun) a gangster's pistol"]
+GONE
+["(verb) change location; move, travel, or proceed, also metaphorically", "(verb) follow a procedure or take a course", "(verb) move away from a place into another direction", "(adjective) destroyed or killed", "(adjective) well in the past; former", "(adjective) stupefied or excited by a chemical substance (especially alcohol"]
+NANG
 []
-POTS
-["(noun) metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid", "(noun) a plumbing fixture for defecation and urination", "(noun) the quantity contained in a pot", "(verb) plant in a pot"]
-PUTS
-["(noun) the option to sell a given stock (or stock index or commodity future", "(verb) put into a certain place or abstract location", "(verb) cause to be in a certain state; cause to be in a certain relation", "(verb) formulate in a particular style or language"]
-COTS
-["(noun) a sheath worn to protect a finger", "(noun) baby bed with high sides made of slats", "(noun) a small bed that folds up for storage or transport"]
-SOOT
-["(noun) a black colloidal substance consisting wholly or principally of amorphous carbon and used to make pigments and ink", "(verb) coat with soot"]
-COST
-["(noun) the total spent for goods or services including money and time and labor", "(noun) the property of having material worth (often indicated by the amount of money something would bring if sold", "(noun) value measured by what must be given or done or undergone to obtain something", "(verb) be priced at", "(verb) require to lose, suffer, or sacrifice"]
-OPTS
-["(verb) select as an alternative over another"]
+TAG
+["(noun) a label written or printed on paper, cardboard, or plastic that is attached to something to indicate its owner, nature, price, etc.", "(noun) a label associated with something for the purpose of identification", "(noun) a small piece of cloth or paper", "(verb) attach a tag or label to", "(verb) touch a player while he is holding the ball", "(verb) provide with a name or nickname"]
+GENT
+["(noun) informal abbreviation of `gentleman'", "(noun) a boy or man", "(noun) port city in northwestern Belgium and industrial center; famous for cloth industry"]
+GENOA
+["(noun) a seaport in northwestern Italy; provincial capital of Liguria"]
+ANON
+["(adverb) at another time", "(adverb) (old-fashioned or informal"]
+GONNA
+[]
+TAE
+["(noun) a hard grey lustrous metallic element that is highly resistant to corrosion; occurs in niobite and fergusonite and tantalite"]
+GATE
+["(noun) a movable barrier in a fence or wall", "(noun) a computer circuit with several inputs but only one output that can be activated by particular combinations of inputs", "(noun) total admission receipts at a sports event", "(verb) supply with a gate", "(verb) control with a valve or other device that functions like a gate", "(verb) restrict (school boys'"]
+NONE
+["(noun) a canonical hour that is the ninth hour of the day counting from sunrise", "(noun) a service in the Roman Catholic Church formerly read or chanted at 3 PM (the ninth hour counting from sunrise", "(adjective) not any", "(adverb) not at all or in no way"]
+TONE
+["(noun) the quality of a person's voice", "(noun) (linguistics", "(noun) (music", "(verb) utter monotonously and repetitively and rhythmically", "(verb) vary the pitch of one's speech", "(verb) change the color or tone of"]
+TANGO
+["(noun) a ballroom dance of Latin-American origin", "(noun) music written in duple time for dancing the tango", "(verb) dance a tango"]

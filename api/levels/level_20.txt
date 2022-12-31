@@ -1,0 +1,74 @@
+14
+SOFTWOOD 0 9 False
+DOST 3 6 True
+WOODS 0 6 False
+FOODS 4 2 True
+FOOT 3 4 False
+FOOD 7 6 True
+WOOD 1 4 True
+WOOT 6 7 False
+SOOT 6 1 True
+WOOF 1 2 False
+STOW 6 1 False
+DOTS 8 0 True
+SOFT 9 4 True
+DOW 2 1 True
+10 10
+- - - - - - W - - S
+- - W - W O O D - O
+- D O W - - O - - F
+- - O - F - D O S T
+- - F O O D S - - W
+- - - - O - - - - O
+- S O O T - - W - O
+- T - - - - F O O D
+D O T S - - - O - -
+- W - - S O F T - -
+18
+WOT
+SOD
+TOO
+DOS
+FOO
+TOD
+STOOD
+DOF
+WOO
+TWO
+DOT
+SOW
+DOO
+ODS
+SOT
+DSO
+TOW
+OFT
+14
+SOFTWOOD
+["(noun) wood that is easy to saw (from conifers such as pine or fir"]
+DOST
+[]
+WOODS
+["(noun) the hard fibrous lignified substance under the bark of trees", "(noun) the trees and other plants in a large densely wooded area", "(noun) United States film actress (1938-1981"]
+FOODS
+["(noun) any substance that can be metabolized by an animal to give energy and build tissue", "(noun) any solid substance (as opposed to liquid", "(noun) anything that provides mental stimulus for thinking"]
+FOOT
+["(noun) the part of the leg of a human being below the ankle joint", "(noun) a linear unit of length equal to 12 inches or a third of a yard", "(noun) the lower part of anything", "(verb) pay for something", "(verb) add a column of numbers"]
+FOOD
+["(noun) any substance that can be metabolized by an animal to give energy and build tissue", "(noun) any solid substance (as opposed to liquid", "(noun) anything that provides mental stimulus for thinking"]
+WOOD
+["(noun) the hard fibrous lignified substance under the bark of trees", "(noun) the trees and other plants in a large densely wooded area", "(noun) United States film actress (1938-1981"]
+WOOT
+[]
+SOOT
+["(noun) a black colloidal substance consisting wholly or principally of amorphous carbon and used to make pigments and ink", "(verb) coat with soot"]
+WOOF
+["(noun) the yarn woven across the warp yarn in weaving"]
+STOW
+["(verb) fill by packing tightly"]
+DOTS
+["(noun) a very small circular shape", "(noun) the United States federal department that institutes and coordinates national transportation programs; created in 1966", "(noun) the shorter of the two telegraphic signals used in Morse code", "(verb) scatter or intersperse like dots or studs", "(verb) distribute loosely", "(verb) make a dot or dots"]
+SOFT
+["(adjective) yielding readily to pressure or weight", "(adjective) compassionate and kind; conciliatory", "(adjective) (of sound", "(adverb) in a relaxed manner; or without hardship"]
+DOW
+[]

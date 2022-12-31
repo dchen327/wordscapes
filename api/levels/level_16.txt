@@ -1,0 +1,89 @@
+13
+TRIPLET 2 1 True
+LITRE 1 3 False
+LIRE 5 0 True
+RIPE 4 3 True
+PETIT 4 5 False
+TITLE 8 5 True
+PILE 5 9 False
+PET 0 7 False
+TIP 5 7 True
+TRIPLE 0 4 True
+TILT 5 7 False
+LITE 5 0 False
+PERI 7 2 True
+10 10
+- - - - T R I P L E
+- - - L - - - E - -
+- T R I P L E T - -
+- - - T - - - - - -
+- - - R I P E - - -
+L I R E - E - T I P
+I - - - - T - I - I
+T - P E R I - L - L
+E - - - - T I T L E
+- - - - - - - - - -
+36
+IRE
+TRIP
+RIP
+TIER
+TIT
+TIL
+LEI
+TET
+RIEL
+PEL
+TIE
+PRE
+REI
+PERIL
+LITER
+TILE
+PERT
+LITTER
+RITE
+LIT
+PER
+LET
+TIRE
+ELT
+TITRE
+LIP
+PIE
+LIE
+TEL
+PIR
+LEP
+RET
+PIER
+REP
+RIT
+PIT
+13
+TRIPLET
+["(noun) the cardinal number that is the sum of one and one and one", "(noun) one of three offspring born at the same time from the same pregnancy", "(noun) a set of three similar things considered as a unit"]
+LITRE
+["(noun) a metric unit of capacity, formerly defined as the volume of one kilogram of pure water under standard conditions; now equal to 1,000 cubic centimeters (or approximately 1.75 pints"]
+LIRE
+[]
+RIPE
+["(adjective) fully developed or matured and ready to be eaten or used", "(adjective) fully prepared or eager", "(adjective) most suitable or right for a particular purpose"]
+PETIT
+[]
+TITLE
+["(noun) a heading that names a statute or legislative bill; may give a brief summary of the matters it deals with", "(noun) the name of a work of art or literary composition etc.", "(noun) a general or descriptive heading for a section of a written work", "(verb) give a title to", "(verb) designate by an identifying term"]
+PILE
+["(noun) a collection of objects laid on top of each other", "(noun) a large sum of money (especially as pay or profit", "(noun) fine soft dense hair (as the fine short hair of cattle or deer or the wool of sheep or the undercoat of certain dogs", "(verb) arrange in stacks", "(verb) press tightly together or cram", "(verb) place or lay as if in a pile"]
+PET
+["(noun) a domesticated animal kept for companionship or amusement", "(noun) a special loved one", "(noun) a fit of petulance or sulkiness (especially at what is felt to be a slight", "(verb) stroke or caress gently", "(verb) stroke or caress in an erotic manner, as during lovemaking", "(adjective) preferred above all others and treated with partiality"]
+TIP
+["(noun) the extreme end of something; especially something pointed", "(noun) a relatively small amount of money given for services rendered (as by a waiter", "(noun) an indication of potential opportunity", "(verb) cause to tilt", "(verb) mark with a tip", "(verb) give a tip or gratuity to in return for a service, beyond the compensation agreed on"]
+TRIPLE
+["(noun) a base hit at which the batter stops safely at third base", "(noun) a set of three similar things considered as a unit", "(noun) a quantity that is three times as great as another", "(verb) increase threefold", "(verb) hit a three-base hit", "(adjective) having three units or components or elements", "(adjective) three times as great or many", "(adjective) or triple"]
+TILT
+["(noun) a combat between two mounted knights tilting against each other with blunted lances", "(noun) a contentious speech act; a dispute where there is strong disagreement", "(noun) a slight but noticeable partiality", "(verb) to incline or bend from a vertical position", "(verb) heel over", "(verb) move sideways or in an unsteady way"]
+LITE
+["(adjective) having relatively few calories", "(adjective) or lite", "(adjective) or light"]
+PERI
+["(noun) a beautiful and graceful girl", "(noun) (Persian folklore"]

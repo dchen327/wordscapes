@@ -1,0 +1,75 @@
+12
+HARDBALL 0 0 False
+DAL 3 0 True
+DAHL 0 2 False
+LARD 7 0 True
+ALA 7 1 False
+BALLAD 9 0 True
+BALD 6 5 False
+DRAB 0 2 True
+HALL 2 2 True
+BRAD 6 5 True
+BARD 3 8 False
+ALBA 4 5 True
+10 10
+H - D R A B - - - -
+A - A - - - - - - -
+R - H A L L - - - -
+D A L - - - - - B -
+B - - - - A L B A -
+A - - - - - - - R -
+L - - - - B R A D -
+L A R D - A - - - -
+- L - - - L - - - -
+B A L L A D - - - -
+25
+DAB
+BALL
+RAD
+BAR
+BLAH
+AHA
+LAR
+DAH
+ALB
+ARD
+BAD
+LAD
+ARB
+BAH
+BAA
+ALL
+LAH
+BRA
+BAL
+HARD
+LAB
+ABA
+RAH
+HAD
+HAAR
+12
+HARDBALL
+["(noun) a no-nonsense attitude in business or politics", "(noun) baseball as distinguished from softball"]
+DAL
+["(noun) a metric unit of volume or capacity equal to 10 liters"]
+DAHL
+["(noun) tropical woody herb with showy yellow flowers and flat pods; much cultivated in the tropics", "(noun) small highly nutritious seed of the tropical pigeon-pea plant"]
+LARD
+["(noun) soft white semisolid fat obtained by rendering the fatty tissue of the hog", "(verb) prepare or cook with lard", "(verb) add details to"]
+ALA
+["(noun) a flat wing-shaped process or winglike part of an organism", "(noun) a wing of an insect"]
+BALLAD
+["(noun) a narrative song with a recurrent refrain", "(noun) a narrative poem of popular origin"]
+BALD
+["(verb) grow bald; lose hair on one's head", "(adjective) with no effort to conceal", "(adjective) lacking hair on all or most of the scalp", "(adjective) without the natural or usual covering"]
+DRAB
+["(noun) a dull greyish to yellowish or light olive brown", "(adjective) lacking in liveliness or charm or surprise", "(adjective) lacking brightness or color; dull", "(adjective) of a light brownish green color"]
+HALL
+["(noun) an interior passage or corridor onto which rooms open", "(noun) a large entrance or reception room or area", "(noun) a large room for gatherings or entertainment"]
+BRAD
+["(noun) a small nail", "(verb) fasten with brads"]
+BARD
+["(noun) a lyric poet", "(noun) an ornamental caparison for a horse", "(verb) put a caparison on"]
+ALBA
+["(noun) one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers", "(noun) a book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc"]

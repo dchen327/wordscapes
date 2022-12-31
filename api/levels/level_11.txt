@@ -1,0 +1,85 @@
+11
+PEDAGOGY 0 1 False
+DOPE 5 0 True
+DAP 3 0 True
+PAGE 0 1 True
+PEA 4 3 False
+EDGY 0 4 False
+AGED 6 3 True
+DEP 6 6 False
+DOGGY 1 4 True
+YOGA 1 8 False
+GAGE 6 4 False
+10 10
+- P A G E - - - - -
+- E - - D O G G Y -
+- D - - G - - - O -
+D A P - Y - - - G -
+- G - P - - - - A -
+D O P E - - - - - -
+- G - A G E D - - -
+- Y - - A - E - - -
+- - - - G - P - - -
+- - - - E - - - - -
+38
+DAG
+DOE
+PED
+YEA
+DOG
+POD
+GAP
+AGE
+YEP
+DEY
+GAG
+EGO
+DYE
+PEG
+OPE
+GOA
+GAY
+YAP
+AGO
+PAD
+APE
+ADO
+DOP
+EGG
+ODE
+GOD
+POA
+GEO
+DAE
+APO
+AYE
+OPA
+DAY
+GAD
+PAY
+ODA
+DEG
+GED
+11
+PEDAGOGY
+["(noun) the principles and methods of instruction", "(noun) the profession of a teacher", "(noun) the activities of educating or instructing; activities that impart knowledge or skill"]
+DOPE
+["(noun) street names for marijuana", "(noun) an ignorant or foolish person", "(noun) carbonated drink flavored with extract from kola nuts (`dope' is a southernism in the United States", "(verb) take drugs to improve one's athletic performance", "(verb) add impurities to (a semiconductor", "(verb) give a narcotic to"]
+DAP
+[]
+PAGE
+["(noun) one side of one leaf (of a book or magazine or newspaper or letter etc.", "(noun) English industrialist who pioneered in the design and manufacture of aircraft (1885-1962", "(noun) United States diplomat and writer about the Old South (1853-1922", "(verb) contact, as with a pager or by calling somebody's name over a P.A. system", "(verb) work as a page", "(verb) number the pages of a book or manuscript"]
+PEA
+["(noun) seed of a pea plant used for food", "(noun) the fruit or seed of a pea plant", "(noun) a leguminous plant of the genus Pisum with small white flowers and long green pods containing edible green seeds"]
+EDGY
+["(adjective) being in a tense state"]
+AGED
+["(noun) people who are old collectively", "(verb) begin to seem older; get older", "(verb) grow old or older", "(verb) make older", "(adjective) advanced in years; (`aged' is pronounced as two syllables", "(adjective) at an advanced stage of erosion (pronounced as one syllable", "(adjective) having attained a specific age; (`aged' is pronounced as one syllable"]
+DEP
+[]
+DOGGY
+["(noun) informal terms for dogs"]
+YOGA
+["(noun) discipline aimed at training the consciousness for a state of perfect spiritual insight and tranquility that is achieved through the three paths of actions and knowledge and devotion", "(noun) a system of physical, breathing and meditation exercises practiced to promote control of the body and mind"]
+GAGE
+["(noun) street names for marijuana", "(noun) a measuring instrument for measuring and indicating a quantity such as the thickness of wire or the amount of rain etc.", "(verb) place a bet on"]

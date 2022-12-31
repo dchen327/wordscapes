@@ -1,0 +1,68 @@
+14
+CHICKEN 9 0 True
+CHIN 6 6 False
+NECK 6 4 True
+KEN 4 4 False
+HIKE 4 2 True
+CHECK 2 7 False
+CHIC 6 0 False
+CINCH 0 2 False
+CHI 7 2 False
+KIN 1 1 True
+NICHE 0 5 False
+INCH 8 6 True
+HECK 7 0 True
+NICE 0 5 True
+10 10
+- - C - - N I C E -
+- K I N - I - - - -
+- - N - - C - C - -
+- - C - - H - H - -
+- - H I K E - E - -
+- - - - E - - C - -
+C - - - N E C K - -
+H E C K - - H - - -
+I - H - - - I N C H
+C H I C K E N - - -
+12
+HIN
+HEN
+HIC
+NIE
+KHI
+CINE
+ICE
+NICK
+CHE
+INK
+ICH
+CHICK
+14
+CHICKEN
+["(noun) the flesh of a chicken used for food", "(noun) a domestic fowl bred for flesh or eggs; believed to have been developed from the red jungle fowl", "(noun) a person who lacks confidence, is irresolute and wishy-washy", "(adjective) easily frightened"]
+CHIN
+["(noun) the protruding part of the lower jaw", "(noun) Kamarupan languages spoken in western Burma and Bangladesh and easternmost India", "(verb) raise oneself while hanging from one's hands until one's chin is level with the support bar"]
+NECK
+["(noun) the part of an organism (human or animal", "(noun) a narrow elongated projecting strip of land", "(noun) a cut of meat from the neck of an animal", "(verb) kiss, embrace, or fondle with sexual passion"]
+KEN
+["(noun) range of what one can know or understand", "(noun) the range of vision"]
+HIKE
+["(noun) a long walk usually for exercise or pleasure", "(noun) an increase in cost", "(noun) the amount a salary is increased", "(verb) increase", "(verb) walk a long way, as for pleasure or physical exercise"]
+CHECK
+["(noun) a written order directing a bank to pay money", "(noun) an appraisal of the state of affairs", "(noun) the bill in a restaurant", "(verb) examine so as to determine accuracy, quality, or condition", "(verb) make an examination or investigation", "(verb) be careful or certain to do something; make certain of something"]
+CHIC
+["(noun) elegance by virtue of being fashionable", "(adjective) elegant and stylish"]
+CINCH
+["(noun) any undertaking that is easy to do", "(noun) stable gear consisting of a band around a horse's belly that holds the saddle in place", "(noun) a form of all fours in which the players bid for the privilege of naming trumps", "(verb) tie a cinch around", "(verb) make sure of", "(verb) get a grip on; get mastery of"]
+CHI
+["(noun) the circulating life energy that in Chinese philosophy is thought to be inherent in all things; in traditional Chinese medicine the balance of negative and positive forms in the body is believed to be essential for good health", "(noun) the 22nd letter of the Greek alphabet"]
+KIN
+["(noun) a person having kinship with another or others", "(noun) group of people related by blood or marriage", "(adjective) related by blood"]
+NICHE
+["(noun) a position particularly well suited to the person who occupies it", "(noun) a small concavity", "(noun) an enclosure that is set back or indented"]
+INCH
+["(noun) a unit of length equal to one twelfth of a foot", "(noun) a unit of measurement for advertising space", "(verb) advance slowly, as if by inches"]
+HECK
+[]
+NICE
+["(noun) a city in southeastern France on the Mediterranean; the leading resort on the French Riviera", "(adjective) pleasant or pleasing or agreeable in nature or appearance", "(adjective) socially or conventionally correct; refined or virtuous", "(adjective) done with delicacy and skill"]

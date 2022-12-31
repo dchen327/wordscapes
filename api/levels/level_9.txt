@@ -1,0 +1,84 @@
+13
+MIDTOWN 5 3 True
+MIND 5 3 False
+WIND 2 5 False
+DINO 8 3 True
+DOIT 3 3 True
+TOW 7 6 False
+WONT 9 6 True
+TOWN 7 0 True
+TWIN 2 9 False
+DIT 2 7 True
+DOWN 6 1 False
+MID 0 7 False
+OMIT 0 6 True
+10 10
+- - - - - - O M I T
+- - - - - - - I - -
+- - - - - W - D I T
+- - - D O I T - - W
+- - - - - N - - - I
+- - - M I D T O W N
+- D - I - - - - - -
+T O W N - - T - - -
+- W - D I N O - - -
+- N - - - - W O N T
+31
+MINT
+DOM
+TIN
+NOT
+DOT
+TID
+MON
+WIT
+WIN
+MOD
+MOT
+TOM
+OWN
+DIM
+DIN
+WOT
+MOW
+NOW
+DOW
+TWO
+ION
+MOI
+NOM
+WON
+TON
+TOD
+INTO
+NOD
+NID
+NIT
+DON
+13
+MIDTOWN
+[]
+MIND
+["(noun) that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason", "(noun) recall or remembrance", "(noun) an opinion formed by judging something", "(verb) be offended or bothered by; take offense with, be bothered by", "(verb) be concerned with or about something or somebody", "(verb) be in charge of or deal with"]
+WIND
+["(noun) air moving (sometimes with considerable force", "(noun) a tendency or force that influences events", "(noun) breath", "(verb) to move or cause to move in a sinuous, spiral, or circular course", "(verb) extend in curves and turns", "(verb) arrange or or coil around"]
+DINO
+[]
+DOIT
+[]
+TOW
+["(noun) the act of hauling something (as a vehicle", "(verb) drag behind"]
+WONT
+["(noun) an established custom"]
+TOWN
+["(noun) an urban area with a fixed boundary that is smaller than a city", "(noun) the people living in a municipality smaller than a city", "(noun) an administrative division of a county"]
+TWIN
+["(noun) either of two offspring born at the same time from the same pregnancy", "(noun) (astrology", "(noun) a waterfall in the Snake River in southern Idaho", "(verb) duplicate or match", "(verb) bring two objects, ideas, or people together", "(verb) grow as twins", "(adjective) being two identical"]
+DIT
+["(noun) the shorter of the two telegraphic signals used in Morse code"]
+DOWN
+["(noun) soft fine feathers", "(noun) (American football", "(noun) English physician who first described Down's syndrome (1828-1896", "(verb) drink down entirely", "(verb) eat up completely, as with great appetite", "(verb) bring down or defeat (an opponent", "(adjective) being or moving lower in position or less in some value", "(adjective) extending or moving from a higher to a lower place", "(adjective) becoming progressively lower", "(adverb) spatially or metaphorically from a higher to a lower level or position", "(adverb) away from a more central or a more northerly place", "(adverb) paid in cash at time of purchase"]
+MID
+["(adjective) used in combination to denote the middle"]
+OMIT
+["(verb) prevent from being included or considered or accepted", "(verb) leave undone or leave out"]

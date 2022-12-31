@@ -1,65 +1,66 @@
-14
-SIGNINGS 1 7 False
-SIGS 1 4 True
-SINGS 1 4 False
-SIN 3 2 True
-GIS 3 7 True
-SING 5 6 True
-INGS 0 2 False
-SIG 8 7 True
-SIGNING 7 1 True
-SIGNS 5 0 True
-SIGN 6 5 False
-GIGS 0 9 False
-INNS 9 3 True
-SINS 2 0 False
+12
+RACCOON 1 9 False
+CROC 3 6 True
+COCOA 3 6 False
+COCO 6 3 True
+NOR 1 7 False
+CARON 1 3 True
+ORA 0 5 False
+COR 6 3 False
+COON 1 3 False
+ARCO 8 2 True
+CORN 4 0 True
+ACORN 2 1 False
 10 10
-- - I - - - - - - G
-- - N - S I G S - I
-S - G - I - - I - G
-I - S I N - - G I S
-N - - - G - - N - -
-S I G N S - S I N G
-- - - - - S - N - -
-- S I G N I N G - -
-- - - - - G - S I G
-- - - I N N S - - -
-9
-GIG
-NIS
-SINGING
-IGG
-SIS
-GIN
-INS
-ING
-INN
-14
-SIGNINGS
-["(noun) language expressed by visible hand gestures"]
-SIGS
+- - - - - O - - - -
+- - - C A R O N - R
+- A - O - A - O - A
+- C - O - - C R O C
+C O R N - - O - - C
+- R - - - - C - - O
+- N - C O C O - - O
+- - - O - - A - - N
+- - A R C O - - - -
+- - - - - - - - - -
+16
+RAN
+CON
+CAN
+CAR
+CORONA
+ARC
+ORC
+OCA
+RNA
+ROO
+COO
+ROC
+ONO
+ORCA
+COCA
+OAR
+12
+RACCOON
+["(noun) the fur of the North American racoon", "(noun) an omnivorous nocturnal mammal native to North America and Central America"]
+CROC
 []
-SINGS
-["(verb) deliver by singing", "(verb) produce tones with the voice", "(verb) to make melodious sounds"]
-SIN
-["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]
-GIS
-["(noun) a unit of magnetomotive force equal to 0.7958 ampere-turns", "(verb) clean in preparation for inspection"]
-SING
-["(verb) deliver by singing", "(verb) produce tones with the voice", "(verb) to make melodious sounds"]
-INGS
+COCOA
+["(noun) a beverage made from cocoa powder and milk and sugar; usually drunk hot", "(noun) powder of ground roasted cacao beans with most of the fat removed"]
+COCO
+["(noun) tall palm tree bearing coconuts as fruits; widely planted throughout the tropics"]
+NOR
 []
-SIG
+CARON
 []
-SIGNING
-["(noun) language expressed by visible hand gestures", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement"]
-SIGNS
-["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement"]
-SIGN
-["(noun) a perceptible indication of something not immediately apparent (as a visible clue that something has happened", "(noun) a public display of a message", "(noun) any nonverbal action or gesture that encodes a message", "(verb) mark with one's signature; write one's name (on", "(verb) approve and express assent, responsibility, or obligation", "(verb) be engaged by a written agreement", "(adjective) used of the language of the deaf"]
-GIGS
-["(noun) long and light rowing boat; especially for racing", "(noun) an implement with a shaft and barbed point used for catching fish", "(noun) a cluster of hooks (without barbs"]
-INNS
-["(noun) a hotel providing overnight lodging for travelers"]
-SINS
-["(noun) estrangement from god", "(noun) an act that is regarded by theologians as a transgression of God's will", "(noun) ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle", "(verb) commit a sin; violate a law of God or a moral law", "(verb) commit a faux pas or a fault or make a serious mistake"]
+ORA
+[]
+COR
+[]
+COON
+["(noun) an eccentric or undignified rustic", "(noun) North American raccoon"]
+ARCO
+["(adjective) (of instruments in the violin family"]
+CORN
+["(noun) tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times", "(noun) the dried grains or kernels or corn used as animal feed or ground for meal", "(noun) ears of corn that can be prepared and served for human food", "(verb) feed (cattle", "(verb) preserve with salt"]
+ACORN
+["(noun) fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base"]

@@ -244,7 +244,7 @@ def setup():
         for word in words:
             words_by_len[len(word)].append(word)
 
-        num_crosswords = 5  # will try to generate this many, might be fewer
+        num_crosswords = 20  # will try to generate this many, might be fewer
 
         main_words = random.choices(
             words_by_len[8] + words_by_len[7], k=3*num_crosswords)
@@ -265,7 +265,7 @@ def setup():
             output_file = f'levels/level_{level_num}.txt'
             if gen_crossword(
                     puzzle_words, output_file) is not None:
-                print(f'Crossword #{level_num}: {main_word}')
+                print(f'Crossword #{level_num} Done!')
                 level_num += 1
 
         main_word = random.choice(words_by_len[8])

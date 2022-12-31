@@ -1,95 +1,71 @@
-12
-LAUGHED 1 7 False
-AGED 4 6 True
-GLAD 2 5 True
-AULD 7 4 True
-DALE 6 4 False
-DUEL 8 1 True
-LEAD 5 1 False
-LUGE 0 5 False
-GLUE 5 0 True
-HALE 2 3 False
-GALE 0 3 True
-GLADE 3 1 True
+13
+SQUEAKY 9 3 True
+ASK 7 8 False
+AYES 6 3 False
+SAKE 6 2 True
+YEAS 7 6 True
+SQUEAK 1 4 False
+KEYS 3 2 False
+QUA 2 4 True
+QUAKE 3 7 False
+KAYS 1 1 True
+QUAY 4 6 True
+SEA 0 6 False
+EASY 1 6 True
 10 10
-- - - G A L E - - -
-- - - - - U - L - -
-- - - H - G L A D -
-- G L A D E - U - -
-- - - L - - A G E D
-G L U E - - - H - -
-- E - - D - - E - -
-- A - - A U L D - -
-- D U E L - - - - -
-- - - - E - - - - -
-45
-DAHL
-HELD
-LAD
-LAG
-LAUGH
-AGE
-ELD
-HUG
-ALE
-DUG
-LUG
-LEG
-UGH
-GED
-GELD
-GAL
-HAG
-HUGE
-ALU
-DAH
-GEL
-HUE
-GAD
-GUL
-LED
-DAG
-HEAD
-DEL
-DAL
-DUAL
-HEAL
-DEG
-HAUL
-HULA
-HAD
-DEAL
-DAE
-DUH
-GLUED
-LEU
-HAULED
-DUE
+- - - - - - S - - -
+- K A Y S - E A S Y
+- - - - Q U A - - -
+- - K - U - - Q - -
+- - E - E - Q U A Y
+- - Y - A - - A - -
+- - S A K E - K - -
+- - - Y - - Y E A S
+- - - E - - - - S -
+- - - S Q U E A K Y
+18
+KAY
+SAY
+USE
+KAS
 EAU
-LEA
-LAH
-12
-LAUGHED
-["(verb) produce laughter"]
-AGED
-["(noun) people who are old collectively", "(verb) begin to seem older; get older", "(verb) grow old or older", "(verb) make older", "(adjective) advanced in years; (`aged' is pronounced as two syllables", "(adjective) at an advanced stage of erosion (pronounced as one syllable", "(adjective) having attained a specific age; (`aged' is pronounced as one syllable"]
-GLAD
-["(noun) any of numerous plants of the genus Gladiolus native chiefly to tropical and South Africa having sword-shaped leaves and one-sided spikes of brightly colored funnel-shaped flowers; widely cultivated", "(adjective) showing or causing joy and pleasure; especially made happy", "(adjective) eagerly disposed to act or to be of service", "(adjective) feeling happy appreciation"]
-AULD
-["(adjective) a Scottish word"]
-DALE
-["(noun) an open river valley (in a hilly area"]
-DUEL
-["(noun) a prearranged fight with deadly weapons by two people (accompanied by seconds", "(noun) any struggle between two skillful opponents (individuals or groups", "(verb) fight a duel, as over one's honor or a woman"]
-LEAD
-["(noun) an advantage held by a competitor in a race", "(noun) a soft heavy toxic malleable metallic element; bluish white when freshly cut but tarnishes readily to dull grey", "(noun) evidence pointing to a possible solution", "(verb) take somebody somewhere", "(verb) produce as a result or residue", "(verb) tend to or result in"]
-LUGE
-["(noun) a racing sled for one or two people", "(verb) move along on a luge or toboggan"]
-GLUE
-["(noun) cement consisting of a sticky substance that is used as an adhesive", "(verb) join or attach with or as if with glue", "(verb) be fixed as if by glue"]
-HALE
-["(noun) a soldier of the American Revolution who was hanged as a spy by the British; his last words were supposed to have been `I only regret that I have but one life to give for my country' (1755-1776", "(noun) United States astronomer who discovered that sunspots are associated with strong magnetic fields (1868-1938", "(noun) prolific United States writer (1822-1909", "(verb) to cause to do through pressure or necessity, by physical, moral or intellectual means", "(verb) draw slowly or heavily", "(adjective) exhibiting or restored to vigorous good health"]
-GALE
-["(noun) a strong wind moving 45-90 knots; force 7 to 10 on Beaufort scale"]
-GLADE
-["(noun) a tract of land with few or no trees in the middle of a wooded area"]
+SAU
+YEA
+SAE
+SUK
+SUE
+SKY
+YAK
+YES
+AYE
+KEA
+EAS
+KEY
+SKA
+13
+SQUEAKY
+["(adjective) having or making a high-pitched sound such as that made by a mouse or a rusty hinge"]
+ASK
+["(verb) make a request or demand for something to somebody", "(verb) direct or put; seek an answer to", "(verb) consider obligatory; request and expect"]
+AYES
+[]
+SAKE
+["(noun) a reason for wanting something done", "(noun) Japanese alcoholic beverage made from fermented rice; usually served hot", "(noun) the purpose of achieving or obtaining"]
+YEAS
+["(noun) an affirmative"]
+SQUEAK
+["(noun) a short high-pitched noise", "(noun) something achieved (or escaped", "(verb) make a high-pitched, screeching noise"]
+KEYS
+["(noun) metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated", "(noun) something crucial for explaining", "(noun) pitch of the voice", "(verb) identify as in botany or biology, for example", "(verb) provide with a key", "(verb) vandalize a car by scratching the sides with a key"]
+QUA
+[]
+QUAKE
+["(noun) shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity", "(verb) shake with fast, tremulous movements", "(verb) shake with seismic vibrations"]
+KAYS
+[]
+QUAY
+["(noun) wharf usually built parallel to the shoreline"]
+SEA
+["(noun) a division of an ocean or a large body of salt water partially enclosed by land", "(noun) anything apparently limitless in quantity or volume", "(noun) turbulent water with swells of considerable size"]
+EASY
+["(adjective) posing no difficulty; requiring little effort", "(adjective) not hurried or forced", "(adjective) or easygoing", "(adverb) with ease (`easy' is sometimes used informally for `easily'", "(adverb) without speed (`slow' is sometimes used informally for `slowly'", "(adverb) in a relaxed manner; or without hardship"]

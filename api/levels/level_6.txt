@@ -1,0 +1,52 @@
+8
+ACIDITY 3 6 False
+TIDY 8 6 True
+DAY 3 5 True
+CID 6 8 False
+ACID 0 5 False
+DICT 6 6 True
+CITY 1 5 True
+TAI 7 4 True
+10 10
+- - - - - A - - - -
+- - - - - C I T Y -
+- - - - - I - - - -
+- - - - - D A Y - -
+- - - - - - C - - -
+- - - - - - I - - -
+- - - - - - D I C T
+- - - - T A I - I -
+- - - - - - T I D Y
+- - - - - - Y - - -
+14
+CAD
+TAD
+CAY
+TIC
+ITA
+ACT
+DIT
+CAT
+TAY
+AID
+TID
+ICY
+CIT
+AIT
+8
+ACIDITY
+["(noun) the property of being acidic", "(noun) the taste experience when something acidic is taken into the mouth", "(noun) pH values below 7"]
+TIDY
+["(noun) receptacle that holds odds and ends (as sewing materials", "(verb) put (things or places", "(adjective) marked by order and cleanliness in appearance or habits", "(adjective) (of hair", "(adjective) large in amount or extent or degree"]
+DAY
+["(noun) time for Earth to make a complete rotation on its axis", "(noun) some point or period in time", "(noun) a day assigned to a particular purpose or observance"]
+CID
+["(noun) the United States Army's principal law enforcement agency responsible for the conduct of criminal investigations for all levels of the Army anywhere in the world"]
+ACID
+["(noun) any of various water-soluble compounds having a sour taste and capable of turning litmus red and reacting with a base to form a salt", "(noun) street name for lysergic acid diethylamide", "(adjective) harsh or corrosive in tone", "(adjective) being sour to the taste", "(adjective) having the characteristics of an acid"]
+DICT
+[]
+CITY
+["(noun) a large and densely populated urban area; may include several independent administrative districts", "(noun) an incorporated administrative district established by state charter", "(noun) people living in a large densely populated municipality"]
+TAI
+["(noun) a native or inhabitant of Thailand", "(noun) the most widespread and best known of the Kadai family of languages", "(adjective) of or relating to or characteristic of Thailand or its people", "(adjective) of or relating to the languages of the Thai people", "(adjective) of or relating to Thailand"]

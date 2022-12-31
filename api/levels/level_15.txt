@@ -1,0 +1,79 @@
+14
+MODELED 8 0 True
+MOLDED 3 6 False
+MODE 6 2 False
+ODE 4 6 True
+DEMO 6 0 True
+DEEM 3 3 True
+DOL 6 6 True
+MOLE 3 1 False
+DOME 0 5 False
+LOD 4 0 True
+DOLE 1 8 False
+DOMED 0 1 True
+MOLD 0 3 False
+LEED 6 8 False
+10 10
+- D O M E D - - - -
+- - - O - O - - D -
+- - - L - M - - O -
+- M - D E E M - L -
+L O D - - - O D E -
+- L - - - - L - - -
+D E M O - - D O L -
+- - O - - - E - E -
+M O D E L E D - E -
+- - E - - - - - D -
+23
+OLDE
+ELM
+DOE
+DOM
+DOD
+MOE
+DEED
+MOD
+OLD
+DEE
+EEL
+MOL
+DEL
+EMO
+ELD
+MODEL
+LEE
+OLE
+MED
+LED
+ODD
+MEE
+MEL
+14
+MODELED
+["(verb) plan or create according to a model or models", "(verb) form in clay, wax, etc", "(verb) assume a posture as for artistic purposes", "(adjective) resembling sculpture"]
+MOLDED
+["(verb) form in clay, wax, etc", "(verb) become moldy; spoil due to humidity", "(verb) form by pouring (e.g., wax or hot metal", "(adjective) shaped to fit by or as if by altering the contours of a pliable mass (as by work or effort"]
+MODE
+["(noun) how something is done or how it happens", "(noun) a particular functioning condition or arrangement", "(noun) a classification of propositions on the basis of whether they claim necessity or possibility or impossibility"]
+ODE
+["(noun) a lyric poem with complex stanza forms"]
+DEMO
+["(noun) a visual presentation showing how something works", "(verb) give an exhibition of to an interested audience"]
+DEEM
+["(verb) keep in mind or convey as a conviction or view"]
+DOL
+["(noun) a unit of pain intensity", "(noun) the federal department responsible for promoting the working conditions of wage earners in the United States; created in 1913"]
+MOLE
+["(noun) the molecular weight of a substance expressed in grams; the basic unit of amount of substance adopted under the Systeme International d'Unites", "(noun) a spy who works against enemy espionage", "(noun) spicy sauce often containing chocolate"]
+DOME
+["(noun) a concave shape whose distinguishing characteristic is that the concavity faces downward", "(noun) informal terms for a human head", "(noun) a stadium that has a roof"]
+LOD
+[]
+DOLE
+["(noun) a share of money or food or clothing that has been charitably given", "(noun) money received from the state"]
+DOMED
+["(adjective) having a hemispherical vault or dome"]
+MOLD
+["(noun) the distinctive form in which a thing is made", "(noun) container into which liquid is poured to create a given shape when it hardens", "(noun) loose soil rich in organic matter", "(verb) form in clay, wax, etc", "(verb) become moldy; spoil due to humidity", "(verb) form by pouring (e.g., wax or hot metal"]
+LEED
+[]

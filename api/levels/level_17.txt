@@ -1,0 +1,84 @@
+12
+MOSQUITO 2 8 False
+SITU 6 5 True
+OUTS 3 5 False
+OMIT 5 2 True
+MOOT 3 3 True
+MISO 0 4 False
+TOMS 0 2 True
+MOTU 4 2 False
+SUMO 7 1 True
+MOS 7 3 False
+SUIT 8 5 True
+MIST 9 1 True
+10 10
+- - T O M S - - - -
+- - - - I - - - - -
+- - - - S - - - M -
+- - - M O O T - O -
+- - M - - U - - S -
+- - O M I T - - Q -
+- - T - - S I T U -
+- S U M O - - - I -
+- - - O - S U I T -
+- M I S T - - - O -
+34
+MUST
+ISO
+MOO
+TUM
+MOST
+OUT
+SIT
+UTS
+QUITS
+ITS
+TUI
+MOT
+TOM
+SOT
+SOOT
+SOU
+ISM
+TIS
+SUI
+MIS
+MUS
+OUS
+SUM
+MOI
+SOM
+SMIT
+MOU
+TOO
+IOS
+SIM
+SMUT
+MOIST
+QUIT
+OMS
+12
+MOSQUITO
+["(noun) two-winged insect whose female has a long proboscis to pierce the skin and suck the blood of humans and animals"]
+SITU
+[]
+OUTS
+["(noun) (baseball", "(verb) to state openly and publicly one's homosexuality", "(verb) reveal (something", "(verb) be made known; be disclosed or revealed"]
+OMIT
+["(verb) prevent from being included or considered or accepted", "(verb) leave undone or leave out"]
+MOOT
+["(noun) a hypothetical case that law students argue as an exercise", "(verb) think about carefully; weigh", "(adjective) of no legal significance (as having been previously decided", "(adjective) open to argument or debate"]
+MISO
+["(noun) a thick paste made from fermented soybeans and barley or rice malt; used in Japanese cooking to make soups or sauces"]
+TOMS
+["(noun) male cat", "(noun) male turkey"]
+MOTU
+[]
+SUMO
+["(noun) a Japanese form of wrestling; you lose if you are forced out of a small ring or if any part of your body (other than your feet"]
+MOS
+["(noun) an indefinitely short time", "(noun) a polyvalent metallic element that resembles chromium and tungsten in its properties; used to strengthen and harden steel", "(noun) a midwestern state in central United States; a border state during the American Civil War, Missouri was admitted to the Confederacy without actually seceding from the Union"]
+SUIT
+["(noun) a set of garments (usually including a jacket and trousers or skirt", "(noun) a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy", "(noun) (slang", "(verb) be agreeable or acceptable to", "(verb) be agreeable or acceptable", "(verb) accord or comport with"]
+MIST
+["(noun) a thin fog with condensation near the ground", "(verb) become covered with mist", "(verb) make less visible or unclear", "(verb) spray finely or cover with mist"]

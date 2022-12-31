@@ -1,0 +1,87 @@
+14
+GARLAND 1 5 False
+GALA 5 2 True
+GLAND 5 2 False
+GARDA 1 5 True
+DAL 6 0 True
+DANG 7 5 True
+LAND 8 0 True
+RANA 1 7 False
+AGAR 3 2 True
+LANA 0 2 False
+LANG 0 9 False
+AGA 7 6 False
+GRAN 1 0 True
+ALAN 9 4 True
+10 10
+- - L - - - - - - L
+G R A N - G A R D A
+- - N - - A - A - N
+- - A G A R - N - G
+- - - - - L - A - -
+- - G A L A - - - -
+D A L - - N - - - -
+- - A - - D A N G -
+L A N D - - G - - -
+- - D - A L A N - -
+31
+DAG
+RAND
+NADA
+ALAND
+RAD
+RANG
+RAG
+RAN
+GLAD
+GAR
+GRAD
+LAR
+RNA
+ARD
+DNA
+LAD
+GAL
+GAN
+AND
+DAN
+DRAG
+NAG
+ANAL
+ANA
+LARD
+GAD
+LAG
+ALA
+RAGLAN
+GRAND
+DARN
+14
+GARLAND
+["(noun) United States singer and film actress (1922-1969", "(noun) a city in northeastern Texas (suburb of Dallas", "(noun) an anthology of short literary pieces and poems and ballads etc.", "(verb) adorn with bands of flowers or leaves"]
+GALA
+["(noun) a gay festivity"]
+GLAND
+["(noun) any of various organs that synthesize substances needed by the body and release it through ducts or directly into the bloodstream"]
+GARDA
+[]
+DAL
+["(noun) a metric unit of volume or capacity equal to 10 liters"]
+DANG
+[]
+LAND
+["(noun) the land on which real estate is located", "(noun) material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use", "(noun) territory over which rule or control is exercised", "(verb) reach or come to rest", "(verb) cause to come to the ground", "(verb) bring into a different state"]
+RANA
+["(noun) type genus of the Ranidae"]
+AGAR
+["(noun) any culture medium that uses agar as the gelling agent", "(noun) a colloidal extract of algae; used especially in culture media and as a gelling agent in foods"]
+LANA
+[]
+LANG
+[]
+AGA
+["(noun) title for a civil or military leader (especially in Turkey", "(noun) a festivity in ancient Greece at which competitors contended for prizes"]
+GRAN
+["(noun) the mother of your father or mother"]
+ALAN
+[]

@@ -1,71 +1,59 @@
-13
-WHITHER 1 6 False
-WRITE 6 2 True
-THREW 2 2 False
-HER 4 0 True
-WEIR 1 6 True
-HIT 4 0 False
-RET 6 3 False
-RITE 7 6 True
-WITH 4 4 True
-HEIR 6 9 False
-HITHER 9 4 True
-WERT 8 0 True
-TIER 0 8 False
+12
+LOLLIPOP 2 3 False
+LILO 5 3 True
+POOP 7 0 True
+POLIO 1 6 False
+POLL 4 0 True
+LOOP 3 6 True
+POOL 3 9 False
+POLO 1 6 True
+PILL 2 0 True
+PIP 2 0 False
+POI 0 1 False
+LOO 1 8 False
 10 10
-- - - - - - - - T -
-- - - - - - W E I R
-- - T - - - H - E -
-- - H - - - I - R -
-H E R - W I T H - -
-I - E - - - H - - -
-T - W R I T E - - H
-- - - E - - R I T E
-W E R T - - - - - I
-- - - - H I T H E R
-18
-REI
-HET
-WET
-WRIT
-WHIT
-THE
-TIE
-WIT
-HEH
-ETH
-TIRE
-WIRE
-WHITE
-RIT
-IRE
-HIRE
-TEW
-THEIR
-13
-WHITHER
-[]
-WRITE
-["(verb) produce a literary work", "(verb) communicate or express by writing", "(verb) communicate (with"]
-THREW
-["(verb) propel through the air", "(verb) move violently, energetically, or carelessly", "(verb) get rid of"]
-HER
-[]
-WEIR
-["(noun) a low dam built across a stream to raise its level or divert its flow", "(noun) a fence or wattle built across a stream to catch or retain fish"]
-HIT
-["(noun) (baseball", "(noun) especially in baseball", "(noun) the act of contacting one thing with another", "(verb) cause to move by striking", "(verb) hit against; come into sudden contact with", "(verb) deal a blow to, either with the hand or with an instrument"]
-RET
-["(verb) place (flax, hemp, or jute"]
-RITE
-["(noun) an established ceremony prescribed by a religion", "(noun) any customary observance or practice"]
-WITH
-[]
-HEIR
-["(noun) a person who is entitled by law or by the terms of a will to inherit the estate of another", "(noun) a person who inherits some title or office"]
-HITHER
-["(adverb) to this place (especially toward the speaker"]
-WERT
-[]
-TIER
-["(noun) a relative position or degree of value in a graded group", "(noun) any one of two or more competitors who tie one another", "(noun) a worker who ties something"]
+- P - - - - - - - -
+- O - - - - P O L O
+P I L L - - O - O -
+I - - O - - L O O P
+P O L L - - I - - O
+- - - L I L O - - O
+- - - I - - - - - L
+P O O P - - - - - -
+- - - O - - - - - -
+- - - P - - - - - -
+9
+LOP
+POO
+OOP
+LOL
+POP
+LIP
+ILL
+POL
+OIL
+12
+LOLLIPOP
+["(noun) ice cream or water ice on a small wooden stick", "(noun) hard candy on a stick"]
+LILO
+["(noun) a type of inflatable air mattress"]
+POOP
+["(noun) obscene terms for feces", "(noun) a stupid foolish person", "(noun) slang terms for inside information"]
+POLIO
+["(noun) an acute viral disease marked by inflammation of nerve cells of the brain stem and spinal cord"]
+POLL
+["(noun) an inquiry into public opinion conducted by interviewing a random sample of people", "(noun) the top of the head", "(noun) the part of the head between the ears", "(verb) get the opinions (of people", "(verb) vote in an election at a polling station", "(verb) get the votes of"]
+LOOP
+["(noun) fastener consisting of a metal ring for lining a small hole to permit the attachment of cords or lines", "(noun) anything with a round or oval shape (formed by a curve that is closed and does not intersect itself", "(noun) (computer science", "(verb) move in loops", "(verb) make a loop in", "(verb) fly loops, perform a loop"]
+POOL
+["(noun) an excavation that is (usually", "(noun) a small lake", "(noun) an organization of people or resources that can be shared", "(verb) combine into a common fund", "(verb) join or form a pool of people"]
+POLO
+["(noun) Venetian traveler who explored Asia in the 13th century and served Kublai Khan (1254-1324", "(noun) a game similar to field hockey but played on horseback using long-handled mallets and a wooden ball"]
+PILL
+["(noun) something that resembles a tablet of medicine in shape or size", "(noun) a dose of medicine in the form of a small pellet", "(noun) a unpleasant or tiresome person"]
+PIP
+["(noun) a disease of poultry", "(noun) a minor nonspecific ailment", "(noun) a small hard seed found in some fruits", "(verb) kill by firing a missile", "(verb) hit with a missile from a weapon", "(verb) defeat thoroughly"]
+POI
+["(noun) Hawaiian dish of taro root pounded to a paste and often allowed to ferment"]
+LOO
+["(noun) a toilet in Britain"]

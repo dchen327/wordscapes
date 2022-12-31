@@ -1,0 +1,97 @@
+12
+BROWSERS 2 2 False
+ERS 9 0 True
+ORES 3 1 True
+ROSES 8 2 True
+ROBES 4 6 False
+WEBS 0 4 False
+OWES 5 6 True
+WORSE 5 0 False
+SWORE 0 3 True
+BREW 2 4 True
+WOES 5 4 False
+SORES 1 9 False
+10 10
+- - - S W O R E - -
+- - - - E - - - - S
+- - B - B R E W - O
+- O R E S - - - - R
+- - O - - - R - - E
+W - W - W - O W E S
+O - S - O - B - - -
+R - E - E - E - - -
+S - R O S E S - - -
+E R S - - - - - - -
+47
+ROW
+SOS
+REO
+SOBER
+BROWSER
+WOE
+BOS
+OSE
+BES
+WEB
+EROS
+BROWSE
+BOWER
+ORB
+ROWS
+BOWES
+BOWERS
+BROW
+SOW
+ROB
+ROSE
+ROE
+SEW
+SER
+BORE
+RES
+ORE
+BROWS
+BROS
+WORE
+ORS
+BOR
+BOWS
+SORE
+BOSS
+BOW
+REB
+OWE
+BRO
+OES
+OBE
+ERR
+ESS
+OBS
+SOB
+ROBE
+BOWSER
+12
+BROWSERS
+["(noun) a viewer who looks around casually without seeking anything in particular", "(noun) a program used to view HTML documents"]
+ERS
+["(noun) a trivalent metallic element of the rare earth group; occurs with yttrium", "(noun) a room in a hospital or clinic staffed and equipped to provide emergency care to persons requiring immediate medical treatment"]
+ORES
+["(noun) a mineral that contains metal that is valuable enough to be mined", "(noun) a monetary subunit in Denmark and Norway and Sweden; 100 ore equal 1 krona"]
+ROSES
+["(noun) any of many shrubs of the genus Rosa that bear roses", "(noun) pinkish table wine from red grapes whose skins were removed after fermentation began", "(noun) a dusty pink color"]
+ROBES
+["(noun) any loose flowing garment", "(noun) outerwear consisting of a long flowing garment used for official or ceremonial occasions", "(verb) clothe formally; especially in ecclesiastical robes", "(verb) cover as if with clothing"]
+WEBS
+["(noun) an intricate network suggesting something that was formed by weaving or interweaving", "(noun) an intricate trap that entangles or ensnares its victim", "(noun) the flattened weblike part of a feather consisting of a series of barbs on either side of the shaft", "(verb) construct or form a web, as if by weaving"]
+OWES
+["(verb) be obliged to pay or repay", "(verb) be indebted to, in an abstract or intellectual sense", "(verb) be in debt"]
+WORSE
+["(noun) something inferior in quality or condition or effect", "(adjective) having undesirable or negative qualities", "(adjective) very intense", "(adjective) or bad", "(adverb) to a severe or serious degree", "(adverb) (`ill' is often used as a combining form", "(adverb) evilly or wickedly"]
+SWORE
+["(verb) utter obscenities or profanities", "(verb) to declare or affirm solemnly and formally as true", "(verb) promise solemnly; take an oath"]
+BREW
+["(noun) drink made by steeping and boiling and fermenting rather than distilling", "(verb) prepare by brewing", "(verb) sit or let sit in boiling water so as to extract the flavor"]
+WOES
+["(noun) misery resulting from affliction", "(noun) intense mournfulness"]
+SORES
+["(noun) an open skin infection"]

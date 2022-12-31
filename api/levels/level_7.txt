@@ -1,0 +1,90 @@
+12
+FORCIBLY 2 4 False
+CORBY 9 0 True
+LYRIC 5 0 True
+FLOR 2 2 False
+BROIL 7 4 True
+ROLF 5 8 False
+BLOC 4 0 False
+CRY 7 0 True
+FOLIC 2 4 True
+BOIL 6 6 False
+BRIO 0 7 False
+ORB 5 7 True
+10 10
+- - - - - - - B - -
+- - - - - - - R - -
+- - F - F O L I C -
+- - L - O - - O - -
+B - O - R - - - - -
+L Y R I C - - O R B
+O - - - I - B - O -
+C R Y - B R O I L -
+- - - - L - I - F -
+C O R B Y - L - - -
+40
+COB
+FRY
+FIB
+LOR
+ROC
+ICY
+CRIB
+BIO
+FICO
+FLY
+FIL
+COR
+ORF
+FOY
+FOIL
+LOB
+RIB
+COL
+ROB
+RIF
+LOCI
+BOY
+COIL
+CORY
+COY
+ORC
+COLBY
+LOY
+FOR
+FIR
+BOR
+FOB
+FOCI
+OILY
+BRO
+OBI
+BOI
+LIB
+FRO
+OIL
+12
+FORCIBLY
+["(adverb) in a forcible manner"]
+CORBY
+[]
+LYRIC
+["(noun) the text of a popular song or musical-comedy number", "(noun) a short poem of songlike quality", "(verb) write lyrics for (a song", "(adjective) expressing deep emotion", "(adjective) used of a singer or singing voice that is light in volume and modest in range", "(adjective) relating to or being musical drama"]
+FLOR
+[]
+BROIL
+["(noun) cooking by direct exposure to radiant heat (as over a fire or under a grill", "(verb) cook under a broiler", "(verb) heat by a natural force", "(verb) be very hot, due to hot weather or exposure to the sun"]
+ROLF
+["(noun) Norse chieftain who became the first duke of Normandy (860-931"]
+BLOC
+["(noun) a group of countries in special alliance"]
+CRY
+["(noun) a loud utterance; often in protest or opposition", "(noun) a loud utterance of emotion (especially when inarticulate", "(noun) a slogan used to rally support for a cause", "(verb) utter a sudden loud cry", "(verb) shed tears because of sadness, rage, or pain", "(verb) utter aloud; often with surprise, horror, or joy"]
+FOLIC
+[]
+BOIL
+["(noun) a painful sore with a hard core filled with pus", "(noun) the temperature at which a liquid boils at sea level", "(verb) come to the boiling point and change from a liquid to vapor", "(verb) immerse or be immersed in a boiling liquid, often for cooking purposes", "(verb) bring to, or maintain at, the boiling point"]
+BRIO
+["(noun) quality of being active or spirited or alive and vigorous"]
+ORB
+["(noun) the ball-shaped capsule containing the vertebrate eye", "(noun) an object with a spherical shape", "(verb) move in an orbit"]

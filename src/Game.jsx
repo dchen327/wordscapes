@@ -30,7 +30,7 @@ export const Game = () => {
   const [defineModalWords, setDefineModalWords] = useState([]);
   const [showDefinitions, setShowDefinitions] = useState(false);
   const [posToWords, setPosToWords] = useState({});
-  const NUM_LEVELs = 5;
+  const NUM_LEVELs = 20;
 
   // disable body scrolling
   useEffect(() => {
@@ -51,9 +51,7 @@ export const Game = () => {
 
   const getNextLevel = () => {
     toast.dismiss(); // clear previous toasts
-    toast.success(`Level ${levelNum} Complete!`, {
-      duration: 3000,
-    });
+    toast.success(`Level ${levelNum} Complete!`);
     setLevel(levelNum + 1);
     setDefinitions(null); // reset definitions
     // TODO: set theme color to something new
