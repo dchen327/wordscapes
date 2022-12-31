@@ -126,6 +126,9 @@ export const Game = () => {
       setThemeColor("#CF9FFF");
     };
 
+    fetchCrossword();
+  }, [levelNum]);
+
   return (
     <>
       <Toaster />
