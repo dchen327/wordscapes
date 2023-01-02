@@ -10,6 +10,7 @@
     "@types/node": "^16.11.59",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
+    "animate.css": "^4.1.1",
     "body-scroll-lock": "^4.0.0-beta.0",
     "create-react-class": "^15.7.0",
     "rdndmb-html5-to-touch": "^7.1.0",
@@ -21,6 +22,7 @@
     "react-hot-toast": "^2.4.0",
     "react-modal": "^3.16.1",
     "react-scripts": "5.0.1",
+    "react-transition-state": "^2.0.2",
     "react-xarrows": "^2.0.2",
     "web-vitals": "^2.1.4"
   },
