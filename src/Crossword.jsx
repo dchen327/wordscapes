@@ -78,7 +78,7 @@ const Crossword = ({
       const newGrid = [...grid];
       newGrid[r][c] = completeGrid[r][c];
       setGrid(newGrid);
-      setCurrRevealedIdxs({ [idx]: "" });
+      setCurrRevealedIdxs({ [idx]: 0 });
       toggleRevealAnim(true);
       setDefineMode(true);
       if (levelComplete(newGrid)) {
@@ -86,8 +86,6 @@ const Crossword = ({
       }
     }
   };
-
-  console.log(currRevealedIdxs);
 
   return (
     <div
@@ -108,15 +106,16 @@ const Crossword = ({
             >
               {col !== "-" && (
                 <div
-                  className={`aspect-square border rounded ${
+                  className={`aspect-square border rounded transition-all ${
                     idx in currRevealedIdxs &&
                     (revealAnimState.status === "entering" ||
                       revealAnimState.status === "entered")
-                      ? "animate-fadeIn " + currRevealedIdxs[idx]
+                      ? "animate-fadeIn"
                       : ""
                   }`}
                   style={{
                     backgroundColor: col === "_" ? "transparent" : themeColor,
+                    animationDelay: `${currRevealedIdxs[idx]}ms`,
                   }}
                 >
                   <p
