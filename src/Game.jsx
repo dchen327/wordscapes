@@ -33,7 +33,7 @@ export const Game = () => {
   const [revealAnimState, toggleRevealAnim] = useTransition({
     timeout: 500,
   });
-  const [currRevealedIdxs, setCurrRevealedIdxs] = useState({});
+  const [currRevealedIdxs, setCurrRevealedIdxs] = useState(new Map());
   const [revealAnimClass, setRevealAnimClass] = useState("");
   const NUM_LEVELs = 20;
 
@@ -60,6 +60,7 @@ export const Game = () => {
     setTimeout(() => {
       setLevel(levelNum + 1);
       setDefinitions(null); // reset definitions
+      toggleRevealAnim(false);
       // TODO: set theme color to something new
     }, delay);
   };
@@ -67,6 +68,7 @@ export const Game = () => {
   const setLevel = (levelNum) => {
     setLevelNum(levelNum);
     localStorage.setItem("levelNum", levelNum);
+    setCurrRevealedIdxs(new Map());
     setFoundBonusWords([]);
   };
 
