@@ -16,6 +16,7 @@ const Crossword = ({
   toggleRevealAnim,
   currRevealedIdxs,
   setCurrRevealedIdxs,
+  revealAnimType,
 }) => {
   const numCols = grid[0]?.length;
 
@@ -110,7 +111,7 @@ const Crossword = ({
                     idx in currRevealedIdxs &&
                     (revealAnimState.status === "entering" ||
                       revealAnimState.status === "entered")
-                      ? "animate-fadeIn"
+                      ? revealAnimType
                       : ""
                   }`}
                   style={{

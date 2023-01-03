@@ -34,6 +34,7 @@ const WordCircle = ({
   setDefineMode,
   toggleRevealAnim,
   setCurrRevealedIdxs,
+  setRevealAnimType,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -117,7 +118,7 @@ const WordCircle = ({
         wordArray.forEach((letter, i) => {
           if (grid[r][c + i] === "_") {
             changeMade = true;
-            animDelays[r * grid[0].length + c + i] = 100 * i;
+            animDelays[r * grid[0].length + c + i] = 150 * i;
           }
           grid[r][c + i] = letter;
         });
@@ -125,7 +126,7 @@ const WordCircle = ({
         wordArray.forEach((letter, i) => {
           if (grid[r + i][c] === "_") {
             changeMade = true;
-            animDelays[(r + i) * grid[0].length + c] = 100 * i;
+            animDelays[(r + i) * grid[0].length + c] = 150 * i;
           }
           grid[r + i][c] = letter;
         });
@@ -136,6 +137,7 @@ const WordCircle = ({
         setInputtedWord(word);
         setGrid(grid);
         setCurrRevealedIdxs(animDelays);
+        setRevealAnimType("animate-wobble");
         toggleRevealAnim(true);
         return true;
       }
@@ -149,6 +151,7 @@ const WordCircle = ({
       setWordsFound,
       toggleRevealAnim,
       setCurrRevealedIdxs,
+      setRevealAnimType,
     ]
   );
 

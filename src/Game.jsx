@@ -35,6 +35,7 @@ export const Game = () => {
     timeout: 500,
   });
   const [currRevealedIdxs, setCurrRevealedIdxs] = useState({});
+  const [revealAnimType, setRevealAnimType] = useState("");
   const NUM_LEVELs = 20;
 
   // disable body scrolling
@@ -170,6 +171,7 @@ export const Game = () => {
               toggleRevealAnim,
               currRevealedIdxs,
               setCurrRevealedIdxs,
+              revealAnimType,
             }}
           />
         )}
@@ -196,6 +198,7 @@ export const Game = () => {
               setDefineMode,
               toggleRevealAnim,
               setCurrRevealedIdxs,
+              setRevealAnimType,
             }}
           />
         )}
