@@ -92,6 +92,13 @@ const Crossword = ({
     }
   };
 
+  const onAnimationEnd = () => {
+    toggleRevealAnim(false);
+    setCurrRevealedIdxs({});
+  };
+
+  console.log("render", revealAnimState.status);
+
   return (
     <div
       className="flex grow p-2 mt-5 aspect-square"
@@ -119,14 +126,14 @@ const Crossword = ({
                       : ""
                   }`}
                   style={{
-                    backgroundColor: col === "_" ? "transparent" : themeColor,
+                    backgroundColor: col === "_" ? "transparen(t" : themeColor,
                     animationDelay: `${currRevealedIdxs[idx]}ms`,
                   }}
                 >
                   <p
                     className={`flex items-center justify-center font-mono font-bold overflow-hidden select-none h-full 
                   `}
-                    onAnimationEnd={() => toggleRevealAnim(false)}
+                    onAnimationEnd={onAnimationEnd}
                   >
                     {col === "_" ? "" : col}
                   </p>

@@ -21,8 +21,6 @@ const WordCircle = ({
   completeGrid,
   grid,
   setGrid,
-  wordsFound,
-  setWordsFound,
   foundBonusWords,
   setFoundBonusWords,
   setShowBonusWords,
@@ -41,7 +39,7 @@ const WordCircle = ({
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
-  const [animClass, setAnimClass] = useState("");
+  const [inputtedWordAnimClass, setInputtedWordAnimClass] = useState("");
   const [inputtedAnimState, toggleInputtedAnim] = useTransition({
     timeout: 500,
   });
@@ -66,7 +64,7 @@ const WordCircle = ({
 
       if (Object.keys(words).includes(word)) {
         // word is correct (could already be entered)
-        setAnimClass("animate-pulse animate-faster");
+        setInputtedWordAnimClass("animate-pulse animate-faster");
         if (enterWord(word)) {
           setInputtedWordBGColor("#34D399");
         } else {
@@ -77,7 +75,7 @@ const WordCircle = ({
         }
       } else if (bonusWords.includes(word)) {
         // bonus word
-        setAnimClass("animate-pulse animate-faster");
+        setInputtedWordAnimClass("animate-pulse animate-faster");
         // check if already found
         if (!foundBonusWords.includes(word)) {
           setFoundBonusWords([...foundBonusWords, word]);
@@ -89,7 +87,7 @@ const WordCircle = ({
           // TODO: flash the bonus circle
         }
       } else {
-        setAnimClass("animate-headShake");
+        setInputtedWordAnimClass("animate-headShake");
         setInputtedWordBGColor("#F87171");
       }
 
@@ -97,7 +95,7 @@ const WordCircle = ({
       setTimeout(() => {
         setInputtedWord("");
         setInputtedWordBGColor(themeColor);
-        setAnimClass("");
+        setInputtedWordAnimClass("");
         toggleInputtedAnim(false);
 
         if (levelComplete(grid)) {
@@ -113,42 +111,47 @@ const WordCircle = ({
       let [r, c, horiz] = words[word];
       let wordArray = word.split("");
       let changeMade = false;
-      const animDelays = {};
+      const allAnimDelays = {};
+      const newLetterAnimDelays = {};
       if (horiz) {
         wordArray.forEach((letter, i) => {
           if (grid[r][c + i] === "_") {
             changeMade = true;
-            animDelays[r * grid[0].length + c + i] = 150 * i;
+            newLetterAnimDelays[r * grid[0].length + c + i] = 150 * i;
           }
+          allAnimDelays[r * grid[0].length + c + i] = 150 * i;
           grid[r][c + i] = letter;
         });
       } else {
         wordArray.forEach((letter, i) => {
           if (grid[r + i][c] === "_") {
             changeMade = true;
-            animDelays[(r + i) * grid[0].length + c] = 150 * i;
+            newLetterAnimDelays[(r + i) * grid[0].length + c] = 150 * i;
           }
+          allAnimDelays[(r + i) * grid[0].length + c] = 150 * i;
           grid[r + i][c] = letter;
         });
       }
 
       if (changeMade) {
-        setWordsFound(wordsFound + 1);
         setInputtedWord(word);
         setGrid(grid);
-        setCurrRevealedIdxs(animDelays);
+        setCurrRevealedIdxs(newLetterAnimDelays);
         setRevealAnimClass(horiz ? "animate-backInUp" : "animate-backInRight");
         toggleRevealAnim(true);
         return true;
+      } else {
+        // already in grid
+        setCurrRevealedIdxs(allAnimDelays);
+        setRevealAnimClass("animate-flash");
+        toggleRevealAnim(true);
+        return false;
       }
-      return false;
     },
     [
       words,
       grid,
       setGrid,
-      wordsFound,
-      setWordsFound,
       toggleRevealAnim,
       setCurrRevealedIdxs,
       setRevealAnimClass,
@@ -309,7 +312,7 @@ const WordCircle = ({
               className={`text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold ${
                 (inputtedAnimState.status === "entering" ||
                   inputtedAnimState.status === "entered") &&
-                animClass
+                inputtedWordAnimClass
               }`}
               style={{ backgroundColor: inputtedWordBGColor }}
             >

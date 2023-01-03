@@ -14,7 +14,6 @@ export const Game = () => {
   const [words, setWords] = useState([]);
   const [bonusWords, setBonusWords] = useState([]);
   const [letters, setLetters] = useState([]);
-  const [wordsFound, setWordsFound] = useState(0);
   const [foundBonusWords, setFoundBonusWords] = useState([]);
   const [themeColor, setThemeColor] = useState("");
   // defineMode true: tap letter -> define, false: tap letter -> reveal
@@ -186,8 +185,6 @@ export const Game = () => {
               completeGrid,
               grid,
               setGrid,
-              wordsFound,
-              setWordsFound,
               foundBonusWords,
               setFoundBonusWords,
               setShowBonusWords,
