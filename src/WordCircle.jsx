@@ -117,17 +117,17 @@ const WordCircle = ({
         wordArray.forEach((letter, i) => {
           if (grid[r][c + i] === "_") {
             changeMade = true;
+            animDelays[r * grid[0].length + c + i] = 100 * i;
           }
           grid[r][c + i] = letter;
-          animDelays[r * grid[0].length + c + i] = 100 * i;
         });
       } else {
         wordArray.forEach((letter, i) => {
           if (grid[r + i][c] === "_") {
             changeMade = true;
+            animDelays[(r + i) * grid[0].length + c] = 100 * i;
           }
           grid[r + i][c] = letter;
-          animDelays[(r + i) * grid[0].length + c] = 100 * i;
         });
       }
 
