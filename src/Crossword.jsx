@@ -97,8 +97,6 @@ const Crossword = ({
     setCurrRevealedIdxs({});
   };
 
-  console.log("render", revealAnimState.status);
-
   return (
     <div
       className="flex grow p-2 mt-5 aspect-square"
@@ -109,8 +107,9 @@ const Crossword = ({
         <div className="grid grid-cols-10 gap-0.5 w-full">
           {grid.flat().map((col, idx) => (
             <div
+              // key to allow for rerenders even if grid doesn't change (duplicate)
               className={getCellClassNames(col, idx)}
-              key={idx}
+              key={`${idx}_${idx in currRevealedIdxs}`}
               onClick={() => letterTapped(idx)}
               style={{
                 backgroundColor: getCellBGColor(col),
