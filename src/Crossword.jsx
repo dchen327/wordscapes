@@ -93,6 +93,7 @@ const Crossword = ({
   };
 
   const onAnimationEnd = () => {
+    console.log("anim ended");
     toggleRevealAnim(false);
     setCurrRevealedIdxs({});
   };
