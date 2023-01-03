@@ -14,6 +14,8 @@ const Crossword = ({
   defineWords,
   revealAnimState,
   toggleRevealAnim,
+  currRevealedIdxs,
+  setCurrRevealedIdxs,
 }) => {
   const numCols = grid[0]?.length;
 
@@ -23,23 +25,31 @@ const Crossword = ({
   const getCellBGColor = (col) => {
     if (col === "-") {
       return "transparent";
-    } else if (col === "_") {
-      if (!defineMode) {
-        // sniping mode, light yellow transparent highlight
-        return "rgb(255,255,200,0.8)";
-      }
-      return "rgb(205,209,230,0.8)";
-    } else {
-      return themeColor;
+    } else if (!defineMode) {
+      // sniping mode, light yellow transparent highlight
+      return "rgb(255,255,200,0.8)";
     }
+    return "rgb(205,209,230,0.8)";
   };
 
-  const getCellClassNames = (col) => {
+  // const getCellBGColor = (col) => {
+  //   if (col === "-") {
+  //     return "transparent";
+  //   } else if (col === "_") {
+  //     if (!defineMode) {
+  //       // sniping mode, light yellow transparent highlight
+  //       return "rgb(255,255,200,0.8)";
+  //     }
+  //     return "rgb(205,209,230,0.8)";
+  //   }
+  // };
+
+  const getCellClassNames = (col, idx) => {
     return [
       "text-slate-50",
       "aspect-square",
       "overflow-hidden",
-      col === "-" ? "invisible" : "border rounded",
+      col === "-" ? "invisible" : "rounded",
     ].join(" ");
   };
 
@@ -88,6 +98,8 @@ const Crossword = ({
     }
   };
 
+  console.log(currRevealedIdxs);
+
   return (
     <div
       className="flex grow p-2 mt-5 aspect-square"
@@ -96,27 +108,36 @@ const Crossword = ({
       {grid && numCols && (
         // display grid as 10x10 grid
         <div className="grid grid-cols-10 gap-0.5 w-full">
-          {grid.flat().map((col, i) => (
+          {grid.flat().map((col, idx) => (
             <div
-              className={getCellClassNames(col)}
-              key={i}
+              className={getCellClassNames(col, idx)}
+              key={idx}
+              onClick={() => letterTapped(idx)}
               style={{
                 backgroundColor: getCellBGColor(col),
               }}
-              onClick={() => letterTapped(i)}
             >
               {col !== "-" && (
-                <p
-                  className={`flex items-center justify-center font-mono font-bold overflow-hidden select-none h-full 
-                  ${
+                <div
+                  className={`aspect-square border rounded ${
+                    idx in currRevealedIdxs &&
                     (revealAnimState.status === "entering" ||
-                      revealAnimState.status === "entered") &&
-                    "animate-fadeIn"
+                      revealAnimState.status === "entered")
+                      ? "animate-fadeIn " + currRevealedIdxs[idx]
+                      : ""
                   }`}
-                  onAnimationEnd={() => toggleRevealAnim(false)}
+                  style={{
+                    backgroundColor: col === "_" ? "transparent" : themeColor,
+                  }}
                 >
-                  {col === "_" ? "" : col}
-                </p>
+                  <p
+                    className={`flex items-center justify-center font-mono font-bold overflow-hidden select-none h-full 
+                  `}
+                    onAnimationEnd={() => toggleRevealAnim(false)}
+                  >
+                    {col === "_" ? "" : col}
+                  </p>
+                </div>
               )}
             </div>
           ))}

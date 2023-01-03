@@ -33,6 +33,7 @@ const WordCircle = ({
   shuffleArray,
   setDefineMode,
   toggleRevealAnim,
+  setCurrRevealedIdxs,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -159,13 +160,17 @@ const WordCircle = ({
     shuffleArray(allEmptyCoords);
 
     // reveal random letters
+    const revealedIdxs = {};
     const newGrid = [...grid];
     for (let i = 0; i < numLetters && i < allEmptyCoords.length; i++) {
       let [r, c] = allEmptyCoords[i];
       newGrid[r][c] = completeGrid[r][c];
+      revealedIdxs[r * grid[0].length + c] = "animate-delay-[0ms]";
     }
 
     setGrid(newGrid);
+    setCurrRevealedIdxs(revealedIdxs);
+
     toggleRevealAnim(true);
     // if grid is complete, move to next level
     if (levelComplete(newGrid)) {

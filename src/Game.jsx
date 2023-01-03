@@ -34,6 +34,7 @@ export const Game = () => {
   const [revealAnimState, toggleRevealAnim] = useTransition({
     timeout: 500,
   });
+  const [currRevealedIdxs, setCurrRevealedIdxs] = useState({});
   const NUM_LEVELs = 20;
 
   // disable body scrolling
@@ -167,6 +168,8 @@ export const Game = () => {
               defineWords,
               revealAnimState,
               toggleRevealAnim,
+              currRevealedIdxs,
+              setCurrRevealedIdxs,
             }}
           />
         )}
@@ -192,6 +195,7 @@ export const Game = () => {
               shuffleArray,
               setDefineMode,
               toggleRevealAnim,
+              setCurrRevealedIdxs,
             }}
           />
         )}
