@@ -166,6 +166,7 @@ const WordCircle = ({
     }
 
     setGrid(newGrid);
+    toggleRevealAnim(true);
     // if grid is complete, move to next level
     if (levelComplete(newGrid)) {
       // wait a bit before moving to next level
