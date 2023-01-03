@@ -34,7 +34,7 @@ const WordCircle = ({
   setDefineMode,
   toggleRevealAnim,
   setCurrRevealedIdxs,
-  setRevealAnimType,
+  setRevealAnimClass,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -137,7 +137,7 @@ const WordCircle = ({
         setInputtedWord(word);
         setGrid(grid);
         setCurrRevealedIdxs(animDelays);
-        setRevealAnimType("animate-wobble");
+        setRevealAnimClass(horiz ? "animate-backInUp" : "animate-backInRight");
         toggleRevealAnim(true);
         return true;
       }
@@ -151,7 +151,7 @@ const WordCircle = ({
       setWordsFound,
       toggleRevealAnim,
       setCurrRevealedIdxs,
-      setRevealAnimType,
+      setRevealAnimClass,
     ]
   );
 
