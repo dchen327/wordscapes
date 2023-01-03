@@ -39,11 +39,8 @@ const WordCircle = ({
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
   const [animClass, setAnimClass] = useState("");
-  const [{ status, isMounted }, toggle] = useTransition({
+  const [{ status }, toggle] = useTransition({
     timeout: 500,
-    mountOnEnter: false,
-    unmountOnExit: false,
-    preEnter: false,
   });
 
   const letterIDsToWord = (selectedLetterIDs) => {
