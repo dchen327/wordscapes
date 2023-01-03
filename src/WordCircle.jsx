@@ -185,6 +185,9 @@ const WordCircle = ({
 
     setGrid(newGrid);
     setCurrRevealedIdxs(revealedIdxs);
+    setRevealAnimClass(
+      numLetters === 1 ? "animate-rotateIn" : "animate-rollIn"
+    );
     toggleRevealAnim(true);
     // if grid is complete, move to next level
     if (levelComplete(newGrid)) {

@@ -17,6 +17,7 @@ const Crossword = ({
   currRevealedIdxs,
   setCurrRevealedIdxs,
   revealAnimClass,
+  setRevealAnimClass,
 }) => {
   const numCols = grid[0]?.length;
 
@@ -46,6 +47,7 @@ const Crossword = ({
     // get row and col
     let r = Math.floor(idx / numCols);
     let c = idx % numCols;
+    // define words
     if (defineMode && grid[r][c] !== "_") {
       const wordsToDefine = []; // found words
       // check if words are complete
@@ -75,11 +77,13 @@ const Crossword = ({
       if (wordsToDefine.length) {
         defineWords(wordsToDefine);
       }
+      // snipe mode
     } else if (!defineMode && grid[r][c] === "_") {
       const newGrid = [...grid];
       newGrid[r][c] = completeGrid[r][c];
       setGrid(newGrid);
-      setCurrRevealedIdxs({ [idx]: 0 });
+      setCurrRevealedIdxs({ [idx]: 100 });
+      setRevealAnimClass("animate-zoomIn");
       toggleRevealAnim(true);
       setDefineMode(true);
       if (levelComplete(newGrid)) {

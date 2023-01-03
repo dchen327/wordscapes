@@ -172,6 +172,7 @@ export const Game = () => {
               currRevealedIdxs,
               setCurrRevealedIdxs,
               revealAnimClass,
+              setRevealAnimClass,
             }}
           />
         )}
