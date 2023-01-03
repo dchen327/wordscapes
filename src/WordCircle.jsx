@@ -111,24 +111,24 @@ const WordCircle = ({
       let [r, c, horiz] = words[word];
       let wordArray = word.split("");
       let changeMade = false;
-      const allAnimDelays = {};
-      const newLetterAnimDelays = {};
+      const allAnimDelays = new Map();
+      const newLetterAnimDelays = new Map();
       if (horiz) {
         wordArray.forEach((letter, i) => {
           if (grid[r][c + i] === "_") {
             changeMade = true;
-            newLetterAnimDelays[r * grid[0].length + c + i] = 150 * i;
+            newLetterAnimDelays.set(r * grid[0].length + c + i, 150 * i);
           }
-          allAnimDelays[r * grid[0].length + c + i] = 150 * i;
+          allAnimDelays.set(r * grid[0].length + c + i, 150 * i);
           grid[r][c + i] = letter;
         });
       } else {
         wordArray.forEach((letter, i) => {
           if (grid[r + i][c] === "_") {
             changeMade = true;
-            newLetterAnimDelays[(r + i) * grid[0].length + c] = 150 * i;
+            newLetterAnimDelays.set((r + i) * grid[0].length + c, 150 * i);
           }
-          allAnimDelays[(r + i) * grid[0].length + c] = 150 * i;
+          allAnimDelays.set((r + i) * grid[0].length + c, 150 * i);
           grid[r + i][c] = letter;
         });
       }
@@ -178,12 +178,12 @@ const WordCircle = ({
     shuffleArray(allEmptyCoords);
 
     // reveal random letters
-    const revealedIdxs = {};
+    const revealedIdxs = new Map();
     const newGrid = [...grid];
     for (let i = 0; i < numLetters && i < allEmptyCoords.length; i++) {
       let [r, c] = allEmptyCoords[i];
       newGrid[r][c] = completeGrid[r][c];
-      revealedIdxs[r * grid[0].length + c] = 0;
+      revealedIdxs.set(r * grid[0].length + c, 0);
     }
 
     setGrid(newGrid);

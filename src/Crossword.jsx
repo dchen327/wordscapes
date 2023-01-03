@@ -82,7 +82,7 @@ const Crossword = ({
       const newGrid = [...grid];
       newGrid[r][c] = completeGrid[r][c];
       setGrid(newGrid);
-      setCurrRevealedIdxs({ [idx]: 100 });
+      setCurrRevealedIdxs(new Map([[idx, 100]]));
       setRevealAnimClass("animate-zoomIn");
       toggleRevealAnim(true);
       setDefineMode(true);
@@ -93,8 +93,9 @@ const Crossword = ({
   };
 
   const onAnimationEnd = () => {
+    console.log("anim end");
     toggleRevealAnim(false);
-    setCurrRevealedIdxs({});
+    setCurrRevealedIdxs(new Map());
   };
 
   return (
@@ -102,14 +103,14 @@ const Crossword = ({
       className="flex grow p-2 mt-5 aspect-square"
       style={{ maxWidth: "95vw", maxHeight: "95vw" }}
     >
-      {grid && numCols && (
+      {grid && numCols && currRevealedIdxs && (
         // display grid as 10x10 grid
         <div className="grid grid-cols-10 gap-0.5 w-full">
           {grid.flat().map((col, idx) => (
             <div
               // key to allow for rerenders even if grid doesn't change (duplicate)
               className={getCellClassNames(col, idx)}
-              key={`${idx}_${idx in currRevealedIdxs}`}
+              key={idx}
               onClick={() => letterTapped(idx)}
               style={{
                 backgroundColor: getCellBGColor(col),
@@ -118,21 +119,26 @@ const Crossword = ({
               {col !== "-" && (
                 <div
                   className={`aspect-square border rounded transition-all ${
-                    idx in currRevealedIdxs &&
+                    currRevealedIdxs.has(idx) &&
                     (revealAnimState.status === "entering" ||
                       revealAnimState.status === "entered")
                       ? revealAnimClass
                       : ""
                   }`}
                   style={{
-                    backgroundColor: col === "_" ? "transparen(t" : themeColor,
-                    animationDelay: `${currRevealedIdxs[idx]}ms`,
+                    backgroundColor: col === "_" ? "transparent" : themeColor,
+                    animationDelay: `${currRevealedIdxs.get(idx)}ms`,
                   }}
+                  // only call on last animation end
+                  onAnimationEnd={
+                    idx === Array.from(currRevealedIdxs.keys()).pop()
+                      ? onAnimationEnd
+                      : undefined
+                  }
                 >
                   <p
                     className={`flex items-center justify-center font-mono font-bold overflow-hidden select-none h-full 
                   `}
-                    onAnimationEnd={onAnimationEnd}
                   >
                     {col === "_" ? "" : col}
                   </p>
