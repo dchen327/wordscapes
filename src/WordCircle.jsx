@@ -40,9 +40,9 @@ const WordCircle = ({
   const letterWidth = circleRadius / 2;
   const [{ status, isMounted }, toggle] = useTransition({
     timeout: 500,
-    mountOnEnter: true,
+    mountOnEnter: false,
     unmountOnExit: false,
-    preEnter: true,
+    preEnter: false,
   });
 
   const letterIDsToWord = (selectedLetterIDs) => {
@@ -92,10 +92,12 @@ const WordCircle = ({
         getNextLevel();
       } else {
         // clear the inputted word after some time
+        console.log(status);
         toggle(true);
         setTimeout(() => {
-          setInputtedWord("");
+          setInputtedWord("___");
           setInputtedWordBGColor(themeColor);
+          toggle(false);
         }, clearTime);
       }
     }
@@ -287,10 +289,8 @@ const WordCircle = ({
           </div> */}
           <div className="min-h-[2.75rem]">
             <h1
-              className={`text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold transition duration-500 delay-75 ${
-                status === "preEnter" || status === "exiting"
-                  ? "transform scale-75 opacity-0"
-                  : ""
+              className={`text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold ${
+                status === "entering" ? "animate-headShake" : ""
               }`}
               style={{ backgroundColor: inputtedWordBGColor }}
             >
