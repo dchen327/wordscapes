@@ -165,12 +165,11 @@ const WordCircle = ({
     for (let i = 0; i < numLetters && i < allEmptyCoords.length; i++) {
       let [r, c] = allEmptyCoords[i];
       newGrid[r][c] = completeGrid[r][c];
-      revealedIdxs[r * grid[0].length + c] = "animate-delay-[0ms]";
+      revealedIdxs[r * grid[0].length + c] = "";
     }
 
     setGrid(newGrid);
     setCurrRevealedIdxs(revealedIdxs);
-
     toggleRevealAnim(true);
     // if grid is complete, move to next level
     if (levelComplete(newGrid)) {

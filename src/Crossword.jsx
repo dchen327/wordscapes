@@ -32,18 +32,6 @@ const Crossword = ({
     return "rgb(205,209,230,0.8)";
   };
 
-  // const getCellBGColor = (col) => {
-  //   if (col === "-") {
-  //     return "transparent";
-  //   } else if (col === "_") {
-  //     if (!defineMode) {
-  //       // sniping mode, light yellow transparent highlight
-  //       return "rgb(255,255,200,0.8)";
-  //     }
-  //     return "rgb(205,209,230,0.8)";
-  //   }
-  // };
-
   const getCellClassNames = (col, idx) => {
     return [
       "text-slate-50",
@@ -90,6 +78,7 @@ const Crossword = ({
       const newGrid = [...grid];
       newGrid[r][c] = completeGrid[r][c];
       setGrid(newGrid);
+      setCurrRevealedIdxs({ [idx]: "" });
       toggleRevealAnim(true);
       setDefineMode(true);
       if (levelComplete(newGrid)) {
