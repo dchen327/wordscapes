@@ -12,6 +12,8 @@ const Crossword = ({
   setDefineMode,
   posToWords,
   defineWords,
+  revealAnimState,
+  toggleRevealAnim,
 }) => {
   const numCols = grid[0]?.length;
 
@@ -103,7 +105,15 @@ const Crossword = ({
               onClick={() => letterTapped(i)}
             >
               {col !== "-" && (
-                <p className="flex items-center justify-center font-mono font-bold overflow-hidden select-none h-full">
+                <p
+                  className={`flex items-center justify-center font-mono font-bold overflow-hidden select-none h-full 
+                  ${
+                    (revealAnimState.status === "entering" ||
+                      revealAnimState.status === "entered") &&
+                    "animate-fadeIn"
+                  }`}
+                  onAnimationEnd={() => toggleRevealAnim(false)}
+                >
                   {col === "_" ? "" : col}
                 </p>
               )}

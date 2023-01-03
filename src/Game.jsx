@@ -6,6 +6,7 @@ import WordCircle from "./WordCircle";
 import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import useTransition from "react-transition-state";
 
 export const Game = () => {
   const [grid, setGrid] = useState([]);
@@ -30,6 +31,9 @@ export const Game = () => {
   const [defineModalWords, setDefineModalWords] = useState([]);
   const [showDefinitions, setShowDefinitions] = useState(false);
   const [posToWords, setPosToWords] = useState({});
+  const [revealAnimState, toggleRevealAnim] = useTransition({
+    timeout: 500,
+  });
   const NUM_LEVELs = 20;
 
   // disable body scrolling
@@ -161,6 +165,8 @@ export const Game = () => {
               setDefineMode,
               posToWords,
               defineWords,
+              revealAnimState,
+              toggleRevealAnim,
             }}
           />
         )}
@@ -185,6 +191,7 @@ export const Game = () => {
               getNextLevel,
               shuffleArray,
               setDefineMode,
+              toggleRevealAnim,
             }}
           />
         )}

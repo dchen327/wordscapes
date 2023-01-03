@@ -32,6 +32,7 @@ const WordCircle = ({
   getNextLevel,
   shuffleArray,
   setDefineMode,
+  toggleRevealAnim,
 }) => {
   const [selectedLetterIDs, setSelectedLetterIDs] = useState([]);
   const [inputtedWord, setInputtedWord] = useState("");
@@ -39,7 +40,7 @@ const WordCircle = ({
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
   const [animClass, setAnimClass] = useState("");
-  const [{ status }, toggle] = useTransition({
+  const [inputtedAnimState, toggleInputtedAnim] = useTransition({
     timeout: 500,
   });
 
@@ -90,12 +91,12 @@ const WordCircle = ({
         setInputtedWordBGColor("#F87171");
       }
 
-      toggle(true);
+      toggleInputtedAnim(true);
       setTimeout(() => {
         setInputtedWord("");
         setInputtedWordBGColor(themeColor);
         setAnimClass("");
-        toggle(false);
+        toggleInputtedAnim(false);
 
         if (levelComplete(grid)) {
           getNextLevel();
@@ -130,11 +131,12 @@ const WordCircle = ({
         setWordsFound(wordsFound + 1);
         setGrid(grid);
         setInputtedWord(word);
+        toggleRevealAnim(true);
         return true;
       }
       return false;
     },
-    [words, grid, setGrid, wordsFound, setWordsFound]
+    [words, grid, setGrid, wordsFound, setWordsFound, toggleRevealAnim]
   );
 
   const shuffleLetters = () => {
@@ -279,20 +281,12 @@ const WordCircle = ({
         </div>
 
         <div className="flex flex-col items-center justify-center ">
-          {/* <div className="min-h-[2.75rem]">
-            <h1
-              className={
-                "text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold"
-              }
-              style={{ backgroundColor: inputtedWordBGColor }}
-            >
-              {inputtedWord}
-            </h1>
-          </div> */}
           <div className="min-h-[2.75rem]">
             <h1
               className={`text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold ${
-                (status === "entering" || status === "entered") && animClass
+                (inputtedAnimState.status === "entering" ||
+                  inputtedAnimState.status === "entered") &&
+                animClass
               }`}
               style={{ backgroundColor: inputtedWordBGColor }}
             >
