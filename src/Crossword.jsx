@@ -80,9 +80,10 @@ const Crossword = ({
       const newGrid = [...grid];
       newGrid[r][c] = completeGrid[r][c];
       setGrid(newGrid);
+      toggleRevealAnim(true);
       setDefineMode(true);
       if (levelComplete(newGrid)) {
-        getNextLevel();
+        getNextLevel(500);
       }
     }
   };
