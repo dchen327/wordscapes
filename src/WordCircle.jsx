@@ -38,6 +38,7 @@ const WordCircle = ({
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
+  const [animClass, setAnimClass] = useState("");
   const [{ status, isMounted }, toggle] = useTransition({
     timeout: 500,
     mountOnEnter: false,
@@ -65,6 +66,7 @@ const WordCircle = ({
 
       if (Object.keys(words).includes(word)) {
         // word is correct (could already be entered)
+        setAnimClass("animate-pulse animate-faster");
         if (enterWord(word)) {
           clearTime = 3000; // longer for correct words
           setInputtedWordBGColor("#34D399");
@@ -77,11 +79,22 @@ const WordCircle = ({
         }
       } else if (bonusWords.includes(word)) {
         // bonus word
-        clearTime = 1000; // shorter for incorrect words
-        setFoundBonusWords([...foundBonusWords, word]);
-        setInputtedWordBGColor("#60A5FA");
+        setAnimClass("animate-pulse animate-faster");
+        // check if already found
+        if (!foundBonusWords.includes(word)) {
+          clearTime = 1500;
+          setFoundBonusWords([...foundBonusWords, word]);
+          setInputtedWordBGColor("#60A5FA");
+        } else {
+          // duplicate bonus
+          clearTime = 1000; // shorter for incorrect words
+          setInputtedWordBGColor("#F87171");
+          console.log("dup bonus");
+          // TODO: flash the bonus circle
+        }
       } else {
         clearTime = 1000; // shorter for incorrect words
+        setAnimClass("animate-headShake");
         setInputtedWordBGColor("#F87171");
       }
 
@@ -92,11 +105,11 @@ const WordCircle = ({
         getNextLevel();
       } else {
         // clear the inputted word after some time
-        console.log(status);
         toggle(true);
         setTimeout(() => {
-          setInputtedWord("___");
+          setInputtedWord("");
           setInputtedWordBGColor(themeColor);
+          setAnimClass("");
           toggle(false);
         }, clearTime);
       }
@@ -290,7 +303,7 @@ const WordCircle = ({
           <div className="min-h-[2.75rem]">
             <h1
               className={`text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold ${
-                status === "entering" ? "animate-headShake" : ""
+                (status === "entering" || status === "entered") && animClass
               }`}
               style={{ backgroundColor: inputtedWordBGColor }}
             >

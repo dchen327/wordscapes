@@ -104,6 +104,7 @@ function LetterNode({
             {letter}
           </h1> */}
           <h1
+            className="no-select"
             style={{
               fontSize: `${letterWidth / 1.2}px`,
               fontFamily: "LatoBold, sans-serif",
