@@ -49,12 +49,14 @@ export const Game = () => {
     return true;
   };
 
-  const getNextLevel = () => {
+  const getNextLevel = (delay = 0) => {
     toast.dismiss(); // clear previous toasts
     toast.success(`Level ${levelNum} Complete!`);
-    setLevel(levelNum + 1);
-    setDefinitions(null); // reset definitions
-    // TODO: set theme color to something new
+    setTimeout(() => {
+      setLevel(levelNum + 1);
+      setDefinitions(null); // reset definitions
+      // TODO: set theme color to something new
+    }, delay);
   };
 
   const setLevel = (levelNum) => {

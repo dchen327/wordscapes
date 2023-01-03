@@ -55,7 +55,7 @@ const WordCircle = ({
   };
 
   const onDragEnd = () => {
-    let clearTime; // time to wait before clearing
+    let clearTime = 1000; // time to wait before clearing
     if (selectedLetterIDs.length > 0) {
       const word = letterIDsToWord(selectedLetterIDs);
       setSelectedLetterIDs([]);
@@ -65,11 +65,9 @@ const WordCircle = ({
         // word is correct (could already be entered)
         setAnimClass("animate-pulse animate-faster");
         if (enterWord(word)) {
-          clearTime = 2500; // longer for correct words
           setInputtedWordBGColor("#34D399");
         } else {
           // word is a duplicate
-          clearTime = 1000; // shorter for incorrect words
           setInputtedWordBGColor("#F87171");
           // TODO: highlight the word in the grid
           console.log("dup");
@@ -79,18 +77,15 @@ const WordCircle = ({
         setAnimClass("animate-pulse animate-faster");
         // check if already found
         if (!foundBonusWords.includes(word)) {
-          clearTime = 1500;
           setFoundBonusWords([...foundBonusWords, word]);
           setInputtedWordBGColor("#60A5FA");
         } else {
           // duplicate bonus
-          clearTime = 1000; // shorter for incorrect words
           setInputtedWordBGColor("#F87171");
           console.log("dup bonus");
           // TODO: flash the bonus circle
         }
       } else {
-        clearTime = 1000; // shorter for incorrect words
         setAnimClass("animate-headShake");
         setInputtedWordBGColor("#F87171");
       }
@@ -167,11 +162,12 @@ const WordCircle = ({
       let [r, c] = allEmptyCoords[i];
       newGrid[r][c] = completeGrid[r][c];
     }
+
+    setGrid(newGrid);
     // if grid is complete, move to next level
     if (levelComplete(newGrid)) {
-      getNextLevel();
-    } else {
-      setGrid(newGrid);
+      // wait a bit before moving to next level
+      getNextLevel(500);
     }
   };
 
