@@ -11,6 +11,7 @@ import {
   faLightbulb,
   faShuffle,
 } from "@fortawesome/free-solid-svg-icons";
+import useTransition from "react-transition-state";
 
 const WordCircle = ({
   words,
@@ -37,6 +38,12 @@ const WordCircle = ({
   const [inputtedWordBGColor, setInputtedWordBGColor] = useState(themeColor);
   const circleRadius = Math.min(120, (window.innerWidth - 200) / 2);
   const letterWidth = circleRadius / 2;
+  const [{ status, isMounted }, toggle] = useTransition({
+    timeout: 500,
+    mountOnEnter: true,
+    unmountOnExit: false,
+    preEnter: true,
+  });
 
   const letterIDsToWord = (selectedLetterIDs) => {
     let lettersArray = [];
@@ -85,6 +92,7 @@ const WordCircle = ({
         getNextLevel();
       } else {
         // clear the inputted word after some time
+        toggle(true);
         setTimeout(() => {
           setInputtedWord("");
           setInputtedWordBGColor(themeColor);
@@ -267,11 +275,23 @@ const WordCircle = ({
         </div>
 
         <div className="flex flex-col items-center justify-center ">
-          <div className="min-h-[2.75rem]">
+          {/* <div className="min-h-[2.75rem]">
             <h1
               className={
                 "text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold"
               }
+              style={{ backgroundColor: inputtedWordBGColor }}
+            >
+              {inputtedWord}
+            </h1>
+          </div> */}
+          <div className="min-h-[2.75rem]">
+            <h1
+              className={`text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold transition duration-500 delay-75 ${
+                status === "preEnter" || status === "exiting"
+                  ? "transform scale-75 opacity-0"
+                  : ""
+              }`}
               style={{ backgroundColor: inputtedWordBGColor }}
             >
               {inputtedWord}
