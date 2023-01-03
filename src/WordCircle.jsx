@@ -65,7 +65,7 @@ const WordCircle = ({
         // word is correct (could already be entered)
         setAnimClass("animate-pulse animate-faster");
         if (enterWord(word)) {
-          clearTime = 3000; // longer for correct words
+          clearTime = 2500; // longer for correct words
           setInputtedWordBGColor("#34D399");
         } else {
           // word is a duplicate
@@ -95,21 +95,17 @@ const WordCircle = ({
         setInputtedWordBGColor("#F87171");
       }
 
-      // check if level is complete
-      if (levelComplete(grid)) {
+      toggle(true);
+      setTimeout(() => {
         setInputtedWord("");
         setInputtedWordBGColor(themeColor);
-        getNextLevel();
-      } else {
-        // clear the inputted word after some time
-        toggle(true);
-        setTimeout(() => {
-          setInputtedWord("");
-          setInputtedWordBGColor(themeColor);
-          setAnimClass("");
-          toggle(false);
-        }, clearTime);
-      }
+        setAnimClass("");
+        toggle(false);
+
+        if (levelComplete(grid)) {
+          getNextLevel();
+        }
+      }, clearTime);
     }
   };
 
