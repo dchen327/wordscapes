@@ -43,6 +43,9 @@ const WordCircle = ({
   const [inputtedAnimState, toggleInputtedAnim] = useTransition({
     timeout: 500,
   });
+  const [bonusWordAnimState, toggleBonusWordAnim] = useTransition({
+    timeout: 500,
+  });
 
   const letterIDsToWord = (selectedLetterIDs) => {
     let lettersArray = [];
@@ -80,6 +83,7 @@ const WordCircle = ({
         if (!foundBonusWords.includes(word)) {
           setFoundBonusWords([...foundBonusWords, word]);
           setInputtedWordBGColor("#60A5FA");
+          toggleBonusWordAnim(true);
         } else {
           // duplicate bonus
           setInputtedWordBGColor("#F87171");
@@ -299,7 +303,9 @@ const WordCircle = ({
             <FontAwesomeIcon icon={faCrosshairs} size="xl" />
           </button>
           <button
-            className="mt-auto w-[50px] aspect-square text-center text-slate-50 bg-slate-700 p-1 bg-opacity-25 border rounded-full select-none"
+            className={`mt-auto w-[50px] aspect-square text-center text-slate-50 bg-slate-700 p-1 bg-opacity-25 border rounded-full select-none ${
+              bonusWordAnimState.status === "entering" ? "animate-rotateIn" : ""
+            }`}
             onClick={() => setShowBonusWords(true)}
           >
             {foundBonusWords.length}
@@ -310,9 +316,10 @@ const WordCircle = ({
           <div className="min-h-[2.75rem]">
             <h1
               className={`text-2xl text-slate-50 my-1.5 px-2 rounded-2xl font-semibold ${
-                (inputtedAnimState.status === "entering" ||
-                  inputtedAnimState.status === "entered") &&
-                inputtedWordAnimClass
+                inputtedAnimState.status === "entering" ||
+                inputtedAnimState.status === "entered"
+                  ? inputtedWordAnimClass
+                  : ""
               }`}
               style={{ backgroundColor: inputtedWordBGColor }}
             >
