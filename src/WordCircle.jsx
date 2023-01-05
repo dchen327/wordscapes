@@ -43,6 +43,7 @@ const WordCircle = ({
   const [inputtedAnimState, toggleInputtedAnim] = useTransition({
     timeout: 500,
   });
+  const [bonusWordAnimClass, setBonusWordAnimClass] = useState("");
   const [bonusWordAnimState, toggleBonusWordAnim] = useTransition({
     timeout: 500,
   });
@@ -71,24 +72,22 @@ const WordCircle = ({
         if (enterWord(word)) {
           setInputtedWordBGColor("#34D399");
         } else {
-          // word is a duplicate
+          // word is a duplicate (will be animated in the grid)
           setInputtedWordBGColor("#F87171");
-          // TODO: highlight the word in the grid
-          console.log("dup");
         }
       } else if (bonusWords.includes(word)) {
         // bonus word
         setInputtedWordAnimClass("animate-pulse animate-faster");
+        toggleBonusWordAnim(true); // flash bonus circle
         // check if already found
         if (!foundBonusWords.includes(word)) {
           setFoundBonusWords([...foundBonusWords, word]);
           setInputtedWordBGColor("#60A5FA");
-          toggleBonusWordAnim(true);
+          setBonusWordAnimClass("animate-bounce");
         } else {
           // duplicate bonus
           setInputtedWordBGColor("#F87171");
-          console.log("dup bonus");
-          // TODO: flash the bonus circle
+          setBonusWordAnimClass("animate-headShake");
         }
       } else {
         setInputtedWordAnimClass("animate-headShake");
@@ -137,18 +136,17 @@ const WordCircle = ({
         });
       }
 
+      toggleRevealAnim(true);
       if (changeMade) {
         setInputtedWord(word);
         setGrid(grid);
         setCurrRevealedIdxs(newLetterAnimDelays);
         setRevealAnimClass(horiz ? "animate-backInUp" : "animate-backInRight");
-        toggleRevealAnim(true);
         return true;
       } else {
         // already in grid
         setCurrRevealedIdxs(allAnimDelays);
         setRevealAnimClass("animate-flash");
-        toggleRevealAnim(true);
         return false;
       }
     },
@@ -192,9 +190,7 @@ const WordCircle = ({
 
     setGrid(newGrid);
     setCurrRevealedIdxs(revealedIdxs);
-    setRevealAnimClass(
-      numLetters === 1 ? "animate-rotateIn" : "animate-rollIn"
-    );
+    setRevealAnimClass("animate-rollIn");
     toggleRevealAnim(true);
     // if grid is complete, move to next level
     if (levelComplete(newGrid)) {
@@ -303,10 +299,15 @@ const WordCircle = ({
             <FontAwesomeIcon icon={faCrosshairs} size="xl" />
           </button>
           <button
+            key={foundBonusWords.length}
             className={`mt-auto w-[50px] aspect-square text-center text-slate-50 bg-slate-700 p-1 bg-opacity-25 border rounded-full select-none ${
-              bonusWordAnimState.status === "entering" ? "animate-rotateIn" : ""
+              bonusWordAnimState.status === "entering" ||
+              bonusWordAnimState.status === "entered"
+                ? bonusWordAnimClass
+                : ""
             }`}
             onClick={() => setShowBonusWords(true)}
+            onAnimationEnd={() => toggleBonusWordAnim(false)}
           >
             {foundBonusWords.length}
           </button>
