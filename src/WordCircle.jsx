@@ -29,6 +29,7 @@ const WordCircle = ({
   levelComplete,
   getNextLevel,
   shuffleArray,
+  defineMode,
   setDefineMode,
   toggleRevealAnim,
   setCurrRevealedIdxs,
@@ -294,7 +295,7 @@ const WordCircle = ({
           </button>
           <button
             className="my-1 w-[50px] aspect-square text-slate-50 bg-slate-700 bg-opacity-25 border rounded-full select-none"
-            onClick={() => setDefineMode(false)}
+            onClick={() => setDefineMode(!defineMode)}
           >
             <FontAwesomeIcon icon={faCrosshairs} size="xl" />
           </button>

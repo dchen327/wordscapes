@@ -195,6 +195,7 @@ export const Game = () => {
               levelComplete,
               getNextLevel,
               shuffleArray,
+              defineMode,
               setDefineMode,
               toggleRevealAnim,
               setCurrRevealedIdxs,
